@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{407A3CC9CD11CAE7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AMG.et" {
+ ID "522AAC667BF61423"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+ }
+}
