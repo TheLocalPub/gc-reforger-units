@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{D45D3F2DCDEFD057}Prefabs/Characters/Factions/INDFOR/FIA/Extra/Character_FIA_Crew_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_name "Crewman (Driver)"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5EE323B09A236F45}" {
+     PrefabsToSpawn {
+      "{F8844819895D0425}Prefabs/Items/Equipment/Radios/Radio_R148_FIA_Single.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

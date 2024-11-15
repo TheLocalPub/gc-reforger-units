@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{577AD7884DC32E00}Prefabs/Characters/Factions/INDFOR/FIA/Extra/Character_FIA_CrewCommander_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
