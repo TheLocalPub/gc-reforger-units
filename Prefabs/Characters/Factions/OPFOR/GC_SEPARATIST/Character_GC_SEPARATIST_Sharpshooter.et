@@ -13,7 +13,7 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
     Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
     IconSetName ""
     m_Image "{8EFE184F9A90211B}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_Sharpshooter.edds"
-    m_sFaction "FIA"
+    m_sFaction "GC_SEPARATIST"
     m_aAuthoredLabels + {
      33
     }
