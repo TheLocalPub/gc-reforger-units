@@ -1,0 +1,15 @@
+GameEntity : "{27D201697D74B7B3}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/Helmet_OPSCORE_XP_MC_AMP_MODDED.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{B385064A383A384B}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual_WP.et"
+    }
+    RHS_LoadoutSlotInfo TopVelcro {
+     Prefab "{B8ABE98AE067D30B}Prefabs/Items/Equipment/Accessories/PONOS/Ponos.et"
+    }
+   }
+  }
+ }
+}
