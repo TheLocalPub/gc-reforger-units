@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Marines_2020s_Rifles/Group_Rangers_2019_PHQ.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
