@@ -1,0 +1,15 @@
+SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_sFaction "GC_SEPARATIST"
+   }
+  }
+ }
+ m_faction "GC_SEPARATIST"
+ m_aUnitPrefabSlots {
+  "{EA4EADCD22E970B0}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_SL_P.et" "{DAA6DEC1DB557143}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_MG_P.et" "{F21B47C789B4D8C4}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_AT_P.et" "{95F16E964A2D2294}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_GL_P.et" "{38C89DCBBB9ED4B2}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_TL_P.et" "{DAA6DEC1DB557143}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_MG_P.et" "{63E34E68CD2DF356}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_Sharpshooter_P.et" "{A7BA9DA98C655A24}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_Rifleman_P.et"
+ }
+ m_bSetPlayable 1
+}
