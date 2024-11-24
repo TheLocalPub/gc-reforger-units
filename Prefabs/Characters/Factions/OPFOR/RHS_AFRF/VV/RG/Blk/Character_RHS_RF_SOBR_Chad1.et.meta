@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{E4E52E85601454F6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Chad1.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

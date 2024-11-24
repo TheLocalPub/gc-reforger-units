@@ -1,0 +1,90 @@
+SCR_ChimeraCharacter : "{5E0D068CFB4DAFC4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/Character_RHS_RF_SOBROlive_GL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{EE239B5D7297A414}Prefabs/Weapons/Rifles/SR3M/Rifle_SR3M_supr.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E9ED7C11943469DF}Prefabs/Characters/HeadGear/Helmet_TOR2/variants/Helmet_TOR2M_blk_SOBR.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{51E6ADD2FE1EBFFF}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MC.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{97D8CE1F87C5BFBB}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_groinProtection_black_SOBR.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{2FDEBA2FF1B7759E}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mc.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{7DFE16A586CCD6A5}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_preset_black_GM94.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{607CE36FF22B14B6}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mc.et"
+     PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
+    }
+    ItemsInitConfigurationItem "{607CE36FF22B14B8}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MC.et"
+     PrefabsToSpawn {
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6236608DA8E64CC7}" {
+     TargetStorage ""
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6236608D8BA36395}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_universalpouch_mc.et"
+    }
+    ItemsInitConfigurationItem "{6236608EA586AD35}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_radioPouch_BLK.et"
+    }
+    ItemsInitConfigurationItem "{6248A001AC6318A3}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6248A0014AAEDC9B}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_universalpouch_mc.et"
+    }
+    ItemsInitConfigurationItem "{6248A0014EC9B7C3}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6250D2CE946963AD}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_magpouch_open_BLK.et"
+     PrefabsToSpawn {
+      "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6250D2CE946963B3}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_magpouch_open_BLK.et"
+     PrefabsToSpawn {
+      "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6250D2CE946963B1}" {
+     TargetStorage ""
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6250D2CE946963BE}" {
+     TargetStorage ""
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+}
