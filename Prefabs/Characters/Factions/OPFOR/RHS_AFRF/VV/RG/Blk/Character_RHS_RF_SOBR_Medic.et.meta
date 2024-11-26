@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{91D951304AD6B7BC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/Character_RHS_RF_SOBROlive_Medic.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
