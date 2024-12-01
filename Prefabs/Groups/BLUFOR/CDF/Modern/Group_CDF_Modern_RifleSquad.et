@@ -14,12 +14,12 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
      72
     }
     m_EntityChildrenBudgetCost {
-     SCR_EntityBudgetValue "{62CF3D856615ABE7}" {
+     SCR_EntityBudgetValue "{62FB4132195E15C7}" {
       m_BudgetType AI
       m_Value 6
      }
     }
-    m_MilitarySymbol SCR_MilitarySymbol "{62CF3D856615ABF1}" {
+    m_MilitarySymbol SCR_MilitarySymbol "{62FB4132195E15CF}" {
      m_Identity BLUFOR
      m_Dimension LAND
      m_Icons INFANTRY
@@ -37,7 +37,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
   SCR_PreviewEntityComponent "{56368A4E2AE45029}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
    m_bRuntime 0
    m_aEntries {
-    SCR_BasePreviewEntry "{62CF3D856615ABFE}" {
+    SCR_BasePreviewEntry "{62FB4132195E15D8}" {
      m_iParentID -1
      m_Mesh ""
      m_Flags 3
@@ -46,7 +46,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
      m_vPosition 0 0 0
      m_vAngles 0 0 0
     }
-    SCR_BasePreviewEntry "{62CF3D856615AB80}" {
+    SCR_BasePreviewEntry "{62FB4132195E15DA}" {
      m_iParentID 0
      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
      m_Flags 0
@@ -55,7 +55,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
      m_vPosition 0 0 0
      m_vAngles 0 0 0
     }
-    SCR_BasePreviewEntry "{62CF3D856615AB85}" {
+    SCR_BasePreviewEntry "{62FB4132195E15E0}" {
      m_iParentID 0
      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
      m_Flags 0
@@ -64,7 +64,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
      m_vPosition 3 0 -3
      m_vAngles 0 0 0
     }
-    SCR_BasePreviewEntry "{62CF3D856615AB84}" {
+    SCR_BasePreviewEntry "{62FB4132195E15E3}" {
      m_iParentID 0
      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
      m_Flags 0
@@ -73,7 +73,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
      m_vPosition -3 0 -3
      m_vAngles 0 0 0
     }
-    SCR_BasePreviewEntry "{62CF3D856615AB87}" {
+    SCR_BasePreviewEntry "{62FB4132195E15E2}" {
      m_iParentID 0
      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
      m_Flags 0
@@ -82,7 +82,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
      m_vPosition 6 0 -6
      m_vAngles 0 0 0
     }
-    SCR_BasePreviewEntry "{62CF3D856615AB86}" {
+    SCR_BasePreviewEntry "{62FB4132195E15E5}" {
      m_iParentID 0
      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
      m_Flags 0
@@ -91,7 +91,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
      m_vPosition -6 0 -6
      m_vAngles 0 0 0
     }
-    SCR_BasePreviewEntry "{62CF3D856615AB89}" {
+    SCR_BasePreviewEntry "{62FB4132195E15E4}" {
      m_iParentID 0
      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
      m_Flags 0
@@ -106,6 +106,6 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
  coords 0 0 0
  m_faction "CDF"
  m_aUnitPrefabSlots {
-  "{E7B82DA39E13951D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL.et" "{8A30DCBCAC97370E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR.et" "{5298B57DD51E2952}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AT.et" "{CAC58B12DAD7C058}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AAT.et" "{87E5A29D5B205E24}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_GL.et" "{9DE22FB5586591CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman.et"
+  "{D8D30DE8FE5E91BF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_SL.et" "{B55BFCF7CCDA33AC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_AR.et" "{6DF39536B5532DF0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_AT.et" "{17E6C181CE0882BD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_AAT.et" "{A5CBE1109BCDAD26}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_SR.et" "{597FEF0054FC7880}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_Rifleman.et"
  }
 }

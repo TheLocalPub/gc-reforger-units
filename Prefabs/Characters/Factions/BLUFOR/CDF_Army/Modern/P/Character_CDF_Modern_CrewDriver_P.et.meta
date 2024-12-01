@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{AFF45B976FFBF437}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/P/Character_CDF_Modern_CrewDriver_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{E1A4B0A83A384A17}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_Sharpshooter.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
