@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{9233AF7270D9E725}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_HeliCrew.et" {
+SCR_ChimeraCharacter : "{BB3AEBF78903FBD7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_TF_CDF_HeliCrew.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {

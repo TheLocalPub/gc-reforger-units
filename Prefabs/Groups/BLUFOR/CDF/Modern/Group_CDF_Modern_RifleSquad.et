@@ -6,7 +6,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
     Name "#AR-Group_Squad"
     Icon "{0F4B6077ACB2FC1D}UI/Textures/Editor/EditableEntities/Groups/EditableEntity_Group_Opfor_Infantry.edds"
     m_Image "{607F347D5FF13EE9}UI/Textures/EditorPreviews/Auto/CDF_AutoPreview/Groups/Group_CDF_RifleSquad.edds"
-    m_sFaction "CDF"
+    m_sFaction "TF_CDF"
     m_aAuthoredLabels {
      4 49014 25 34 38 27
     }
@@ -104,7 +104,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
   }
  }
  coords 0 0 0
- m_faction "CDF"
+ m_faction "TF_CDF"
  m_aUnitPrefabSlots {
   "{D8D30DE8FE5E91BF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_SL.et" "{B55BFCF7CCDA33AC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_AR.et" "{6DF39536B5532DF0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_AT.et" "{17E6C181CE0882BD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_AAT.et" "{A5CBE1109BCDAD26}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_SR.et" "{597FEF0054FC7880}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_Rifleman.et"
  }

@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B926F558C33A05E9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{39828AA4AC602947}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_TF_CDF_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {

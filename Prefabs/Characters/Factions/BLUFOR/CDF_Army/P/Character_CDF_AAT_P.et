@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{CAC58B12DAD7C058}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AAT.et" {
+SCR_ChimeraCharacter : "{31CEB0753D579CA8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_TF_CDF_AAT.et" {
  ID "51F08680DED7494C"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
