@@ -21,6 +21,9 @@ SCR_ChimeraCharacter : "{1FA45046DA1FC409}Prefabs/Characters/Factions/BLUFOR/RHS
     m_Image "{A952530A3EA02F12}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MARSOC/Character_RHS_USAF_MARSOC_Scout.edds"
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{A02A1CE6B783D2BC}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II_SU230_nocovers_MRDS.et"
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{8983A91174EE3799}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45.et"
   }
@@ -69,6 +72,9 @@ SCR_ChimeraCharacter : "{1FA45046DA1FC409}Prefabs/Characters/Factions/BLUFOR/RHS
      PrefabsToSpawn {
       "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
      }
+    }
+    ItemsInitConfigurationItem "{6296C016CCEC95EF}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_Base.et"
     }
     ItemsInitConfigurationItem "{61E8906C69FA96AB}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_MC.et"

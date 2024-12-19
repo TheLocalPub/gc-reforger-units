@@ -1,0 +1,12 @@
+GameEntity : "{6CCF5CB710EB8231}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/Helmet_OPSCORE_SF_MC_AMP_Marsoc1.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{68C135B5F4F7C759}Prefabs/Items/Equipment/Nightvision/PVS31/PVS31_BLK_MC.et"
+    }
+   }
+  }
+ }
+}

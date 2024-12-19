@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{89B02CC3A3AFCB6A}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/Helmet_OPSCORE_SF_MC_AMP_Marsoc1.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

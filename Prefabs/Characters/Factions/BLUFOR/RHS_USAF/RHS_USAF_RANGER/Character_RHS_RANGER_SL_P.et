@@ -27,7 +27,7 @@ SCR_ChimeraCharacter : "{EB4F847EEDFF4FCB}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{A9D39FA1DCAFD839}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/Helmet_OPSCORE_XP_MC_PELTOR_MODDED.et"
+     Prefab "{89B02CC3A3AFCB6A}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/Helmet_OPSCORE_SF_MC_AMP_Marsoc1.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{E8EAD526CA6BCA16}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
@@ -64,6 +64,9 @@ SCR_ChimeraCharacter : "{EB4F847EEDFF4FCB}Prefabs/Characters/Factions/BLUFOR/RHS
      PrefabsToSpawn {
       "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
      }
+    }
+    ItemsInitConfigurationItem "{6296C016CCEC95EF}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_Base.et"
     }
     ItemsInitConfigurationItem "{61E8906FFC56822C}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_MC.et"
