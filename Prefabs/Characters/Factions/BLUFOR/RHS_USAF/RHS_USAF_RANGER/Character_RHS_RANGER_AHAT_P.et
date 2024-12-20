@@ -1,11 +1,27 @@
-SCR_ChimeraCharacter : "{340BFA3E488048BE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_GL.et" {
+SCR_ChimeraCharacter : "{358ED1265B29F1AE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_AMG.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{FAE8B9F7CEA49696}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21_lc.et"
+      }
+     }
+    }
+   }
+  }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Anti-Tank Team Leader"
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{74022F7333DCCE90}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_M203_SU230_EOT_BLOCK_II.et"
+   WeaponTemplate "{A02A1CE6B783D2BC}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II_SU230_nocovers_MRDS.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{8983A91174EE3799}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45.et"
@@ -13,32 +29,29 @@ SCR_ChimeraCharacter : "{340BFA3E488048BE}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{C27A97763CB5877B}Prefabs/Characters/HeadGear/Helmet_ECH/variants/Helmet_ECH_hc_v_r_cmc_p_hs.et"
+     Prefab "{89B02CC3A3AFCB6A}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/Helmet_OPSCORE_SF_MC_AMP_Marsoc1.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{E8EAD526CA6BCA16}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
+     Prefab "{7BA7FF3E9F68960E}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MC.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{6BEC572D4E71CBED}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_MC.et"
+     Prefab "{1D0E3F9F2E1F6D21}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_6x9_MC.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{2FDEBA2FF1B7759E}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mc.et"
     }
-    LoadoutSlotInfo Back {
-     Prefab "{4A93B3F0B33FF104}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
-    }
     LoadoutSlotInfo Vest {
-     Prefab "{B5FEEF292633187B}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_MC.et"
+     Prefab "{86503C80B70FE586}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_MC_6x9.et"
     }
     LoadoutSlotInfo HandWear {
-     Prefab "{B9FA26F5990CDEDD}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_MC.et"
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61E88418254009A3}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MC.et"
      PrefabsToSpawn {
       "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
      }
@@ -54,6 +67,7 @@ SCR_ChimeraCharacter : "{340BFA3E488048BE}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_MC.et"
     }
     ItemsInitConfigurationItem "{61E8E7117A3AF4D1}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MC.et"
      PrefabsToSpawn {
       "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
      }
@@ -61,34 +75,32 @@ SCR_ChimeraCharacter : "{340BFA3E488048BE}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{6296C016CCEC95EF}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_Base.et"
     }
-    ItemsInitConfigurationItem "{61E89A77933DAA3C}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_jpc_placard_MC.et"
+    ItemsInitConfigurationItem "{61E8FEB0F6150D0F}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_MC.et"
      PrefabsToSpawn {
       "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
      }
     }
-    ItemsInitConfigurationItem "{61E89A77933DAA27}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MC.et"
+    ItemsInitConfigurationItem "{61E8FEB0F6150D09}" {
      PrefabsToSpawn {
-      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+      "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et" "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et"
      }
     }
-    ItemsInitConfigurationItem "{62955013AF7D9067}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
-    }
-    ItemsInitConfigurationItem "{62955013853E0A25}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
-    }
-    ItemsInitConfigurationItem "{62955013FCAC3F85}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
-    }
-    ItemsInitConfigurationItem "{62955013FC8ABD8C}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
-    }
-    ItemsInitConfigurationItem "{62E93A65DD296303}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MC.et"
+    ItemsInitConfigurationItem "{625B1A60B4FB5A7E}" {
      PrefabsToSpawn {
-      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{625B1A60B490CBE4}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6327733B0C49BB48}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{6327733B0C49BB4F}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_MC.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
      }
     }
    }

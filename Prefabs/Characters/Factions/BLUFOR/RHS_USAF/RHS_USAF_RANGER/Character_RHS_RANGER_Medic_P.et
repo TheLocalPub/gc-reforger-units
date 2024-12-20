@@ -5,7 +5,7 @@ SCR_ChimeraCharacter : "{1CE48B40E06B1DEE}Prefabs/Characters/Factions/BLUFOR/RHS
    m_bIsPlayable 1
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{1DCFF754C3E3F539}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_MK18_Eot.et"
+   WeaponTemplate "{B41250C7E1720F93}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_1_NT4.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{8983A91174EE3799}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45.et"
@@ -13,7 +13,7 @@ SCR_ChimeraCharacter : "{1CE48B40E06B1DEE}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{95B7C27EEA2A6AA8}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/Helmet_OPSCORE_XP_MC_AMP_MODDED_PVS.et"
+     Prefab "{C27A97763CB5877B}Prefabs/Characters/HeadGear/Helmet_ECH/variants/Helmet_ECH_hc_v_r_cmc_p_hs.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{E8EAD526CA6BCA16}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
@@ -35,19 +35,18 @@ SCR_ChimeraCharacter : "{1CE48B40E06B1DEE}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
     }
     ItemsInitConfigurationItem "{61E88418254009AC}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mc.et"
      TargetPurpose 1
-     PrefabsToSpawn {
-      "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
-     }
     }
     ItemsInitConfigurationItem "{61E884192043D2D2}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_152_Radio.et"
+     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_MC.et"
     }
     ItemsInitConfigurationItem "{61E8E7117A3AF4D1}" {
      PrefabsToSpawn {
       "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
      }
+    }
+    ItemsInitConfigurationItem "{6296C016CCEC95EF}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_Base.et"
     }
     ItemsInitConfigurationItem "{61E8A0D6428F17AE}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_jpc_placard_MC.et"

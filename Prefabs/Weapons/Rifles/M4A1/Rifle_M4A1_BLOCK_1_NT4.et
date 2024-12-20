@@ -1,0 +1,47 @@
+GenericEntity : "{BCFDDDC7EF1A030D}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_1.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0ED05F322AB08B}" {
+     AttachmentSlot InventoryStorageSlot PistolGrip {
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA2E5FAA2B6}" {
+     AttachmentSlot InventoryStorageSlot Buttstock {
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{979AF6CFF2AAAE26}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_su278pvs_high.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE949ECF03E3}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{5EA2BE9573F14F0C}" {
+      Prefab "{0FFFB0BCE1A21A2E}Prefabs/Weapons/Attachments/Lasers/anpeq16/Laser_ANPEQ16.et"
+     }
+    }
+    AttachmentSlotComponent "{609EE5047488AAA1}" {
+     AttachmentSlot InventoryStorageSlot REAR_IRONSIGHT {
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{609EE504E194D66F}" {
+     AttachmentSlot InventoryStorageSlot FRONT_IRONSIGHT {
+      Prefab ""
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626713EF43D3CC9E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{CB2ED665F4671DDA}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_RC3.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 618.901 51.436 2264.643
+}
