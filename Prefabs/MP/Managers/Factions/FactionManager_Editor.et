@@ -3,5 +3,7 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
  Factions {
   SCR_Faction "{62EB308733CA83DD}" : "{DBFC0A411C082CF9}Configs/Factions/Separatists.conf" {
   }
+  SCR_Faction "{632925D53C7F1148}" : "{2FCCF93D27A6ECC4}Configs/Factions/Insurgents.conf" {
+  }
  }
 }
