@@ -1,0 +1,7 @@
+SCR_AIGroup : "{E6B9B6B31A10BC1E}Prefabs/Groups/OPFOR/GC_IRA/GC_IRA_RifleSquad.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{44D79444474F9D20}Prefabs/Characters/Factions/OPFOR/GC_IRA/P/Character_GC_IRA_SL_P.et" "{E9A4123DE1F42F52}Prefabs/Characters/Factions/OPFOR/GC_IRA/P/Character_GC_IRA_Medic_P.et" "{D9994239DE186E6C}Prefabs/Characters/Factions/OPFOR/GC_IRA/P/Character_GC_IRA_Rifleman_P.et" "{9651A442DE383922}Prefabs/Characters/Factions/OPFOR/GC_IRA/P/Character_GC_IRA_TL_P.et" "{E1522CC99309294A}Prefabs/Characters/Factions/OPFOR/GC_IRA/P/Character_GC_IRA_AR_P.et" "{D9994239DE186E6C}Prefabs/Characters/Factions/OPFOR/GC_IRA/P/Character_GC_IRA_Rifleman_P.et"
+ }
+ m_bPlayable 1
+}

@@ -5,5 +5,7 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
   }
   SCR_Faction "{632925D53C7F1148}" : "{2FCCF93D27A6ECC4}Configs/Factions/Insurgents.conf" {
   }
+  SCR_Faction "{633D460D559977CA}" : "{23B783D419B87475}Configs/Factions/IRA.conf" {
+  }
  }
 }
