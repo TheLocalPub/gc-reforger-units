@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{72E3018BB057A12B}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{633EE3A716332CBF}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Civi_Pants/Civi_Jeans_Blue_Ripped.et"
+     PrefabsToSpawn {
+      "{FC9867B5681E5E98}Prefabs/Items/Equipment/Radios/Radio_R148_IRA_Multi.et"
+     }
+    }
+   }
+  }
+ }
+}
