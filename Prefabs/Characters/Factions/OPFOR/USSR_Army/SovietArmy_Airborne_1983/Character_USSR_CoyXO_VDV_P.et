@@ -5,5 +5,23 @@ SCR_ChimeraCharacter : "{E8A05D5E0CEAC836}Prefabs/Characters/Factions/OPFOR/USSR
    m_name "Company Starshiná"
    m_bIsPlayable 1
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{3D74845B9D0867B0}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_cover.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
  }
 }
