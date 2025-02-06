@@ -19,6 +19,17 @@ SCR_ChimeraCharacter : "{3996E00B5D9CB638}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{63349A03F1411D1D}" {
      TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_ATACS.et"
     }
+    ItemsInitConfigurationItem "{633A34039984E5F1}" {
+     PrefabsToSpawn {
+      "{AFBD4C5C1F83AC42}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Single.et"
+     }
+    }
+    ItemsInitConfigurationItem "{648D51E6DA011EEF}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_ATACS.et"
+     PrefabsToSpawn {
+      "{08051B7C4144F631}Prefabs/Items/Equipment/Nightvision/NVG_GEO-ONV1-01/NVG_GEO-ONV1-01.et"
+     }
+    }
    }
   }
  }

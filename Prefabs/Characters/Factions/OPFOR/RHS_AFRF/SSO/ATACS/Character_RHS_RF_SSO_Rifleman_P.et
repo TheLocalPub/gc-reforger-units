@@ -22,8 +22,19 @@ SCR_ChimeraCharacter : "{13C9E18887DF2FFD}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{63349A03F1411D1D}" {
      TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_ATACS.et"
     }
+    ItemsInitConfigurationItem "{63349A017BE92704}" {
+     PrefabsToSpawn {
+      "{AFBD4C5C1F83AC42}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Single.et"
+     }
+    }
     ItemsInitConfigurationItem "{633A947279C04783}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_2_FG.et"
+    }
+    ItemsInitConfigurationItem "{648D51E7792042F0}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_ATACS.et"
+     PrefabsToSpawn {
+      "{08051B7C4144F631}Prefabs/Items/Equipment/Nightvision/NVG_GEO-ONV1-01/NVG_GEO-ONV1-01.et"
+     }
     }
    }
   }

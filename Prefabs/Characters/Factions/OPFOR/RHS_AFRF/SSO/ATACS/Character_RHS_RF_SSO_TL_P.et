@@ -30,6 +30,11 @@ SCR_ChimeraCharacter : "{4273B2462497E66C}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{63349A03F1411D1D}" {
      TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_ATACS.et"
     }
+    ItemsInitConfigurationItem "{6336E266ED009B23}" {
+     PrefabsToSpawn {
+      "{AFBD4C5C1F83AC42}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Single.et"
+     }
+    }
     ItemsInitConfigurationItem "{633A94779573ED34}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_ATACS.et"
     }
@@ -40,6 +45,12 @@ SCR_ChimeraCharacter : "{4273B2462497E66C}Prefabs/Characters/Factions/OPFOR/RHS_
      TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Minimap_ArsArma_GMR_FG.et"
      PrefabsToSpawn {
       "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{648D54DE67B15DEF}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_ATACS.et"
+     PrefabsToSpawn {
+      "{08051B7C4144F631}Prefabs/Items/Equipment/Nightvision/NVG_GEO-ONV1-01/NVG_GEO-ONV1-01.et"
      }
     }
    }
