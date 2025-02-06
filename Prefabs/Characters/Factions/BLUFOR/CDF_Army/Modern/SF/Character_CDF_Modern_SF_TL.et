@@ -15,8 +15,8 @@ SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_TeamLeader"
-    Icon "{D90B4ABB4DC1BA7A}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_SL.edds"
-    m_Image "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+    m_Image "{D90B4ABB4DC1BA7A}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_SL.edds"
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {

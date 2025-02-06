@@ -4,8 +4,8 @@ SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_AntiTank"
-    Icon "{64E4072188808E92}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_AT.edds"
-    m_Image "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
+    Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
+    m_Image "{64E4072188808E92}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_AT.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
