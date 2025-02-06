@@ -1,6 +1,14 @@
-SCR_ChimeraCharacter : "{39828AA4AC602947}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_TF_CDF_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{7A9EE19AB67B298B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_base.et" {
  ID "520EC961A090B1EE"
  components {
+  FactionAffiliationComponent "{555C98D1CD949F3E}" {
+   "faction affiliation" "GC_CDF"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "GC_CDF"
+   }
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
