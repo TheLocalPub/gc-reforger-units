@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et" {
+ ID "51FA8A5F28FD04BA"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E873B54F01D7C6D8}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_M1_01_Cover_Woodland.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab ""
+    }
+   }
+  }
+ }
+}
