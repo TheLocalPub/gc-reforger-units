@@ -1,0 +1,6 @@
+SCR_AIGroup : "{F61145B4F9F60CB0}Prefabs/Groups/BLUFOR/CDF/Modern/Group_CDF_Modern_WeaponsSquad.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{62B1BB8365AB343F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/P/Character_CDF_Modern_SL_P.et" "{5259C88F9C1735CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/P/Character_CDF_Modern_MG_P.et" "{36C9B30224DB71F4}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/P/Character_CDF_Modern_AMG_P.et" "{ADC160CEB508357F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/P/Character_CDF_Modern_SR_P.et" "{5259C88F9C1735CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/P/Character_CDF_Modern_MG_P.et" "{36C9B30224DB71F4}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/P/Character_CDF_Modern_AMG_P.et"
+ }
+}
