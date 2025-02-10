@@ -1,6 +1,8 @@
 SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
  ID "0000000000000001"
  components {
+  PS_GroupCallsignAssigner "{64954E685F5B672D}" {
+  }
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     Name "#AR-Group_Squad"
@@ -106,7 +108,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
  coords 0 0 0
  m_faction "GC_CDF"
  m_aUnitPrefabSlots {
-  "{41CDB471E3B9A02F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_PL.et" "{C49AF8E592633C0E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_Sergeant.et" "{3146BF015ED67124}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_Medic.et"
+  "{41CDB471E3B9A02F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_PL.et" "{C49AF8E592633C0E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_Sergeant.et" "{3146BF015ED67124}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_Medic.et"
  }
  m_sCustomNameSet "Platoon HQ"
 }
