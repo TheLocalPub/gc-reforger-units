@@ -106,6 +106,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
  coords 0 0 0
  m_faction "GC_CDF"
  m_aUnitPrefabSlots {
-  "{D8D30DE8FE5E91BF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_SL.et" "{B55BFCF7CCDA33AC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_AR.et" "{6DF39536B5532DF0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_AT.et" "{17E6C181CE0882BD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_AAT.et" "{A5CBE1109BCDAD26}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_SR.et" "{597FEF0054FC7880}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_Rifleman.et"
+  "{D8D30DE8FE5E91BF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_SL.et" "{6DF39536B5532DF0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_AT.et" "{17E6C181CE0882BD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_AAT.et" "{B55BFCF7CCDA33AC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_AR.et" "{A5CBE1109BCDAD26}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_SR.et" "{B55BFCF7CCDA33AC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_AR.et" "{E1A4B0A83A384A17}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_Sharpshooter.et" "{7AFB5290811A6B99}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_Crew.et" "{7AFB5290811A6B99}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_Crew.et"
  }
+ m_sCustomNameSet "1st Squad"
 }

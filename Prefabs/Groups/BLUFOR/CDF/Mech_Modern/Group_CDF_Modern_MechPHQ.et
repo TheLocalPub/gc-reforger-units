@@ -14,12 +14,12 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
      72
     }
     m_EntityChildrenBudgetCost {
-     SCR_EntityBudgetValue "{6494A0C93F6AF4E7}" {
+     SCR_EntityBudgetValue "{62FB413272CFDFCC}" {
       m_BudgetType AI
       m_Value 6
      }
     }
-    m_MilitarySymbol SCR_MilitarySymbol "{6494A0C93F6AF492}" {
+    m_MilitarySymbol SCR_MilitarySymbol "{62FB413272CFDFD7}" {
      m_Identity BLUFOR
      m_Dimension LAND
      m_Icons INFANTRY
@@ -37,7 +37,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
   SCR_PreviewEntityComponent "{56368A4E2AE45029}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
    m_bRuntime 0
    m_aEntries {
-    SCR_BasePreviewEntry "{6494A0C93F6AF480}" {
+    SCR_BasePreviewEntry "{62FB413272CFDFE2}" {
      m_iParentID -1
      m_Mesh ""
      m_Flags 3
@@ -46,7 +46,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
      m_vPosition 0 0 0
      m_vAngles 0 0 0
     }
-    SCR_BasePreviewEntry "{6494A0C93F6AF484}" {
+    SCR_BasePreviewEntry "{62FB413272CFDFE4}" {
      m_iParentID 0
      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
      m_Flags 0
@@ -55,7 +55,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
      m_vPosition 0 0 0
      m_vAngles 0 0 0
     }
-    SCR_BasePreviewEntry "{6494A0C93F6AF4BA}" {
+    SCR_BasePreviewEntry "{62FB413272CFDFEB}" {
      m_iParentID 0
      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
      m_Flags 0
@@ -64,7 +64,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
      m_vPosition 3 0 -3
      m_vAngles 0 0 0
     }
-    SCR_BasePreviewEntry "{6494A0C93F6AF4BB}" {
+    SCR_BasePreviewEntry "{62FB413272CFDFED}" {
      m_iParentID 0
      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
      m_Flags 0
@@ -73,7 +73,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
      m_vPosition -3 0 -3
      m_vAngles 0 0 0
     }
-    SCR_BasePreviewEntry "{6494A0C93F6AF4BD}" {
+    SCR_BasePreviewEntry "{62FB413272CFDFEC}" {
      m_iParentID 0
      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
      m_Flags 0
@@ -82,7 +82,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
      m_vPosition 6 0 -6
      m_vAngles 0 0 0
     }
-    SCR_BasePreviewEntry "{6494A0C93F6AF4BE}" {
+    SCR_BasePreviewEntry "{62FB413272CFDFEE}" {
      m_iParentID 0
      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
      m_Flags 0
@@ -91,7 +91,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
      m_vPosition -6 0 -6
      m_vAngles 0 0 0
     }
-    SCR_BasePreviewEntry "{6494A0C93F6AF4BF}" {
+    SCR_BasePreviewEntry "{62FB413272CFDFF1}" {
      m_iParentID 0
      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
      m_Flags 0
@@ -106,6 +106,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
  coords 0 0 0
  m_faction "GC_CDF"
  m_aUnitPrefabSlots {
-  "{D8D30DE8FE5E91BF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_SL.et" "{E74C22EDA295274F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_MG.et" "{9D59765AD9CE8802}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_AMG.et" "{A5CBE1109BCDAD26}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_SR.et" "{E74C22EDA295274F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_MG.et" "{9D59765AD9CE8802}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_AMG.et"
+  "{41CDB471E3B9A02F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_PL.et" "{C49AF8E592633C0E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_Sergeant.et" "{3146BF015ED67124}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_Medic.et"
  }
+ m_sCustomNameSet "Platoon HQ"
 }
