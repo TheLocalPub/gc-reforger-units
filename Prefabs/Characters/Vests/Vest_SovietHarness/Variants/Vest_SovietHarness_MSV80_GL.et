@@ -10,7 +10,7 @@ GenericEntity : "{08155E701A949620}Prefabs/Characters/Vests/Vest_SovietHarness/V
     LoadoutSlotInfo VOGPouch {
      Offset 0.0686 0.1115 -0.0767
      Angles -1.5299 -110.32539 1.5772
-     Prefab "{A8BF5ABE495DEA39}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_VOG.et"
+     Prefab "{7843511AE702AE80}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_GrenadeBandolier.et"
     }
    }
   }
