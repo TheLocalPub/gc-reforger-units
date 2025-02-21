@@ -54,9 +54,6 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
      TargetStorage "Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_ATACS.et"
-     PrefabsToSpawn + {
-      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
-     }
     }
     ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_MC.et"

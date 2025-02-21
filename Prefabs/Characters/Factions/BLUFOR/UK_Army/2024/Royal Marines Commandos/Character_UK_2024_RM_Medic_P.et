@@ -16,6 +16,9 @@ SCR_ChimeraCharacter : "{52E1968F69C21D5B}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
+    }
     ItemsInitConfigurationItem "{6488D75A4EC5B17B}" {
      TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
      PrefabsToSpawn {

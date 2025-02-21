@@ -50,6 +50,40 @@ SCR_ChimeraCharacter : "{4AF2023E868540E7}Prefabs/Characters/Factions/BLUFOR/UK_
       "{C8B6565467AA8CB7}Prefabs/Items/Equipment/Compass/Compass_Baseplate.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et"
      }
     }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
+    }
+    ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
+     TargetPurpose 1
+     PrefabsToSpawn {
+      "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC3129E7848BC}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_MC.et"
+     PrefabsToSpawn {
+      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC3129FF70707}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_MC.et"
+     PrefabsToSpawn {
+      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_MC.et"
+     PrefabsToSpawn {
+      "{5D948A57AF3432ED}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Single.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC31278A75ED6}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MC.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
     ItemsInitConfigurationItem "{6488D7760A1D9028}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_2.et"
      PrefabsToSpawn {
@@ -74,41 +108,10 @@ SCR_ChimeraCharacter : "{4AF2023E868540E7}Prefabs/Characters/Factions/BLUFOR/UK_
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
-    ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
-     TargetPurpose 1
-     PrefabsToSpawn {
-      "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et"
-     }
-    }
-    ItemsInitConfigurationItem "{610CC3129E7848BC}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_MC.et"
-     PrefabsToSpawn {
-      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
-     }
-    }
-    ItemsInitConfigurationItem "{610CC3129FF70707}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_MC.et"
-     PrefabsToSpawn {
-      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
-     }
-    }
     ItemsInitConfigurationItem "{6488D7764C4B7198}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MC.et"
      PrefabsToSpawn {
       "{32FEAE3A26BBF05D}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995.et" "{32FEAE3A26BBF05D}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995.et"
-     }
-    }
-    ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_MC.et"
-     PrefabsToSpawn {
-      "{5D948A57AF3432ED}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Single.et"
-     }
-    }
-    ItemsInitConfigurationItem "{610CC31278A75ED6}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MC.et"
-     PrefabsToSpawn {
-      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
      }
     }
     ItemsInitConfigurationItem "{6488D75E6AC94584}" {

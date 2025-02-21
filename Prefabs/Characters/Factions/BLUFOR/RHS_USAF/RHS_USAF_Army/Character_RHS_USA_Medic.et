@@ -33,6 +33,9 @@ SCR_ChimeraCharacter : "{36A12DD1497EDED6}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{6063106CCCB65709}" {
      TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
     }
+    ItemsInitConfigurationItem "{6488036C50A18E4F}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
+    }
     ItemsInitConfigurationItem "{646C0A61B3521DAA}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Placard.et"
      PrefabsToSpawn {

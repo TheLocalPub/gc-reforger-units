@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/SF/Character_CDF_Modern_SF_Base_Armed.et" {
+SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/Character_CDF_Modern_SF_Base_Armed.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -16,11 +16,6 @@ SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{647D5B1126F65EF2}" {
-     PrefabsToSpawn {
-      "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
-     }
-    }
     ItemsInitConfigurationItem "{647D5B105A15B1A7}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_3.et"
      PrefabsToSpawn {
