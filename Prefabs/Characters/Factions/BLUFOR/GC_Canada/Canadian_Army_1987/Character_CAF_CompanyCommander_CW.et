@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{C1BF0870C6FD36D0}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1987/Character_CAF_PlatoonCommander_CW.et" {
+ ID "51FA8A5F28FD04BA"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_name "Company Commander"
+  }
+ }
+}
