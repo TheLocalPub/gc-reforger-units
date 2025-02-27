@@ -4,6 +4,9 @@ SCR_ChimeraCharacter : "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_name "Anti-Tank Assistant"
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{C7C0B3A46D125C6F}Prefabs/Weapons/Rifles/M16A1/Rifle_M16A1_ish.et"
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate ""
   }
