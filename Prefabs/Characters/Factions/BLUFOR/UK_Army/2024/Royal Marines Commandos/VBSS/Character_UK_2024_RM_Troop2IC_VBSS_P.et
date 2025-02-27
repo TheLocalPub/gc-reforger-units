@@ -19,6 +19,9 @@ SCR_ChimeraCharacter : "{7C36E0B98A219ED2}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{610CC31428816D50}" {
      TargetStorage "Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_black.et"
     }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Black.et"
+    }
     ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
      TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Black.et"
     }
