@@ -32,6 +32,7 @@ SCR_ChimeraCharacter : "{C49ED6AA2EA02B15}Prefabs/Characters/Factions/OPFOR/USSR
      TargetStorage "Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"
     }
     ItemsInitConfigurationItem "{54A68D64D7F9124F}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"
     }
    }
   }
