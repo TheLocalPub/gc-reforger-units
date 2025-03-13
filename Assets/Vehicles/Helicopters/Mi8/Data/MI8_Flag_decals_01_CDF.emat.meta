@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{7EFD3F005E08E57B}Assets/Characters/Patches/data/GC_Patch1.emat"
+ Name "{FBBE05DD1AB89B05}Assets/Vehicles/Helicopters/Mi8/Data/MI8_Flag_decals_01_CDF.emat"
  Configurations {
   EMATResourceClass PC {
   }
@@ -9,9 +9,9 @@ MetaFileClass {
   }
   EMATResourceClass PS4 : PC {
   }
-  EMATResourceClass PS5 : PC {
-  }
   EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass PS5 : PC {
   }
  }
 }
