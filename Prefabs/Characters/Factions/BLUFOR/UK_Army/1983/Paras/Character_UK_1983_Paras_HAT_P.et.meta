@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{92E3237642795DC2}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_HAT_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
