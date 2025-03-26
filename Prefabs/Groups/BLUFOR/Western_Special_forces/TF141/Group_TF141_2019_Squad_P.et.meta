@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1E204D35AE522B20}Prefabs/Groups/BLUFOR/US/Rangers_2019/P/Group_TF141_2019_Squad_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

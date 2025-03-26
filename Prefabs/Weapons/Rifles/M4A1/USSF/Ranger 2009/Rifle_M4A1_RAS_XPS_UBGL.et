@@ -1,0 +1,42 @@
+GenericEntity : "{068C2EB42635973F}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDA5B623AB37}" {
+     AttachmentSlot InventoryStorageSlot Handguard_lower {
+      PivotID "barrel_chamber"
+      Prefab "{239CEF0C9AB5556E}Prefabs/Weapons/Attachments/Underbarrel/UGL_RHS_M203.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{D0453107F44917CF}Prefabs/Weapons/Attachments/Optics/exps/Optic_su231A_black.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE949ECF03E3}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{5EA2BE9573F14F0C}" {
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE953838E77C}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95244FA719}" {
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE95B630A07A}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95B7F1B3D5}" {
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{629ADD528EE856C1}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{629ADD52ACAC8DC6}" {
+      Prefab "{5AE8F3A22BDB534F}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_black.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{00F0B1FA28EF672B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M995.et"
+    }
+   }
+  }
+ }
+}

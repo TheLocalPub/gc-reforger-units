@@ -1,0 +1,34 @@
+GameEntity : "{2DEF0327711C9EAD}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH2000_norotos_rail_green1.et" {
+ ID "50D485E1435D6C72"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{177E3238DA5B70A6}Assets/Characters/HeadGear/Helmet_MICH/MICH2000_norotos_Msa.xob"
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{E2AEE09BA445A688}Prefabs/Characters/Eyewear/npp_kondor/Eyewear_npp_kondor.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{1C7BF9EFC11B29D9}Prefabs/Characters/HeadGear/Hat_Shemagh/Hat_Shemagh_Green.et"
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Prefab "{397A4D4ED2E51C6A}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_BLK.et"
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{B7BA7694F821F556}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual.et"
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{6D6ADA201AD4E09B}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_olive.et"
+    }
+    RHS_LoadoutSlotInfo TopVelcro {
+    }
+   }
+   WornModel "{D642BAC66AE8761C}Assets/Characters/HeadGear/Helmet_MICH/MICH2000_norotos_rail.xob"
+   WornMaterialsOverride {
+    "{BCDCD79E12690CF2}Assets/Characters/HeadGear/Helmet_MICH/data/mich_norotos_velcro_rail_green1_clear.emat" "{BCDCD79E12690CF2}Assets/Characters/HeadGear/Helmet_MICH/data/mich_norotos_velcro_rail_green1_clear.emat"
+   }
+  }
+ }
+ coords 1244.762 11.072 3052.143
+}
