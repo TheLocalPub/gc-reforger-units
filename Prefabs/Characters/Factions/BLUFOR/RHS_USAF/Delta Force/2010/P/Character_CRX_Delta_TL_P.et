@@ -1,0 +1,39 @@
+SCR_ChimeraCharacter : "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/US_Army/Delta Force/2010/P/Character_CRX_TF141_SL_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_name "Team Lead"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D3CC75B0C41848D4}Prefabs/Weapons/Rifles/M4A1/USSF/Rifle_M4A1_BLOCK_0_NT4_FORECON16.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{632D09B9A26B0A64}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_v_r_p.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{13C41E9932685FAC}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_CoyoteBrown.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{FCFE4E066D9E2249}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_od.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61E884192043D2D2}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{64F0DE96EA1D1A19}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_OD.et"
+     PrefabsToSpawn {
+      "{A021FEE1947E7603}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_Multi.et"
+     }
+    }
+   }
+  }
+ }
+ coords 1249.794 11.169 3050.997
+}

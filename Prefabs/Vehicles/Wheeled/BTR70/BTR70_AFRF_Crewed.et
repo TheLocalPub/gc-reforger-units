@@ -1,0 +1,10 @@
+Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  TILW_VehicleCrewComponent "{64F2F82070DBB82D}" {
+   m_crewConfig TILW_CrewConfig "{64F2F8207EA8193D}" {
+   }
+  }
+ }
+ coords 885.481 35.854 4366.043
+}
