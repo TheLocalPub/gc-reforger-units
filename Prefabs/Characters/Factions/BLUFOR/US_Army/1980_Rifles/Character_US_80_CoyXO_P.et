@@ -4,6 +4,11 @@ SCR_ChimeraCharacter : "{D164278FD7D9C81A}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
    m_iRank LIEUTENANT
   }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Company XO"
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{C7C0B3A46D125C6F}Prefabs/Weapons/Rifles/M16A1/Rifle_M16A1_ish.et"
   }
