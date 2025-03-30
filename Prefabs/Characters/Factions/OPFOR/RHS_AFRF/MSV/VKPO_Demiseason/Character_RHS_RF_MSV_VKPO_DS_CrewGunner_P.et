@@ -2,7 +2,7 @@ SCR_ChimeraCharacter : "{1F45A8542E2BDFA1}Prefabs/Characters/Factions/OPFOR/RHS_
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Crewman (Gunner)"
+   m_sName "Crewman (Gunner)"
   }
  }
 }

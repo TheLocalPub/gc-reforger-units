@@ -5,7 +5,7 @@ SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_
    "faction affiliation" "GC_CAF"
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Rifleman"
+   m_sName "Rifleman"
    m_bIsPlayable 0
   }
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
