@@ -2,7 +2,7 @@ SCR_ChimeraCharacter : "{E8EF64F8B943A507}Prefabs/Characters/Factions/OPFOR/USSR
  ID "51F08680DED7494C"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Grenadier Assistant."
+   m_sName "Grenadier Assistant."
    m_bIsPlayable 1
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {

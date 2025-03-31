@@ -2,7 +2,7 @@ SCR_ChimeraCharacter : "{1A5BEECAF606ACFC}Prefabs/Characters/Factions/OPFOR/USSR
  ID "200D264F0EEA1A28"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "First Sergeant"
+   m_sName "First Sergeant"
   }
  }
 }

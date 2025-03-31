@@ -5,7 +5,7 @@ SCR_ChimeraCharacter : "{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_
    "faction affiliation" "GC_CAF"
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Medic"
+   m_sName "Medic"
    m_bIsPlayable 1
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {

@@ -1,8 +1,11 @@
 SCR_ChimeraCharacter : "{B518A4D46C6114D0}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_Company_Commander_CW.et" {
  ID "51FA8A5F28FD04BA"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Company Segeant Major"
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Company Sergeant Major"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+   }
   }
  }
 }

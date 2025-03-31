@@ -1,8 +1,10 @@
 SCR_ChimeraCharacter : "{94DB2F66DDCD8783}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/Character_UK_2024_RM_Section1IC_P.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Troop Commander"
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Troop Commander"
+   }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
