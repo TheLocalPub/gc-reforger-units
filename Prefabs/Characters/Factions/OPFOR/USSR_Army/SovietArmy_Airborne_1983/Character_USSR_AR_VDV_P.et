@@ -2,7 +2,7 @@ SCR_ChimeraCharacter : "{862E3B66D0316F0A}Prefabs/Characters/Factions/OPFOR/USSR
  ID "520EC961A090BE1E"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Automatic Rifleman"
+   m_sName "Automatic Rifleman"
    m_bIsPlayable 1
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {

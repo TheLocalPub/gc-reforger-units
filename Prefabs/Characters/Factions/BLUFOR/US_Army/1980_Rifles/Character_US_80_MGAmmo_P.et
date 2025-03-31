@@ -2,7 +2,7 @@ SCR_ChimeraCharacter : "{CA2EB3A73FABC625}Prefabs/Characters/Factions/BLUFOR/US_
  ID "522AAC66D0A2C0DC"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "MG Ammo Bearer"
+   m_sName "MG Ammo Bearer"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{C7C0B3A46D125C6F}Prefabs/Weapons/Rifles/M16A1/Rifle_M16A1_ish.et"
