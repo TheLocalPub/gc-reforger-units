@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{F005DCAB1810AAE2}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/Group_CDF_Modern_MechSquadNoCrew_1.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

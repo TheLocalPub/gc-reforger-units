@@ -2,7 +2,7 @@ SCR_ChimeraCharacter : "{C49ED6AA2EA02B15}Prefabs/Characters/Factions/OPFOR/USSR
  ID "200D264F0EEA1A28"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Yefréytor"
+   m_sName "Yefréytor"
    m_bIsPlayable 1
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {

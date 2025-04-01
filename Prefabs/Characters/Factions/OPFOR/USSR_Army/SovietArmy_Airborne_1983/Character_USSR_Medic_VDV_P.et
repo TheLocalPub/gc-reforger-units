@@ -2,7 +2,7 @@ SCR_ChimeraCharacter : "{D66C215D6F03EFFD}Prefabs/Characters/Factions/OPFOR/USSR
  ID "51FAD317FC20EC1B"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Medic"
+   m_sName "Medic"
    m_bIsPlayable 1
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {

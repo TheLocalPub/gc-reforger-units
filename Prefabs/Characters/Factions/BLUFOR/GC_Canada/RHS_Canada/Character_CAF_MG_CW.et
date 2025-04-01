@@ -5,11 +5,16 @@ SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_
    "faction affiliation" "GC_CAF"
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "GPMG Gunner"
    m_bIsPlayable 1
   }
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
    m_iRank PRIVATE
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Machinegunner"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+   }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{B98907643DE1B824}Prefabs/Weapons/MachineGuns/M240/MG_C6A2.et"
@@ -57,9 +62,6 @@ SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_
      TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_CADPAT_Temperate.et"
      TargetPurpose 1
     }
-    ItemsInitConfigurationItem "{5A24B6035F7619E7}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_Coy.et"
-    }
     ItemsInitConfigurationItem "{54A49B42D138207E}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_1.et"
      PrefabsToSpawn {
@@ -74,6 +76,9 @@ SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_2.et"
      PrefabsToSpawn {
      }
+    }
+    ItemsInitConfigurationItem "{5A24B6035F7619E7}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_Coy.et"
     }
     ItemsInitConfigurationItem "{646D420F444DCE10}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_2.et"

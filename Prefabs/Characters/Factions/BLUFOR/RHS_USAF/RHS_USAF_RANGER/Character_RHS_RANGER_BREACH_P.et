@@ -75,12 +75,6 @@ SCR_ChimeraCharacter : "{7269658016EE9DCA}Prefabs/Characters/Factions/BLUFOR/RHS
       "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
      }
     }
-    ItemsInitConfigurationItem "{61E8A0D494F66C67}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder_MC.et"
-     PrefabsToSpawn {
-      "{ED97A510AA0A46C5}Prefabs/Weapons/Grenades/Grenade_Stun.et" "{ED97A510AA0A46C5}Prefabs/Weapons/Grenades/Grenade_Stun.et" "{ED97A510AA0A46C5}Prefabs/Weapons/Grenades/Grenade_Stun.et" "{ED97A510AA0A46C5}Prefabs/Weapons/Grenades/Grenade_Stun.et"
-     }
-    }
     ItemsInitConfigurationItem "{61E8A0D494F66C62}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_MC.et"
      PrefabsToSpawn {

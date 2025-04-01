@@ -5,8 +5,13 @@ SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_
    "faction affiliation" "GC_CAF"
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Signaller"
    m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Signaller"
+    Icon "{B9F0BD39FF1881A3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_RadioOperator.edds"
+   }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{9B1F8CFF4170731C}Prefabs/Weapons/Rifles/M16/Variants/Rifle_C7_M203.et"

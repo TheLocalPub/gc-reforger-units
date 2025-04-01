@@ -5,7 +5,7 @@ SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_
    "faction affiliation" "GC_CAF"
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Platoon Commander"
+   m_sName "Platoon Commander"
    m_bIsPlayable 1
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {

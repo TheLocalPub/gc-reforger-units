@@ -2,7 +2,7 @@ SCR_ChimeraCharacter : "{28FF5276F7A1C80E}Prefabs/Characters/Factions/BLUFOR/RHS
  ID "520EC961A090BBD5"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Crewman (Commander)"
+   m_sName "Crewman (Commander)"
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
