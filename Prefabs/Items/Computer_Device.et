@@ -10,7 +10,7 @@ GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
     ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
      Weight 10
      SizeSetupStrategy Size
-     ItemDimensions 20 30 15
+     ItemDimensions 15 20 15
      ItemVolume 150
      DimensionScaler 1
      RestingAdditiveRotationLS 0 0 0
@@ -58,6 +58,6 @@ GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
    ModelGeometry 1
   }
  }
- coords 1146.156 16.625 2771.093
+ coords 2087.342 13.408 3358.626
  scale 0.6
 }
