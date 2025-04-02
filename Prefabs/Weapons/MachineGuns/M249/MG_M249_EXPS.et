@@ -1,0 +1,68 @@
+GenericEntity : "{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{64E11B6DC6901822}" {
+     AttachmentSlot InventoryStorageSlot top_rail {
+      PivotID "w_topcover"
+      Offset 0 -0.012 -0.107
+      Prefab "{CCA2C7A662439781}Prefabs/Weapons/Attachments/Rails/b18/b18.et"
+      InspectionWidgetOffset 0 0.128 -0.0243
+     }
+    }
+    AttachmentSlotComponent "{64E11B6EB1ED7D16}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Right_Side_Rail {
+      PivotID "barrel_muzzle"
+      Offset 0.0104 -0.0193 -0.2821
+      Angles 0 0 90
+      Prefab "{CCA2C7A662439781}Prefabs/Weapons/Attachments/Rails/b18/b18.et"
+      InspectionWidgetOffset 0.0382 0.0934 0.347
+     }
+    }
+    AttachmentSlotComponent "{64E11B6F548A82DE}" {
+     AttachmentSlot InventoryStorageSlot Forward_rail_left {
+      PivotID "barrel_muzzle"
+      Offset -0.0104 -0.0193 -0.2821
+      Angles 0 0 -90
+      Prefab "{CCA2C7A662439781}Prefabs/Weapons/Attachments/Rails/b18/b18.et"
+      InspectionWidgetOffset -0.0382 0.0934 0.347
+     }
+    }
+    AttachmentSlotComponent "{64F0DE836B85937C}" {
+     AttachmentSlot InventoryStorageSlot "{64F0DE83909ACFFA}" {
+      PivotID "w_topcover"
+      Offset 0 0.0171 -0.1132
+      Prefab "{67F7BD007D153A98}Prefabs/Weapons/Attachments/Optics/exps/Optic_su231A_camo.et"
+      InspectionWidgetOffset 0 0.142 0
+     }
+     AttachmentType AttachmentOpticsRIS1913Short "{64F0DE8386579124}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{64F0DE83B7A133DC}" {
+     AttachmentSlot InventoryStorageSlot "{64F0DE83B3FD5AE7}" {
+      Offset 0.0377 0.0834 0.3323
+      Angles 0 0 90
+      Prefab "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
+      InspectionWidgetOffset 0.0527 0.0946 0.3382
+     }
+     AttachmentType AttachmentRIS1913Short "{64F0DE83BE23CDE4}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{64F0DE8628CB1E2F}" {
+     AttachmentSlot InventoryStorageSlot "{64F0DE865664CFF4}" {
+      Offset -0.0377 0.0834 0.3323
+      Angles 0 0 90
+      InspectionWidgetOffset -0.0527 0.0946 0.3382
+     }
+     AttachmentType AttachmentRIS1913Short "{64F0DE8646AF3DA7}" {
+     }
+     ShowInInspection 1
+    }
+   }
+  }
+ }
+ coords 0 0.012 0
+}

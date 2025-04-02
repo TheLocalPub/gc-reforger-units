@@ -1,0 +1,9 @@
+SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_Base.et" {
+ ID "0000000000000001"
+ coords 991.116 4.897 3191.342
+ m_aUnitPrefabSlots {
+  "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/US_Army/Delta Force/2010/P/Character_CRX_TF141_SL_P.et" "{27CAF80EE06C5DEC}Prefabs/Characters/Factions/BLUFOR/US_Army/Delta Force/2010/P/Character_CRX_TF141_TL_P.et" "{4583D01EC17CAA8A}Prefabs/Characters/Factions/BLUFOR/US_Army/Delta Force/2010/P/Character_CRX_TF141_GR_P.et" "{50C97085AD5D4D84}Prefabs/Characters/Factions/BLUFOR/US_Army/Delta Force/2010/P/Character_CRX_TF141_AR_P.et" "{B6004EF7A48AA853}Prefabs/Characters/Factions/BLUFOR/US_Army/Delta Force/2010/P/Character_CRX_TF141_RF_P.et" "{B6004EF7A48AA853}Prefabs/Characters/Factions/BLUFOR/US_Army/Delta Force/2010/P/Character_CRX_TF141_RF_P.et"
+ }
+ m_sCustomNameSet "Delta Force Assault Troop"
+ m_bSetPlayable 1
+}
