@@ -12,36 +12,44 @@ SCR_ChimeraCharacter : "{474B263A266F57EF}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Anti Tank"
+   m_sName "Anti Tank Gunner"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate "{AE8BF1F7476AA76D}Prefabs/Weapons/Launchers/MAW_84MM/Launcher_84mm_MAW_Optic.et"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{95D4766BBE46F23D}Prefabs/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{625B1A6305F13210}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
+     TargetStorage "Back/Backpack_IIFS_FieldPack.et"
      PrefabsToSpawn {
-      "{F2E474689BD7C2E1}Prefabs/Weapons/Ammo/Ammo_Rocket_HEAT_L40.et" "{F2E474689BD7C2E1}Prefabs/Weapons/Ammo/Ammo_Rocket_HEAT_L40.et" "{F2E474689BD7C2E1}Prefabs/Weapons/Ammo/Ammo_Rocket_HEAT_L40.et" "{F2E474689BD7C2E1}Prefabs/Weapons/Ammo/Ammo_Rocket_HEAT_L40.et"
+      "{4BA48D3B0E53DF91}Prefabs/Items/Equipment/Backpacks/Rucksack_84mm_MAW_Carrier.et"
      }
     }
     ItemsInitConfigurationItem "{64F122DD25DD5691}" {
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
      }
     }
     ItemsInitConfigurationItem "{64F122DD24FFCD65}" {
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
      }
     }
     ItemsInitConfigurationItem "{64F122DD230A917A}" {
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
      }
     }
     ItemsInitConfigurationItem "{64F122DD5DC7CAB0}" {
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
      }
     }
    }
   }
  }
+ coords 1197.522 7.437 3211.29
 }

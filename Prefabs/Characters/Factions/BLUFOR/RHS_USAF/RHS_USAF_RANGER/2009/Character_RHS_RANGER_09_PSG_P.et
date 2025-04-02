@@ -2,8 +2,8 @@ SCR_ChimeraCharacter : "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Platoon Sergeant"
+   m_sName "Platoon Sergeant"
   }
  }
- coords 1195.063 7.54 3184.372
+ coords 1198.085 7.437 3212.161
 }

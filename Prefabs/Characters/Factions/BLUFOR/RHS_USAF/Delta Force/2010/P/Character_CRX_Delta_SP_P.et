@@ -1,11 +1,11 @@
-SCR_ChimeraCharacter : "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/US_Army/Delta Force/2010/P/Character_CRX_TF141_SL_P.et" {
+SCR_ChimeraCharacter : "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Delta Force/2010/P/Character_CRX_Delta_SL_P.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Spotter"
+   m_sName "Spotter"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{36503949C8FDDFBF}Prefabs/Weapons/Rifles/M4A1/USSF/Rifle_M4A1_BLOCK_0_NT4_FORECON17.et"
+   WeaponTemplate "{36503949C8FDDFBF}Prefabs/Weapons/Rifles/M4A1/USSF/Delta/Rifle_M4A1_BLOCK_0_NT4_FORECON17.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate ""
@@ -13,7 +13,7 @@ SCR_ChimeraCharacter : "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/US_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{632D09B9A26B0A64}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_v_r_p.et"
+     Prefab "{632D09B9A26B0A64}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH2000_norotos_rail_tan2_nvg.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{59671155DDBAD871}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_M81.et"
@@ -27,8 +27,7 @@ SCR_ChimeraCharacter : "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/US_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61E884192043D2D2}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_Coy.et"
-     PrefabsToSpawn {
-      "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{64F0DE910B20B9C9}" {
@@ -40,5 +39,5 @@ SCR_ChimeraCharacter : "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
  }
- coords 1251.623 11.509 3039.035
+ coords 1189.653 7.702 3205.398
 }

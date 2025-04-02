@@ -2,12 +2,19 @@ SCR_ChimeraCharacter : "{474B263A266F57EF}Prefabs/Characters/Factions/BLUFOR/RHS
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Anti Tank Assistant"
+   m_sName "Anti Tank Assistant"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{95D4766BBE46F23D}Prefabs/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack.et"
+    }
+   }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{625B1A6305F13210}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
+     TargetStorage "Back/Backpack_IIFS_FieldPack.et"
      PrefabsToSpawn +{
      }
     }
@@ -34,4 +41,5 @@ SCR_ChimeraCharacter : "{474B263A266F57EF}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
+ coords 1212.267 7.437 3221.362
 }

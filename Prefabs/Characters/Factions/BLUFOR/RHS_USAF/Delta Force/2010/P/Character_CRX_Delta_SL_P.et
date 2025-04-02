@@ -12,14 +12,14 @@ SCR_ChimeraCharacter : "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Troop Lead"
+   m_sName "Troop Leader"
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{6308F0F06E2069DC}Prefabs/Weapons/Rifles/M4A1/USSF/Rifle_M4A1_BLOCK_0_NT4_FORECON15.et"
+   WeaponTemplate "{6308F0F06E2069DC}Prefabs/Weapons/Rifles/M4A1/USSF/Delta/Rifle_M4A1_BLOCK_0_NT4_FORECON15.et"
   }
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
    Identity Identity "{5584CBC6363C648B}" {
@@ -86,6 +86,15 @@ SCR_ChimeraCharacter : "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{61E8906F8E5294B4}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_1.et"
     }
+    ItemsInitConfigurationItem "{625B1A61FE80B8A0}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_2.et"
+     PrefabsToSpawn + {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{625B1A6305F13210}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_util.et"
+    }
     ItemsInitConfigurationItem "{64F0DE974FAB782A}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex.et"
      PrefabsToSpawn {
@@ -97,15 +106,6 @@ SCR_ChimeraCharacter : "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS
      PrefabsToSpawn {
       "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
      }
-    }
-    ItemsInitConfigurationItem "{625B1A61FE80B8A0}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_2.et"
-     PrefabsToSpawn + {
-      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
-     }
-    }
-    ItemsInitConfigurationItem "{625B1A6305F13210}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_util.et"
     }
     ItemsInitConfigurationItem "{64E2F69CD91E2187}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
@@ -128,5 +128,5 @@ SCR_ChimeraCharacter : "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 1250.772 11.224 3049.229
+ coords 1190.625 7.608 3208.352
 }

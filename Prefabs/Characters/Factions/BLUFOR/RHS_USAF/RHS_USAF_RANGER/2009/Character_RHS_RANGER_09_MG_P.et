@@ -12,7 +12,7 @@ SCR_ChimeraCharacter : "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Machinegunner"
+   m_sName "Machine Gunner"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{BA87F78D0E7E3A90}Prefabs/Weapons/MachineGuns/M240/MG_M240_Light_MDO.et"
@@ -61,5 +61,5 @@ SCR_ChimeraCharacter : "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 1262.419 7.344 3207.475
+ coords 1199.133 7.438 3213.01
 }

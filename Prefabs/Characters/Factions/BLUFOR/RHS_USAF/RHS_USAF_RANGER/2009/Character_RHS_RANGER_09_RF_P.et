@@ -13,7 +13,7 @@ SCR_ChimeraCharacter : "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Rifleman"
+   m_sName "Rifleman"
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
@@ -26,5 +26,5 @@ SCR_ChimeraCharacter : "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 1260.299 7.344 3207.148
+ coords 1199.47 7.438 3212.673
 }

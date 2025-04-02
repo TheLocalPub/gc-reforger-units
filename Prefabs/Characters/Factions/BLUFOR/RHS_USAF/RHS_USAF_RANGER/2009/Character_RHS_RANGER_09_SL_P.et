@@ -13,14 +13,14 @@ SCR_ChimeraCharacter : "{EB4F847EEDFF4FCB}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Squad Lead"
+   m_sName "Squad Leader"
    m_bIsPlayable 1
   }
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
    m_iRank SERGEANT
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{14F70355CF93B5A8}Prefabs/Weapons/Rifles/M4A1/USSF/Ranger 2009/Rifle_M4A1_RAS_USPS.et"
+   WeaponTemplate "{14F70355CF93B5A8}Prefabs/Weapons/Rifles/M4A1/USSF/Ranger 2009/Rifle_M4A1_RAS_XPS.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{8983A91174EE3799}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45.et"
@@ -28,7 +28,7 @@ SCR_ChimeraCharacter : "{EB4F847EEDFF4FCB}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{632D09B9A26B0A65}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_v_r_p.et"
+     Prefab "{632D09B9A26B0A65}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH2000_norotos_rail_tan_nvg.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{82C659FB6237E828}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_OD.et"
@@ -43,7 +43,7 @@ SCR_ChimeraCharacter : "{EB4F847EEDFF4FCB}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{99B347D92F16A6D3}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{F53F30123F54F3A2}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_ronin_RGR.et"
+     Prefab "{F53F30123F54F3A3}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_ronin_RGR.et"
     }
    }
   }
@@ -94,4 +94,5 @@ SCR_ChimeraCharacter : "{EB4F847EEDFF4FCB}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
+ coords 1200.897 7.437 3214.007
 }

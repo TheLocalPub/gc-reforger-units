@@ -1,11 +1,11 @@
-SCR_ChimeraCharacter : "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/US_Army/Delta Force/2010/P/Character_CRX_TF141_SL_P.et" {
+SCR_ChimeraCharacter : "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Delta Force/2010/P/Character_CRX_Delta_SL_P.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Marksman"
+   m_sName "Marksman"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{D3CC75B0C41848D4}Prefabs/Weapons/Rifles/M4A1/USSF/Rifle_M4A1_BLOCK_0_NT4_FORECON16.et"
+   WeaponTemplate "{D3CC75B0C41848D4}Prefabs/Weapons/Rifles/M4A1/USSF/Delta/Rifle_M4A1_BLOCK_0_NT4_FORECON16.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate ""
@@ -33,5 +33,5 @@ SCR_ChimeraCharacter : "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
  }
- coords 1250.608 11.448 3040.962
+ coords 1193.559 7.438 3209.837
 }
