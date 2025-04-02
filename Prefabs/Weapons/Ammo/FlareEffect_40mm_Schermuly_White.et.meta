@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{1E204D35AE522B20}Prefabs/Groups/BLUFOR/US/Rangers_2019/P/Group_TF141_2019_Squad_P.et"
+ Name "{778F5DF7566D94F9}Prefabs/Weapons/Ammo/FlareEffect_40mm_Schermuly_White.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }
