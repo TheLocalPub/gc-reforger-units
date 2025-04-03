@@ -1,0 +1,49 @@
+SCR_ChimeraCharacter : "{49245CC356272920}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Officer_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{3277E97F3493155E}Prefabs/Characters/HeadGear/Hat_M70_01/Hat_M70_DPM_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{406B620B4285240C}Prefabs/Characters/Uniforms/Jacket_Tropical_DesertDPM_01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{A04CE229E6FB3E74}Prefabs/Characters/Uniforms/Trousers_Tropical_DesertDPM_01.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{A29726AEB46AD13E}Prefabs/Characters/Handwear/Gloves_Wool_01/Gloves_Wool_Khaki_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC31428816D50}" {
+     TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
+    }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
+    }
+    ItemsInitConfigurationItem "{62849D41EBD1BF6E}" {
+     TargetStorage "Vest/Vest_COP.et"
+    }
+    ItemsInitConfigurationItem "{62A74B5B4CC1D948}" {
+     TargetStorage "Jacket/Jacket_Tropical_DesertDPM_01.et"
+    }
+    ItemsInitConfigurationItem "{62849D41EBD4ECE0}" {
+     TargetStorage "Vest/Vest_COP.et"
+    }
+    ItemsInitConfigurationItem "{62849D41EBD4ECE4}" {
+     TargetStorage "Vest/Vest_COP.et"
+    }
+    ItemsInitConfigurationItem "{62849D41EBD52DB8}" {
+     TargetStorage "Vest/Vest_COP.et"
+    }
+    ItemsInitConfigurationItem "{62849D41EBD52DBA}" {
+     TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
+    }
+   }
+  }
+ }
+}

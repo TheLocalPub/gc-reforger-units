@@ -1,0 +1,46 @@
+SCR_ChimeraCharacter : "{521885BD023B0AF2}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Regulars/Character_UK_1989_Regulars_Company2IC_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B8EDDED135ACD2DA}Prefabs/Characters/HeadGear/Helmet_Mk6_01/Helmet_Mk6_DesertDPM.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{406B620B4285240C}Prefabs/Characters/Uniforms/Jacket_Tropical_DesertDPM_01.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab ""
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{A04CE229E6FB3E74}Prefabs/Characters/Uniforms/Trousers_Tropical_DesertDPM_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC31428816D50}" {
+     TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
+    }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
+    }
+    ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
+     TargetStorage "Jacket/Jacket_Tropical_DesertDPM_01.et"
+    }
+    ItemsInitConfigurationItem "{610CC3129E7848BC}" {
+     TargetStorage "Vest/Vest_P58_rifleman_L85.et/MagPouch2/Pouch_P58_20rnd_L1A1_Right.et"
+    }
+    ItemsInitConfigurationItem "{610CC3129FF70707}" {
+     TargetStorage "Vest/Vest_P58_rifleman_L85.et/Buttpack/Vest_P58_kidney_left.et"
+    }
+    ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
+     TargetStorage "Vest/Vest_P58_rifleman_L85.et/MagPouch/Pouch_P58_20rnd_L1A1_Left_L3A1.et"
+    }
+    ItemsInitConfigurationItem "{610CC31278A75ED6}" {
+     TargetStorage "Vest/Vest_P58_rifleman_L85.et/KidneyRight/Vest_P58_kidney_right.et"
+    }
+   }
+  }
+ }
+}

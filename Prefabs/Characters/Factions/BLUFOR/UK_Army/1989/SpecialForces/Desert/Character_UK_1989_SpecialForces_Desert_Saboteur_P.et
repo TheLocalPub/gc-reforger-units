@@ -1,0 +1,62 @@
+SCR_ChimeraCharacter : "{02DCDBEC77E1257F}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Saboteur_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1C7BF9EFC11B29D9}Prefabs/Characters/HeadGear/Hat_Shemagh/Hat_Shemagh_Green.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{406B620B4285240C}Prefabs/Characters/Uniforms/Jacket_Tropical_DesertDPM_01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{A04CE229E6FB3E74}Prefabs/Characters/Uniforms/Trousers_Tropical_DesertDPM_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC31428816D50}" {
+     TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
+    }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
+    }
+    ItemsInitConfigurationItem "{62849D41EBD1BF6E}" {
+     TargetStorage "Jacket/Jacket_Tropical_DesertDPM_01.et"
+    }
+    ItemsInitConfigurationItem "{62A74B5B4CC1D948}" {
+     TargetStorage "Jacket/Jacket_Tropical_DesertDPM_01.et"
+    }
+    ItemsInitConfigurationItem "{62849D41EBD4ECE0}" {
+     TargetStorage "Vest/Vest_COP.et"
+    }
+    ItemsInitConfigurationItem "{62849D41EBD4ECE4}" {
+     TargetStorage "Vest/Vest_COP.et"
+    }
+    ItemsInitConfigurationItem "{62849D41EBD52DB8}" {
+     TargetStorage "Vest/Vest_COP.et"
+    }
+    ItemsInitConfigurationItem "{62849D41EBD52DBA}" {
+     TargetStorage "Back/Rucksack_GS_assembled.et"
+    }
+    ItemsInitConfigurationItem "{6282E825CD92120C}" {
+     TargetStorage "Back/Rucksack_GS_assembled.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6282E825CD921201}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6282E825CD921202}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{628C742B60E5DFE5}" {
+     TargetStorage "Back/Rucksack_GS_assembled.et"
+    }
+   }
+  }
+ }
+}

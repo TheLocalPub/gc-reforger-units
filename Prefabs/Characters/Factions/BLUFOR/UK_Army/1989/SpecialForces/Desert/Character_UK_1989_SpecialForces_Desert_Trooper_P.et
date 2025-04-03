@@ -1,0 +1,55 @@
+SCR_ChimeraCharacter : "{0F68127A99BCD429}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Trooper_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B9687B8829272E14}Prefabs/Characters/HeadGear/Hat_Knitted_01/Hat_Knitted_01_brown.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{406B620B4285240C}Prefabs/Characters/Uniforms/Jacket_Tropical_DesertDPM_01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{A04CE229E6FB3E74}Prefabs/Characters/Uniforms/Trousers_Tropical_DesertDPM_01.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{791461BC7CF3133F}Prefabs/Characters/Vests/Vest_58Pattern/Variants/Vest_P58_rifleman_2_L85.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC31428816D50}" {
+     TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
+    }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
+    }
+    ItemsInitConfigurationItem "{62849D41EBD1BF6E}" {
+     TargetStorage "Jacket/Jacket_Tropical_DesertDPM_01.et"
+    }
+    ItemsInitConfigurationItem "{62A74B5B4CC1D948}" {
+     TargetStorage "Jacket/Jacket_Tropical_DesertDPM_01.et"
+    }
+    ItemsInitConfigurationItem "{62849D41EBD4ECE0}" {
+     TargetStorage "Vest/Vest_P58_rifleman_2_L85.et/MagPouch/Pouch_P58_20rnd_L1A1_Left_L3A1.et"
+    }
+    ItemsInitConfigurationItem "{62849D41EBD4ECE4}" {
+     TargetStorage "Vest/Vest_P58_rifleman_2_L85.et/KidneyRight/Vest_P58_water_bottle_utility.et"
+    }
+    ItemsInitConfigurationItem "{62849D41EBD52DB8}" {
+     TargetStorage "Vest/Vest_P58_rifleman_2_L85.et/MagPouch/Pouch_P58_20rnd_L1A1_Left_L3A1.et"
+     PrefabsToSpawn + {
+      "{F605A4A0573F4BED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_2+2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{62849D41EBD52DBA}" {
+     TargetStorage "Vest/Vest_P58_rifleman_2_L85.et/Buttpack/Vest_P58_water_bottle_utility.et"
+     PrefabsToSpawn {
+      "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et" "{D950FADF7FC188C0}Prefabs/Weapons/Grenades/Smoke_No83_Yellow.et"
+     }
+    }
+   }
+  }
+ }
+}
