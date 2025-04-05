@@ -25,7 +25,7 @@ SCR_ChimeraCharacter : "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{61E88418254009A3}" {
     }
     ItemsInitConfigurationItem "{61E88418254009AC}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_CoyoteBrown.et"
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_CoyoteBrown.et"
     }
     ItemsInitConfigurationItem "{61E884192043D2D2}" {
      PrefabsToSpawn +{
@@ -75,5 +75,5 @@ SCR_ChimeraCharacter : "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 1198.56 7.438 3213.383
+ coords 1234.903 7.438 3206.9
 }
