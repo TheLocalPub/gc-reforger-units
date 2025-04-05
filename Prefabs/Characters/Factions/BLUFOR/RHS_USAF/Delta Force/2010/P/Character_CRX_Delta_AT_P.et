@@ -54,7 +54,7 @@ SCR_ChimeraCharacter : "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{64F0DE970AB18179}" {
-     PrefabsToSpawn {
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{64F0DE920D201659}" {
@@ -66,5 +66,5 @@ SCR_ChimeraCharacter : "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 1233.392 7.437 3205.506
+ coords 1239.635 7.438 3206.017
 }
