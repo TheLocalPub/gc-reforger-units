@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{474B263A266F57EF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/Character_RHS_RANGER_09_ATTL_P.et" {
+SCR_ChimeraCharacter : "{474B263A266F57EF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_ATTL_P.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
@@ -13,6 +13,10 @@ SCR_ChimeraCharacter : "{474B263A266F57EF}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{61E884192043D2D2}" {
+     PrefabsToSpawn {
+     }
+    }
     ItemsInitConfigurationItem "{625B1A6305F13210}" {
      TargetStorage "Back/Backpack_IIFS_FieldPack.et"
      PrefabsToSpawn +{
@@ -41,5 +45,5 @@ SCR_ChimeraCharacter : "{474B263A266F57EF}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 1212.267 7.437 3221.362
+ coords 1236.319 7.437 3203.685
 }

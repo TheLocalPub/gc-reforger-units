@@ -88,11 +88,11 @@ SCR_ChimeraCharacter : "{EB4F847EEDFF4FCB}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{625B1A6305F13210}" {
      TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
      PrefabsToSpawn {
-      "" ""
+      "{A021FEE1947E7603}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_Multi.et"
      }
     }
    }
   }
  }
- coords 1234.867 7.437 3196.542
+ coords 1241.65 7.438 3210.277
 }
