@@ -54,13 +54,13 @@ SCR_ChimeraCharacter : "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61E88418254009A3}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_CoyoteBrown.et"
+     TargetStorage "Pants/crye_pants_CoyoteBrown.et"
      PrefabsToSpawn {
       "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
      }
     }
     ItemsInitConfigurationItem "{61E88418254009AC}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_M81.et"
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_M81.et"
     }
     ItemsInitConfigurationItem "{61E884192043D2D2}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_Coy.et"
@@ -94,6 +94,9 @@ SCR_ChimeraCharacter : "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{625B1A6305F13210}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_util.et"
+     PrefabsToSpawn {
+      "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et"
+     }
     }
     ItemsInitConfigurationItem "{64F0DE974FAB782A}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex.et"
@@ -128,5 +131,5 @@ SCR_ChimeraCharacter : "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 1190.625 7.608 3208.352
+ coords 1233.969 7.437 3210.219
 }
