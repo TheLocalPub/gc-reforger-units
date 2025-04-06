@@ -15,6 +15,7 @@ SCR_ChimeraCharacter : "{474B263A266F57EF}Prefabs/Characters/Factions/BLUFOR/RHS
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61E884192043D2D2}" {
      PrefabsToSpawn {
+      "{59CA00DA0E8F426B}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_Single.et"
      }
     }
     ItemsInitConfigurationItem "{625B1A6305F13210}" {
@@ -45,5 +46,5 @@ SCR_ChimeraCharacter : "{474B263A266F57EF}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 1236.319 7.437 3203.685
+ coords 1592.162 19.105 2122.577
 }
