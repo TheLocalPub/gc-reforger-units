@@ -17,7 +17,7 @@ SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{C29D51400C86839F}Prefabs/Weapons/MachineGuns/M249/MG_C9.et"
+   WeaponTemplate "{C065B8A810411D66}Prefabs/Weapons/MachineGuns/M249/MG_M249_ELCAN.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate ""
