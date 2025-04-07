@@ -16,18 +16,38 @@ SCR_ChimeraCharacter : "{F08A4DF0AE622E49}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{63349A03F1411D2D}" {
+    }
     ItemsInitConfigurationItem "{63349A03F1411D1D}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_ATACS.et"
     }
     ItemsInitConfigurationItem "{633A340047396C8D}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_MG.et/radio/Pouch_UP111_radioClosed_OD.et"
      PrefabsToSpawn {
       "{AFBD4C5C1F83AC42}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Single.et"
      }
     }
+    ItemsInitConfigurationItem "{633A94706A3EF2C1}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_MG.et/pkm_1/Pouch_Mordor_PKM.et"
+     PrefabsToSpawn {
+      "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et"
+     }
+    }
+    ItemsInitConfigurationItem "{633AA253C88F8A41}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_MG.et/grn1/Pouch_GP106_RGD_Pouch_OD.et"
+    }
+    ItemsInitConfigurationItem "{633AA253C8DCA368}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_MG.et/grn2/Pouch_GP106_RGD_Pouch_2_OD.et"
+    }
     ItemsInitConfigurationItem "{648D51E76026829C}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_ATACS.et"
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_Rolled_ATACS.et"
      PrefabsToSpawn {
       "{B7BA7694F821F556}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual.et"
+     }
+    }
+    ItemsInitConfigurationItem "{650E8865FB9D6950}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_MG.et/pkm_2/Pouch_Mordor_PKM.et"
+     PrefabsToSpawn {
+      "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et"
      }
     }
    }
