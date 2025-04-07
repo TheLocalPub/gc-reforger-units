@@ -25,7 +25,8 @@ SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Section Commander"
     Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
-    m_Image "{B645BAE2D8EE28F0}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Randomized.edds"
+    m_Image "{E66FEBD3F049BF7D}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_SL.edds"
+    m_sFaction "GC_CAF"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
