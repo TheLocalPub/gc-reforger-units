@@ -1,10 +1,6 @@
-SCR_ChimeraCharacter : "{B3C496CCFA72D25E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_SL.et" {
+SCR_ChimeraCharacter : "{1390D91CBD226D97}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/Character_RHS_RF_MSV_Flora_SL_P.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Squad Leader"
-   m_bIsPlayable 1
-  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6062F65EC3690C43}" {
@@ -15,5 +11,5 @@ SCR_ChimeraCharacter : "{B3C496CCFA72D25E}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 1481.889 20.661 2246.51
+ coords 1595.942 18.809 2119.537
 }
