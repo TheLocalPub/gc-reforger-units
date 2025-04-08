@@ -59,41 +59,53 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Pants_US_M65.et"
+     TargetStorage "Pants/Pants_US_M65.et"
     }
     ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_FG.et"
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_FG_3.et/radio/Pouch_UP111_radioClosed_FG.et"
      TargetPurpose 1
      PrefabsToSpawn {
       "{399EBA1849BFF48C}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Single_Separatist.et"
      }
     }
     ItemsInitConfigurationItem "{62E8F82BF607C56C}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/pouch_tv110_kangroo_FG.et"
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_FG_3.et/akmagcamer/Pouch_wartech_magpouch_mp117_fg.et"
      PrefabsToSpawn {
-      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+    ItemsInitConfigurationItem "{651141C2FF12EAA9}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_FG_3.et/holster/Pouch_wartech_magpouch_mp117_fg_3.et"
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+    ItemsInitConfigurationItem "{651141C2F6A30929}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_FG_3.et/arsbelt/Pouch_wartech_magpouch_mp105_3_FG.et"
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
      }
     }
     ItemsInitConfigurationItem "{62E8F82BF607C519}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Pants_US_M65.et"
+     TargetStorage "Jacket/Smock_Combat_84Pat_DPM_01.et"
      PrefabsToSpawn {
       "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
     }
     ItemsInitConfigurationItem "{62E8F82D55284ED1}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP118_PistolTako2_FG.et"
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_FG_3.et/arsbelt_pistol2/Pouch_MP118_PistolTako2_FG.et"
      PrefabsToSpawn {
       "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{62E8F82D3952B70B}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP118_PistolTako_FG.et"
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_FG_3.et/pistol3/Pouch_MP118_PistolTako_FG.et"
      PrefabsToSpawn {
       "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{62E8F82DE031350E}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_3_FG.et"
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_FG_3.et/camer_up104/Pouch_wartech_magpouch_mp117_fg_2.et"
      PrefabsToSpawn {
       "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
      }

@@ -62,38 +62,62 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Trousers_Combat_68Pat_DPM_01.et"
+     TargetStorage "Pants/Trousers_Combat_68Pat_DPM_01.et"
      PrefabsToSpawn + {
       "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
      }
     }
     ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_magpouch_morphed_base.et"
+     TargetStorage "Vest/Vest_Taktika_belt_taktika_1.et/pouch1/Pouch_Taktika_magpouch_morphed_base.et"
      TargetPurpose 1
      PrefabsToSpawn {
-      "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et" "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et" "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et"
+      "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{62E8A4CCFB180B94}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_magpouch_base.et"
+     TargetStorage "Vest/Vest_Taktika_belt_taktika_1.et/pouch4/Pouch_Taktika_magpouch_base.et"
+     PrefabsToSpawn {
+      "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{651141C3382DE88F}" {
+     TargetStorage "Vest/Vest_Taktika_belt_taktika_1.et/pouch2/Pouch_Taktika_magpouch_morphed_base.et"
+     PrefabsToSpawn {
+      "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{651141C3372B9653}" {
+     TargetStorage "Vest/Vest_Taktika_belt_taktika_1.et/pouch3/Pouch_Taktika_magpouch_morphed_base.et"
+     PrefabsToSpawn {
+      "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{651141C312ED93E0}" {
+     TargetStorage "Vest/Vest_Taktika_belt_taktika_1.et/akmag1/Pouch_Taktika_magpouch_base.et"
+     PrefabsToSpawn {
+      "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{651141C3EF085E8D}" {
+     TargetStorage "Vest/Vest_Taktika_belt_taktika_1.et/akmag2/Pouch_Taktika_magpouch_morphed_base.et"
      PrefabsToSpawn {
       "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{62E8A4CCFB180B82}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Gunner.et"
+     TargetStorage "Back/Backpack_RPG_Gunner.et"
      PrefabsToSpawn {
       "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
      }
     }
     ItemsInitConfigurationItem "{62E8A4CB60A53210}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_FG.et"
+     TargetStorage "Vest/Vest_Taktika_belt_taktika_1.et/radio/Pouch_UP111_radioClosed_FG.et"
      PrefabsToSpawn {
       "{399EBA1849BFF48C}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Single_Separatist.et"
      }
     }
     ItemsInitConfigurationItem "{62E8B32B69209EBA}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_FG.et"
+     TargetStorage "Vest/Vest_Taktika_belt_taktika_1.et/grenade1/Pouch_GP106_RGD_Pouch_FG.et"
      PrefabsToSpawn {
       "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
