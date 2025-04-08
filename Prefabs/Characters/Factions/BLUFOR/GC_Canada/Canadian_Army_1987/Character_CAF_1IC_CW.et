@@ -25,7 +25,8 @@ SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Section Commander"
     Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
-    m_Image "{B645BAE2D8EE28F0}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Randomized.edds"
+    m_Image "{E66FEBD3F049BF7D}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_SL.edds"
+    m_sFaction "GC_CAF"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -80,7 +81,7 @@ SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_
     ItemsInitConfigurationItem "{62128497DEC292A3}" {
      TargetStorage "Prefabs/Characters/Uniforms/Pants_US_M65.et"
      PrefabsToSpawn {
-      "{8D75122D5BF561FB}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_02.et" "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+      "{8D75122D5BF561FB}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_02.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{9BBA766CD869002C}Prefabs/Items/Medicine/PhenylephrineInjection/ACE_Medical_PhenylephrineInjection.et" "{9BBA766CD869002C}Prefabs/Items/Medicine/PhenylephrineInjection/ACE_Medical_PhenylephrineInjection.et" "{9BBA766CD869002C}Prefabs/Items/Medicine/PhenylephrineInjection/ACE_Medical_PhenylephrineInjection.et"
      }
     }
    }

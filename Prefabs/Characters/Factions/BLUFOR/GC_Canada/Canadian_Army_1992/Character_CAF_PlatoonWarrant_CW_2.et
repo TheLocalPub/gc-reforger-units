@@ -16,8 +16,15 @@ SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_
    "faction affiliation" "GC_CAF"
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Platoon Warrant"
    m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Platoon Warrant"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+    m_Image "{E66FEBD3F049BF7D}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_SL.edds"
+    m_sFaction "GC_CAF"
+   }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{B759A0B9337E2A7A}Prefabs/Weapons/Rifles/M16/Variants/Rifle_C7.et"
@@ -71,6 +78,11 @@ SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_
      TargetStorage "Jacket/Jacket_CAF_BDU.et"
      PrefabsToSpawn {
       "{73950FBA2D7DB5C5}Prefabs/Items/Equipment/Radios/Radio_ANPRC68.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6510197AD4B01014}" {
+     PrefabsToSpawn {
+      "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
      }
     }
    }
