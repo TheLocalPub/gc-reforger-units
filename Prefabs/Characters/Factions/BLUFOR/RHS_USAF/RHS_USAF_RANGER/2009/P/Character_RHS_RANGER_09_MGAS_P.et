@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61E884192043D2D2}" {
      PrefabsToSpawn {
-      "{A021FEE1947E7603}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_Multi.et"
+      "{59CA00DA0E8F426B}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_Single.et"
      }
     }
     ItemsInitConfigurationItem "{625B1A6305F13210}" {
@@ -37,5 +37,5 @@ SCR_ChimeraCharacter : "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 1244.12 7.438 3206.625
+ coords 1594.145 19.344 2126.582
 }

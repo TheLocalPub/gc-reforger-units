@@ -26,9 +26,9 @@ GameEntity : "{2DEF0327711C9EAD}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helm
    }
    WornModel "{D642BAC66AE8761C}Assets/Characters/HeadGear/Helmet_MICH/MICH2000_norotos_rail.xob"
    WornMaterialsOverride {
-    "{BCDCD79E12690CF2}Assets/Characters/HeadGear/Helmet_MICH/data/mich_norotos_velcro_rail_green1_clear.emat" "{BCDCD79E12690CF2}Assets/Characters/HeadGear/Helmet_MICH/data/mich_norotos_velcro_rail_green1_clear.emat"
+    "{BCDCD79E12690CF2}Assets/Characters/HeadGear/Helmet_MICH/data/mich_norotos_velcro_rail_green1_clear.emat"
    }
   }
  }
- coords 1244.762 11.072 3052.143
+ coords 1597.601 20.469 2132.571
 }
