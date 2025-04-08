@@ -31,6 +31,11 @@ SCR_ChimeraCharacter : "{C6C0FD290450897D}Prefabs/Characters/Factions/BLUFOR/GC_
     ItemsInitConfigurationItem "{5A24B6035F7619E7}" {
      TargetStorage "Jacket/Jacket_CAF_BDU.et"
     }
+    ItemsInitConfigurationItem "{6510197A05835768}" {
+     PrefabsToSpawn {
+      "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+     }
+    }
    }
   }
  }

@@ -74,7 +74,7 @@ SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_
     ItemsInitConfigurationItem "{5A24B6035F7619E7}" {
      TargetStorage "Prefabs/Characters/Uniforms/Pants_US_M65.et"
      PrefabsToSpawn {
-      "{73950FBA2D7DB5C5}Prefabs/Items/Equipment/Radios/Radio_ANPRC68.et"
+      "{73950FBA2D7DB5C5}Prefabs/Items/Equipment/Radios/Radio_ANPRC68.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
      }
     }
     ItemsInitConfigurationItem "{621284961464088D}" {

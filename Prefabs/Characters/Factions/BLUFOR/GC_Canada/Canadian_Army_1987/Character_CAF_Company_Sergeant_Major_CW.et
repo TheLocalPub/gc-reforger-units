@@ -27,6 +27,11 @@ SCR_ChimeraCharacter : "{3D8F6AF9004B53EB}Prefabs/Characters/Factions/BLUFOR/GC_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
     }
+    ItemsInitConfigurationItem "{5A24B6035F7619E7}" {
+     PrefabsToSpawn + {
+      "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+     }
+    }
    }
   }
  }
