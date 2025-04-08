@@ -46,39 +46,46 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_CoyoteBrown.et"
+     TargetStorage "Pants/Tactical_Pants_CoyoteBrown.et"
      PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
-     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et"
+     TargetStorage "Vest/Vest_ALICE_rifleman.et/MagPouch/Pouch_ALICE_30rnd_STANAG.et"
+     TargetPurpose 1
      PrefabsToSpawn {
-      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{62E8F82934D1CC80}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack.et"
+     TargetStorage "Vest/Vest_ALICE_rifleman.et/Buttpack/Vest_ALICE_buttpack.et"
      PrefabsToSpawn {
       "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
     }
     ItemsInitConfigurationItem "{62E8F82934D1CCB1}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet.et"
+     TargetStorage "Back/Backpack_Medical_Soviet.et"
      PrefabsToSpawn {
       "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{527D7C5D2E476BDC}Prefabs/Items/Medicine/SalineBag_01/SalineBag_USSR_01.et" "{527D7C5D2E476BDC}Prefabs/Items/Medicine/SalineBag_01/SalineBag_USSR_01.et" "{527D7C5D2E476BDC}Prefabs/Items/Medicine/SalineBag_01/SalineBag_USSR_01.et"
      }
     }
     ItemsInitConfigurationItem "{6328D37AFA2E2163}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack.et"
+     TargetStorage "Vest/Vest_ALICE_rifleman.et/Buttpack/Vest_ALICE_buttpack.et"
      PrefabsToSpawn {
       "{527D7C5D2E476BDC}Prefabs/Items/Medicine/SalineBag_01/SalineBag_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
      }
     }
     ItemsInitConfigurationItem "{632F59CA7BE42C97}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_2.et"
+     TargetStorage "Vest/Vest_ALICE_rifleman.et/Suspenders/Vest_ALICE_suspenders_2.et"
      TargetPurpose 64
      PrefabsToSpawn {
       "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
+     }
+    }
+    ItemsInitConfigurationItem "{651141C6A8295DC8}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman.et/MagPouch2/Pouch_ALICE_30rnd_STANAG.et"
+     PrefabsToSpawn {
+      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
      }
     }
    }
