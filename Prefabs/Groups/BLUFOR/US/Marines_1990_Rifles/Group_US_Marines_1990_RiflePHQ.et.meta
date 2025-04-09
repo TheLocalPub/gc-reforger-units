@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{0C5E312755DB1D2F}Prefabs/Groups/BLUFOR/US/Marines_1995_Rifles/Group_US_Marines_1990_RiflePHQ.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
