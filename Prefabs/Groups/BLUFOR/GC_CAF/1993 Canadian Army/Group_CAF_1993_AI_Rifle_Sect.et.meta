@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CCF5BB1B99D150E4}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_Rifle_Sect_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{13B654D4F47B142E}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1993/Character_1993_CAF_Mortar_Crew_1.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

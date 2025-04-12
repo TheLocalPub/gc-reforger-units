@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D75570BC69E802A7}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1993/Players/Character_1993_CAF_Vehicle_Commander_1_P_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

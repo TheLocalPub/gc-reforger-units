@@ -1,0 +1,22 @@
+SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/Group_CAF_1993_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_Image "{ABA2D60082FFC2A4}UI/Textures/EditorPreviews/Groups/BLUFOR/Group_US_RifleSquad.edds"
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Amplifier SQUAD
+    }
+   }
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Amplifier SQUAD
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{7A76E75B6C2A0697}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1993/Character_1993_CAF_1IC_1.et" "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1993/Character_1993_CAF_AR_1.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1993/Character_1993_CAF_LAT_1.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1993/Character_1993_CAF_LAT_1.et" "{C8A1A5B03388350F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1993/Character_1993_CAF_2IC_1.et" "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1993/Character_1993_CAF_AR_1.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1993/Character_1993_CAF_LAT_1.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1993/Character_1993_CAF_LAT_1.et"
+ }
+ m_sCustomNameSet "Rifle Section"
+}
