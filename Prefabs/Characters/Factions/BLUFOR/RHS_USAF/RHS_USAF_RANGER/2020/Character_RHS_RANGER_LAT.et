@@ -1,0 +1,64 @@
+SCR_ChimeraCharacter : "{D4F690DE83BEA3DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/rebuild/Character_RHS_RANGER_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Rifleman (LAT)"
+    Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
+    m_Image "{CED7FE1291805882}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MARSOC/MC/Character_RHS_USMC_MARSOC_MC_LAT.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{31655A6BE8C4879E}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_RGR02.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{934C7275AC865817}Prefabs/Characters/Footwear/Boots_BCT/Footwear_BCT.et"
+    }
+    LoadoutSlotInfo Vest {
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6514A55DBBBCEC2F}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_MC_6x9.et/Pouch1/Pouch_avs_front_elastic_MC.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6514A55D8CF55A20}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_MC_6x9.et/nerd/Pouch_Shaw_Flex_MC.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6514A55D889B6CA1}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_MC_6x9.et/flexcoret/Pouch_Shaw_Flex_MC.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6514A55D8B363017}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_MC_6x9.et/flex2/Pouch_Shaw_Flex_MC.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6514A55D807A8D86}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_MC_6x9.et/tako/Pouch_PCGEN3_takoPouch_MC.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+   }
+  }
+ }
+}

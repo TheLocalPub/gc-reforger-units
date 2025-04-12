@@ -1,0 +1,71 @@
+SCR_ChimeraCharacter : "{D4F690DE83BEA3DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/rebuild/Character_RHS_RANGER_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Machinegunner"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+    m_Image "{181C88EDBAAF4897}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MARSOC/MC/Character_RHS_USMC_MARSOC_MC_MG.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BA87F78D0E7E3A90}Prefabs/Weapons/MachineGuns/M240/MG_M240_Light_MDO.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{31655A6BE8C4879E}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_RGR02.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{4A93B3F0B33FF104}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6AB41609027AA0FB}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_CoyMG.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6512D23110AC9352}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_CoyMG.et/pistolpouch2/Pouch_Highspeed_Pistol.et"
+    }
+    ItemsInitConfigurationItem "{6512D23110B7C274}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_CoyMG.et/pistol2/Pouch_Highspeed_Pistol.et"
+    }
+    ItemsInitConfigurationItem "{6512D231E66638FC}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_CoyMG.et/M67_1/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{6512D231E3703F0F}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_CoyMG.et/m67_2/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{6512D231F85A88DE}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_CoyMG.et/m18_1/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{6512D231F57F1ADF}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_CoyMG.et/m18_2/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{6512D231A62AFA49}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_CoyMG.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
+    }
+    ItemsInitConfigurationItem "{6514A558234EA361}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_CoyMG.et/saw/Pouch_PCGEN3_MG.et"
+     PrefabsToSpawn {
+      "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6514A55802BAD82F}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_CoyMG.et/tako/Pouch_PCGEN3_MG.et"
+     PrefabsToSpawn {
+      "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6514A558ED9AE3D8}" {
+     TargetStorage "Back/Backpack_511_rush12_MC.et"
+     PrefabsToSpawn {
+      "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}
