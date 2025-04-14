@@ -39,34 +39,34 @@ SCR_ChimeraCharacter : "{C84E16880ACA62B8}Prefabs/Characters/Factions/OPFOR/GC_I
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkBrown.et"
+     TargetStorage "Pants/Pants_Trousers_01_DarkBrown.et"
      PrefabsToSpawn {
       "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
      }
     }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     TargetStorage "Jacket/Shirt_Turtleneck_01_grey_Dirty.et"
+    }
     ItemsInitConfigurationItem "{64A8AB41B1C952C3}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_grey_Dirty.et"
+     TargetStorage "Back/Backpack_RPG_Gunner.et"
      PrefabsToSpawn {
       "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
      }
     }
-    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_Suspenders.et"
-    }
     ItemsInitConfigurationItem "{633D2613D01ACF33}" {
-     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_Soviet_30rnd_AK74/Pouch_Soviet_30rnd_AK74.et"
+     TargetStorage "Vest/Vest_SovietHarness_rifleman.et/MagPouch_6Sh46/Pouch_Soviet_30rnd_AK74.et"
      PrefabsToSpawn {
       "{01F56F6D9A15D96A}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_BattleMix.et" "{01F56F6D9A15D96A}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_BattleMix.et" "{01F56F6D9A15D96A}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_BattleMix.et" "{01F56F6D9A15D96A}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_BattleMix.et"
      }
     }
     ItemsInitConfigurationItem "{633D2613A0813E4E}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_GrenadePouch.et"
+     TargetStorage "Vest/Vest_SovietHarness_rifleman.et/GrenadePouch/Vest_SovietHarness_GrenadePouch.et"
      PrefabsToSpawn {
       "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
     ItemsInitConfigurationItem "{633D2613BA244F43}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Gunner.et"
+     TargetStorage "Back/Backpack_RPG_Gunner.et"
      PrefabsToSpawn {
       "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et" "{01F56F6D9A15D96A}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_BattleMix.et" "{01F56F6D9A15D96A}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_BattleMix.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
      }

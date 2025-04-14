@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{25FECB70EBFE3EDA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_SL_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Team Lead"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{F53F30123F54F3A3}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_ronin_RGR.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{625B1A6305F13210}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 1584.185 18.862 2119.827
+}

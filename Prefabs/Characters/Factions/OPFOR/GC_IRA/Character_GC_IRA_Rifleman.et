@@ -28,28 +28,28 @@ SCR_ChimeraCharacter : "{C84E16880ACA62B8}Prefabs/Characters/Factions/OPFOR/GC_I
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
     }
     ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_02.et"
+     TargetStorage "Jacket/Jacket_US_BDU_rolledup_02.et"
     }
     ItemsInitConfigurationItem "{633D136E7C07F1D4}" {
-     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_P58_20rnd_L1A1_Left/Pouch_P58_20rnd_L1A1_Left.et"
+     TargetStorage "Vest/Vest_P58_rifleman.et/MagPouch/Pouch_P58_20rnd_L1A1_Left.et"
      PrefabsToSpawn {
       "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et"
      }
     }
     ItemsInitConfigurationItem "{633D3E8FDDAA3D00}" {
-     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_P58_20rnd_L1A1_Right/Pouch_P58_20rnd_L1A1_Right.et"
+     TargetStorage "Vest/Vest_P58_rifleman.et/MagPouch2/Pouch_P58_20rnd_L1A1_Right.et"
      PrefabsToSpawn {
       "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et"
      }
     }
     ItemsInitConfigurationItem "{633D136E4445BF69}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_58Pattern/Vest_P58_kidney_left.et"
+     TargetStorage "Vest/Vest_P58_rifleman.et/KidneyRight/Vest_P58_kidney_right.et"
      PrefabsToSpawn {
       "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
     }
     ItemsInitConfigurationItem "{633D136E579C3378}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_58Pattern/Vest_P58_kidney_right.et"
+     TargetStorage "Vest/Vest_P58_rifleman.et/Buttpack/Vest_P58_kidney_left.et"
      PrefabsToSpawn {
       "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
      }

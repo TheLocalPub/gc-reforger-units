@@ -2,7 +2,7 @@ SCR_ChimeraCharacter : "{1958315C7F55F1AA}Prefabs/Characters/Factions/BLUFOR/UK_
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Company Commander"
+   m_sName "Company Commander"
    m_bIsPlayable 1
   }
  }

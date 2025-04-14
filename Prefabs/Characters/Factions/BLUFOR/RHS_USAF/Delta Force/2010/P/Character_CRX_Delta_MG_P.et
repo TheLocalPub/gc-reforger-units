@@ -1,0 +1,68 @@
+SCR_ChimeraCharacter : "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Delta Force/2010/P/Character_CRX_Delta_SL_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Machine Gunner"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BA87F78D0E7E3A90}Prefabs/Weapons/MachineGuns/M240/MG_M240_Light_MDO.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{13C41E9932685FAC}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_CoyoteBrown.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{FCFE4E066D9E2249}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_od.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{EF06F43D51D1E7D7}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy_MG.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61E88418254009A3}" {
+     TargetStorage "Pants/crye_pants_od.et"
+    }
+    ItemsInitConfigurationItem "{61E88418254009AC}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_CoyoteBrown.et"
+    }
+    ItemsInitConfigurationItem "{61E884192043D2D2}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6296C016CCEC95EF}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder.et"
+    }
+    ItemsInitConfigurationItem "{6296C016CC3F4C7A}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder.et"
+    }
+    ItemsInitConfigurationItem "{61E8906FFC56822C}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_OD.et"
+     PrefabsToSpawn {
+      "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et" "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et" "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61E8906F8E5294B4}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_MG.et"
+     PrefabsToSpawn {
+      "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{625B1A61FE80B8A0}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_MG.et"
+     PrefabsToSpawn {
+      "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{625B1A6305F13210}" {
+     TargetStorage ""
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 1239.152 7.437 3208.131
+}

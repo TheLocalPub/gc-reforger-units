@@ -1,0 +1,63 @@
+GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Computer device"
+     Description "A clasified computer"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 10
+     SizeSetupStrategy Size
+     ItemDimensions 15 20 15
+     ItemVolume 150
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{64EF15957DD126D7}" {
+     AnimationInstance "{4FCBEA45CAEBC9C0}anims/workspaces/player/player_main_1h.asi"
+     AnimationIKPose "{3E5C93E85F05C6B5}Assets/Weapons/Grenades/RGD5/anims/anm/p_rgd5_ik.anm"
+     AnimationAttachments {
+      AnimationAttachmentInfo "{64EF15957DD12729}" {
+       AnimGraph "{883777E45A6C4DA1}Assets/Items/Medicine/Workspaces/Gauze_01.agr"
+       AnimInstance "{79BD98038DD60F88}Assets/Items/Medicine/Workspaces/Gauze_01_player.asi"
+       BindingName "Gadget"
+      }
+     }
+    }
+    CustomAttributes {
+     CharacterModifierAttributes "{64EF15957DD12730}" {
+      SpeedLimitItemPrimaryAction 0.5
+     }
+     SCR_ItemOfInterestAttribute "{64EF15957DD1270C}" {
+      m_InterestType NONE
+     }
+     SCR_SelectionMenuPreviewAttributes "{64EF15957DD1270A}" {
+     }
+     PreviewRenderAttributes "{64EF15957DD12707}" {
+      CameraDistanceToItem 2
+      ItemRenderRotation 30 15 0
+      FOV 10
+      AspectRatio 1
+      PreviewModel "{6BA32E52421482AC}Assets/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01_medium.xob"
+     }
+    }
+    CommonItemType "NONE"
+    m_Size SLOT_3x3
+   }
+  }
+  MeshObject "{64EF15957DD1271D}" {
+   Object "{1ECF66348FBCD21D}Assets/Weapons/Tripods/BGM71_TOW/BGM71_Computer.xob"
+  }
+  RigidBody "{64EF15957DD12717}" {
+   Mass 10
+   LinearDamping 0.5
+   AngularDamping 0.5
+   ModelGeometry 1
+  }
+ }
+ coords 2087.342 13.408 3358.626
+ scale 0.6
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{69957A3545E20D7C}Prefabs/Groups/BLUFOR/British Forces/1989/P/Group_UK_1989_REG_DES_RiflePHQ_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

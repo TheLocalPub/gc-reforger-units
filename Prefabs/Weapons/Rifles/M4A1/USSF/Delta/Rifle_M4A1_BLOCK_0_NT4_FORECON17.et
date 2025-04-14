@@ -1,0 +1,22 @@
+GenericEntity : "{6308F0F06E2069DC}Prefabs/Weapons/Rifles/M4A1/USSF/Rifle_M4A1_BLOCK_0_NT4_FORECON15.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5EA2BE95B630A07A}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95B7F1B3D5}" {
+      Offset 0 0 -0.0299
+      Prefab "{5E487ED33AEEED05}Prefabs/Weapons/Attachments/Misc/KacRailCover/kits/RHS_KAC_kit_m4a1block2_v1.et"
+     }
+    }
+    AttachmentSlotComponent "{64E10945EF213CAD}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Light {
+      Offset 0.028 0.0811 0.3189
+      Angles 0 0 90
+      Name "Side RIS rail FWD"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D8E3BBA79ED02E1B}Prefabs/Groups/BLUFOR/British Forces/1989/P/Group_UK_1989_SpecialForces_Desert_Patrol_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Delta Force/2010/P/Character_CRX_Delta_SL_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Marksman"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D3CC75B0C41848D4}Prefabs/Weapons/Rifles/M4A1/USSF/Delta/Rifle_M4A1_BLOCK_0_NT4_FORECON16.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{59671155DDBAD871}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_M81.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{4F860E576E2D4E28}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_m81.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61E88418254009A3}" {
+     TargetStorage "Pants/crye_pants_m81.et"
+    }
+    ItemsInitConfigurationItem "{61E884192043D2D2}" {
+     PrefabsToSpawn {
+      "{340C133625BB688E}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Multi.et"
+     }
+    }
+   }
+  }
+ }
+ coords 1236.543 7.438 3205.924
+}

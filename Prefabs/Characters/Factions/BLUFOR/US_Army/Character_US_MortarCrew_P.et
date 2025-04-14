@@ -1,0 +1,42 @@
+SCR_ChimeraCharacter : "{64AD55FF89C97DF9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P.et" {
+ ID "52092032B0E62200"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Mortar Crew"
+    Icon "{A489F552FB7489C3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Custom.edds"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{60F6B2B4BAE04806}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{60F6B2B4B9D3CC9B}" {
+      m_sVariantPrefab "{651736CE43CBD2A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MortarCrew_P.et"
+     }
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5538C040738A83D1}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{5538C040737C0BE0}" {
+     PrefabsToSpawn {
+      "{6113990D163E5249}Prefabs/Items/Equipment/BalisticTable/BalisticTable_US.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+   }
+  }
+ }
+}

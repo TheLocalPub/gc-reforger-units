@@ -1,0 +1,79 @@
+SCR_ChimeraCharacter : "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Delta Force/2010/P/Character_CRX_Delta_SL_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Grenadier"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{74022F7333DCCE91}Prefabs/Weapons/Rifles/M4A1/USSF/Delta/Rifle_M4A1_M203_SU230_PEQ_BLOCK_II.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{13C41E9932685FAC}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_CoyoteBrown.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{ECCC7BDEA2F3D3A5}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_CoyoteBrown.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{F9E67B4B40A98B22}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy6.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61E88418254009A3}" {
+    }
+    ItemsInitConfigurationItem "{61E88418254009AC}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_CoyoteBrown.et"
+    }
+    ItemsInitConfigurationItem "{61E884192043D2D2}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{61E8E7117A3AF4D1}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex.et"
+    }
+    ItemsInitConfigurationItem "{61E8906FFC56822C}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_3.et"
+    }
+    ItemsInitConfigurationItem "{61E8906F8E5294B4}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_OD.et"
+    }
+    ItemsInitConfigurationItem "{625B1A6305F13210}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_CoyoteBrown.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{64E2F69CD91E2187}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder.et"
+    }
+    ItemsInitConfigurationItem "{64F0DE92C3DA48FA}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_bandolier.et"
+     PrefabsToSpawn {
+      "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64F0DE932AF7BEAA}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_2.et"
+     PrefabsToSpawn {
+      "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64F0DE937675B097}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_1.et"
+     PrefabsToSpawn {
+      "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64F0DE9329036274}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_OD.et"
+     PrefabsToSpawn {
+      "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+     }
+    }
+   }
+  }
+ }
+ coords 1234.903 7.438 3206.9
+}

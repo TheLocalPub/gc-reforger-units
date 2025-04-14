@@ -16,18 +16,55 @@ SCR_ChimeraCharacter : "{AF48EDCB379A5380}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{63349A03F1411D2D}" {
+     TargetStorage "Pants/BDU_PANTS_ATACS.et"
+    }
     ItemsInitConfigurationItem "{63349A03F1411D1D}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_ATACS.et"
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_ATACS.et"
     }
     ItemsInitConfigurationItem "{633A34057226B19A}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_6.et/radio/Pouch_UP111_radioClosed_FG.et"
      PrefabsToSpawn {
       "{AFBD4C5C1F83AC42}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Single.et"
      }
     }
+    ItemsInitConfigurationItem "{633A34044FEE1FE0}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_6.et/arsbelt/Pouch_wartech_magpouch_mp105_MC.et"
+     PrefabsToSpawn {
+      "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
+     }
+    }
+    ItemsInitConfigurationItem "{633A34044FD760D7}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_6.et/slot2/Pouch_ArsArma_magouch_morphed_ATACS.et"
+    }
+    ItemsInitConfigurationItem "{633A34044F31AC8A}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_6.et/slot/Pouch_ArsArma_magouch_morphed_ATACS.et"
+    }
+    ItemsInitConfigurationItem "{633A340BABD910BE}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_6.et/slot3/Pouch_wartech_magpouch_mp105_3_MC.et"
+    }
+    ItemsInitConfigurationItem "{633AA253DEA9BDB8}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_6.et/arsbelt_up105_bigutil/Pouch_GP106_RGD_Pouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{633AA253DE96B0A5}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_6.et/grenade1/Pouch_GP106_RGD_Pouch_2_MC.et"
+    }
     ItemsInitConfigurationItem "{648D51E69FAFAF4F}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_ATACS.et"
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_ATACS.et"
      PrefabsToSpawn {
       "{B7BA7694F821F556}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual.et"
+     }
+    }
+    ItemsInitConfigurationItem "{650E886294218099}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_6.et/mp103/Pouch_wartech_magpouch_mp105_MC.et"
+     PrefabsToSpawn {
+      "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
+     }
+    }
+    ItemsInitConfigurationItem "{650E88656911100C}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_6.et/up101/Pouch_wartech_magpouch_mp105_2_FG.et"
+     PrefabsToSpawn {
+      "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
      }
     }
    }
