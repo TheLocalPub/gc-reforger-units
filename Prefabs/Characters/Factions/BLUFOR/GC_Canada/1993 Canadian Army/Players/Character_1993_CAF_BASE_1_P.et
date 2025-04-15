@@ -50,7 +50,7 @@ SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{8D75122D5BF561FB}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_02.et"
+     Prefab "{E873B54F01D7C6D8}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_M1_01_Cover_Woodland.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{1918093502546733}Prefabs/Characters/Uniforms/GC_Canada/Jacket_CAF_BDU.et"
@@ -62,7 +62,7 @@ SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base
      Prefab "{86BB79B9A2233780}Prefabs/Characters/Uniforms/Pants_US_M65.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{320FA1CD5B1D5601}Prefabs/Characters/Footwear/Boots_USMC_Combat/Footwear_USMC_Combat.et"
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{2835A0EA3B79E63E}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_rifleman.et"

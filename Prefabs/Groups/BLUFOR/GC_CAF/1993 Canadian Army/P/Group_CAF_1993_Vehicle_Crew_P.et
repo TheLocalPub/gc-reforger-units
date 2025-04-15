@@ -1,4 +1,4 @@
-SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_Base.et" {
+SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_Base_P.et" {
  ID "0000000000000001"
  components {
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
@@ -16,7 +16,8 @@ SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army
   }
  }
  m_aUnitPrefabSlots {
-  "{418F01C2BE56D0F8}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1993/Players/Character_1993_CAF_Vehicle_Commander_1_P.et" "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1993/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et" "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1993/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
+  "{418F01C2BE56D0F8}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Commander_1_P.et" "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et" "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
  }
  m_sCustomNameSet "Vehicle Crew"
+ m_bSetPlayable 1
 }
