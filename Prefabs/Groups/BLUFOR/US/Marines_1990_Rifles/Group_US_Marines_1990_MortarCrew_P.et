@@ -5,7 +5,7 @@ SCR_AIGroup : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et" {
   }
  }
  m_aUnitPrefabSlots {
-  "{DD501360840E766C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MortarSL_P.et" "{EFC2D92B332A31DA}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MortarCrew_P.et" "{EFC2D92B332A31DA}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MortarCrew_P.et"
+  "{DD501360840E766C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MortarSL_P.et" "{651736CE43CBD2A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MortarCrew_P.et" "{651736CE43CBD2A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MortarCrew_P.et"
  }
  m_sCustomNameSet "Mortar Crew"
 }

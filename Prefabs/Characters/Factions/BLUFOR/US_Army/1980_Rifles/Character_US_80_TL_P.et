@@ -12,9 +12,6 @@ SCR_ChimeraCharacter : "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_
     }
    }
   }
-  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
-   m_iRank CORPORAL
-  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{C7C0B3A46D125C6F}Prefabs/Weapons/Rifles/M16A1/Rifle_M16A1_ish.et"
   }
