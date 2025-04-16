@@ -1,0 +1,6 @@
+SCR_AIGroup : "{DF688F0BC937BFC7}Prefabs/Groups/CIV/Group_CIV_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{5882AE7A4543AFB4}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_Randomized.et" "{5882AE7A4543AFB4}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_Randomized.et" "{5882AE7A4543AFB4}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_Randomized.et"
+ }
+}
