@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Delta Force/2010/P/Character_CRX_Delta_SL_P.et" {
+SCR_ChimeraCharacter : "{FE0970414F43AF15}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Delta Force/2010/P/Character_CRX_Delta_RF_P.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
@@ -22,15 +22,11 @@ SCR_ChimeraCharacter : "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{61E88418254009A3}" {
+    ItemsInitConfigurationItem "{65214E7772E2492B}" {
      TargetStorage "Pants/crye_pants_od.et"
     }
-    ItemsInitConfigurationItem "{61E88418254009AC}" {
+    ItemsInitConfigurationItem "{65214E7772E2493A}" {
      TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_OD.et"
-    }
-    ItemsInitConfigurationItem "{61E884192043D2D2}" {
-     PrefabsToSpawn +{
-     }
     }
     ItemsInitConfigurationItem "{64F0DE9DBA598081}" {
      TargetStorage "Back/Backpack_IIFS_FieldPack.et"
