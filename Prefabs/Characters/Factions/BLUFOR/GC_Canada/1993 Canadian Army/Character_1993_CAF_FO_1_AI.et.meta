@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{19D55C458A783E4A}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters Characters/Character_1993_CAF_FAC_1_P.et"
+ Name "{8B9DC1DDD5D7D6BF}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_FO_1_AI.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
