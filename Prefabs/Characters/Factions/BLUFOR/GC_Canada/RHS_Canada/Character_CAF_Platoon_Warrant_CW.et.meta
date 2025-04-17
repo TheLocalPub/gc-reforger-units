@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{350935F7D7537ADF}Prefabs/Characters/Factions/BLUFOR/RHS_Canada/Character_CAF_Platoon_Warrant_CW.et"
+ Name "{350935F7D7537ADF}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_Platoon_Warrant_CW.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
