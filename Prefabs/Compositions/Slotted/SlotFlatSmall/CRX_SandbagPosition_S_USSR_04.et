@@ -1,0 +1,339 @@
+GenericEntity : "{6E9190BC2713551D}Prefabs/Compositions/Slotted/BuildableComposition_Base.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{651F07DC63D39785}" {
+   "faction affiliation" "USSR"
+  }
+  RigidBody "{5E96A067A67C5029}" {
+   Geometries {
+    PhysicsBoxGeometry UserAction {
+     Extents 7 0.5 6
+    }
+   }
+  }
+  SCR_CampaignBuildingCompositionComponent "{5E96A067C097D570}" {
+   m_AudioSourceConfigurationSpawn SCR_AudioSourceConfiguration "{5E96A067C355978C}" {
+    m_sSoundEventName "SOUND_BUILD_SANDBAG_BARBWIRE"
+   }
+   m_AudioSourceConfigurationDespawn SCR_AudioSourceConfiguration "{5E96A0643BAAEAF8}" {
+    m_sSoundEventName "SOUND_DESTROY_SANDBAG"
+   }
+  }
+  Hierarchy "{651F07DC63D397E8}" {
+  }
+ }
+ coords 0 0 0
+ {
+  StaticModelEntity : "{172DD50ACF177B9E}Prefabs/Props/Military/Furniture/ChairMilitary_USSR_01.et" {
+   ID "651F07DC63D50D1D"
+   components {
+    Hierarchy "{651F07DC63D397E4}" {
+     Enabled 1
+    }
+   }
+   coords -2.59 0 1.314
+   angleY -42.931
+  }
+  $grp GenericEntity : "{18982CB5D0D29247}Prefabs/Props/Civilian/BeerBottle_01_empty_brown.et" {
+   {
+    ID "651F07DC63D50DE0"
+    components {
+     Hierarchy "{651F07DC63D397DE}" {
+      Enabled 1
+     }
+    }
+    coords -2.066 0 1.375
+   }
+   {
+    ID "651F07DC63D5B1DD"
+    components {
+     Hierarchy "{651F07DC63D397D8}" {
+      Enabled 1
+     }
+    }
+    coords 0.28 0.044 -0.507
+    angleZ -90
+   }
+   {
+    ID "651F07DC63D5B1DE"
+    components {
+     Hierarchy "{651F07DC63D397D3}" {
+      Enabled 1
+     }
+    }
+    coords -2.205 0 1.447
+   }
+  }
+  GenericEntity : "{1EC801E208CB16C6}Prefabs/Vegetation/Cuttings/Rubus_idaeus_small_01.et" {
+   ID "651F07DC63D5B1D8"
+   coords -4.578 0.1 2.647
+   angleX 39.161
+   angleY -67.729
+  }
+  GenericEntity : "{4A09EF1D855AF2C4}Prefabs/Vegetation/Cuttings/Rosa_canina_small_01.et" {
+   ID "651F07DC63D5B1DB"
+   coords -4.017 0 2.971
+   angleX 15.233
+   angleY -26.753
+  }
+  $grp GenericEntity : "{590D0CC992E8AC25}Prefabs/Compositions/Misc/SubCompositions/Decorations/Crate_Bottles_01.et" {
+   {
+    ID "651F07DC63D5B1D2"
+    coords 2.381 0 -1.271
+    angleY 38.183
+   }
+   {
+    ID "651F07DC63D5B1D7"
+    coords 2.402 0 -0.732
+    angleY 109.149
+   }
+  }
+  $grp GenericEntity : "{74843BB0BF08A845}Prefabs/Vegetation/Cuttings/Corylus_avellana_small_01.et" {
+   {
+    ID "651F07DC63D5B1CC"
+    coords -1.882 0 2.802
+   }
+   {
+    ID "651F07DC63D5D1EC"
+    coords 1.237 0.226 2.577
+    angleY 46.498
+   }
+   {
+    ID "651F07DC63D5D1EF"
+    coords 3.908 0.084 -3.548
+    angleX 37.075
+    angleY 150
+   }
+  }
+  GenericEntity : "{78A930FB0825AAA0}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Camo_long_high_USSR.et" {
+   ID "651F07DC63D5D1E9"
+   coords 3.392 0 -0.943
+   angleY -87.176
+  }
+  GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
+   ID "651F07DC63D5D1EA"
+   components {
+    Hierarchy "{651F07DC63D397C7}" {
+     Enabled 1
+    }
+   }
+   coords 2.371 0 1.716
+   angleY 30
+  }
+  GenericEntity : "{894A1AFDCB71CD0D}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_02.et" {
+   ID "651F07DC63D5D1E4"
+   coords 0.697 0 0.088
+  }
+  $grp GenericEntity : "{8963CD1DC1CDB614}Prefabs/Props/Civilian/BeerBottle_01_brown.et" {
+   {
+    ID "651F07DC63D5D1E6"
+    components {
+     Hierarchy "{651F07DC63D3903C}" {
+      Enabled 1
+     }
+    }
+    coords 2.367 0 -1.642
+   }
+   {
+    ID "651F07DC63D5D1E7"
+    components {
+     Hierarchy "{651F07DC63D397C3}" {
+      Enabled 1
+     }
+    }
+    coords 2.161 0.046 -1.454
+    angleZ -90
+   }
+  }
+  $grp StaticModelEntity : "{B03F9691E961C4CA}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v3.et" {
+   {
+    ID "651F07DC63D4245D"
+    components {
+     Hierarchy "{651F07DC63D3902A}" {
+      Enabled 1
+     }
+    }
+    coords 0.538 0 2.3
+    angleY 1.122
+   }
+   {
+    ID "651F07DC63D4245E"
+    components {
+     Hierarchy "{651F07DC63D3902E}" {
+      Enabled 1
+     }
+    }
+    coords -2.509 0 2.36
+    angleY 1.122
+   }
+   {
+    ID "651F07DC63D5D1E0"
+    components {
+     Hierarchy "{651F07DC63D39034}" {
+      Enabled 1
+     }
+    }
+    coords 3.317 0 -1.832
+    angleY -88.878
+   }
+  }
+  $grp GenericEntity : "{B47E3FC5BE1D443A}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_05.et" {
+   {
+    ID "651F07DC63D4245C"
+    coords -3.035 0 2.816
+   }
+   {
+    ID "651F07DC63D45C07"
+    coords 0.422 0 2.957
+   }
+   {
+    ID "651F07DC63D45C38"
+    coords 4.335 0 -1.556
+    angleY 87.657
+   }
+   {
+    ID "651F07DC63D45C39"
+    coords 3.155 0 2.325
+    angleY 41.086
+   }
+  }
+  $grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
+   {
+    ID "651F07DC63D45C3A"
+    components {
+     Hierarchy "{651F07DC63D39024}" {
+      Enabled 1
+     }
+    }
+    coords -2.059 0 2.294
+   }
+   {
+    ID "651F07DC63D4AE0C"
+    components {
+     Hierarchy "{651F07DC63D3901A}" {
+      Enabled 1
+     }
+    }
+    coords 3.346 0 -2.665
+    angleY 90
+   }
+   {
+    ID "651F07DC63D4AE0D"
+    components {
+     Hierarchy "{651F07DC63D3901F}" {
+      Enabled 1
+     }
+    }
+    coords -3.378 0 2.295
+    angleY -180
+   }
+   {
+    ID "651F07DC63D4B0C0"
+    components {
+     Hierarchy "{651F07DC63D39014}" {
+      Enabled 1
+     }
+    }
+    coords 0.285 0 2.294
+    angleY -180
+   }
+  }
+  $grp GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
+   {
+    ID "651F07DC63D4B0C4"
+    components {
+     Hierarchy "{651F07DC63D3900D}" {
+      Enabled 1
+     }
+    }
+    coords 2.376 0.03 -0.331
+    angleY 8.411
+   }
+   {
+    ID "651F07DC63D4B0C5"
+    components {
+     Hierarchy "{651F07DC63D39011}" {
+      Enabled 1
+     }
+    }
+    coords -2.759 0.03 0.877
+    angleY -26.463
+   }
+  }
+  GenericEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/BarbedTape_Coil.et" {
+   ID "651F07DC63D4B0CB"
+   components {
+    Hierarchy "{651F07DC63D39009}" {
+     Enabled 1
+    }
+   }
+   coords -3.547 0 1.266
+   angleY -12.135
+  }
+  GenericEntity : "{C11CE4B95EA336C3}Prefabs/Vegetation/Cuttings/Sambucus_Nigra_medium_01.et" {
+   ID "651F07DC63D4C521"
+   coords 3.61 0 0.985
+   angleY 45.459
+  }
+  StaticModelEntity : "{C1576E5555582214}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_short.et" {
+   ID "651F07DC63D36984"
+   components {
+    Hierarchy "{651F07DC63D39005}" {
+     Enabled 1
+    }
+   }
+   coords 2.976 0 1.31
+   angleY 49.486
+  }
+  GenericEntity : "{CFFEB23FBEA00322}Prefabs/Props/Military/Sandbags/Sandbag_01_short_burlap.et" {
+   ID "651F07DC63D36986"
+   components {
+    Hierarchy "{651F07DC63D39001}" {
+     Enabled 1
+    }
+   }
+   coords -0.946 0.1 2.274
+  }
+  GenericEntity : "{E105D2F87098E1D8}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint.et" {
+   ID "651F07DC63D3B360"
+   components {
+    Hierarchy "{651F07DC63D3907A}" {
+     Enabled 1
+    }
+   }
+   coords 1.963 0 1.045
+   angleY 133.336
+  }
+  GenericEntity : "{E51E2E1D77B54223}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_01.et" {
+   ID "651F07DC63D3B363"
+   coords -2.061 0 0.836
+  }
+  GenericEntity : "{E8181E2E360A8AF4}Prefabs/Vegetation/Cuttings/Juniperus_communis_medium_01.et" {
+   ID "651F07DC63D39791"
+   coords 3.148 0 2.317
+   angleY -44.882
+  }
+  $grp GenericEntity : "{F76BD5785C7FE191}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_ObservationPoint.et" {
+   {
+    ID "651F07DC63D3978C"
+    components {
+     Hierarchy "{651F07DC63D39066}" {
+      Enabled 1
+     }
+    }
+    coords -1.269 0 0.646
+    angleY -82.385
+   }
+   {
+    ID "651F07DC63D3978D"
+    components {
+     Hierarchy "{651F07DC63D3906A}" {
+      Enabled 1
+     }
+    }
+    coords 1.391 0 -2.525
+    angleY 4.293
+   }
+  }
+ }
+}
