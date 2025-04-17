@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{FE0970414F43AF15}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Delta Force/2010/P/Character_CRX_Delta_RF_P.et"
+ Name "{60DCF112EF7BA74A}Prefabs/Groups/CIV/Group_CIV_Construction_10.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

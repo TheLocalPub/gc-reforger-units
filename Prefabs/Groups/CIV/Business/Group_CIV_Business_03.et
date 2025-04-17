@@ -1,0 +1,6 @@
+SCR_AIGroup : "{DF688F0BC937BFC7}Prefabs/Groups/CIV/Group_CIV_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{B3AB6D12D247DDB5}Prefabs/Characters/Factions/CIV/Businessman/Character_CIV_Businessman_Randomized.et" "{B3AB6D12D247DDB5}Prefabs/Characters/Factions/CIV/Businessman/Character_CIV_Businessman_Randomized.et" "{B3AB6D12D247DDB5}Prefabs/Characters/Factions/CIV/Businessman/Character_CIV_Businessman_Randomized.et"
+ }
+}

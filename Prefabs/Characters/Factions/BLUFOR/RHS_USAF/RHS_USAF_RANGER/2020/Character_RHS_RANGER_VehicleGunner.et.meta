@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{FE0970414F43AF15}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Delta Force/2010/P/Character_CRX_Delta_RF_P.et"
+ Name "{B0211FE38F1C479C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/Character_RHS_RANGER_VehicleGunner.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
