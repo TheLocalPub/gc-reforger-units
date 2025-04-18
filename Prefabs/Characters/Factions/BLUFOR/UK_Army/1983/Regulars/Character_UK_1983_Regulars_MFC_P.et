@@ -13,7 +13,7 @@ SCR_ChimeraCharacter : "{4A29AE1848437792}Prefabs/Characters/Factions/BLUFOR/UK_
    }
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Motar Fire Controller (MFC)"
+   m_sName "Mortar Fire Controller (MFC)"
    m_bIsPlayable 1
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
