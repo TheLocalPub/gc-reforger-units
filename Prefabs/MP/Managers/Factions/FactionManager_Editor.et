@@ -11,5 +11,7 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
   }
   SCR_Faction "{64AA098AEA5B1498}" : "{AEB4C9D1A13F04DC}Configs/Factions/CAF.conf" {
   }
+  SCR_Faction "{652544E87DFA8253}" : "{0BE3E7B63E7C70AC}Configs/Factions/Argentina.conf" {
+  }
  }
 }
