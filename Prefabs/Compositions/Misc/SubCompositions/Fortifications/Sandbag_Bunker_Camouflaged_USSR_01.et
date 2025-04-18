@@ -1,3 +1,13 @@
 StaticModelEntity : "{5B5D8AEA342E1AAB}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/Sandbag_01_bunker_burlap_camonet_CompositionDestruction.et" {
  ID "5A532DC57F72A8AF"
+ {
+  StaticModelEntity {
+   ID "5CB0D9919CD6402A"
+   Flags 2621443
+  }
+  StaticModelEntity {
+   ID "5CB0D9919CD6F6BE"
+   Flags 2621443
+  }
+ }
 }
