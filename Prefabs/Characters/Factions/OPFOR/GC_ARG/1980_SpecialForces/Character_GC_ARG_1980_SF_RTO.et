@@ -15,12 +15,11 @@ SCR_ChimeraCharacter : "{0E74C9F36755655C}Prefabs/Characters/Factions/BLUFOR/UK_
   FactionAffiliationComponent "{610725BE89F30BF3}" {
    "faction affiliation" "GC_ARG"
   }
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "RTO"
-   m_bIsPlayable 0
-  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_RadioOperator"
+    Icon "{B9F0BD39FF1881A3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_RadioOperator.edds"
+    m_Image "{131D21B37C1128CB}UI/PreviewImages/Characters/BLUFOR/BritishForces/Character_UK_1983_SpecialForces_RTO.edds"
     m_sFaction "GC_ARG"
    }
   }
@@ -42,66 +41,72 @@ SCR_ChimeraCharacter : "{0E74C9F36755655C}Prefabs/Characters/Factions/BLUFOR/UK_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{F31A715FFDB2BD8E}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_M1_01_Cover_Frogskin.et"
+     Prefab "{BE19A15F1073E7BD}Prefabs/Characters/HeadGear/Hat_Knitted_01/Hat_Knitted_01_black.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{7F1451790F3D75BD}Prefabs/Characters/Uniforms/Jacket_Raincoat_01/Jacket_Raincoat_01_green.et"
+     Prefab "{1D99585CF8E34D91}Prefabs/Characters/Uniforms/Suit_Tanker_US_01/Suit_Tanker_US_01.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{0B1F0174869E0351}Prefabs/Characters/Uniforms/Pants_Fisherman_01/Pants_Fisherman_01_green.et"
+     Prefab ""
     }
     LoadoutSlotInfo Boots {
      Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{286299511EB7511E}worlds/TheLocalPub/TopMaloHouse/Prefabs/Items/Equipment/Radios/Radio_ARG_R107M.et"
+     Prefab "{286299511EB7511E}Prefabs/Items/Equipment/Radios/Radio_ARG_R107M.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC31428816D50}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Jacket_Raincoat_01/Jacket_Raincoat_01_green.et"
+     TargetStorage "Jacket/Suit_Tanker_US_01.et"
      PrefabsToSpawn {
       "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
      }
     }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Jacket/Suit_Tanker_US_01.et"
+    }
     ItemsInitConfigurationItem "{62A74B5815AE4A1B}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Pants_Fisherman_01/Pants_Fisherman_01_green.et"
+     TargetStorage "Jacket/Suit_Tanker_US_01.et"
      TargetPurpose 1
      PrefabsToSpawn {
       "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
      }
     }
     ItemsInitConfigurationItem "{6282E825CD92120C}" {
+     TargetStorage "Vest/Vest_P58_rifleman.et/MagPouch/Pouch_P58_20rnd_L1A1_Left.et"
      PrefabsToSpawn {
       "{1C2AE568E16FDDED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_Tracer.et" "{15DE59A0089AA290}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{6282E825CD921200}" {
+     TargetStorage "Vest/Vest_P58_rifleman.et/MagPouch/Pouch_P58_20rnd_L1A1_Left.et"
      PrefabsToSpawn {
       "{1C2AE568E16FDDED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{6282E825CD921201}" {
+     TargetStorage "Vest/Vest_P58_rifleman.et/MagPouch2/Pouch_P58_20rnd_L1A1_Right.et"
      PrefabsToSpawn {
       "{15DE59A0089AA290}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_Ball.et" "{15DE59A0089AA290}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_Ball.et" "{15DE59A0089AA290}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{6282E825CD921202}" {
+     TargetStorage "Vest/Vest_P58_rifleman.et/Buttpack/Vest_P58_kidney_left.et"
      PrefabsToSpawn {
       "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
      }
     }
     ItemsInitConfigurationItem "{645926DD976286BE}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_58Pattern/Variants/Vest_P58_rifleman.et"
-     TargetPurpose 64
+     TargetStorage "Jacket/Suit_Tanker_US_01.et"
      PrefabsToSpawn {
       "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
      }
     }
     ItemsInitConfigurationItem "{645926DD97628688}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Pants_Fisherman_01/Pants_Fisherman_01_green.et"
+     TargetStorage "Jacket/Suit_Tanker_US_01.et"
      PrefabsToSpawn {
       "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
      }
