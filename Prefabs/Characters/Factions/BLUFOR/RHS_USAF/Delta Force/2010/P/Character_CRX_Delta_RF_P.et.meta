@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{B6004EF7A48AA853}Prefabs/Characters/Factions/BLUFOR/Western_Special_Forces/Character_CRX_TF141_RF_P.et"
+ Name "{FE0970414F43AF15}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Delta Force/2010/P/Character_CRX_Delta_RF_P.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

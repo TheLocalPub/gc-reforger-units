@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Delta Force/2010/P/Character_CRX_Delta_SL_P.et" {
+SCR_ChimeraCharacter : "{FE0970414F43AF15}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Delta Force/2010/P/Character_CRX_Delta_RF_P.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
@@ -22,41 +22,6 @@ SCR_ChimeraCharacter : "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{61E88418254009A3}" {
-     TargetStorage "Pants/crye_pants_CoyoteBrown.et"
-     PrefabsToSpawn +{
-     }
-    }
-    ItemsInitConfigurationItem "{61E88418254009AC}" {
-     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_OD.et"
-    }
-    ItemsInitConfigurationItem "{61E884192043D2D2}" {
-     PrefabsToSpawn +{
-     }
-    }
-    ItemsInitConfigurationItem "{61E8E7117A3AF4D1}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
-     PrefabsToSpawn +{
-     }
-    }
-    ItemsInitConfigurationItem "{61E8906FFC56822C}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_jpc_placard_Coy.et"
-    }
-    ItemsInitConfigurationItem "{61E8906F8E5294B4}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_1.et"
-    }
-    ItemsInitConfigurationItem "{625B1A6305F13210}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_util.et"
-    }
-    ItemsInitConfigurationItem "{64E2F69CD91E2187}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
-     PrefabsToSpawn +{
-     }
-    }
-    ItemsInitConfigurationItem "{64F0DE970AB18179}" {
-     PrefabsToSpawn +{
-     }
-    }
     ItemsInitConfigurationItem "{64F0DE920D201659}" {
      TargetStorage "Back/Backpack_IIFS_FieldPack.et"
      PrefabsToSpawn {

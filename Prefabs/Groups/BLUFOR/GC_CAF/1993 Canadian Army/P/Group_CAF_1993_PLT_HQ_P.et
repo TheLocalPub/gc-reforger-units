@@ -1,0 +1,16 @@
+SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_Base_P.et" {
+ ID "0000000000000001"
+ components {
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Amplifier TEAM
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{373B40FAB9F262CA}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters Characters/Character_1993_CAF_PLT_Commander_1_P.et" "{E1B0E0478D68E303}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters Characters/Character_1993_CAF_PLT_Warrant_1_P.et" "{B4C4A4C1E9C987B6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters Characters/Character_1993_CAF_Signaller_1_P.et" "{E22C3DDB5BCE6B3C}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters Characters/Character_1993_CAF_Medic_1_P.et"
+ }
+ m_bDeleteIfNoPlayer 1
+ m_sCustomNameSet "Platoon HQ"
+ m_bSetPlayable 1
+}
