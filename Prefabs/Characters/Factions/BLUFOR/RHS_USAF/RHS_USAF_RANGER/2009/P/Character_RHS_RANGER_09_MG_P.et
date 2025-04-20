@@ -27,33 +27,46 @@ SCR_ChimeraCharacter : "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61E884192043D2D2}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_RGR_MG.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
      PrefabsToSpawn {
       "{59CA00DA0E8F426B}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_Single.et"
      }
     }
+    ItemsInitConfigurationItem "{61E8E7117A3AF4D1}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_RGR_MG.et/pistol/Pouch_Highspeed_Pistol_MC.et"
+    }
+    ItemsInitConfigurationItem "{6296C016CC93C7CD}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_RGR_MG.et/m18_1/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{6296C016CCF8722E}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_RGR_MG.et/m18_2/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{6296C016CCEC95EF}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_RGR_MG.et/pistolpouch2/Pouch_Filbe_M67_Base.et"
+    }
     ItemsInitConfigurationItem "{6296C016CC3F4C7A}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_Base.et"
+     TargetStorage "Vest/Vest_JPC_okinawa_RGR_MG.et/pistol2/Pouch_Filbe_M67_Base.et"
     }
     ItemsInitConfigurationItem "{61E8906FFC56822C}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_MG.et"
+     TargetStorage "Vest/Vest_JPC_okinawa_RGR_MG.et/m2401/Pouch_PCGEN3_MG.et"
      PrefabsToSpawn {
       "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{61E8906F8E5294B4}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_MG.et"
+     TargetStorage "Vest/Vest_JPC_okinawa_RGR_MG.et/M2402/Pouch_PCGEN3_MG.et"
      PrefabsToSpawn {
       "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{625B1A61FE80B8A0}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
+     TargetStorage "Back/Backpack_511_rush12_od.et"
      PrefabsToSpawn {
       "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et" "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et" "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{625B1A6305F13210}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder_MC.et"
+     TargetStorage "Vest/Vest_JPC_okinawa_RGR_MG.et/HSGI/Pouch_Highspeed_Bleeder_MC.et"
      PrefabsToSpawn {
       "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et" "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et"
      }
