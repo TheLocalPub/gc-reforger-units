@@ -1,6 +1,15 @@
 SCR_ChimeraCharacter : "{306FECE58033D650}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_AT_P.et" {
  ID "51FA8A5F28FD04BA"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{60F6B2B4BAE04806}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{60F6B2B4B9D3CC9B}" {
+     }
+    }
+   }
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
@@ -17,7 +26,7 @@ SCR_ChimeraCharacter : "{306FECE58033D650}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Pants_US_M65.et"
+     TargetStorage "Jacket/Jacket_US_BDU_02.et"
     }
    }
   }
