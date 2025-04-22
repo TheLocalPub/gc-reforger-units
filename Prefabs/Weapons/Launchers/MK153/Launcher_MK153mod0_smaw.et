@@ -1,0 +1,32 @@
+GenericEntity : "{6EB3A5496BAFC8F3}Prefabs/Weapons/Launchers/MK153/Launcher_MK153mod2_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{620950A5750AEA2A}" {
+     AttachmentSlot InventoryStorageSlot mbus_front {
+     }
+    }
+    AttachmentSlotComponent "{620950A5C162BE77}" {
+     AttachmentSlot InventoryStorageSlot MBS {
+      Offset 0.0004 0.0308 0.0046
+      Prefab "{D4CE4CFA7922E981}Prefabs/Weapons/Attachments/Optics/Optic_MAW/Optic_MAW.et"
+     }
+    }
+    AttachmentSlotComponent "{62B6FD8D52DA0520}" {
+     AttachmentSlot InventoryStorageSlot mbus {
+     }
+    }
+    AttachmentSlotComponent "{652B02441E89E78C}" {
+     AttachmentSlot InventoryStorageSlot spottingrifle {
+      Offset 0 0.0703 0.722
+      ChildPivotID "snap_weapon"
+      Prefab "{CCDD534EECACA632}Prefabs/Weapons/Attachments/Underbarrel/LAW80_SpottingRifle_Base.et"
+     }
+     AttachmentType AttachmentUnderBarrelM203 "{652B02447B8BE9CF}" {
+     }
+    }
+   }
+  }
+ }
+}
