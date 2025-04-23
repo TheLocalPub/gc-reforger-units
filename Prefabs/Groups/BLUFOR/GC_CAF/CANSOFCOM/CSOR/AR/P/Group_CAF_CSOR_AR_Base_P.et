@@ -1,0 +1,34 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  PS_GroupCallsignAssigner "{652B35578C5ACF77}" {
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_Image "{52B5ADD978F66917}UI/Textures/EditorPreviews/Groups/BLUFOR/Group_US_PlatoonHQ.edds"
+    m_aAuthoredLabels + {
+     11
+    }
+    m_aAutoLabels {
+     71
+    }
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity BLUFOR
+     m_Amplifier TEAM
+    }
+   }
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Identity BLUFOR
+    m_Icons INFANTRY
+   }
+  }
+ }
+ DangerEventRange 1000
+ m_faction "GC_CAF"
+ m_sCustomNameSet "BASE GROUP"
+}
