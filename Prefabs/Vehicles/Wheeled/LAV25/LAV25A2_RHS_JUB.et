@@ -1,0 +1,24 @@
+Vehicle : "{E87BEA00B7B18F5E}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS_JUB.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "LAV25A2"
+   }
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Simulation Wheeled "{4D8B26DEA5F25978}" {
+    Engine Engine Engine {
+     MaxTorque 800
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{016ACD90DA3D1835}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/LAV25_turret_base_JUB.et"
+    }
+   }
+  }
+ }
+}

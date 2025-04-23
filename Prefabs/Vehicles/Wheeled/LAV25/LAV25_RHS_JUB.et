@@ -1,0 +1,149 @@
+Vehicle : "{0FBF8F010F81A4E5}Prefabs/Vehicles/Wheeled/LAV25/LAV25.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_USAF"
+    m_aAutoLabels {
+     1677929688 14 122
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "RHS_USAF"
+  }
+  BaseVehicleNodeComponent "{20FB66C5B2237133}" {
+   components {
+    SCR_CarControllerComponent "{20FB66C5BC92275B}" {
+     ThrottleCurve {
+      2000 0.8 1500 0.9 2800 0.8 2900 0.5 3000 0
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{EFF08C8B467C3380}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/LAV25_turret_rhs.et"
+    }
+    RHS_TriplexEntitySlotInfo triplex_front {
+     PivotID "v_body"
+     Offset 0.4217 1.9096 1.2015
+     Angles 0 90 -90
+     Prefab "{4210A310FA04F3DA}Prefabs/Vehicles/Shared/Gauges_Ru/RHS_TNPO170A_Invisible.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterCompartments 1
+     m_CameraPointInfo RHS_CustomCameraPointInfo "{650C2ECC5409C949}" {
+      PivotID "v_body"
+      Offset 0.4246 1.9823 1.2942
+      Angles 90 0 -180
+      m_fCameraFoV 45
+      m_fRotationAngle 0
+      m_rCameraOverlayLayout "{C5E2E281F03A5CE8}UI/layouts/Sights/Optic_Triplex.layout"
+      m_bInstantMoveCamera 1
+     }
+    }
+    RHS_TriplexEntitySlotInfo triplex_front_r {
+     PivotID "v_body"
+     Offset 0.2041 1.8443 1.2015
+     Angles 39.9897 90 -90
+     Prefab "{4210A310FA04F3DA}Prefabs/Vehicles/Shared/Gauges_Ru/RHS_TNPO170A_Invisible.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterCompartments 1
+     m_CameraPointInfo RHS_CustomCameraPointInfo "{650C2ECC5409C959}" {
+      PivotID "v_body"
+      Offset 0.1705 1.8999 1.3014
+      Angles 48.9207 -90 90
+      m_fCameraFoV 45
+      m_fRotationAngle 0
+      m_rCameraOverlayLayout "{C5E2E281F03A5CE8}UI/layouts/Sights/Optic_Triplex.layout"
+      m_bInstantMoveCamera 1
+     }
+    }
+    RHS_TriplexEntitySlotInfo triplex_front_l {
+     PivotID "v_body"
+     Offset 0.6437 1.8486 1.2015
+     Angles -39.9897 90 -90
+     Prefab "{4210A310FA04F3DA}Prefabs/Vehicles/Shared/Gauges_Ru/RHS_TNPO170A_Invisible.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterCompartments 1
+     m_CameraPointInfo RHS_CustomCameraPointInfo "{650C2ECC5409C920}" {
+      PivotID "v_body"
+      Offset 0.6804 1.8965 1.3054
+      Angles 51.095 90 -90
+      m_fCameraFoV 45
+      m_fRotationAngle 0
+      m_rCameraOverlayLayout "{C5E2E281F03A5CE8}UI/layouts/Sights/Optic_Triplex.layout"
+      m_bInstantMoveCamera 1
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{650C2ECAD272A64B}" : "{383D10251D4CDA3D}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraActionContext.conf" {
+     ContextName "periscope_co_b01"
+     Position PointInfo "{650C2ECAD272A686}" {
+      Offset 0.013 2.3485 -1.2039
+      Angles -9.2748 172.5508 3.3848
+     }
+    }
+    UserActionContext "{650C2EC47E3A8F8E}" : "{383D10251D4CDA3D}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraActionContext.conf" {
+     ContextName "periscope_co_bl01"
+     Position PointInfo "{650C2EC47E3A8FC5}" {
+      Offset -0.1237 2.3487 -1.1221
+      Angles -9.1451 -145.0307 -3.7234
+     }
+    }
+    UserActionContext "{650C2EC5ECAF8DE2}" : "{383D10251D4CDA3D}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraActionContext.conf" {
+     ContextName "periscope_co_b02"
+     Position PointInfo "{650C2EC5ECAF922E}" {
+      Offset 0.1605 2.3572 -1.186
+      Angles -9.2748 172.5508 3.3848
+     }
+    }
+    UserActionContext "{650C2EC4366856C2}" : "{383D10251D4CDA3D}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraActionContext.conf" {
+     ContextName "periscope_co_br01"
+     Position PointInfo "{650C2EC43668570B}" {
+      Offset 0.2849 2.3626 -1.1107
+      Angles -5.903 139.17061 7.9218
+     }
+    }
+   }
+   additionalActions {
+    WCS_Armament_VehicleCameraAction "{64E94CF506AB9F3A}" {
+     ParentContextList {
+      ""
+     }
+    }
+    WCS_Armament_VehicleCameraAction "{650C2ECA7FC0D3E1}" : "{91B4746C14E47D27}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraAction.conf" {
+     ParentContextList {
+      "periscope_co_b01"
+     }
+     m_sCameraId "periscope_co_b01"
+    }
+    WCS_Armament_VehicleCameraAction "{650C2EC5CF7A26E8}" : "{91B4746C14E47D27}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraAction.conf" {
+     ParentContextList {
+      "periscope_co_b02"
+     }
+     m_sCameraId "periscope_co_b02"
+    }
+    WCS_Armament_VehicleCameraAction "{650C2EC469BF62D9}" : "{91B4746C14E47D27}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraAction.conf" {
+     ParentContextList {
+      "periscope_co_br01"
+     }
+     m_sCameraId "periscope_co_br01"
+    }
+    WCS_Armament_VehicleCameraAction "{650C2EC459650274}" : "{91B4746C14E47D27}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraAction.conf" {
+     ParentContextList {
+      "periscope_co_bl01"
+     }
+     m_sCameraId "periscope_co_b02"
+    }
+   }
+  }
+ }
+}
