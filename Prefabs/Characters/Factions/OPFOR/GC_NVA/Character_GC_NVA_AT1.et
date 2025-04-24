@@ -7,6 +7,9 @@ SCR_ChimeraCharacter : "{DC30E1E42C6BA859}Prefabs/Characters/Factions/OPFOR/GC_N
     Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{115A1B4BEAE15B37}Prefabs/Weapons/NVA/MPi-KM.et"
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
   }

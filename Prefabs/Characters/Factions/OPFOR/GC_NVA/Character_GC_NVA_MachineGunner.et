@@ -8,7 +8,7 @@ SCR_ChimeraCharacter : "{DC30E1E42C6BA859}Prefabs/Characters/Factions/OPFOR/GC_N
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{A7AF84C6C58BA3E8}Prefabs/Weapons/MachineGuns/RPK74/MG_RPK74.et"
+   WeaponTemplate "{3D1979B1829B9DE4}Prefabs/Weapons/NVA/LMG-K.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -24,15 +24,9 @@ SCR_ChimeraCharacter : "{DC30E1E42C6BA859}Prefabs/Characters/Factions/OPFOR/GC_N
    InitialInventoryItems {
     ItemsInitConfigurationItem "{652F4ADEF12E1167}" {
      TargetStorage "Vest/Vest_NVA_Autorifleman.et/MagPouch_6Sh46/Vest_NVA_Magpouch_AK74.et"
-     PrefabsToSpawn {
-      "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et" "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et" "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et" "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et"
-     }
     }
-    ItemsInitConfigurationItem "{652F65D057572E06}" {
+    ItemsInitConfigurationItem "{6530245273152B10}" {
      TargetStorage "Vest/Vest_NVA_Autorifleman.et/AutoriflemanPouch/Vest_NVA_Magpouch_AK74.et"
-     PrefabsToSpawn {
-      "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et" "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et" "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et" "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et"
-     }
     }
    }
   }
