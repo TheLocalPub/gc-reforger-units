@@ -6,5 +6,8 @@ SCR_ChimeraCharacter : "{31652FA527DDAF8A}Prefabs/Characters/Factions/OPFOR/GC_N
     Name "Company Commander"
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{115A1B4BEAE15B37}Prefabs/Weapons/NVA/MPi-KM.et"
+  }
  }
 }
