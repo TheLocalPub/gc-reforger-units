@@ -8,7 +8,7 @@ SCR_ChimeraCharacter : "{D67950161BE7FDD5}Prefabs/Characters/Factions/BLUFOR/RHS
    m_iRank LIEUTENANT
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{7DF1F90E07B9D75E}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_RCO_PEQ_JUB.et"
+   WeaponTemplate "{6FC7B5EAFE182A65}Prefabs/Weapons/Rifles/M4/Rifle_M4_RAS_PEQ_POD_RCO.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{809488C4984AC087}Prefabs/Weapons/Handguns/M9/Handgun_M9_base.et"

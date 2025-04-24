@@ -2,7 +2,10 @@ SCR_ChimeraCharacter : "{28FF5276F7A1C80E}Prefabs/Characters/Factions/BLUFOR/RHS
  ID "520EC961A090BBD5"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Crewman (Driver)"
+   m_sName "Crewman (Gunner)"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D2C367D173B99BCD}Prefabs/Weapons/Rifles/M4A1/Rifle_M4_RAS.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"

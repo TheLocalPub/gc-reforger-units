@@ -4,6 +4,9 @@ SCR_ChimeraCharacter : "{6B5214972C952A21}Prefabs/Characters/Factions/BLUFOR/RHS
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{AE636A4C3343B17E}Prefabs/Weapons/Rifles/M4/Rifle_M4_RAS_PEQ_RCO_M203.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
@@ -40,12 +43,6 @@ SCR_ChimeraCharacter : "{6B5214972C952A21}Prefabs/Characters/Factions/BLUFOR/RHS
       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
      }
     }
-    ItemsInitConfigurationItem "{651301A4F489A707}" {
-     TargetStorage "Vest/Vest_PCGen_II_gl.et/pouch3/Pouch_FILBE_doubleM4_3.et"
-     PrefabsToSpawn {
-      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
-     }
-    }
     ItemsInitConfigurationItem "{629550126F8FFF97}" {
      TargetStorage "Vest/Vest_PCGen_II_gl.et/bandolier/Pouch_Filbe_bandolier.et"
      PrefabsToSpawn {
@@ -66,6 +63,12 @@ SCR_ChimeraCharacter : "{6B5214972C952A21}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{62B716D3550AB21D}" {
      TargetStorage "Vest/Vest_PCGen_II_gl.et/m18_2/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{651301A4F489A707}" {
+     TargetStorage "Vest/Vest_PCGen_II_gl.et/pouch3/Pouch_FILBE_doubleM4_3.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
     }
    }
   }

@@ -5,7 +5,7 @@ SCR_ChimeraCharacter : "{AE2E93B28352053F}Prefabs/Characters/Factions/BLUFOR/RHS
    m_bIsPlayable 1
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{496576D09C8BC5A6}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_RCO_PEQ.et"
+   WeaponTemplate "{6FC7B5EAFE182A65}Prefabs/Weapons/Rifles/M4/Rifle_M4_RAS_PEQ_POD_RCO.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -55,12 +55,6 @@ SCR_ChimeraCharacter : "{AE2E93B28352053F}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{625C007A245F202B}" {
      TargetStorage "Vest/Vest_PCGen_II_filbe.et/pouch3/Pouch_FILBE_doubleM4_3.et"
     }
-    ItemsInitConfigurationItem "{651301A34C464B1C}" {
-     TargetStorage "Vest/Vest_PCGen_II_filbe.et/tako2/Pouch_FILBE_doubleM4_3.et"
-    }
-    ItemsInitConfigurationItem "{651301A303F02A71}" {
-     TargetStorage "Vest/Vest_PCGen_II_filbe.et/pouch3/Pouch_FILBE_doubleM4_3.et"
-    }
     ItemsInitConfigurationItem "{62B69B4805C2FD5E}" {
      TargetStorage "Vest/Vest_PCGen_II_filbe.et/m67/Pouch_Filbe_M67_2.et"
     }
@@ -72,6 +66,12 @@ SCR_ChimeraCharacter : "{AE2E93B28352053F}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{62B69B481BDF65F8}" {
      TargetStorage "Vest/Vest_PCGen_II_filbe.et/m18_2/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{651301A34C464B1C}" {
+     TargetStorage "Vest/Vest_PCGen_II_filbe.et/tako2/Pouch_FILBE_doubleM4_3.et"
+    }
+    ItemsInitConfigurationItem "{651301A303F02A71}" {
+     TargetStorage "Vest/Vest_PCGen_II_filbe.et/pouch3/Pouch_FILBE_doubleM4_3.et"
     }
    }
   }
