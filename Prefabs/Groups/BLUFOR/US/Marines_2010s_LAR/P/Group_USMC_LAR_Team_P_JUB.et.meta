@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{65E8E6BBD509EE01}Prefabs/Groups/BLUFOR/US/Marines_2010s_ForceRecon/P/Group_USMC_LAR_Team_P_JUB.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

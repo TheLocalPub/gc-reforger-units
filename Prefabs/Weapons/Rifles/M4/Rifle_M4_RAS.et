@@ -1,0 +1,37 @@
+GenericEntity : "{068C2EB42635973F}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDA2E5FAA2B6}" {
+     AttachmentSlot InventoryStorageSlot Buttstock {
+      Prefab "{1FA4BF60B0648BFC}Prefabs/Weapons/Attachments/Stocks/Stock_AR15_USGI/RHS_M4_Buttstock.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE949ECF03E3}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{5EA2BE9573F14F0C}" {
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE953838E77C}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95244FA719}" {
+      Angles 0 0 0
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     FireModes {
+      BaseFireMode "{5E0ED058CD703F5A}" {
+       MaxBurst 3
+       MaxSalvo 1
+       RoundsPerMinute 800
+       UIName "Burst"
+      }
+     }
+    }
+   }
+  }
+ }
+}
