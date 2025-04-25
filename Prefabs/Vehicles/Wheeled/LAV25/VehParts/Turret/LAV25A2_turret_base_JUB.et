@@ -10,7 +10,7 @@ Turret : "{DF5979FDE2682F70}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/LAV25
      m_bUseThermal 1
     }
    }
-   TurretSpeed 30 30
+   TurretSpeed 36 25
   }
   WCS_Armament_VehicleCameraComponent "{650AA2118A883578}" {
    m_Cameras {
