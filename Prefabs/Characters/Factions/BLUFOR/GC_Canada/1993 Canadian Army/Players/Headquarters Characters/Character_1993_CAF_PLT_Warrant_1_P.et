@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{77F5DF1C44F71C37}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1993/Character_1993_CAF_BASE_1.et" {
+SCR_ChimeraCharacter : "{77F5DF1C44F71C37}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_BASE_1_P.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -22,6 +22,13 @@ SCR_ChimeraCharacter : "{77F5DF1C44F71C37}Prefabs/Characters/Factions/BLUFOR/GC_
     }
    }
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{06B68C58B72EAAC6}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{65174687EC4EDB95}" {
@@ -35,12 +42,13 @@ SCR_ChimeraCharacter : "{77F5DF1C44F71C37}Prefabs/Characters/Factions/BLUFOR/GC_
      }
     }
     ItemsInitConfigurationItem "{65174682E071E18A}" {
+     TargetStorage "Back/Backpack_ALICE_Medium.et"
      PrefabsToSpawn {
       "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
      }
     }
     ItemsInitConfigurationItem "{651746946C81A092}" {
-     TargetStorage "Jacket/Jacket_CAF_BDU.et"
+     TargetStorage "Vest/Vest_ALICE_rifleman.et/Buttpack/Vest_ALICE_buttpack.et"
      PrefabsToSpawn {
       "{73950FBA2D7DB5C5}Prefabs/Items/Equipment/Radios/Radio_ANPRC68.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
      }

@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{77F5DF1C44F71C37}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1993/Character_1993_CAF_BASE_1.et" {
+SCR_ChimeraCharacter : "{77F5DF1C44F71C37}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_BASE_1_P.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -14,6 +14,13 @@ SCR_ChimeraCharacter : "{77F5DF1C44F71C37}Prefabs/Characters/Factions/BLUFOR/GC_
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{C29D51400C86839F}Prefabs/Weapons/MachineGuns/M249/MG_C9.et"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{06B68C58B72EAAC6}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{65174682346E2125}" {
@@ -25,6 +32,7 @@ SCR_ChimeraCharacter : "{77F5DF1C44F71C37}Prefabs/Characters/Factions/BLUFOR/GC_
      }
     }
     ItemsInitConfigurationItem "{65174682E071E18A}" {
+     TargetStorage "Back/Backpack_ALICE_Medium.et"
      PrefabsToSpawn {
       "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
      }
