@@ -6,9 +6,6 @@ SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base
     "{04548C6D4A936054}Sounds/RadioProtocol/RadioProtocol_Report_2_US.acp"
    }
   }
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
   SCR_CharacterFactionAffiliationComponent "{6517468FD70B32E6}" {
    "faction affiliation" "GC_CAF"
   }
@@ -104,5 +101,4 @@ SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base
    }
   }
  }
- coords 0 0 0
 }

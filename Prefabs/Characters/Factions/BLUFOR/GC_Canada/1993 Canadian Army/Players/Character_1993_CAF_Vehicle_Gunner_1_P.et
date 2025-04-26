@@ -1,40 +1,8 @@
-SCR_ChimeraCharacter : "{77F5DF1C44F71C37}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_BASE_1_P.et" {
+SCR_ChimeraCharacter : "{661FC333B3EE3AF3}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_Vehicle_Gunner_1_AI.et" {
  ID "520EC961A090B1EE"
  components {
-  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
-   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Vehicle Gunner"
-    Icon "{A489F552FB7489C3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Custom.edds"
-    m_Image "{0110ADC89666A310}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Crew.edds"
-   }
-  }
-  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
-   Slots {
-    LoadoutSlotInfo Hat {
-     Prefab "{C8EAB0985B66824A}Prefabs/Characters/HeadGear/Helmet_DH132_01/Helmet_DH132A_01.et"
-    }
-    LoadoutSlotInfo Back {
-    }
-   }
-  }
-  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
-   InitialInventoryItems {
-    ItemsInitConfigurationItem "{65174687EC4EDB95}" {
-    }
-    ItemsInitConfigurationItem "{65174682F470C850}" {
-    }
-    ItemsInitConfigurationItem "{65174682E071E18A}" {
-     PrefabsToSpawn {
-      "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
-     }
-    }
-    ItemsInitConfigurationItem "{651D3E724DDDC16D}" {
-     TargetStorage "Jacket/Jacket_CAF_BDU.et"
-     PrefabsToSpawn {
-      "{59CA00DA0E8F426B}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_Single.et"
-     }
-    }
-   }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
   }
  }
 }

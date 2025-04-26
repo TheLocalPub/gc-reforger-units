@@ -1,8 +1,6 @@
 SCR_ChimeraCharacter : "{77F5DF1C44F71C37}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MG_1_P.et" {
  ID "520EC961A090B1EE"
  components {
-  ChimeraAIControlComponent "{520EA1D2DB109F34}" {
-  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Machine Gunner"
