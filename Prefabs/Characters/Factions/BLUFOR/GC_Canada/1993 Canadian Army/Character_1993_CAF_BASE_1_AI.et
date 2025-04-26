@@ -76,7 +76,6 @@ SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base
     }
     ItemsInitConfigurationItem "{651746878A9FF7A4}" {
      TargetStorage "Jacket/Jacket_CAF_BDU.et"
-     TargetPurpose 32
      PrefabsToSpawn {
       "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
      }
