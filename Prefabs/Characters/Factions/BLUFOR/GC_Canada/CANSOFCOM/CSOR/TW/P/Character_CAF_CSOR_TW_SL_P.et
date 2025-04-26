@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{B3C42A67A5B1857B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/CANSOFCOM/CSOR/TW/P/Character_CAF_CSOR_TW_Base_01_P.et" {
+ ID "51FA8A5F28FD04BA"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{03810BEF182ADA0B}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21.et"
+      }
+     }
+    }
+   }
+  }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Section Commander"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{EC5C256DEDBA9E5F}Prefabs/Weapons/Rifles/M4A1/GC_CAF_SF/CSOR/Rifle_M4A1_Long_NT4_ELCAN_CSOR.et"
+  }
+ }
+}

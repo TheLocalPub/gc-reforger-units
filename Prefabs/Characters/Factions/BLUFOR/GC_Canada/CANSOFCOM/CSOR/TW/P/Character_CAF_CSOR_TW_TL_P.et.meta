@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F43B5E64ED9C92CE}Prefabs/Characters/Factions/BLUFOR/GC_Canada/CANSOFCOM/CSOR/TW/P/Character_CAF_CSOR_TW_TL_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

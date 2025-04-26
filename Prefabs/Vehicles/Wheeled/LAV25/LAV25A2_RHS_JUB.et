@@ -1,0 +1,93 @@
+Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "LAV25A2"
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{60488A9A95F85114}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65313EBD0C16D46F}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{6D6ADA201AD4E09B}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_olive.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{65313EBDBEF22E0B}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{65313EBD8E5091AB}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{9BBA766CD869002C}Prefabs/Items/Medicine/PhenylephrineInjection/ACE_Medical_PhenylephrineInjection.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{65313EBDFE200AD6}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{02DD34077F51F65E}Prefabs/Items/Medicine/NaloxoneInjection/ACE_Medical_NaloxoneInjection.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{65313EBDC032A191}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{D0434D5215B54181}Prefabs/Items/Medicine/MetoprololInjection/ACE_Medical_MetoprololInjection.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{65313EBDC9EE47A4}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{65313EBD566F9983}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{09F49104A6C4558B}Prefabs/Weapons/Attachments/Optics/pas13g/Optic_Thermal_pas13g_m4m16.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{65313EBD779DDA33}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{85ADC5E1BE7FACDB}Prefabs/Characters/HeadGear/Helmet_CVC_01/Helmet_CVC_Shroud_0.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{6286B65912A66532}" {
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{62C2BB5FC2DB12CF}" {
+     SlotTemplate InventoryStorageSlot bandage {
+      Prefab "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    MultiSlotConfiguration "{62C2BB5FC3D8B722}" {
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{62C2BB5FC3172633}" {
+     SlotTemplate InventoryStorageSlot smoke {
+      Prefab "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+     NumSlots 10
+    }
+   }
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Simulation Wheeled "{4D8B26DEA5F25978}" {
+    Engine Engine Engine {
+     MaxTorque 800
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{016ACD90DA3D1835}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/LAV25_turret_base_JUB.et"
+    }
+   }
+  }
+ }
+}

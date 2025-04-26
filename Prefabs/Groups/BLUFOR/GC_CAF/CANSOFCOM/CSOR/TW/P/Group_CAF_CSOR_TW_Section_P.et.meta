@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7FBCB5981D6C5B16}Prefabs/Groups/BLUFOR/GC_CAF/CANSOFCOM/CSOR/TW/P/Group_CAF_CSOR_TW_Section_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
