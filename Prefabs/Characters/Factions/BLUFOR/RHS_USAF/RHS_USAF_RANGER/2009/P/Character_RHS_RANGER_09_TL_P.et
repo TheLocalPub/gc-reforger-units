@@ -5,7 +5,7 @@ SCR_ChimeraCharacter : "{25FECB70EBFE3EDA}Prefabs/Characters/Factions/BLUFOR/RHS
    m_sName "Team Lead"
   }
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
-   m_iRank CORPORAL
+   m_iRank PRIVATE
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
