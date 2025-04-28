@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F676F60776483178}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Platoon_Leader_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
