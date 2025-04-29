@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{08B4DC8FA3AAEF97}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1987 Canadian Army/Character_CAF_CSOR_AR_Base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
