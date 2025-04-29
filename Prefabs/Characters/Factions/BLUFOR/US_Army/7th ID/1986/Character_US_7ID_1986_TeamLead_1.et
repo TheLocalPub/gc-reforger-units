@@ -1,0 +1,30 @@
+SCR_ChimeraCharacter : "{94C2153770EAEA71}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_Rifleman_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Team Leader"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{6539390B8863F1DE}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{6539390BB60997D5}" {
+      m_sVariantPrefab "{6AD8688D62B00FEE}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_TeamLead_1.et"
+     }
+     SCR_EditableEntityVariant "{6539390BB6729942}" {
+      m_sVariantPrefab "{068C5C6DDE7480C0}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_TeamLead_2.et"
+     }
+     SCR_EditableEntityVariant "{6539390BC3A15412}" {
+      m_sVariantPrefab "{E3101094D29117AB}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_TeamLead_3.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+    }
+   }
+  }
+ }
+ coords 2528.695 305.419 6371.262
+}

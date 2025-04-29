@@ -1,0 +1,41 @@
+SCR_ChimeraCharacter : "{94C2153770EAEA71}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_Rifleman_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Machinegun Assistant"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{6539390B8863F1DE}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{6539390BB60997D5}" {
+      m_sVariantPrefab "{EEC3D45B590FAF54}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_MachinegunAss_1.et"
+     }
+     SCR_EditableEntityVariant "{6539390BB6729942}" {
+      m_sVariantPrefab "{8297E0BBE5CB207A}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_MachinegunAss_2.et"
+     }
+     SCR_EditableEntityVariant "{6539390BC3A15412}" {
+      m_sVariantPrefab "{670BAC42E92EB711}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_MachinegunAss_3.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{5C5C6EE05EE2FF1A}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium_assembled.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65393902B7845EBE}" {
+     TargetStorage "Back/Backpack_ALICE_Medium_assembled.et"
+     PrefabsToSpawn {
+      "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 2533.817 307.201 6387.116
+}

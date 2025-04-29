@@ -1,0 +1,34 @@
+SCR_ChimeraCharacter : "{A12AD99DB95389A9}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_PlatoonSgt_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Platoon sargeant"
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{6539390B8863F1DE}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{6539390BB60997D5}" {
+      m_sVariantPrefab "{942770C10082B2A5}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_PlatoonSgt_1_P.et"
+     }
+     SCR_EditableEntityVariant "{6539390BB6729942}" {
+      m_sVariantPrefab "{CACF5982BF0F3CAA}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_PlatoonSgt_2_P.et"
+     }
+     SCR_EditableEntityVariant "{6539390BC3A15412}" {
+      m_sVariantPrefab "{3EC71E1AB2D254DE}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_PlatoonSgt_3_P.et"
+     }
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6539390A960B79D7}" {
+     PrefabsToSpawn {
+      "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et" "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et" "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et" "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et" "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et" "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+     }
+    }
+   }
+  }
+ }
+ coords 2534.072 307.039 6385.504
+}

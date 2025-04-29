@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{6AD8688D62B00FEE}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_TeamLead_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Team leader"
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{6539390B8863F1DE}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{6539390BB60997D5}" {
+      m_sVariantPrefab "{0EB3C325F89BAD63}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_TeamLead_1_P.et"
+     }
+     SCR_EditableEntityVariant "{6539390BB6729942}" {
+      m_sVariantPrefab "{505BEA664716236C}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_TeamLead_2_P.et"
+     }
+     SCR_EditableEntityVariant "{6539390BC3A15412}" {
+      m_sVariantPrefab "{A453ADFE4ACB4B18}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_TeamLead_3_P.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+    }
+   }
+  }
+ }
+ coords 2534.651 307.113 6386.209
+}

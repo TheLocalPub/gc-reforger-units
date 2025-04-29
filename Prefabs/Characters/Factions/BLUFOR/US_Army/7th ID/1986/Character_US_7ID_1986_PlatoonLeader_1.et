@@ -1,0 +1,40 @@
+SCR_ChimeraCharacter : "{AFAB51733A61BC3B}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_SquadLeader_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Platoon leader"
+  }
+  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+   m_iRank LIEUTENANT
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{6539390B8863F1DE}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{6539390BB60997D5}" {
+      m_sVariantPrefab "{D68786D677234EBA}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_PlatoonLeader_1.et"
+     }
+     SCR_EditableEntityVariant "{6539390BB6729942}" {
+      m_sVariantPrefab "{BAD3B236CBE7C194}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_PlatoonLeader_2.et"
+     }
+     SCR_EditableEntityVariant "{6539390BC3A15412}" {
+      m_sVariantPrefab "{5F4FFECFC70256FF}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_PlatoonLeader_3.et"
+     }
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+     PrefabsToSpawn + {
+      "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6539390A960B79D7}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+ coords 2531.365 307.374 6388.658
+}

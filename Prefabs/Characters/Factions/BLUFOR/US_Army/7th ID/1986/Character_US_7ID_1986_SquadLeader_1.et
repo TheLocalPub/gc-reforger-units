@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{94C2153770EAEA71}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_Rifleman_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Squad leader"
+  }
+  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+   m_iRank SERGEANT
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{6539390B8863F1DE}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{6539390BB60997D5}" {
+      m_sVariantPrefab "{AFAB51733A61BC3B}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_SquadLeader_1.et"
+     }
+     SCR_EditableEntityVariant "{6539390BB6729942}" {
+      m_sVariantPrefab "{C3FF659386A53315}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_SquadLeader_2.et"
+     }
+     SCR_EditableEntityVariant "{6539390BC3A15412}" {
+      m_sVariantPrefab "{2663296A8A40A47E}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_SquadLeader_3.et"
+     }
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65393901559D1883}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman.et/Buttpack/Vest_ALICE_buttpack.et"
+     PrefabsToSpawn {
+      "{3F19D486EC1E5374}Prefabs/SP01/SP01_Radio_ANPRC68.et"
+     }
+    }
+   }
+  }
+ }
+ coords 2528.37 305.56 6372.553
+}
