@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CD4FA6000C229B89}Prefabs/Groups/OPFOR/USSR/Specific Units/876th independent Naval Infantry Battalion - 1986/Group_USSR_876_MotRifleSquad_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
