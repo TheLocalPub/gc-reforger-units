@@ -6,6 +6,16 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
     LoadoutSlotInfo Hat {
      Prefab "{03C1F3DB6BB9796A}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover_w_scrim.et"
     }
+    LoadoutSlotInfo Jacket {
+     Prefab "{489D8D3EF3B474DF}Prefabs/Characters/Uniforms/Jacket_US_BDU_7ID_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+     TargetStorage "Jacket/Jacket_US_BDU_7ID_01.et"
+    }
    }
   }
  }

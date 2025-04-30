@@ -5,6 +5,9 @@ SCR_ChimeraCharacter : "{94C2153770EAEA71}Prefabs/Characters/Factions/BLUFOR/US_
    m_sName "Machinegunner"
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_MachineGunner"
+   }
    m_VariantData SCR_EditableEntityVariantData "{6539390B8863F1DE}" {
     m_aVariants {
      SCR_EditableEntityVariant "{6539390BB60997D5}" {
@@ -44,7 +47,7 @@ SCR_ChimeraCharacter : "{94C2153770EAEA71}Prefabs/Characters/Factions/BLUFOR/US_
      }
     }
     ItemsInitConfigurationItem "{6539390D05B4D372}" {
-     TargetStorage "Jacket/Jacket_US_BDU.et"
+     TargetStorage "Jacket/Jacket_US_BDU_7ID_01.et"
     }
     ItemsInitConfigurationItem "{65397892D124B866}" {
      TargetStorage "Vest/Vest_ALICE_AR.et/MagPouch2/Pouch_ALICE_200rnd_M249.et"
