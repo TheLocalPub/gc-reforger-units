@@ -3,6 +3,9 @@ SCR_ChimeraCharacter : "{5056B51ED3DB3AB8}Prefabs/Characters/Factions/BLUFOR/UK_
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{DA660EE7E43B8364}Prefabs/Characters/HeadGear/Helmet_HSAT_01/Helmet_HSAT_Cover_Net_Scrim_01.et"
+    }
     LoadoutSlotInfo Pants {
      Prefab "{19D99E797021D64C}Prefabs/Characters/Uniforms/Trousers_Combat_68Pat_DPM_Tropical_01.et"
     }
