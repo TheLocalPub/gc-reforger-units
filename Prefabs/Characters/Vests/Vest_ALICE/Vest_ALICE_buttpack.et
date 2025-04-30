@@ -7,8 +7,6 @@ GenericEntity : "{09DEA8153A0C312D}Prefabs/Characters/Core/EquipmentPart_Base.et
      ItemDimensions 25 15 25
      ItemVolume 2500
     }
-    ItemAnimationAttributes ItemAnimationAttributes "{653D0C2154357B36}" {
-    }
    }
    MaxCumulativeVolume 2500
    MaxItemSize 25 15 25
