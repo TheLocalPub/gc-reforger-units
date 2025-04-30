@@ -1,0 +1,12 @@
+SCR_AIGroup : "{FB08033A33E826D5}Prefabs/Groups/BLUFOR/British Forces/1989/Group_UK_1989_REG_RifleSection.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{2D5BD01E97CB2997}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Paras/Character_UK_1989_Paras_SectionCommander_P.et" "{B13B146D25038F3E}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Paras/Character_UK_1989_Paras_GPMG_No1_P.et" "{338FAC9B87DFBFE3}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Paras/Character_UK_1989_Paras_AMG_P.et" "{B13B146D25038F3E}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Paras/Character_UK_1989_Paras_GPMG_No1_P.et" "{338FAC9B87DFBFE3}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Paras/Character_UK_1989_Paras_AMG_P.et" "{B13B146D25038F3E}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Paras/Character_UK_1989_Paras_GPMG_No1_P.et" "{338FAC9B87DFBFE3}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Paras/Character_UK_1989_Paras_AMG_P.et"
+ }
+ m_sCustomNameSet "GPMG (SF) Detatchment"
+}

@@ -1,0 +1,51 @@
+SCR_ChimeraCharacter : "{E06C3284B49AC5A7}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Maw_No2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC31428816D50}" {
+     TargetStorage "Pants/Trousers_Combat_68Pat_DPM_01.et"
+     PrefabsToSpawn + {
+      "{05E4A7305629F332}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Rifles.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Jacket/Smock_Combat_68Pat_DPM_01.et"
+    }
+    ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
+     TargetStorage "Jacket/Smock_Combat_68Pat_DPM_01.et"
+    }
+    ItemsInitConfigurationItem "{610CC3129E7848BC}" {
+     TargetStorage "Vest/Vest_P58_rifleman.et/MagPouch/Pouch_P58_20rnd_L1A1_Left.et"
+    }
+    ItemsInitConfigurationItem "{610CC3129FF70707}" {
+     TargetStorage "Vest/Vest_P58_rifleman.et/Buttpack/Vest_P58_kidney_left.et"
+     PrefabsToSpawn + {
+      "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et" "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
+     TargetStorage "Vest/Vest_P58_rifleman.et/MagPouch2/Pouch_P58_20rnd_L1A1_Right.et"
+     PrefabsToSpawn {
+      "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC31278A75ED6}" {
+     TargetStorage "Vest/Vest_P58_rifleman.et/KidneyRight/Vest_P58_kidney_right.et"
+     PrefabsToSpawn {
+      "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+     }
+    }
+   }
+  }
+ }
+}

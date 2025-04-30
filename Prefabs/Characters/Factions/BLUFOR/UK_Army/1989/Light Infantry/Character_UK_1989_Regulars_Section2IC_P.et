@@ -1,0 +1,72 @@
+SCR_ChimeraCharacter : "{F9E2E97FA21AA133}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Regulars/Character_UK_1989_Regulars_Section2IC.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{9065E77698E63C1B}Prefabs/Items/Equipment/Binoculars/Binoculars_L12A1_Avimo.et"
+      }
+     }
+    }
+   }
+  }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab ""
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{0960A1A0B891F243}Prefabs/Items/Equipment/Backpacks/Rucksack_P58_Large_Pack.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC31428816D50}" {
+     PrefabsToSpawn + {
+      "{05E4A7305629F332}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Rifles.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC3129E7848BC}" {
+     PrefabsToSpawn {
+      "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC3129FF70707}" {
+     PrefabsToSpawn + {
+      "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et" "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
+     PrefabsToSpawn {
+      "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{F605A4A0573F4BED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_2+2.et" "{F605A4A0573F4BED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_2+2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC31278A75ED6}" {
+     PrefabsToSpawn {
+      "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{627950EAB8C4A32D}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{627950EAB8C4A325}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{627950EAB8C4A327}" {
+     TargetStorage "Back/Rucksack_P58_Large_Pack.et"
+     PrefabsToSpawn {
+      "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+     }
+    }
+   }
+  }
+ }
+}

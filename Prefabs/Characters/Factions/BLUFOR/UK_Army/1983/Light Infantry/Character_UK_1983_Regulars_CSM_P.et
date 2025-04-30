@@ -1,0 +1,63 @@
+SCR_ChimeraCharacter : "{F1DC0DCDD8677485}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Sergeant.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Company Serjeant Major"
+   m_bIsPlayable 1
+  }
+  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+   m_iRank SERGEANT
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC31428816D50}" {
+     TargetStorage "Pants/Trousers_Combat_68Pat_DPM_01.et"
+     PrefabsToSpawn {
+      "{C8B6565467AA8CB7}Prefabs/Items/Equipment/Compass/Compass_Baseplate.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{8091BEE87781EFBE}Prefabs/Items/Equipment/Radios/Radio_PRC349_Single.et" "{348AFA29B6D6BE0A}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget_UK_OD.et" "{05E4A7305629F332}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Rifles.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Jacket/Smock_Combat_68Pat_DPM_01.et"
+    }
+    ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
+     TargetStorage "Jacket/Smock_Combat_68Pat_DPM_01.et"
+    }
+    ItemsInitConfigurationItem "{610CC3129E7848BC}" {
+     TargetStorage "Vest/Vest_P58_rifleman.et/MagPouch/Pouch_P58_20rnd_L1A1_Left.et"
+    }
+    ItemsInitConfigurationItem "{610CC3129FF70707}" {
+     TargetStorage "Vest/Vest_P58_rifleman.et/Buttpack/Vest_P58_kidney_left.et"
+     PrefabsToSpawn + {
+      "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et" "{4C075BF50FD8C069}Prefabs/Weapons/Grenades/Smoke_No83_Red.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
+     TargetStorage "Vest/Vest_P58_rifleman.et/MagPouch2/Pouch_P58_20rnd_L1A1_Right.et"
+     PrefabsToSpawn {
+      "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC31278A75ED6}" {
+     TargetStorage ""
+    }
+    ItemsInitConfigurationItem "{610CD24CE773C825}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{610CD24CE773C81B}" {
+     TargetStorage "Vest/Vest_P58_rifleman.et/KidneyRight/Vest_P58_kidney_right.et"
+    }
+    ItemsInitConfigurationItem "{610D52FBCFED0072}" {
+     TargetStorage "Back/Rucksack_P58_Large_Pack.et"
+     PrefabsToSpawn {
+      "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et" "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+     }
+    }
+   }
+  }
+ }
+}
