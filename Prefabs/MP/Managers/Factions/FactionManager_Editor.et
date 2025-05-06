@@ -336,6 +336,87 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
     m_sCallsignGroupFormat "%1 %2'%3"
    }
   }
+  SCR_Faction "{61500924662B6062}" {
+   FactionColor 0 0.008 0.0437 1
+   m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
+    m_aCompanyNames {
+     SCR_CallsignInfo "{55CCB792CD021D5C}" {
+     }
+     SCR_CallsignInfo "{55CCB792CCD598D3}" {
+     }
+     SCR_CallsignInfo "{55CCB792CC9C7AD6}" {
+     }
+     SCR_CallsignInfo "{55CCB792CCB4D441}" {
+     }
+     SCR_CallsignInfo "{55CCB792CC5F08F3}" {
+     }
+     SCR_CallsignInfo "{55CCB792CC49B7DB}" {
+     }
+     SCR_CallsignInfo "{55CCB792CC711A37}" {
+     }
+     SCR_CallsignInfo "{55CCB792CC33211C}" {
+     }
+    }
+    m_aPlatoonNames {
+     SCR_CallsignInfo "{55CCB792CE6E998D}" {
+      m_sCallsign " "
+     }
+     SCR_CallsignInfo "{55CCB792CE18FB44}" {
+      m_sCallsign "1"
+     }
+     SCR_CallsignInfo "{55CCB792CE02ECFA}" {
+      m_sCallsign "2"
+     }
+     SCR_CallsignInfo "{55CCB792CE2A44BD}" {
+      m_sCallsign "3"
+     }
+     SCR_CallsignInfo "{65371176557C60E6}" {
+      m_sCallsign "4"
+     }
+     SCR_CallsignInfo "{653711765D2EE1D1}" {
+      m_sCallsign "5"
+     }
+     SCR_CallsignInfo "{653711765E6C9A9E}" {
+      m_sCallsign "6"
+     }
+     SCR_CallsignInfo "{653711765FD8FCEC}" {
+      m_sCallsign "7"
+     }
+     SCR_CallsignInfo "{653711765F689E30}" {
+      m_sCallsign "8"
+     }
+     SCR_CallsignInfo "{65371177A49D6986}" {
+      m_sCallsign "9"
+     }
+    }
+    m_aSquadNames {
+     SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+      m_sCallsign ""
+     }
+     SCR_CallsignInfo "{55CCB792D13759D8}" {
+      m_sCallsign "A"
+     }
+     SCR_CallsignInfo "{55CCB792D1218E95}" {
+      m_sCallsign "B"
+     }
+     SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
+      m_sCallsign "C"
+     }
+     SCR_CallsignInfo "{65371177AD1EF615}" {
+      m_sCallsign "F"
+     }
+     SCR_CallsignInfo "{65371177AD43CF68}" {
+      m_sCallsign "E"
+     }
+     SCR_CallsignInfo "{65371177AECDA3B3}" {
+      m_sCallsign "F"
+     }
+     SCR_CallsignInfo "{65371177B9B5E302}" {
+      m_sCallsign "G"
+     }
+    }
+   }
+  }
   SCR_Faction "{62EB308733CA83DD}" : "{DBFC0A411C082CF9}Configs/Factions/Separatists.conf" {
   }
   SCR_Faction "{632925D53C7F1148}" : "{2FCCF93D27A6ECC4}Configs/Factions/Insurgents.conf" {
@@ -346,7 +427,7 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
   }
   SCR_Faction "{64AA098AEA5B1498}" : "{AEB4C9D1A13F04DC}Configs/Factions/CAF.conf" {
   }
-  SCR_Faction "{652544E87DFA8253}" : "{0BE3E7B63E7C70AC}Configs/Factions/Argentina.conf" {
+  SCR_Faction "{652544E87DFA8253}" : "{0BE3E7B63E7C70AC}worlds/TheLocalPub/TopMaloHouse/Configs/Factions/Argentina.conf" {
   }
   SCR_Faction "{652F615735715119}" : "{99E84571ED1B21CF}Configs/Factions/GC_NVA.conf" {
   }
