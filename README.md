@@ -22,3 +22,5 @@ To contribute a custom faction, reference the [custom faction creation guide](ht
 ## INDFOR
 - FIA
 - ION
+  - Uniformed Services
+  - VIP Protection
