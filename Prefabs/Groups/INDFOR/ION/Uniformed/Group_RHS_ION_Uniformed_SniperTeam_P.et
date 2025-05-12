@@ -1,0 +1,7 @@
+SCR_AIGroup : "{C3CDF902E7906392}Prefabs/Groups/INDFOR/ION/Uniformed/Group_RHS_ION_Uniformed_Team_P.et" {
+ ID "0000000000000001"
+ coords 1195.79 39 2380.489
+ m_aUnitPrefabSlots {
+  "{ECACC2C303C67E84}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/P/Character_RHS_ION_Uniformed_Sniper_P.et.et" "{F13091DC58A6425C}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/P/Character_RHS_ION_Uniformed_Spotter_P.et.et"
+ }
+}

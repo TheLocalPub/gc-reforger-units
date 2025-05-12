@@ -1,0 +1,19 @@
+SCR_AIGroup : "{F2AE179D26D16F8D}Prefabs/Groups/BLUFOR/CDF/SF_Modern/Group_CDF_Modern_SFPHQ.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Identity INDFOR
+    m_Amplifier TEAM
+   }
+  }
+ }
+ coords 75.284 4.884 48.753
+ m_faction "RHS_ION"
+ m_aUnitPrefabSlots {
+  "{46DD7DB0E7378ADF}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/RHS_ION_VIP_Bodyguard_Black_P.et" "{9E6A9FABAD422D6D}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/RHS_ION_VIP_Bodyguard_Brown_P.et" "{BC509B9CB161E906}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/RHS_ION_VIP_Bodyguard_Gray_P.et" "{46DD7DB0E7378ADF}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/RHS_ION_VIP_Bodyguard_Black_P.et"
+ }
+}
