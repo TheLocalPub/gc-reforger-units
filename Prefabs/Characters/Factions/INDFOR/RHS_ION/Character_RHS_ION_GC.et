@@ -1,3 +1,29 @@
 SCR_ChimeraCharacter : "{53F6F7CF18A303D4}Prefabs/Characters/Factions/INDFOR/RHS_ION/Character_RHS_ION_base.et" {
  ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+    }
+    LoadoutSlotInfo Pants {
+    }
+    LoadoutSlotInfo Boots {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{655A0835547EEE1B}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_Black_ION.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{655A08355419B690}" {
+     TargetStorage "Pants/crye_pants_mcblack.et"
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
 }

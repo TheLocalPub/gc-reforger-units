@@ -1,7 +1,0 @@
-SCR_AIGroup : "{A156A12FCA70EE91}Prefabs/Groups/INDFOR/ION/VIP_Protection/RHS_ION_VIP_Bodyguard_Team.et" {
- ID "0000000000000001"
- coords 1207.693 39 2377.782
- m_aUnitPrefabSlots {
-  "{238D82B83768636A}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/P/Character_RHS_ION_Uniformed_TL_P.et" "{C95B13EAB7C1C659}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/P/Character_RHS_ION_Uniformed_RFL_P.et" "{A6E7DF27C075B08A}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/P/Character_RHS_ION_Uniformed_Medic_P.et" "{238D82B83768636A}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/P/Character_RHS_ION_Uniformed_TL_P.et" "{157F56A99BD1890A}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/P/Character_RHS_ION_Uniformed_Marksman_P.et" "{26E54B52E2089E80}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/P/Character_RHS_ION_Uniformed_Scout_P.et"
- }
-}

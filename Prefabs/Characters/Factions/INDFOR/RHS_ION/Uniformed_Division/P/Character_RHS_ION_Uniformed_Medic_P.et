@@ -1,9 +1,0 @@
-SCR_ChimeraCharacter : "{AD7DC8B0309E151E}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/Character_RHS_ION_Uniformed_Medic.et" {
- ID "520EC961A090B1EE"
- components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
- }
- coords 1208.008 39 2379.017
-}

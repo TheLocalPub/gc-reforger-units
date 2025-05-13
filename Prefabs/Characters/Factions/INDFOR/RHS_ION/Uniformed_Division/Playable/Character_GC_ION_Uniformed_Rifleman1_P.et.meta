@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FF32F4B9E1663A1A}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/Playable/Character_GC_ION_Uniformed_Rifleman1_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

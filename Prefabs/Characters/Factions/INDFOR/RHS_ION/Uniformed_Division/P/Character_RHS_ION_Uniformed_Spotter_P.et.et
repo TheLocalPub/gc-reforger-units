@@ -1,9 +1,0 @@
-SCR_ChimeraCharacter : "{9772A96040840338}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/Character_RHS_ION_Uniformed_Spotter.et" {
- ID "520EC961A090B1EE"
- components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
- }
- coords 1197.009 39 2382.198
-}
