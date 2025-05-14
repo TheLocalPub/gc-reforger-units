@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{C780A03926470332}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret_NVA.et"
+ Name "{61675F1249FDD498}Prefabs/Vehicles/Shared/decal_vehicle_group1_small_HTM.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
