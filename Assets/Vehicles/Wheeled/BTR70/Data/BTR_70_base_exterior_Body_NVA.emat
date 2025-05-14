@@ -1,0 +1,4 @@
+MatPBRMulti : "{5E99FAD36EC7328F}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body.emat" {
+ Color 0.694 1 0.959 1
+ DirtOpacity 0.25
+}
