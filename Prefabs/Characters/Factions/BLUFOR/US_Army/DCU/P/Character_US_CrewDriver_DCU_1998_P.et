@@ -1,0 +1,11 @@
+SCR_ChimeraCharacter : "{24A4AD4C57301A31}Prefabs/Characters/Factions/BLUFOR/US_Army/DCU/P/Character_US_CrewCommander_DCU_1998_P.et" {
+ ID "51FA90A59C87A851"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Crew Driver"
+    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+   }
+  }
+ }
+}
