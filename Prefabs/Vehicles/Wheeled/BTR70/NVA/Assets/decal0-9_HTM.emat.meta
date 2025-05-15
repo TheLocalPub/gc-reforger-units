@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{6BA11AEBF90F8E92}Assets/Vehicles/SharedMaterials/decals/numbers/Data/decal0-9_HTM.emat"
+ Name "{6BA11AEBF90F8E92}Prefabs/Vehicles/Wheeled/BTR70/NVA/Assets/decal0-9_HTM.emat"
  Configurations {
   EMATResourceClass PC {
   }
@@ -12,8 +12,6 @@ MetaFileClass {
   EMATResourceClass PS5 : PC {
   }
   EMATResourceClass HEADLESS : PC {
-  }
-  EMATResourceClass Xbox : PC {
   }
  }
 }
