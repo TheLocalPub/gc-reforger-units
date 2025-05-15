@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{E5A6A323B5A2CE44}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/Character_GC_ION_Uniformed_Sniper_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
