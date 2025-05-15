@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{24A4AD4C57301A31}Prefabs/Characters/Factions/BLUFOR/US_Army/DCU/P/Character_US_CrewCommander_DCU_1998_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
