@@ -1,0 +1,28 @@
+GenericEntity : "{D0F213711B925CF5}Prefabs/Weapons/Rifles/M27IAR/Rifle_M38SDMR.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5CC8E73BB698D287}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot optics {
+      Prefab "{2518CA6044D6BBDD}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO.et"
+     }
+    }
+    AttachmentSlotComponent "{62995D48566EF6D2}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{62995D484DB4389A}" {
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{62995D492878682F}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{62995D4921F33D80}" {
+      Prefab "{A7C848BABE4F4577}Prefabs/Weapons/Attachments/Lasers/psq23/LaserRangefinder_PSQ23_base.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+    }
+   }
+  }
+ }
+ coords 1205.172 39.601 2388.972
+}
