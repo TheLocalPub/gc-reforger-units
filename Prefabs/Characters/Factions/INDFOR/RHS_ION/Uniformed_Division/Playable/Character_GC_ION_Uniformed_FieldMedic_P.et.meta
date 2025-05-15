@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{A5E427AD480A5392}Prefabs/Characters/Factions/INDFOR/RHS_ION/Character_RHS_ION_Rifleman_P.et"
+ Name "{2F36281A64E3CCC4}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/Playable/Character_GC_ION_Uniformed_FieldMedic_P.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

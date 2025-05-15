@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{F215B413F232AC79}Prefabs/Characters/Factions/INDFOR/RHS_ION/Character_RHS_ION_Marksman_P.et"
+ Name "{EDAD260BFD3BBA4F}Prefabs/Groups/INDFOR/ION/Uniformed/Playable/Group_GC_ION_Uniformed_CAT_P.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
