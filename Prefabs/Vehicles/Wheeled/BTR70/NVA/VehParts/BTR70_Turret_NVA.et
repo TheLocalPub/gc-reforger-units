@@ -1,0 +1,60 @@
+Turret : "{66596659FB0F645B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{655D6BBB6AB7A936}" {
+     SourceMaterial "BTR_70_base_exterior_Body"
+     AssignedMaterial "{4F56BF3A6927ACA6}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body_NVA.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{655D6BBB1B2D15BC}" {
+   Slots {
+    EntitySlotInfo Number1_T {
+     PivotID "v_root"
+     Offset -0.1252 2.0423 -0.5289
+     Angles 0.1467 -75.6809 38.8134
+     MergePhysics 1
+     Prefab "{61675F1249FDD498}Prefabs/Vehicles/Wheeled/BTR70/1980 NVA/Assets/decal_vehicle_group1_small_HTM.et"
+     ActivatePhysicsOnDetaching 1
+    }
+    EntitySlotInfo Number2_T {
+     PivotID "v_root"
+     Offset -0.001 2.0451 -0.5418
+     Angles 0 -90 39.1
+     MergePhysics 1
+     Prefab "{1AD0FB3DB662F2B7}Prefabs/Vehicles/Wheeled/BTR70/1980 NVA/Assets/decal_vehicle_group2_small_HTM.et"
+     ActivatePhysicsOnDetaching 1
+    }
+    EntitySlotInfo Number3_T {
+     PivotID "v_root"
+     Offset 0.1223 2.0415 -0.5301
+     Angles 1.5479 -102.06539 38.7674
+     MergePhysics 1
+     Prefab "{33BD98D8E317EF52}Prefabs/Vehicles/Wheeled/BTR70/1980 NVA/Assets/decal_vehicle_group3_small_HTM.et"
+     InheritParentSkeleton 1
+     ActivatePhysicsOnDetaching 0
+    }
+    EntitySlotInfo Label_L {
+     PivotID "v_root"
+     Offset -0.5431 2.0405 0.0382
+     Angles 1.127 5.4963 38.956
+     MergePhysics 0
+     Prefab "{B06EA58EAE378ABB}Prefabs/Vehicles/Wheeled/BTR70/1980 NVA/Assets/decal_vehicle_label_small_HTM.et"
+     InheritParentSkeleton 0
+     ActivatePhysicsOnDetaching 0
+    }
+    EntitySlotInfo Label_R {
+     PivotID "v_root"
+     Offset 0.54354 2.0405 0.0382
+     Angles 0.4352 176.5193 38.9215
+     MergePhysics 0
+     Prefab "{B06EA58EAE378ABB}Prefabs/Vehicles/Wheeled/BTR70/1980 NVA/Assets/decal_vehicle_label_small_HTM.et"
+     InheritParentSkeleton 0
+     ActivatePhysicsOnDetaching 0
+    }
+   }
+  }
+ }
+}

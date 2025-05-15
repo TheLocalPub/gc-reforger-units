@@ -1,0 +1,16 @@
+GenericEntity : "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{655D6BB9C9110CCD}" {
+     SourceMaterial "decal_plane"
+     AssignedMaterial "{6BA11AEBF90F8E92}Prefabs/Vehicles/Wheeled/BTR70/1980 NVA/Assets/decal0-9_HTM.emat"
+    }
+   }
+  }
+  RHS_MaterialController "{5E35420CA7B998B2}" {
+   m_sGroupName "GROUP3"
+  }
+ }
+}

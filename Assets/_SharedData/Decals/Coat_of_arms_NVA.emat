@@ -1,6 +1,7 @@
 MatPBRDecal {
  Color 0.502 0.502 0.502 1
  SpecularIBL 0.515 0.515 0.515 1
+ DisablePriorityProbes 1
  Specular 0.498 0.498 0.498 1
  AlphaMul 0.825
  BlendMode AlphaBlend
