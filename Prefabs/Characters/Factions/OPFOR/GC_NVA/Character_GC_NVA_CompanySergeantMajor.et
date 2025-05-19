@@ -7,7 +7,7 @@ SCR_ChimeraCharacter : "{875EA11CB3FA1F2B}Prefabs/Characters/Factions/OPFOR/GC_N
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{115A1B4BEAE15B37}Prefabs/Weapons/NVA/MPi-KM.et"
+   WeaponTemplate "{995B334262EDDA95}Prefabs/Weapons/Rifles/AKM/BC_Rifle_AKM.et"
   }
  }
 }

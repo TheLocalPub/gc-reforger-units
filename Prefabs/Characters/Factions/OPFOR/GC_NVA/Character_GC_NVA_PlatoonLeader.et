@@ -6,8 +6,5 @@ SCR_ChimeraCharacter : "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_N
     Name "Platoon Leader"
    }
   }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{115A1B4BEAE15B37}Prefabs/Weapons/NVA/MPi-KM.et"
-  }
  }
 }
