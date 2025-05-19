@@ -34,7 +34,7 @@ SCR_ChimeraCharacter : "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_I
     ItemsInitConfigurationItem "{6554AEF7BCAF9BFC}" {
      TargetStorage "Back/Backpack_RPG_Gunner.et"
      PrefabsToSpawn {
-      "{E0746EB823E9C667}Prefabs/Weapons/Warheads/RPG/Warhead_HEAT_PG7VL.et" "{0D74F5C279219E61}Prefabs/Weapons/Warheads/RPG/Warhead_HEAT_OG7V.et" "{E0746EB823E9C667}Prefabs/Weapons/Warheads/RPG/Warhead_HEAT_PG7VL.et"
+      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
      }
     }
    }
