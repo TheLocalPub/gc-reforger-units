@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{AAB3119124C9167A}worlds/James/LacourtManor/Vehicles/BTR70_MSV80.et"
+ Name "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/NVA/BTR70_USSR.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,8 +12,6 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
-  }
-  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

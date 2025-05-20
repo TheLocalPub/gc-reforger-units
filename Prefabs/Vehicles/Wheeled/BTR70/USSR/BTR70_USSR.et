@@ -1,0 +1,79 @@
+Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  RHS_GroupMaterialController "{6568F128765E764A}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{6568F128765E764C}" {
+     m_iNumberOfTextures 10
+    }
+    RHS_MaterialGroupProperties "{6568F128765E764E}" {
+     m_sGroupName "GROUP2"
+     m_iNumberOfTextures 10
+    }
+    RHS_MaterialGroupProperties "{6568F128765E7652}" {
+     m_sGroupName "GROUP3"
+     m_iNumberOfTextures 10
+    }
+   }
+   m_iMaxAllowedDepth 2
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo Number1_L {
+     PivotID "v_body"
+     Offset -1.1245 0.9755 0.577
+     Angles 0 0 36.7
+     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+    }
+    EntitySlotInfo Number2_L {
+     PivotID "v_body"
+     Offset -1.1245 0.9755 0.427
+     Angles 0 0 36.7
+     Prefab "{845BF318A6537093}Prefabs/Vehicles/Shared/decal_vehicle_group2_small.et"
+    }
+    EntitySlotInfo Number3_L {
+     PivotID "v_body"
+     Offset -1.1245 0.9755 0.277
+     Angles 0 0 36.7
+     Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
+    }
+    EntitySlotInfo Number1_R {
+     PivotID "v_body"
+     Offset 1.1245 0.9755 0.577
+     Angles 0 180 36.7
+     Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
+    }
+    EntitySlotInfo Number2_R {
+     PivotID "v_body"
+     Offset 1.1245 0.9755 0.427
+     Angles 0 180 36.7
+     Prefab "{845BF318A6537093}Prefabs/Vehicles/Shared/decal_vehicle_group2_small.et"
+    }
+    EntitySlotInfo Number3_R {
+     PivotID "v_body"
+     Offset 1.1245 0.9755 0.277
+     Angles 0 180 36.7
+     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+    }
+    EntitySlotInfo Number1_B {
+     PivotID "v_body"
+     Offset 0.532 0.6 -3.625
+     Angles 0 -90 0
+     Prefab "{0309D37EFF070E46}Prefabs/Vehicles/Shared/decal_vehicle_group1.et"
+    }
+    EntitySlotInfo Number2_B {
+     PivotID "v_body"
+     Offset 0.7321 0.6 -3.625
+     Angles 0 -90 0
+     Prefab "{6F5DE79E43C38168}Prefabs/Vehicles/Shared/decal_vehicle_group2.et"
+    }
+    EntitySlotInfo Number3_B {
+     PivotID "v_body"
+     Offset 0.9321 0.6 -3.625
+     Angles 0 -90 0
+     Prefab "{8AC1AB674F261603}Prefabs/Vehicles/Shared/decal_vehicle_group3.et"
+    }
+   }
+  }
+ }
+}
