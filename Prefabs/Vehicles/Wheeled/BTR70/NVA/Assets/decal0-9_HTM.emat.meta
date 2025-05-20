@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6BA11AEBF90F8E92}Prefabs/Vehicles/Wheeled/BTR70/NVA/Assets/decal0-9_HTM.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

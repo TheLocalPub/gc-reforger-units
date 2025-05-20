@@ -1,0 +1,19 @@
+GameEntity : "{E8EAD526CA6BCA16}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et" {
+ ID "5104869D194C6243"
+ components {
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    RHS_LoadoutSlotInfo SleeveRightVelcro {
+    }
+    RHS_LoadoutSlotInfo SleeveRightUpperVelcro {
+     Prefab "{1E8B76D1BB775884}Prefabs/Items/Equipment/Patches/GC_Patch_RM1.et"
+    }
+    RHS_LoadoutSlotInfo SleeveLeftVelcro {
+    }
+    RHS_LoadoutSlotInfo SleeveLeftUpperVelcro {
+     Prefab "{1E8B76D1BB775884}Prefabs/Items/Equipment/Patches/GC_Patch_RM1.et"
+    }
+   }
+  }
+ }
+}

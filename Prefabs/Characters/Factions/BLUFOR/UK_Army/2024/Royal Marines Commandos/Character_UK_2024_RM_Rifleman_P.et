@@ -27,10 +27,10 @@ SCR_ChimeraCharacter : "{4AF2023E868540E7}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab "{1A2A08974835C380}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_Royal_Marines_01.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{E8EAD526CA6BCA16}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
+     Prefab "{DFF1AFF457837732}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam_RM.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{6BEC572D4E71CBED}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_MC.et"
+     Prefab "{35E4028D8C830EEF}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_MC_UK.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{2FDEBA2FF1B7759E}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mc.et"
