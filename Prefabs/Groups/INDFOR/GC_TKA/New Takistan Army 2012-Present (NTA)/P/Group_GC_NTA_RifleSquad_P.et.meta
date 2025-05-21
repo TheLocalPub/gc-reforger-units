@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{17CCF1A4B7F1C3E2}Prefabs/Groups/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Group_GC_NTA_RifleSquad_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
