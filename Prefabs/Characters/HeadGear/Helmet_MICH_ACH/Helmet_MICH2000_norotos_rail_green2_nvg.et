@@ -26,7 +26,7 @@ GameEntity : "{24465F297D0F664A}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_EC
     RHS_LoadoutSlotInfo NVG {
      Offset 0 0.151 -0.1356
      Angles 0 180 0
-     Prefab "{B7BA7694F821F556}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual.et"
+     Prefab "{9A9555D10664B8CB}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_WP.et"
     }
     RHS_LoadoutSlotInfo Headset {
      Prefab "{85D618A51C013F7A}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_yellow.et"
@@ -55,5 +55,5 @@ GameEntity : "{24465F297D0F664A}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_EC
    OffsetShoulderRight 0
   }
  }
- coords 1596.891 20.549 2133.156
+ coords 1455.764 38.135 2913.393
 }
