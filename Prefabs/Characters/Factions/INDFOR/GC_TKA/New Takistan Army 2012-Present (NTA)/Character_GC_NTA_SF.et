@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{E4CB968B7936E2C7}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{14F70355CF93B5A8}Prefabs/Weapons/Rifles/M4A1/USSF/Ranger 2009/Rifle_M4A1_RAS_XPS.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FF7BB95CE27E4D1E}Prefabs/Characters/HeadGear/Helmet_Exfil/Variants/ION_Shirts/Helmet_Exfil_Coy_ION4.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{43C6129204623BF0}Prefabs/Characters/Uniforms/Jacket_Waffletop/Jacket_Waffletop.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{C4FEAEB4AAA7B6B2}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_Coy.et"
+    }
+    LoadoutSlotInfo Pants {
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{A8866A9389018D3B}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy2.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{8D4A4DF9111F0682}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Blk.et"
+    }
+   }
+  }
+ }
+}

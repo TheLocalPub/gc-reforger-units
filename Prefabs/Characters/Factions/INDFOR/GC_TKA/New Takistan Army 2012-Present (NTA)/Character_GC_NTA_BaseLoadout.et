@@ -19,15 +19,15 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
      Prefab ""
     }
     LoadoutSlotInfo Jacket {
-     Prefab ""
+     Prefab "{27FB543A8D93378D}Prefabs/Characters/Uniforms/Jacket_Cuba_BDU.et"
     }
     LoadoutSlotInfo ArmoredVest {
     }
     LoadoutSlotInfo Pants {
-     Prefab ""
+     Prefab "{E89AB338034F465C}Prefabs/Characters/Uniforms/Pants_Cuba.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab ""
+     Prefab "{05CC810C5C8CB32A}Prefabs/Characters/Footwear/CombatBoots_US_LightTan.et"
     }
     LoadoutSlotInfo Vest {
     }
@@ -36,12 +36,13 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     TargetStorage "Pants/Pants_Cuba.et"
      PrefabsToSpawn {
       "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
      }
     }
     ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
-     TargetStorage ""
+     TargetStorage "Pants/Pants_Cuba.et"
      TargetPurpose 1
     }
    }

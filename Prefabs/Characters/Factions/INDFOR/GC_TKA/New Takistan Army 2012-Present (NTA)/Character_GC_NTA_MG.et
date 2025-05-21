@@ -1,0 +1,64 @@
+SCR_ChimeraCharacter : "{E4CB968B7936E2C7}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_MachineGunner"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+    m_Image "{D68798DF09F5BE8E}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_MG.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{78975C5D9C1AFA4C}Prefabs/Weapons/MachineGuns/GPMG/MG_GPMG_L7A2.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B74A4FF0DD8BB116}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{45D09EE891B0D5D1}Prefabs/Characters/Uniforms/Jacket_Cuba_BDU_rolledup.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
+    }
+    LoadoutSlotInfo Pants {
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{05CC810C5C8CB32A}Prefabs/Characters/Footwear/CombatBoots_US_LightTan.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{5C5C6EE05EE2FF1A}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium_assembled.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{477A190AF2A17B8A}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_MG.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4F71E7468E78DDD2}Prefabs/Characters/Handwear/Gloves_Leather_01/Gloves_Leather_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6560E02762142537}" {
+     TargetStorage "Vest/Vest_ALICE_MG.et/MagPouch/Pouch_ALICE_200rnd_M249.et"
+     PrefabsToSpawn {
+      "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6560E02762142526}" {
+     TargetStorage "Vest/Vest_ALICE_MG.et/Buttpack/Vest_ALICE_buttpack.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6560E02417CC9EA9}" {
+     TargetStorage "Back/Backpack_ALICE_Medium_assembled.et"
+     PrefabsToSpawn {
+      "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}
