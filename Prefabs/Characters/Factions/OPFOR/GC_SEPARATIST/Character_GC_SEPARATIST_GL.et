@@ -37,7 +37,7 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
      Prefab "{C1115AA90C004678}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_MC.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{8937843BB1016FCB}Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_ATACS.et"
+     Prefab "{36C06BDF4F6F212B}Prefabs/Characters/Uniforms/Pants_VKPO.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
@@ -53,7 +53,7 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
-     TargetStorage "Pants/Tactical_Pants_ATACS.et"
+     TargetStorage "Pants/Pants_VKPO.et"
     }
     ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
      TargetStorage "Vest/Vest_TV102_rifleman_MC_2.et/radio/Pouch_UP111_radioClosed_MC.et"

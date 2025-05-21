@@ -34,7 +34,7 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
      Prefab "{8D75122D5BF561FB}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_02.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{0FF296D70C52D89F}Prefabs/Characters/Uniforms/LongSleeve_Shirts/Hoodie_RHS_Shirt_multicam.et"
+     Prefab "{03FF161D3AC1E1DF}Prefabs/Characters/Uniforms/VKPO/Field_Jacket_VKPO.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{C075E10BDE38BA95}Prefabs/Characters/Vests/Vest_TV115/Vest_TV115_FG.et"
@@ -65,7 +65,7 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
      }
     }
     ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
-     TargetStorage "Jacket/Hoodie_RHS_Shirt_multicam.et"
+     TargetStorage "Jacket/Field_Jacket_VKPO.et"
      TargetPurpose 1
      PrefabsToSpawn {
       "{399EBA1849BFF48C}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Single_Separatist.et"

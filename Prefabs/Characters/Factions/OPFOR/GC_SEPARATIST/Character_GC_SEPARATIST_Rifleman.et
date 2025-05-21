@@ -28,16 +28,16 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{8A2B2A544F3ED831}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_base.et"
+     Prefab "{3C2C345310D0CD01}Prefabs/Characters/HeadGear/Helmet_6B7/Helmet_6B7_Flora.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{CFECC9B96EC428CC}Prefabs/Characters/Uniforms/LongSleeve_Shirts/Hoodie_RHS_Shirt_ATACS.et"
+     Prefab "{03FF161D3AC1E1DF}Prefabs/Characters/Uniforms/VKPO/Field_Jacket_VKPO.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{C1115AA90C004678}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_MC.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{51DAF753AA0F37C2}Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_CoyoteBrown.et"
+     Prefab "{0C37C8742F78CDA9}Prefabs/Characters/Uniforms/Pants_M88_Flora.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
@@ -50,7 +50,7 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
-     TargetStorage "Pants/Tactical_Pants_CoyoteBrown.et"
+     TargetStorage "Pants/Pants_M88_Flora.et"
      PrefabsToSpawn {
       "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
      }

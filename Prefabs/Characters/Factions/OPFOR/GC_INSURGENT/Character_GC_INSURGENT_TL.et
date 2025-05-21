@@ -28,7 +28,7 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{40ED520CE1154848}Prefabs/Characters/HeadGear/Balaclavas/LShZ_Balaclava/Balaclava_LShZ_black.et"
+     Prefab "{CB379AD8EC48690C}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_BLK.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{23A15812C40D34C2}Prefabs/Characters/Uniforms/Jacket_Denim_01/Jacket_Denim_01_strippedShirt_dirty.et"

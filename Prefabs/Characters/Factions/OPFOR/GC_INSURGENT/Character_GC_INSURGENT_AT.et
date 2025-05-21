@@ -37,7 +37,7 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
      Prefab "{CB379AD8EC48690C}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_BLK.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{9802E1302FD7BA7A}Prefabs/Characters/Uniforms/T_Shirts/T_Shirt_v2/T_shirt_v2_Blk.et"
+     Prefab "{C1FCB4859C59111E}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6_Dirty.et"
     }
     LoadoutSlotInfo ArmoredVest {
     }
