@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{0A0D72CDE16A9A9D}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INSURGENT_CoyHQ_P.et.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
