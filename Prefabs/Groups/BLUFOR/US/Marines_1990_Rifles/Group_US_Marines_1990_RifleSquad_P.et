@@ -5,6 +5,7 @@ SCR_AIGroup : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et" {
    DefaultFormation "Column"
   }
   PS_GroupCallsignAssigner "{650ACCA066DD9B15}" {
+   Enabled 0
   }
  }
  coords 1818.3 261.798 11505.186

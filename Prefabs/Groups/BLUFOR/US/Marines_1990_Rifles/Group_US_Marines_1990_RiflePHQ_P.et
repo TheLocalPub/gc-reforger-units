@@ -2,6 +2,7 @@ SCR_AIGroup : "{0C5E312755DB1D2F}Prefabs/Groups/BLUFOR/US/Marines_1990_Rifles/Gr
  ID "0000000000000001"
  components {
   PS_GroupCallsignAssigner "{65136701971EC67A}" {
+   Enabled 0
   }
  }
  m_aUnitPrefabSlots {
