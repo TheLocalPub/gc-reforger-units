@@ -289,30 +289,33 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
     }
     m_aPlatoonNames {
      SCR_CallsignInfo "{55CCB792CE6E998D}" {
-      m_sCallsign "1"
+      m_sCallsign "0"
      }
      SCR_CallsignInfo "{55CCB792CE18FB44}" {
-      m_sCallsign "2"
+      m_sCallsign "1"
      }
      SCR_CallsignInfo "{55CCB792CE02ECFA}" {
-      m_sCallsign "3"
+      m_sCallsign "2"
      }
      SCR_CallsignInfo "{55CCB792CE2A44BD}" {
-      m_sCallsign "4"
+      m_sCallsign "3"
      }
      SCR_CallsignInfo "{64E30A2DAD85F2C6}" {
-      m_sCallsign "5"
+      m_sCallsign "4"
      }
      SCR_CallsignInfo "{64E30A2DADB13027}" {
-      m_sCallsign "6"
+      m_sCallsign "5"
      }
      SCR_CallsignInfo "{64E30A2DADCF2A3D}" {
-      m_sCallsign "7"
+      m_sCallsign "6"
      }
      SCR_CallsignInfo "{64E30A2DADECAB48}" {
-      m_sCallsign "8"
+      m_sCallsign "7"
      }
      SCR_CallsignInfo "{64E30A2DAE0DE6FD}" {
+      m_sCallsign "8"
+     }
+     SCR_CallsignInfo "{656CD642424F69CF}" {
       m_sCallsign "9"
      }
     }
