@@ -27,7 +27,6 @@ SCR_ChimeraCharacter : "{36A12DD1497EDED6}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{8CDAA637B6937C89}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_ACH_SHROUD_OEFCP.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{E8EAD526CA6BCA16}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
     }
     LoadoutSlotInfo ArmoredVest {
     }
@@ -42,7 +41,8 @@ SCR_ChimeraCharacter : "{36A12DD1497EDED6}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6063106CCCB65709}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
+    }
+    ItemsInitConfigurationItem "{6488036C50A18E4F}" {
     }
     ItemsInitConfigurationItem "{646C9325E11F69A7}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_OpenTop_M27_1_pouch_r.et"
@@ -97,9 +97,6 @@ SCR_ChimeraCharacter : "{36A12DD1497EDED6}Prefabs/Characters/Factions/BLUFOR/RHS
      PrefabsToSpawn {
       "{9A9555D10664B8CB}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_WP.et"
      }
-    }
-    ItemsInitConfigurationItem "{6488036C50A18E4F}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
     }
    }
   }

@@ -14,7 +14,6 @@ SCR_ChimeraCharacter : "{36A12DD1497EDED6}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{E8EAD526CA6BCA16}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{9491D7A1C4D8412E}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_ublg.et"
@@ -24,10 +23,8 @@ SCR_ChimeraCharacter : "{36A12DD1497EDED6}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6063106CCCB65709}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
     }
     ItemsInitConfigurationItem "{6488036C50A18E4F}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
     }
     ItemsInitConfigurationItem "{646B7B9559BA7F68}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Placard.et"
