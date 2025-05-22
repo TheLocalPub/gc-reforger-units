@@ -289,7 +289,7 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
     }
     m_aPlatoonNames {
      SCR_CallsignInfo "{55CCB792CE6E998D}" {
-      m_sCallsign "0"
+      m_sCallsign ""
      }
      SCR_CallsignInfo "{55CCB792CE18FB44}" {
       m_sCallsign "1"
