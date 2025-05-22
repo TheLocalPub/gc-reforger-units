@@ -29,7 +29,7 @@ GenericEntity : "{C63227C0E70EA62E}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_base.e
      AttachmentSlot InventoryStorageSlot Handguard {
       Offset 0 0 -0.0032
       ChildPivotID "snap_hand_guard"
-      Prefab "{FB1A7F5BC7D935E2}Prefabs/Weapons/Attachments/Handguards/Handguard_M16A2/Handguard_M16.et"
+      Prefab "{DBE1C7B1461EDE5B}Prefabs/Weapons/Attachments/Handguards/Handguard_M16A2/Handguard_C7.et"
      }
     }
     SightsComponent "{656D42067181EDBD}" {

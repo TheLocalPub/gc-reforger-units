@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9A5A132614943D4D}Assets/Weapons/Attachments/Handguards/Handguard_M16/Data/C7_Handguard_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
