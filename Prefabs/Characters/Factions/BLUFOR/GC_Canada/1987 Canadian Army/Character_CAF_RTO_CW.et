@@ -16,7 +16,7 @@ SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{9B1F8CFF4170731C}Prefabs/Weapons/Rifles/M16/Variants/Rifle_C7_M203.et"
+   WeaponTemplate "{B0CDA2E1EFEAFE87}Prefabs/Weapons/Rifles/M16/Variants/GC_Diemaco_C7.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate ""

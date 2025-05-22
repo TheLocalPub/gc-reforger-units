@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{C1BF0870C6FD36D0}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1987/Character_CAF_PlatoonCommander_CW.et" {
+SCR_ChimeraCharacter : "{C1BF0870C6FD36D0}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1987 Canadian Army/Character_CAF_PlatoonCommander_CW.et" {
  ID "51FA8A5F28FD04BA"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -19,6 +19,9 @@ SCR_ChimeraCharacter : "{C1BF0870C6FD36D0}Prefabs/Characters/Factions/BLUFOR/GC_
     m_Image "{E66FEBD3F049BF7D}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_SL.edds"
     m_sFaction "GC_CAF"
    }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{B0CDA2E1EFEAFE87}Prefabs/Weapons/Rifles/M16/Variants/GC_Diemaco_C7.et"
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {

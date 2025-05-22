@@ -22,8 +22,8 @@ SCR_ChimeraCharacter : "{77F5DF1C44F71C37}Prefabs/Characters/Factions/BLUFOR/GC_
     }
    }
   }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{E8355695CA084E85}Prefabs/Weapons/Rifles/M16/Variants/GC_Diemaco_C7_M203.et"
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{BBF6953078ACC12A}Prefabs/Weapons/Launchers/M79/BC_M79.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
