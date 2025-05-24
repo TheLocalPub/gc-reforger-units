@@ -16,7 +16,7 @@ SCR_ChimeraCharacter : "{501777EB151D644B}Prefabs/Characters/Factions/BLUFOR/US_
    m_iRank SERGEANT
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{C7C0B3A46D125C6F}Prefabs/Weapons/Rifles/M16A1/Rifle_M16A1_ish.et"
+   WeaponTemplate "{F1290C76103E99E6}Prefabs/Weapons/Rifles/M16A1/BC_Rifle_M16A1.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
