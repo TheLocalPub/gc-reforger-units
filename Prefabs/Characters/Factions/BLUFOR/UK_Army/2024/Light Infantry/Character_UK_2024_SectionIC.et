@@ -34,6 +34,13 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
       "{013A731E59E8FB61}Prefabs/Items/Equipment/Radios/ANPRC152/Radio_ANPRC152.et"
      }
     }
+    ItemsInitConfigurationItem "{65776445DED7E3E3}" {
+     TargetStorage "ArmoredVest/Vest_Virtus_STV_Rifleman_03.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{91C15614267F3ED6}Prefabs/Items/Equipment/Accessories/Patches/Morale/Morale_UnionJack_Brown.et" "{4E9921D2BC053EF3}Prefabs/Items/Equipment/Accessories/Patches/Zap/Zap_Tape_JO6034.et"
+     }
+    }
     ItemsInitConfigurationItem "{6574ECCC63377095}" {
      TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/MagPouch/Pouch_Virtus_Double_Mag_1_MTP.et"
      PrefabsToSpawn {

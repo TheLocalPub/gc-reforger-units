@@ -32,6 +32,13 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{657764451544ABA5}" {
+     TargetStorage "ArmoredVest/Vest_Virtus_STV_Rifleman_05.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{7E5643FCD390B901}Prefabs/Items/Equipment/Accessories/Patches/Zap/Zap_Tape_SG6041.et"
+     }
+    }
     ItemsInitConfigurationItem "{6576CAB94DC23DA0}" {
      TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/MagPouch/Pouch_Virtus_Double_Mag_1_MTP.et"
      PrefabsToSpawn {
