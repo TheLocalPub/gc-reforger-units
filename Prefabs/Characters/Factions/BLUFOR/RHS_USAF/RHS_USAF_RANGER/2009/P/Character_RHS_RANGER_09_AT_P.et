@@ -1,42 +1,8 @@
-SCR_ChimeraCharacter : "{D9936548CBBAA1CD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_RF_P.et" {
+SCR_ChimeraCharacter : "{828A09BDBD765804}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/Character_RHS_RANGER_09_AT.et" {
  ID "520EC961A090B1EE"
  components {
-  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
-   components {
-    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
-     InitialStorageSlots {
-      SCR_EquipmentStorageSlot BinocularSlot {
-      }
-     }
-    }
-   }
-  }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Anti Tank Gunner"
-  }
-  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
-   m_iRank PRIVATE
-  }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
-   WeaponTemplate "{AE8BF1F7476AA76D}Prefabs/Weapons/Launchers/MAW_84MM/Launcher_84mm_MAW_Optic.et"
-  }
-  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
-   Slots {
-    LoadoutSlotInfo Back {
-     Prefab "{95D4766BBE46F23D}Prefabs/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack.et"
-    }
-   }
-  }
-  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
-   InitialInventoryItems {
-    ItemsInitConfigurationItem "{625B1A6305F13210}" {
-     TargetStorage "Back/Backpack_IIFS_FieldPack.et"
-     PrefabsToSpawn {
-      "{4BA48D3B0E53DF91}Prefabs/Items/Equipment/Backpacks/Rucksack_84mm_MAW_Carrier.et"
-     }
-    }
-   }
+   m_bIsPlayable 1
   }
  }
- coords 1589.071 18.919 2120.136
 }

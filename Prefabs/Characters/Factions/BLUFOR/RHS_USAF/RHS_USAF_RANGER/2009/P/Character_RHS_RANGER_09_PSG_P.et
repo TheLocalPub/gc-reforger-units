@@ -1,14 +1,8 @@
-SCR_ChimeraCharacter : "{25FECB70EBFE3EDA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_SL_P.et" {
+SCR_ChimeraCharacter : "{4A6379807CA9C05E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/Character_RHS_RANGER_09_PSG.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Platoon Sergeant"
-  }
-  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
-   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Platoon Sergeant"
-   }
+   m_bIsPlayable 1
   }
  }
- coords 1198.085 7.437 3212.161
 }
