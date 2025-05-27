@@ -1,0 +1,17 @@
+GenericEntity : "{2355B4B6812F0055}Prefabs/Weapons/Rifles/SA80/L85A3.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{65070DC2EA96ED6C}" {
+     AttachmentSlot InventoryStorageSlot Foregrip {
+      Offset 0 -0.01 -0.075
+      Prefab "{8F97E4E57A562D02}Prefabs/Weapons/Attachments/Underbarrel/L17_UGL.et"
+     }
+     AttachmentType AttachmentProntoSA80Grip "{65070DC2E3ED78F3}" {
+     }
+    }
+   }
+  }
+ }
+}
