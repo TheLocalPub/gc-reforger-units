@@ -1,0 +1,141 @@
+GenericEntity : "{283CDF7E44B5A9F8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  RHS_SGC_RadialMenuComponent "{5E0ED058CD731BC8}" {
+   m_sDisplayName "#RHS-Weapon_M4A1_BLOCK_II_Name"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "#RHS-Weapon_M4A1_BLOCK_II_Name"
+     Description "#RHS-Weapon_M4A1_BLOCK_II_Description"
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationIKPose "{2E92462254C70B83}Assets/Weapons/Rifles/m4a1/Anims/anm/customHandguards_IK/p_rlf_m4_DDlong_IK.anm"
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      DeploymentPoints {
+       PivotPointInfoItem "{5E0ED058CD731B24}" {
+        StabilizationPoints {
+         DeploymentPointInfo bipod_pos {
+          Offset 0 0.0259 -0.0994
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDA2E5FAA2B6}" {
+     AttachmentSlot InventoryStorageSlot Buttstock {
+      Prefab "{BC68AE520F42BF35}Prefabs/Weapons/Attachments/Stocks/Stock_AR15_SOPMOD/RHS_M4_SOPMOD_Black.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA47E3F452D}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      Prefab "{1BCF0AD736FC3A1B}Prefabs/Weapons/Attachments/Handguards/Handguard_AR15_DD/FDE/RHS_M4A1_DD12_5_Upper_TAN.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA5B623AB37}" {
+     AttachmentSlot InventoryStorageSlot Handguard_lower {
+      Prefab "{3F9C076E34E47B72}Prefabs/Weapons/Attachments/Handguards/Handguard_AR15_DD/FDE/RHS_M4A1_DD12_5_Lower_TAN.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{0481183D215F2D7B}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_RAZOR1-6x/Optic_RAZOR1-6x.et"
+      m_fCurrentSlideOffset 0.024
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE949ECF03E3}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{5EA2BE9573F14F0C}" {
+      Offset 0 0.1115 0.3184
+      Prefab "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
+      InspectionWidgetOffset 0 0.1115 0.3184
+      m_fMaximumPositiveSlideOffset 0.07
+      m_fMaximumNegativeSlideOffset -0.19
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE95B630A07A}" {
+     AttachmentType AttachmentM4B2RailCover "{5EA2BE95B2EB8968}" {
+     }
+    }
+    AttachmentSlotComponent "{609EE5047488AAA1}" {
+     AttachmentSlot InventoryStorageSlot REAR_IRONSIGHT {
+      Prefab "{677E8A0792696783}Prefabs/Weapons/Attachments/Optics/mbus/mbus_blk_folding_sight_rear.et"
+     }
+    }
+    AttachmentSlotComponent "{61749A66C4BA094E}" {
+     Enabled 0
+    }
+    AttachmentSlotComponent "{629ADD50107BFFEA}" {
+     Enabled 1
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{629ADD500DE777C8}" {
+      Offset -0.0273 0.0794 0.3183
+      Enabled 1
+      InspectionWidgetOffset -0.0273 0.0794 0.3183
+      m_fMaximumNegativeSlideOffset -0.18
+     }
+    }
+    AttachmentSlotComponent "{629ADD528EE856C1}" {
+     Enabled 1
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{629ADD52ACAC8DC6}" {
+      Offset 0.0278 0.0819 0.3183
+      Enabled 1
+      Prefab "{005374A5149FAC4F}Prefabs/Weapons/Attachments/Lights/Light_m300c_tan.et"
+      InspectionWidgetOffset 0.0278 0.0819 0.3183
+      m_fMaximumPositiveSlideOffset 0.1
+      m_fMaximumNegativeSlideOffset -0.18
+     }
+    }
+    AttachmentSlotComponent "{647D57A4E99CBFA3}" {
+     AttachmentSlot InventoryStorageSlot "{647D57BB184D5F9B}" {
+      Offset 0 0.0602 0.3881
+      InspectionWidgetOffset 0 0.0381 0.3842
+     }
+    }
+    AttachmentSlotComponent "{6576938693C1229B}" {
+     AttachmentSlot InventoryStorageSlot GasBlock {
+      Prefab "{C845839913F97470}Prefabs/Weapons/Rifles/M4A1/base_parts/RHS_Mk12_GasBlock.et"
+     }
+    }
+    AttachmentSlotComponent "{6576938693C122B8}" {
+     AttachmentSlot InventoryStorageSlot FRONT_IRONSIGHT {
+      Offset 0 0.1114 0.4247
+      Prefab "{B05910AE5C2526DD}Prefabs/Weapons/Attachments/Optics/mbus/mbus_blk_folding_sight_front.et"
+      InspectionWidgetOffset 0 0.1114 0.4247
+     }
+     AttachmentType AttachmentRIS1913BUISFront "{6576938693C122A8}" {
+     }
+     ShowInInspection 1
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626713EF43D3CC9E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{6C607325B88CDA9A}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_RC3_TAN.et"
+       }
+      }
+     }
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+      Offset -0.0814 -0.0548 0.0433
+      Angles 0 0 63.6798
+     }
+     MagazineTemplate "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "#RHS-Weapon_M4A1_BLOCK_II_Name"
+    Description "#RHS-Weapon_M4A1_BLOCK_II_Description"
+   }
+  }
+ }
+ coords 1430.11 38.417 2969.387
+ angleX 77.807
+ angleY 166.813
+ angleZ 180
+}
