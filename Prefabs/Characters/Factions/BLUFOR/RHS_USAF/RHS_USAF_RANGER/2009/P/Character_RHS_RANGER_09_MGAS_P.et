@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_TL_P.et" {
+SCR_ChimeraCharacter : "{D9936548CBBAA1CD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_RF_P.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -18,23 +18,20 @@ SCR_ChimeraCharacter : "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
    m_iRank PRIVATE
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{61E884192043D2D2}" {
-     PrefabsToSpawn {
-      "{59CA00DA0E8F426B}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_Single.et"
-     }
-    }
     ItemsInitConfigurationItem "{625B1A6305F13210}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
-     PrefabsToSpawn {
-      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
-     }
-    }
-    ItemsInitConfigurationItem "{650693498E4DAF40}" {
-     TargetStorage "Back/Backpack_511_rush12_od.et"
      PrefabsToSpawn {
       "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et" "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et" "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et" "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et" "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65770A37F4624397}" {
+     TargetStorage "Vest/Vest_JPC_ronin_RGR.et/HSGI/Pouch_Highspeed_Bleeder_MC.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
      }
     }
    }

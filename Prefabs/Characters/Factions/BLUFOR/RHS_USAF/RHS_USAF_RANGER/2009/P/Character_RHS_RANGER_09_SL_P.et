@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{EB4F847EEDFF4FCB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_SL.et" {
+SCR_ChimeraCharacter : "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_TL_P.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -6,7 +6,6 @@ SCR_ChimeraCharacter : "{EB4F847EEDFF4FCB}Prefabs/Characters/Factions/BLUFOR/RHS
     SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
      InitialStorageSlots {
       SCR_EquipmentStorageSlot BinocularSlot {
-       Prefab "{FAE8B9F7CEA49696}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21_lc.et"
       }
      }
     }
@@ -19,47 +18,35 @@ SCR_ChimeraCharacter : "{EB4F847EEDFF4FCB}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
    m_iRank SERGEANT
   }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Squad Leader"
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{14F70355CF93B5A8}Prefabs/Weapons/Rifles/M4A1/USSF/Ranger 2009/Rifle_M4A1_RAS_XPS.et"
   }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
-   WeaponTemplate "{8983A91174EE3799}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45.et"
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{632D09B9A26B0A65}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH2000_norotos_rail_green2_nvg.et"
-    }
-    LoadoutSlotInfo Jacket {
-     Prefab "{E5BE663442A4621A}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_UCP.et"
-    }
-    LoadoutSlotInfo ArmoredVest {
-     Prefab "{DDE06975E2E8947B}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_RGR.et"
-    }
-    LoadoutSlotInfo Pants {
-     Prefab "{DA9F58F75CE6E234}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_UCP.et"
-    }
-    LoadoutSlotInfo Boots {
-     Prefab "{05CC810C5C8CB32A}Prefabs/Characters/Footwear/CombatBoots_US_LightTan.et"
-    }
-    LoadoutSlotInfo Back {
-     Prefab "{99B347D92F16A6D3}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
-    }
-    LoadoutSlotInfo Vest {
-     Prefab "{F53F30123F54F3A3}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_ronin_RGR.et"
-    }
-    LoadoutSlotInfo HandWear {
-     Prefab "{86FCDE2A2A4DD765}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_base.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61E88418254009A3}" {
-     TargetStorage "Pants/crye_pants_mc.et"
+     TargetStorage "Jacket/ACU_jacket_UCP.et"
     }
     ItemsInitConfigurationItem "{61E88418254009AC}" {
-     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_OD.et"
+     TargetStorage "Pants/ACU_pants_UCP.et"
+    }
+    ItemsInitConfigurationItem "{625B1A6305F13210}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
+     PrefabsToSpawn {
+     }
     }
     ItemsInitConfigurationItem "{61E884192043D2D2}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_RGR.et"
@@ -89,11 +76,6 @@ SCR_ChimeraCharacter : "{EB4F847EEDFF4FCB}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MC.et"
      PrefabsToSpawn {
       "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
-     }
-    }
-    ItemsInitConfigurationItem "{625B1A6305F13210}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
-     PrefabsToSpawn {
      }
     }
    }

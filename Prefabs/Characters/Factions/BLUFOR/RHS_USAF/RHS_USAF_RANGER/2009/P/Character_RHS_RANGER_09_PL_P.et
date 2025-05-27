@@ -19,30 +19,13 @@ SCR_ChimeraCharacter : "{25FECB70EBFE3EDA}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
    m_iRank LIEUTENANT
   }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Platoon Leader"
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{14F70355CF93B5A8}Prefabs/Weapons/Rifles/M4A1/USSF/Ranger 2009/Rifle_M4A1_RAS_XPS.et"
-  }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
-   WeaponTemplate "{8983A91174EE3799}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45.et"
-  }
-  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
-   Slots {
-    LoadoutSlotInfo Hat {
-    }
-    LoadoutSlotInfo Jacket {
-    }
-    LoadoutSlotInfo ArmoredVest {
-     Prefab "{DDE06975E2E8947B}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_RGR.et"
-    }
-    LoadoutSlotInfo Pants {
-    }
-    LoadoutSlotInfo Back {
-     Prefab "{99B347D92F16A6D3}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
-    }
-    LoadoutSlotInfo Vest {
-     Prefab "{F53F30123F54F3A3}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_ronin_RGR.et"
-    }
-   }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
@@ -51,6 +34,11 @@ SCR_ChimeraCharacter : "{25FECB70EBFE3EDA}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{61E88418254009AC}" {
      TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_OD.et"
+    }
+    ItemsInitConfigurationItem "{625B1A6305F13210}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
+     PrefabsToSpawn {
+     }
     }
     ItemsInitConfigurationItem "{61E884192043D2D2}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_RGR.et"
@@ -76,11 +64,6 @@ SCR_ChimeraCharacter : "{25FECB70EBFE3EDA}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{625B1A61FE80B8A0}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MC.et"
      PrefabsToSpawn +{
-     }
-    }
-    ItemsInitConfigurationItem "{625B1A6305F13210}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
-     PrefabsToSpawn {
      }
     }
    }

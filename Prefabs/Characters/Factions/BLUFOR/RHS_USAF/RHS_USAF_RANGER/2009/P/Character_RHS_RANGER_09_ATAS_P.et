@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{474B263A266F57EF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_ATTL_P.et" {
+SCR_ChimeraCharacter : "{D9936548CBBAA1CD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_RF_P.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
@@ -6,6 +6,9 @@ SCR_ChimeraCharacter : "{474B263A266F57EF}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
    m_iRank PRIVATE
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -16,34 +19,9 @@ SCR_ChimeraCharacter : "{474B263A266F57EF}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{61E884192043D2D2}" {
-     PrefabsToSpawn {
-      "{59CA00DA0E8F426B}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_Single.et"
-     }
-    }
     ItemsInitConfigurationItem "{625B1A6305F13210}" {
      TargetStorage "Back/Backpack_IIFS_FieldPack.et"
      PrefabsToSpawn +{
-     }
-    }
-    ItemsInitConfigurationItem "{64F122DD25DD5691}" {
-     PrefabsToSpawn {
-      ""
-     }
-    }
-    ItemsInitConfigurationItem "{64F122DD24FFCD65}" {
-     PrefabsToSpawn {
-      ""
-     }
-    }
-    ItemsInitConfigurationItem "{64F122DD230A917A}" {
-     PrefabsToSpawn {
-      ""
-     }
-    }
-    ItemsInitConfigurationItem "{64F122DD5DC7CAB0}" {
-     PrefabsToSpawn {
-      ""
      }
     }
    }
