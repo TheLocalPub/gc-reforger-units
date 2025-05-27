@@ -1,0 +1,9 @@
+Turret : "{18343824C9D533CA}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_gun_mount_M2HB.et" {
+ ID "51ACD0965653D003"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{A0E47F43D92121EC}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_M113_Armored.et"
+  }
+ }
+ coords 1262.958 12.154 3020.537
+}
