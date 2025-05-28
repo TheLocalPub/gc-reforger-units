@@ -1,0 +1,12 @@
+Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{CEEF5B29CD014872}Prefabs/Vehicles/Wheeled/M998/VehParts/CRX_M1025_roof_M2HB_gunshield_MERDC.et"
+    }
+   }
+  }
+ }
+}
