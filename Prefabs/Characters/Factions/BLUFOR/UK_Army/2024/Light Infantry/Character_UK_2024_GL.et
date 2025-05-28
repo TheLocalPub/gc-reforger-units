@@ -9,7 +9,7 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{F2C24C971475F7B0}Prefabs/Weapons/Rifles/SA80/L85A3_UGL.et"
+   WeaponTemplate "{1B8846203730A6E4}Prefabs/Weapons/Rifles/SA80/L85A3_L123.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -17,7 +17,6 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab "{56987BA51A14FBE1}Prefabs/Characters/HeadGear/Helmets/Helmet_Virtus/Helmet_Virtus_02_Scrim_Strips_1.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{DF826CF8281F8978}Prefabs/Characters/Uniforms/PCS/PCS_Shirt_Rolled_MTP.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{B9B5A80B083DE154}Prefabs/Characters/Vests/Body_Armour/Vest_Virtus_STV/Variants/Vest_Virtus_STV_Rifleman_05.et"
@@ -32,9 +31,6 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{65769C338F604CC8}" {
-     TargetStorage "Jacket/PCS_Shirt_Rolled_MTP.et"
-    }
     ItemsInitConfigurationItem "{657764457AAC7815}" {
      TargetStorage "ArmoredVest/Vest_Virtus_STV_Rifleman_05.et"
      TargetPurpose 64
