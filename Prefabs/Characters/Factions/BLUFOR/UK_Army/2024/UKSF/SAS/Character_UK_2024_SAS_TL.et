@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{C0358E410861BD1D}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/UKSF/Character_UK_2024_SF_Base.et" {
+SCR_ChimeraCharacter : "{C0358E410861BD1D}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/UKSF/SAS/Character_UK_2024_SAS_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -28,7 +28,6 @@ SCR_ChimeraCharacter : "{C0358E410861BD1D}Prefabs/Characters/Factions/BLUFOR/UK_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{1F7C73D754B7432B}Prefabs/Characters/HeadGear/Helmets/Helmet_OpsCore/Helmet_Opscore_SF_MBS_01.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{49455BCE977B5F85}Prefabs/Characters/Uniforms/Crye/Crye_GB4/Crye_GB4_Shirt_Rolled_MC.et"
@@ -45,10 +44,8 @@ SCR_ChimeraCharacter : "{C0358E410861BD1D}Prefabs/Characters/Factions/BLUFOR/UK_
     LoadoutSlotInfo Eyes {
     }
     LoadoutSlotInfo Ears {
-     Prefab "{3D9A32F5000E16A2}Prefabs/Characters/HeadGear/Headsets/Headset_Invisio_T7/Headset_Invisio_T7_ARC_Black_01.et"
     }
     LoadoutSlotInfo Face {
-     Prefab "{B40C928C90A588A5}Prefabs/Characters/HeadGear/Masks/Masks_Arcteryx_LEAF/Masks_Arcteryx_LEAF_Croc.et"
     }
    }
   }
@@ -59,8 +56,11 @@ SCR_ChimeraCharacter : "{C0358E410861BD1D}Prefabs/Characters/Factions/BLUFOR/UK_
       "{3D6D3F62AEE21A9F}Prefabs/Items/Equipment/Radios/ANPRC343/Radio_ANPRC343_PRR_Dual.et"
      }
     }
+    ItemsInitConfigurationItem "{6576D9ED53C8565C}" {
+     TargetStorage "Jacket/Crye_GB4_Shirt_Rolled_MC.et"
+    }
     ItemsInitConfigurationItem "{65769C3242FDCEDC}" {
-     TargetStorage "ArmoredVest/Vest_Crye_CPC_Rifleman_01.et"
+     TargetStorage "ArmoredVest/Vest_Crye_CPC_Rifleman_02.et"
     }
     ItemsInitConfigurationItem "{6576BD32AE97C679}" {
      TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/MagPouch/Pouch_JayJays_MagazineDouble_1_MC.et"

@@ -20,7 +20,7 @@ SCR_ChimeraCharacter : "{542CBB6908CA71D8}Prefabs/Characters/Factions/BLUFOR/UK_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{1F7C73D754B7432B}Prefabs/Characters/HeadGear/Helmets/Helmet_OpsCore/Helmet_Opscore_SF_MBS_01.et"
+     Prefab "{E5BC64A250BA6B94}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_MC_AMP_UKSF.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{0EF85DD18333BA6F}Prefabs/Characters/Uniforms/Crye/Crye_GB4/Crye_GB4_Shirt_MC.et"
@@ -57,18 +57,11 @@ SCR_ChimeraCharacter : "{542CBB6908CA71D8}Prefabs/Characters/Factions/BLUFOR/UK_
       "{389ACBD8C4991F74}Prefabs/Items/Equipment/Radios/ANPRC343/Radio_ANPRC343_PRR.et"
      }
     }
-    ItemsInitConfigurationItem "{65769C3242FDCEDC}" {
-     TargetStorage "ArmoredVest/Vest_Crye_CPC_Plain.et"
-     TargetPurpose 64
-     PrefabsToSpawn {
-      "{91C15614267F3ED6}Prefabs/Items/Equipment/Accessories/Patches/Morale/Morale_UnionJack_Brown.et"
-     }
-    }
     ItemsInitConfigurationItem "{6576D9ED53C8565C}" {
      TargetStorage "Jacket/Crye_GB4_Shirt_MC.et"
      TargetPurpose 64
      PrefabsToSpawn {
-      "{A104CB651D8FCCCA}Prefabs/Items/Equipment/Accessories/Patches/TRF_DZ/TRF_22SAS_A_Sqn.et"
+      "{A104CB651D8FCCCA}Prefabs/Items/Equipment/Accessories/Patches/TRF_DZ/TRF_22SAS_A_Sqn.et" "{91C15614267F3ED6}Prefabs/Items/Equipment/Accessories/Patches/Morale/Morale_UnionJack_Brown.et"
      }
     }
    }

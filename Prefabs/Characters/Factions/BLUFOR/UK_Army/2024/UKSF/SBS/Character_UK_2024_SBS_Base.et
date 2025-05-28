@@ -20,7 +20,7 @@ SCR_ChimeraCharacter : "{542CBB6908CA71D8}Prefabs/Characters/Factions/BLUFOR/UK_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{1F7C73D754B7432B}Prefabs/Characters/HeadGear/Helmets/Helmet_OpsCore/Helmet_Opscore_SF_MBS_01.et"
+     Prefab "{E5BC64A250BA6B94}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_MC_AMP_UKSF.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{02B1EEE6DE71FDF8}Prefabs/Characters/Uniforms/Arcteryx/Gryphon_Jacket/Arcteryx_Gryphon_MC.et"
@@ -29,7 +29,7 @@ SCR_ChimeraCharacter : "{542CBB6908CA71D8}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab "{28A81BA1BCCED69B}Prefabs/Characters/Vests/Body_Armour/Vest_Crye_CPC/Variants/Vest_Crye_CPC_Plain.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{B3E38C970E1D5EE5}Prefabs/Characters/Uniforms/Crye/Crye_GB4/Crye_GB4_Trousers_MC.et"
+     Prefab "{6170F376E4C8D3B9}Prefabs/Characters/Uniforms/Crye/Crye_G4/Crye_G4_Combat_Pants_MC.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{02585ED96CFE147F}Prefabs/Characters/Footwear/Saloman_XUltra/Boots_Salomon_XUltra_Black.et"
