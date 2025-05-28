@@ -3,12 +3,13 @@ SCR_ChimeraCharacter : "{C0358E410861BD1D}Prefabs/Characters/Factions/BLUFOR/UK_
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
-    m_Image "{370752C993F4B330}UI/PreviewImages/Characters/BLUFOR/BritishForces/Character_UK_1989_SpecialForces_Trooper.edds"
+    Name "#AR-Role_Sharpshooter"
+    Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+    m_Image "{842AED8422F3A398}UI/PreviewImages/Characters/BLUFOR/BritishForces/Character_UK_1989_SpecialForces_Sharpshooter.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{64D9AAAC99DD3F17}Prefabs/Weapons/Rifles/L119A2/Rifle_L119A2_15_UKSF.et"
+   WeaponTemplate "{38C558C74A3164FA}Prefabs/Weapons/Rifles/L119A2/Rifle_L119A2_15_Bipod_UKSF.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
@@ -36,46 +37,52 @@ SCR_ChimeraCharacter : "{C0358E410861BD1D}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{6579089C8AA04BA2}" {
      TargetStorage "ArmoredVest/Vest_Crye_CPC_Rifleman_01.et"
     }
-    ItemsInitConfigurationItem "{65769C35309538BE}" {
+    ItemsInitConfigurationItem "{657932578E2AD540}" {
      TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/MagPouch/Pouch_JayJays_MagazineDouble_1_MC.et"
      PrefabsToSpawn {
       "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
      }
     }
-    ItemsInitConfigurationItem "{65769C351B43820D}" {
+    ItemsInitConfigurationItem "{657932578E2AD57B}" {
      TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/MagPouch2/Pouch_JayJays_MagazineDouble_2_MC.et"
      PrefabsToSpawn {
       "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
      }
     }
-    ItemsInitConfigurationItem "{65769C35112F72B3}" {
+    ItemsInitConfigurationItem "{657932578E2AD57D}" {
      TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/MagPouch3/Pouch_JayJays_MagazineDouble_2_MC.et"
      PrefabsToSpawn {
       "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
      }
     }
-    ItemsInitConfigurationItem "{65769C35ED6E0A6B}" {
+    ItemsInitConfigurationItem "{657932578E2AD57E}" {
      TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/MagPouch4/Pouch_JayJays_MagazineDouble_1_MC.et"
      PrefabsToSpawn {
       "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
      }
     }
-    ItemsInitConfigurationItem "{65769C35EA49389D}" {
+    ItemsInitConfigurationItem "{657932578E2AD570}" {
      TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/Utility1/Pouch_JayJays_Utility1_MC.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
-    ItemsInitConfigurationItem "{65769C35E2A06210}" {
+    ItemsInitConfigurationItem "{657932578E2AD573}" {
      TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/Utility2/Pouch_JayJays_Utility2_MC.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
-    ItemsInitConfigurationItem "{65769C37C4E8042F}" {
+    ItemsInitConfigurationItem "{657932578E2AD577}" {
      TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/Utility4/Pouch_JayJays_Utility4_MC.et"
      PrefabsToSpawn {
       "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65794C45409E3414}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/Utility3/Pouch_JayJays_Utility3_MC.et"
+     PrefabsToSpawn {
+      "{09F49104A6C4558B}Prefabs/Weapons/Attachments/Optics/pas13g/Optic_Thermal_pas13g_m4m16.et"
      }
     }
    }

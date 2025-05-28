@@ -20,7 +20,7 @@ SCR_ChimeraCharacter : "{C0358E410861BD1D}Prefabs/Characters/Factions/BLUFOR/UK_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{5E822BC45B4C6D73}Prefabs/Weapons/Rifles/L119A2/Rifle_L119A2_10.et"
+   WeaponTemplate "{76FB6674DFC42F79}Prefabs/Weapons/Rifles/L119A2/Rifle_L119A2_10_UKSF.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
@@ -30,7 +30,6 @@ SCR_ChimeraCharacter : "{C0358E410861BD1D}Prefabs/Characters/Factions/BLUFOR/UK_
     LoadoutSlotInfo Hat {
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{49455BCE977B5F85}Prefabs/Characters/Uniforms/Crye/Crye_GB4/Crye_GB4_Shirt_Rolled_MC.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{DF1ECDE7D1CBAB20}Prefabs/Characters/Vests/Body_Armour/Vest_Crye_CPC/Variants/Vest_Crye_CPC_Rifleman_02.et"
@@ -53,11 +52,13 @@ SCR_ChimeraCharacter : "{C0358E410861BD1D}Prefabs/Characters/Factions/BLUFOR/UK_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{65769C3450B9CD6E}" {
      PrefabsToSpawn {
-      "{3D6D3F62AEE21A9F}Prefabs/Items/Equipment/Radios/ANPRC343/Radio_ANPRC343_PRR_Dual.et"
+      "{68FE5703457F2FF5}Prefabs/Items/Equipment/Radios/ANPRC163/Radio_ANPRC163.et"
      }
     }
     ItemsInitConfigurationItem "{6576D9ED53C8565C}" {
-     TargetStorage "Jacket/Crye_GB4_Shirt_Rolled_MC.et"
+    }
+    ItemsInitConfigurationItem "{6579089C8AA04BA2}" {
+     TargetStorage "ArmoredVest/Vest_Crye_CPC_Rifleman_02.et"
     }
     ItemsInitConfigurationItem "{65769C3242FDCEDC}" {
      TargetStorage "ArmoredVest/Vest_Crye_CPC_Rifleman_02.et"
@@ -96,12 +97,6 @@ SCR_ChimeraCharacter : "{C0358E410861BD1D}Prefabs/Characters/Factions/BLUFOR/UK_
      TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/Utility2/Pouch_JayJays_Utility2_MC.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
-     }
-    }
-    ItemsInitConfigurationItem "{6576BD32AE97C66F}" {
-     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/Utility3/Pouch_JayJays_Utility3_MC.et"
-     PrefabsToSpawn {
-      "{327D7B30288149BF}Prefabs/Weapons/Attachments/Muzzle/Suppressors/Suppressor_SF_FA556SA.et" "{979AF6CFF2AAAE26}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_su278pvs_high.et"
      }
     }
     ItemsInitConfigurationItem "{6576BD32AE97C662}" {

@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Rifles/Character_UK_2024_Base.et" {
+SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -34,7 +34,7 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6574E493A8452458}" {
      PrefabsToSpawn {
-      "{013A731E59E8FB61}Prefabs/Items/Equipment/Radios/ANPRC152/Radio_ANPRC152.et"
+      "{68FE5703457F2FF5}Prefabs/Items/Equipment/Radios/ANPRC163/Radio_ANPRC163.et"
      }
     }
     ItemsInitConfigurationItem "{65780D9F25909300}" {

@@ -11,6 +11,9 @@ SCR_ChimeraCharacter : "{C0358E410861BD1D}Prefabs/Characters/Factions/BLUFOR/UK_
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{C065B8A810411D66}Prefabs/Weapons/MachineGuns/M249/MG_M249_ELCAN.et"
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
@@ -56,9 +59,9 @@ SCR_ChimeraCharacter : "{C0358E410861BD1D}Prefabs/Characters/Factions/BLUFOR/UK_
      }
     }
     ItemsInitConfigurationItem "{65769C3747F3EAF4}" {
-     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/Utility3/Pouch_JayJays_Utility3_MC.et"
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/Utility4/Pouch_JayJays_Utility4_MC.et"
      PrefabsToSpawn {
-      "{327D7B30288149BF}Prefabs/Weapons/Attachments/Muzzle/Suppressors/Suppressor_SF_FA556SA.et" "{979AF6CFF2AAAE26}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_su278pvs_high.et"
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
      }
     }
     ItemsInitConfigurationItem "{65769C3711C6D232}" {
