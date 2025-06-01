@@ -4,10 +4,12 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
   TurretComponent "{5E2AA01A5666DF39}" {
    components {
     SCR_2DSightsComponent "{5E2AA01A5666DF3A}" {
+     SightsPosition PointInfo "{5E2AA01A5666DF45}" {
+      Offset 0.0765 -0.2253 0.0991
+     }
      SightsFOVInfo SCR_SightsZoomFOVInfo "{5E2AA01A5666DF47}" {
       m_fBaseZoom 0.5
-      m_fZoomMax 2
-      m_fStepZoomSize 1.5
+      m_fZoomMax 1
       m_fInterpolationSpeed 10
      }
      SightsPointFront PointInfo "{5E2AA01A5666DF46}" {
