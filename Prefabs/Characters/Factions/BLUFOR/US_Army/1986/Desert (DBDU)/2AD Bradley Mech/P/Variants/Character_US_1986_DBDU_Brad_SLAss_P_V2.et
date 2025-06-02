@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{33C657018C0D19C9}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/2AD Bradley Mech/P/Character_US_1986_DBDU_Brad_SLAss_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1048918893CAD906}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_DBDU_cover_w_goggles.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{725C5E1C75CADAF4}Prefabs/Characters/Vests/Vest_M69/Vest_M69_M81woodland.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4F71E7468E78DDD2}Prefabs/Characters/Handwear/Gloves_Leather_01/Gloves_Leather_01.et"
+    }
+   }
+  }
+ }
+}

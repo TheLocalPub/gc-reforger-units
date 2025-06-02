@@ -1,0 +1,19 @@
+SCR_ChimeraCharacter : "{A9565A78B4EB4E8B}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/2AD Bradley Mech/P/Character_US_1986_DBDU_Brad_Driver_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{9C520ACFC4183EFF}Prefabs/Characters/Uniforms/Jacket_US_DBDU_rolledup.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6582C96C0C75619C}" {
+     TargetStorage "Jacket/Jacket_US_DBDU_rolledup.et"
+    }
+   }
+  }
+ }
+}
