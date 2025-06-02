@@ -23,7 +23,7 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab "{E57C6FC2DEF86528}Prefabs/Characters/Backpacks/Daysacks/Camelbak_BFM/Camelbak_BFM_MC.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{6850162D1EA35BC8}Prefabs/Characters/Vests/Belts/Webbing/Virtus_H_Rig/Variants/Webbing_Virtus_H_Rig_Rifleman_01.et"
+     Prefab "{7489DAB2FF83543A}Prefabs/Characters/Vests/Belts/Webbing/Virtus_H_Rig/Variants/Webbing_Virtus_H_Rig_Rifleman_02.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{2295354C283A1FBF}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Comp_Tan.et"
@@ -42,43 +42,43 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
      }
     }
     ItemsInitConfigurationItem "{6574ECCCF768DDA2}" {
-     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/MagPouch/Pouch_Virtus_Double_Mag_1_MTP.et"
+     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_02.et/MagPouch/Pouch_Virtus_Double_Mag_1_MTP.et"
      PrefabsToSpawn {
       "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et" "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et"
      }
     }
     ItemsInitConfigurationItem "{6574ECCCF768DD91}" {
-     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/MagPouch2/Pouch_Virtus_Double_Mag_2_MTP.et"
+     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_02.et/MagPouch2/Pouch_Virtus_Double_Mag_2_MTP.et"
      PrefabsToSpawn {
       "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et" "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et"
      }
     }
     ItemsInitConfigurationItem "{6574ECCCF768DD93}" {
-     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/MagPouch3/Pouch_Virtus_Double_Mag_2_MTP.et"
+     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_02.et/MagPouch3/Pouch_Virtus_Double_Mag_2_MTP.et"
      PrefabsToSpawn {
       "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et" "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et"
      }
     }
     ItemsInitConfigurationItem "{6574ECCCF768DD8C}" {
-     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/MagPouch4/Pouch_Virtus_Double_Mag_1_MTP.et"
+     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_02.et/MagPouch4/Pouch_Virtus_Double_Mag_1_MTP.et"
      PrefabsToSpawn {
       "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et" "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et"
      }
     }
     ItemsInitConfigurationItem "{6574ECCCF768DD8D}" {
-     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/Utility3/Pouch_Virtus_Utility_1_MTP.et"
+     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_02.et/Utility3/Pouch_Spiritus_BackPanelUtility_Slim1_MC.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{6574ECCCF768DD8F}" {
-     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/Utility2/Pouch_Virtus_Utility_2_MTP.et"
+     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_02.et/Utility2/Pouch_Spiritus_BackPanelUtility_Tall_MC.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
     ItemsInitConfigurationItem "{6574ECCCF768DD89}" {
-     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/Utility3/Pouch_Virtus_Utility_1_MTP.et"
+     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_02.et/Utility1/Pouch_Virtus_Dump_1_MTP.et"
      PrefabsToSpawn {
       "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
      }
@@ -86,7 +86,7 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{6574ECCCB118FB71}" {
      TargetStorage "Back/Camelbak_BFM_MC.et"
      PrefabsToSpawn {
-      "{7729EF36AA916FB9}Prefabs/Weapons/Magazines/Box_762x51_GPMG_200rnd_4Ball_1Tracer.et" "{7729EF36AA916FB9}Prefabs/Weapons/Magazines/Box_762x51_GPMG_200rnd_4Ball_1Tracer.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{57A7222BCD92A59E}Prefabs/Items/Medicine/SalineBag_01/SalineBag_UK_01.et" "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et"
+      "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
      }
     }
    }

@@ -9,7 +9,7 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{78975C5D9C1AFA4C}Prefabs/Weapons/MachineGuns/GPMG/MG_GPMG_L7A2.et"
+   WeaponTemplate "{EC30D7419D15FB20}Prefabs/Weapons/MachineGuns/GPMG/MG_GPMG_L7A2_100.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -42,7 +42,7 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{6574E89D4609477C}" {
      TargetStorage "Back/Camelbak_Rubicon_MC.et"
      PrefabsToSpawn {
-      "{7729EF36AA916FB9}Prefabs/Weapons/Magazines/Box_762x51_GPMG_200rnd_4Ball_1Tracer.et" "{7729EF36AA916FB9}Prefabs/Weapons/Magazines/Box_762x51_GPMG_200rnd_4Ball_1Tracer.et" "{7729EF36AA916FB9}Prefabs/Weapons/Magazines/Box_762x51_GPMG_200rnd_4Ball_1Tracer.et"
+      "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{6574E89D4609476F}" {

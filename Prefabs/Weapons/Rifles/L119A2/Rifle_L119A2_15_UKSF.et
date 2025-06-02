@@ -21,6 +21,7 @@ GenericEntity : "{8967750A9E506679}Prefabs/Weapons/Rifles/L119A2/Rifle_L119A2_15
        }
       }
      }
+     MagazineTemplate "{9ED23716CB425EDC}Prefabs/Weapons/Magazines/EMAG_BLK_556x45_AP.et"
     }
    }
   }
