@@ -1,8 +1,10 @@
-SCR_ChimeraCharacter : "{E1FEFB8E5AF7B890}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Character_US_1986_BDU_MAT_P.et" {
+SCR_ChimeraCharacter : "{E0CAF1E9479A1E40}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/P/Character_US_1986_DBDU_COY_XO_P.et" {
  ID "520EC961A090B1EE"
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+    }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{725C5E1C75CADAF4}Prefabs/Characters/Vests/Vest_M69/Vest_M69_M81woodland.et"
     }

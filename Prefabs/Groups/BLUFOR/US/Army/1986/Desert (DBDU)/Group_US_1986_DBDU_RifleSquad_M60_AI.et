@@ -1,0 +1,14 @@
+SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  PS_GroupCallsignAssigner "{65869432AAEE9C95}" {
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{12E9CB7BFF5E69DD}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/Character_US_1986_DBDU_SL_AI.et" "{6D09C9756635011F}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/Character_US_1986_DBDU_TL_AI.et" "{30D919BD1737C827}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/Character_US_1986_DBDU_MG_AI.et" "{6172EBCADE9D20B5}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/Character_US_1986_DBDU_AMG_AI.et" "{D1B964FC6DF6294C}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/Character_US_1986_DBDU_GL_AI.et" "{6D09C9756635011F}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/Character_US_1986_DBDU_TL_AI.et" "{30D919BD1737C827}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/Character_US_1986_DBDU_MG_AI.et" "{6172EBCADE9D20B5}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/Character_US_1986_DBDU_AMG_AI.et" "{D1B964FC6DF6294C}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/Character_US_1986_DBDU_GL_AI.et"
+ }
+ m_sCustomNameSet "Rifle Squad"
+}
