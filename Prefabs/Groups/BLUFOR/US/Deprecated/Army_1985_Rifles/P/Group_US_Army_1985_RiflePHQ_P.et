@@ -1,8 +1,5 @@
-SCR_AIGroup : "{2627EACAB3E626E7}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/Group_US_Army_1985_RiflePHQ.et.et" {
+SCR_AIGroup : "{809D5896510B70C2}Prefabs\Groups\BLUFOR\US\Army\1986\Lt Inf (Woodland)\P\Group_US_1986_BDU_COY_HQ_P.et" {
  ID "0000000000000001"
- m_aUnitPrefabSlots {
-  "{D164278FD7D9C81A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PL_P.et" "{501777EB151D644B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant_P.et" "{EC7EDB04B4C7B73A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et"
- }
  m_bPlayable 1
  m_sCustomNameSet "Platoon HQ"
  m_bSetPlayable 1
