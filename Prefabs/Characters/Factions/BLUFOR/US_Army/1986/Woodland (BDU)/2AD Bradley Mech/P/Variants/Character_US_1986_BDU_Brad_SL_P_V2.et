@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{32499E22236D264B}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/2AD Bradley Mech/P/Character_US_1986_BDU_Brad_SL_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E685A8D337D36204}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover_w_goggles.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{725C5E1C75CADAF4}Prefabs/Characters/Vests/Vest_M69/Vest_M69_M81woodland.et"
+    }
+   }
+  }
+ }
+}

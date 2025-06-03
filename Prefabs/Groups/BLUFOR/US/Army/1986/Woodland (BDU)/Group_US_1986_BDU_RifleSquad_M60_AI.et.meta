@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D3722CF5E78D342A}Prefabs/Groups/BLUFOR/US/Army/1986/Woodland (BDU)/Group_US_1986_BDU_RifleSquad_M60_AI.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

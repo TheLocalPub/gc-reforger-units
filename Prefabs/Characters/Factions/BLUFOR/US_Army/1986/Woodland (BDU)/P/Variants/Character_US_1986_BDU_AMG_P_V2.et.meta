@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5D366A08E8F3634E}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Character_US_1986_BDU_AMG_P_V2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

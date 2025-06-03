@@ -1,0 +1,76 @@
+GenericEntity : "{E18D1D478A6B1E48}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{6586118F96F17460}" {
+     SourceMaterial "M_M27_IAR_Base"
+     AssignedMaterial "{B0CE93C0FF46A03D}Assets/Weapons/Rifles/m27iar/data/rhs_M27_rec_GC_M110A1.emat"
+    }
+    MaterialAssignClass "{6586118F96F17441}" {
+     SourceMaterial "M_M27_IAR_Furniture"
+     AssignedMaterial "{3A9C8994DD9528A3}Assets/Weapons/Rifles/m27iar/data/rhs_M27_rail_GC_M110A1.emat"
+    }
+   }
+  }
+  RHS_SGC_RadialMenuComponent "{5D5EE4D5D9FDF6FE}" {
+   m_sDisplayName "M38 SDMR"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Cope M110A1"
+     Description "help me I am losing my mind (this rifle takes M14 magazines)"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5CC8E73BB698D287}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot optics {
+      Prefab "{7BD96851E1671733}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_TANGO6T/Optic_TANGO6T_FDE.et"
+     }
+    }
+    AttachmentSlotComponent "{5CF88C80AF78DA73}" {
+     AttachmentSlot InventoryStorageSlot PicattinyRailTop {
+      Prefab "{A7C848BABE4F4577}Prefabs/Weapons/Attachments/Lasers/psq23/LaserRangefinder_PSQ23_base.et"
+     }
+    }
+    AttachmentSlotComponent "{5D873BE26346E4D7}" {
+     AttachmentSlot InventoryStorageSlot attachment_railcover {
+      Prefab "{8B8DB728715F2AF4}Prefabs/Weapons/Attachments/Misc/KacRailCover/KacRailCover_kit1_tan.et"
+     }
+    }
+    AttachmentSlotComponent "{60A6AC64CDA3C786}" {
+     AttachmentSlot InventoryStorageSlot BUTTSTOCK {
+     }
+    }
+    AttachmentSlotComponent "{631F58122CD73C1F}" {
+     AttachmentSlot InventoryStorageSlot bipodSlot {
+      Prefab "{23D34FB66BBC8BEE}Prefabs/Weapons/Attachments/Bipods/harris_bipod/rhs_lt706_harris.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     FireModes {
+      BaseFireMode "{5CC8E73BB698D2AA}" {
+       MaxBurst 1
+       BurstType Uninterruptable
+       UIName "Single"
+      }
+     }
+     MagazineWell MagazineWellM14 "{5CC8E73BB698D2A7}" {
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      Offset 0 0.0134 0.0145
+      Angles -5.1205 0 0
+     }
+     MagazineTemplate "{6D18CC33708EE712}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_Base.et"
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Cope M110A1"
+    Description "help me I am losing my mind (this rifle takes M14 magazines)"
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3D8A4C8402A542CC}Prefabs/Groups/BLUFOR/US/Army/1986/Desert (DBDU)/Group_US_1986_DBDU_RifleSquad_M60_AI.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
