@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{16BD262C2B6A28E6}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Character_US_1986_BDU_MAT_P_V2.2.et"
+ Name "{4D3F35888E95D582}Prefabs/Groups/BLUFOR/US/Army/1986/Desert (DBDU)/2AD Bradley Mech/Group_US_1986_DBDU_Brad_RifleSquad_M67_AI.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
