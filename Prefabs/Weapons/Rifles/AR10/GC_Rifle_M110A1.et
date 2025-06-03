@@ -1,6 +1,11 @@
 GenericEntity : "{E18D1D478A6B1E48}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_base.et" {
  ID "CFBAA4B725411E45"
  components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{1B5D78EC81243F26}Sounds/Weapons/Rifles/M40/Weapons_Rifles_M40_Shot.acp" "{9FE8ECD9A435366A}Sounds/Weapons/Rifles/M27IAR/RHS_Weapons_Rifles_M27IAR_Handling.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{07E8D425196745F4}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_Plastic.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{E419B2CF55F4A389}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Bayonett.acp" "{DF7202A00392B0B7}Sounds/Weapons/Rifles/M27IAR/Suppressed/RHS_Weapons_Rifles_M27IAR_Shot_Suppressed.acp"
+   }
+  }
   MeshObject "{CFBAA4B701F95D69}" {
    Materials {
     MaterialAssignClass "{6586118F96F17460}" {
@@ -51,6 +56,12 @@ GenericEntity : "{E18D1D478A6B1E48}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_ba
      }
     }
     MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626541D4146E1B36}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+       }
+      }
+     }
      FireModes {
       BaseFireMode "{5CC8E73BB698D2AA}" {
        MaxBurst 1
