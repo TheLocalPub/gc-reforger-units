@@ -33,12 +33,12 @@ GenericEntity : "{E18D1D478A6B1E48}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_ba
    components {
     AttachmentSlotComponent "{5CC8E73BB698D287}" {
      AttachmentSlot RHS_SlidingInventoryStorageSlot optics {
-      Prefab "{7BD96851E1671733}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_TANGO6T/Optic_TANGO6T_FDE.et"
+      Prefab "{5279254DC7119EE9}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_TANGO6T/Optic_TANGO6T_FDE_RMR.et"
      }
     }
     AttachmentSlotComponent "{5CF88C80AF78DA73}" {
      AttachmentSlot InventoryStorageSlot PicattinyRailTop {
-      Prefab "{A7C848BABE4F4577}Prefabs/Weapons/Attachments/Lasers/psq23/LaserRangefinder_PSQ23_base.et"
+      Prefab ""
      }
     }
     AttachmentSlotComponent "{5D873BE26346E4D7}" {
@@ -59,6 +59,7 @@ GenericEntity : "{E18D1D478A6B1E48}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_ba
      components {
       AttachmentSlotComponent "{626541D4146E1B36}" {
        AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{EF8F44E10F9B7A9D}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS_Covered.et"
        }
       }
      }
@@ -75,12 +76,22 @@ GenericEntity : "{E18D1D478A6B1E48}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_ba
       Offset 0 0.0134 0.0145
       Angles -5.1205 0 0
      }
-     MagazineTemplate "{6D18CC33708EE712}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_Base.et"
+     MagazineTemplate "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et"
     }
    }
    UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
     Name "Cope M110A1"
     Description "help me I am losing my mind (this rifle takes M14 magazines)"
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   additionalActions {
+    RHS_FlipSightUserAction "{5CD11496CCF82C24}" {
+     m_bShouldBeFoldedByDefault 1
+    }
+    RHS_FlipSightUserAction "{5CD11C9D06036A25}" {
+     m_bShouldBeFoldedByDefault 1
+    }
    }
   }
  }
