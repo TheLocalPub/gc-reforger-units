@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{FA51D39A01EEBAC3}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/2AD Bradley Mech/Character_US_1986_BDU_Brad_Master_Gunner_AI.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{657D1DAF2F135C75}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{657D1DAF2E59653B}" {
+      m_sVariantPrefab "{F278D3EFE1E28BD1}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/2AD Bradley Mech/P/Variants/Character_US_1986_BDU_Brad_Master_Gunner_P_V2.et"
+     }
+     SCR_EditableEntityVariant "{657D1DAF2E7A9CA5}" {
+      m_sVariantPrefab "{7374D14A73393AB5}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/2AD Bradley Mech/P/Variants/Character_US_1986_BDU_Brad_Master_Gunner_P_V3.et"
+     }
+     SCR_EditableEntityVariant "{657D1DAF2E185B5C}" {
+      m_sVariantPrefab "{877C96D27EE452C1}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/2AD Bradley Mech/P/Variants/Character_US_1986_BDU_Brad_Master_Gunner_P_V4.et"
+     }
+    }
+   }
+  }
+ }
+}

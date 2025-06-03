@@ -1,0 +1,16 @@
+SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  PS_GroupCallsignAssigner "{6582D124478C735D}" {
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{AB76789D65A85483}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Character_US_1986_BDU_COY_CO_P.et" "{37BD3FDC26B05952}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Character_US_1986_BDU_COY_CSM_P.et" "{A1AFC251AE26C34E}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Character_US_1986_BDU_RTO_P.et" "{F841D41888F73D00}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Character_US_1986_BDU_Medic_P.et"
+ }
+ m_bPlayable 1
+ m_sCustomNameSet "Company HQ"
+ m_bSetPlayable 1
+}

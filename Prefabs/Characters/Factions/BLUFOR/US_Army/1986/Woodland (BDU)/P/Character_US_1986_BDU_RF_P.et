@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{B89FFE1A51691C07}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/Character_US_1986_BDU_RF_AI.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{657D1BB0A45A3835}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{657D1BB15BD9204C}" {
+      m_sVariantPrefab "{6F830E837A71AD43}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Variants/Character_US_1986_BDU_RF_P_V2.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E685A8D337D36204}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover_w_goggles.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+   }
+  }
+ }
+}
