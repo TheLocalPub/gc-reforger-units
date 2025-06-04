@@ -27,13 +27,16 @@ GenericEntity : "{E18D1D478A6B1E48}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_ba
      Name "Cope M110A1"
      Description "help me I am losing my mind (this rifle takes M14 magazines)"
     }
+    ItemPhysAttributes ItemPhysicalAttributes "{5CC8E73BB698D271}" {
+     Weight 3.81
+    }
    }
   }
   WeaponComponent "{CFBAA4B706BA66E8}" {
    components {
     AttachmentSlotComponent "{5CC8E73BB698D287}" {
      AttachmentSlot RHS_SlidingInventoryStorageSlot optics {
-      Prefab "{5279254DC7119EE9}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_TANGO6T/Optic_TANGO6T_FDE_RMR.et"
+      Prefab "{7BD96851E1671733}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_TANGO6T/Optic_TANGO6T_FDE.et"
      }
     }
     AttachmentSlotComponent "{5CF88C80AF78DA73}" {
@@ -72,6 +75,7 @@ GenericEntity : "{E18D1D478A6B1E48}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_ba
      }
      MagazineWell MagazineWellM14 "{5CC8E73BB698D2A7}" {
      }
+     DispersionRange 800
      MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
       Offset 0 0.0134 0.0145
       Angles -5.1205 0 0
