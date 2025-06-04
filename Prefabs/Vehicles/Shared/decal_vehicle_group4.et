@@ -1,0 +1,9 @@
+GenericEntity : "{1C539C904D39A895}Prefabs/Vehicles/Shared/decal_vehicle_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  RHS_MaterialController "{5E35420CA7B998B2}" {
+   m_bRandomizeValue 0
+   m_sGroupName "GROUP4"
+  }
+ }
+}
