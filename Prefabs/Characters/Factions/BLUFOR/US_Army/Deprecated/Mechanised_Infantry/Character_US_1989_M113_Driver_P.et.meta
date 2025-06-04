@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{05237B0E17127E74}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1989_M113 _Driver_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
