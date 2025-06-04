@@ -1,0 +1,46 @@
+GenericEntity : "{B8E1BC2C9B4D4005}Prefabs/Weapons/Rifles/AR10/GC_Rifle_M110A1.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Cope L129A1"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5CC8E73BB698D287}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot optics {
+      Prefab "{36EF773EB236A891}Prefabs/Weapons/Attachments/Optics/ta648mdo/Optic_TA648MDO_rmr.et"
+     }
+    }
+    AttachmentSlotComponent "{5CF88C80AF78DA73}" {
+     AttachmentSlot InventoryStorageSlot PicattinyRailTop {
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{5D873BE26346E4D7}" {
+     AttachmentSlot InventoryStorageSlot attachment_railcover {
+      Prefab "{C53550E0488BC2AF}Prefabs/Weapons/Attachments/Misc/KacRailCover/KacRailCover_kit_m4a1_ras_tan.et"
+     }
+    }
+    AttachmentSlotComponent "{60A6AC64CDA3C786}" {
+     AttachmentSlot InventoryStorageSlot BUTTSTOCK {
+      Offset 0 0.0059 -0.0634
+      Prefab "{4A9844A6D06E25F2}Prefabs/Weapons/Attachments/Stocks/Stock_AR15_SOPMOD/RHS_M4_SOPMOD_TAN.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626541D4146E1B36}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{B74D593B0A51064C}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_PRONG4.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
