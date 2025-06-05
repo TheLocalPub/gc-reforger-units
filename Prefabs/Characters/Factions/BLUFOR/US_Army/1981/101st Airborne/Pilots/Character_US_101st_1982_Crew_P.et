@@ -1,0 +1,10 @@
+SCR_ChimeraCharacter : "{8426E83786EC8E1E}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/Pilots/Character_US_101st_1982_Pilot_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Crew Chief"
+   }
+  }
+ }
+}
