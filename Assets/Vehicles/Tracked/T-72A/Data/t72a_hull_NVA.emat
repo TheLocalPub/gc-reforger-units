@@ -1,0 +1,7 @@
+MatPBRBasic {
+ DiffuseIBL 0.412 0.49 0.361 1
+ Diffuse 0.29 0.369 0.235 1
+ RoughnessScale 1.3
+ BCRMap "{E9E09B4199BFC692}Assets/Vehicles/Tracked/T-72A/Data/Textures/t-72a_hull_BCR.edds"
+ NMOMap "{D13820D340C8940C}Assets/Vehicles/Tracked/T-72A/Data/Textures/t-72a_hull_NMO.edds"
+}
