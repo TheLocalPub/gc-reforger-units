@@ -4,6 +4,8 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Line"
   }
+  PS_GroupCallsignAssigner "{65894BA656D8CD87}" {
+  }
  }
  m_faction "GC_NVA"
  m_aUnitPrefabSlots {
