@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8426E83786EC8E1E}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/Character_US_101st_1982_Pilot.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
