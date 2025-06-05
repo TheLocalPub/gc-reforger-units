@@ -1,0 +1,13 @@
+GenericEntity : "{7851C866210A685F}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/FIA/UAZ469_FIA_CoatOfArms_decal.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{658A89D97036DDC6}" {
+     SourceMaterial "FIA_CoatOfArms_66F803693C8814A2"
+     AssignedMaterial "{00329F6B2F5B1DC7}Assets/_SharedData/Decals/Coat_of_arms_NVA.emat"
+    }
+   }
+  }
+ }
+}

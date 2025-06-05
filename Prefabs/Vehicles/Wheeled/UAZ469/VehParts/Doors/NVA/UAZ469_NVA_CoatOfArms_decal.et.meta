@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{EA548E20D41DC3CF}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/FIA/UAZ469_NVA_CoatOfArms_decal.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

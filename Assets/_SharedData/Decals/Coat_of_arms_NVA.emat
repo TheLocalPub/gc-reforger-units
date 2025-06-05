@@ -3,7 +3,7 @@ MatPBRDecal {
  SpecularIBL 0.515 0.515 0.515 1
  DisablePriorityProbes 1
  Specular 0.498 0.498 0.498 1
- AlphaMul 0.825
+ AlphaMul 0.8
  BlendMode AlphaBlend
  RoughnessScale 0.836
  MetalnessScale 0
