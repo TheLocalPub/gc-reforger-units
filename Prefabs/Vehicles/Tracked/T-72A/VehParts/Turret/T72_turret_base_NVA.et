@@ -9,18 +9,6 @@ Turret : "{3474BEBB23BA5793}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret/T72_t
     }
    }
   }
-  TurretComponent "{648607B051371287}" {
-   components {
-    SCR_2DSightsComponent "{648607B051371298}" {
-     SightsFOVInfo SCR_SightsZoomFOVInfo "{648607B05137129F}" {
-      m_fBaseZoom 0.8
-      m_fZoomMax 8
-      m_fStepZoomSize 5
-      m_fInterpolationSpeed 25
-     }
-    }
-   }
-  }
   SlotManagerComponent "{64863497471CD184}" {
    Slots {
     RegisteringComponentSlotInfo CommanderTurrets {
@@ -68,5 +56,4 @@ Turret : "{3474BEBB23BA5793}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret/T72_t
    WeaponTemplate "{E83D377FCAF4B121}Prefabs/Weapons/HeavyWeapons/2A46/Cannon_2A46_NVA.et"
   }
  }
- coords 1416.007 38.138 2961.155
 }
