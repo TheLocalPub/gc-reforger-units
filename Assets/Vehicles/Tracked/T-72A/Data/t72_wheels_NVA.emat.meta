@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{717213528A152EAE}Assets/Vehicles/Tracked/T-72A/Data/t72_wheels_NVA.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
