@@ -54,6 +54,12 @@ SCR_ChimeraCharacter : "{542CBB6908CA71D8}Prefabs/Characters/Factions/BLUFOR/UK_
       "{389ACBD8C4991F74}Prefabs/Items/Equipment/Radios/ANPRC343/Radio_ANPRC343_PRR.et"
      }
     }
+    ItemsInitConfigurationItem "{658F01CD7D92ED96}" {
+     TargetStorage "Pants/PCS_Trousers_MTP.et"
+     PrefabsToSpawn {
+      "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et"
+     }
+    }
    }
   }
  }
