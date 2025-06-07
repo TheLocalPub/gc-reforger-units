@@ -20,7 +20,7 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab "{611DC1CA71B4FF08}Prefabs/Characters/Vests/Body_Armour/Vest_Virtus_STV/Variants/Vest_Virtus_STV_Rifleman_03.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{E57C6FC2DEF86528}Prefabs/Characters/Backpacks/Daysacks/Camelbak_BFM/Camelbak_BFM_MC.et"
+     Prefab "{57638795A9154814}Prefabs/Characters/Backpacks/Bergens/ADA_Assault/ADA_Assault_MTP.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{6850162D1EA35BC8}Prefabs/Characters/Vests/Belts/Webbing/Virtus_H_Rig/Variants/Webbing_Virtus_H_Rig_Rifleman_01.et"
@@ -87,7 +87,7 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
      }
     }
     ItemsInitConfigurationItem "{6584C0778A6C45BC}" {
-     TargetStorage "Back/Camelbak_BFM_MC.et"
+     TargetStorage "Back/ADA_Assault_MTP.et"
      PrefabsToSpawn {
       "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et" "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{57A7222BCD92A59E}Prefabs/Items/Medicine/SalineBag_01/SalineBag_UK_01.et" "{57A7222BCD92A59E}Prefabs/Items/Medicine/SalineBag_01/SalineBag_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et" "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et"
      }
