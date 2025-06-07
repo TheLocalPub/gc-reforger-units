@@ -1,0 +1,52 @@
+Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
+ ID "0000000000000001"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{658D1068AEC4812B}" {
+     SourceMaterial "t72_wheels"
+     AssignedMaterial "{717213528A152EAE}Assets/Vehicles/Tracked/T-72A/Data/t72_wheels_NVA.emat"
+    }
+    MaterialAssignClass "{658D1068AEC48136}" {
+     SourceMaterial "t72a_hull"
+     AssignedMaterial "{2BD1D4D698A05604}Assets/Vehicles/Tracked/T-72A/Data/t72a_hull_NVA.emat"
+    }
+   }
+  }
+  RHS_GroupMaterialController "{658AB6326777B95D}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{658AB632658732AD}" {
+     m_iNumberOfTextures 10
+    }
+    RHS_MaterialGroupProperties "{658AB63265A8D549}" {
+     m_sGroupName "GROUP2"
+     m_iNumberOfTextures 10
+    }
+    RHS_MaterialGroupProperties "{658AB6326548B8DA}" {
+     m_sGroupName "GROUP3"
+     m_iNumberOfTextures 10
+    }
+    RHS_MaterialGroupProperties "{658AB632656B9B60}" {
+     m_sGroupName "GROUP4"
+     m_iNumberOfTextures 10
+    }
+   }
+   m_iMaxAllowedDepth 2
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "GC_NVA"
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "GC_NVA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{005F1793473112C8}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret/T72A_turret_NVA.et"
+    }
+   }
+  }
+ }
+}

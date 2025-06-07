@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{79B1C564402A83DA}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/2AD Bradley Mech/Character_US_1986_DBDU_Brad_CO_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

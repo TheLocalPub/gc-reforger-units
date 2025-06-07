@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{58AEA41EDDA6DAC4}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/2AD Bradley Mech/P/Variants/Character_US_1986_BDU_Brad_Gunner_P_V2_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

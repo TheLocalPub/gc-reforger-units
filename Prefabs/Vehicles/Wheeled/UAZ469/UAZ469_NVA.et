@@ -1,0 +1,43 @@
+Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ ID "44EC665ABD2FF04B"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{658A9867CF9ED686}" {
+     SourceMaterial "UAZ469_Body"
+     AssignedMaterial "{17890EE704D1208C}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Body_NVA.emat"
+    }
+    MaterialAssignClass "{658A9867CF9ED6AC}" {
+     SourceMaterial "UAZ469_Details"
+     AssignedMaterial "{05972C67486BAD0D}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Details_NVA.emat"
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "GC_NVA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Frame {
+     Prefab "{2134C4AFB2AB8796}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Roof/UAZ469_roof_assembled_NVA.et"
+    }
+    RegisteringComponentSlotInfo Door_L01 {
+     Prefab "{BF5385BA3D0A3ED3}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/NVA/UAZ469_door_L01_NVA.et"
+    }
+    RegisteringComponentSlotInfo Door_R01 {
+     Prefab "{BCD30D0BB2034543}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/NVA/UAZ469_door_R01_NVA.et"
+    }
+    RegisteringComponentSlotInfo Door_L02 {
+     Prefab "{0D84C75162A80D4B}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/NVA/UAZ469_door_L02_NVA.et"
+    }
+    RegisteringComponentSlotInfo Door_R02 {
+     Prefab "{0E044FE0EDA176DB}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/NVA/UAZ469_door_R02_NVA.et"
+    }
+    RegisteringComponentSlotInfo CoatOfArms_NVA {
+     Prefab "{EA548E20D41DC3CF}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/NVA/UAZ469_NVA_CoatOfArms_decal.et"
+     InheritParentSkeleton 1
+    }
+   }
+  }
+ }
+}

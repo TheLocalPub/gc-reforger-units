@@ -13,35 +13,43 @@ Turret : "{66596659FB0F645B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70
    Slots {
     EntitySlotInfo Number1_T {
      PivotID "v_root"
-     Offset -0.1252 2.0423 -0.5289
-     Angles 0.1467 -75.6809 38.8134
+     Offset -0.1449 2.005 -0.5547
+     Angles 0.3125 -76.25 39
      MergePhysics 1
-     Prefab "{61675F1249FDD498}Prefabs/Vehicles/Wheeled/BTR70/1980 NVA/Assets/decal_vehicle_group1_small_HTM.et"
+     Prefab "{61675F1249FDD498}Prefabs/Vehicles/Wheeled/BTR70/NVA/Assets/decal_vehicle_group1_small_HTM.et"
      ActivatePhysicsOnDetaching 1
     }
     EntitySlotInfo Number2_T {
      PivotID "v_root"
-     Offset -0.001 2.0451 -0.5418
-     Angles 0 -90 39.1
+     Offset -0.05 2.005 -0.571
+     Angles 0.1 -85.25 39
      MergePhysics 1
-     Prefab "{1AD0FB3DB662F2B7}Prefabs/Vehicles/Wheeled/BTR70/1980 NVA/Assets/decal_vehicle_group2_small_HTM.et"
+     Prefab "{1AD0FB3DB662F2B7}Prefabs/Vehicles/Wheeled/BTR70/NVA/Assets/decal_vehicle_group2_small_HTM.et"
      ActivatePhysicsOnDetaching 1
     }
     EntitySlotInfo Number3_T {
      PivotID "v_root"
-     Offset 0.1223 2.0415 -0.5301
-     Angles 1.5479 -102.06539 38.7674
+     Offset 0.05 2.005 -0.571
+     Angles -0.25 -94.75 39
      MergePhysics 1
-     Prefab "{33BD98D8E317EF52}Prefabs/Vehicles/Wheeled/BTR70/1980 NVA/Assets/decal_vehicle_group3_small_HTM.et"
+     Prefab "{33BD98D8E317EF52}Prefabs/Vehicles/Wheeled/BTR70/NVA/Assets/decal_vehicle_group3_small_HTM.et"
      InheritParentSkeleton 1
      ActivatePhysicsOnDetaching 0
+    }
+    EntitySlotInfo Number4_T {
+     PivotID "v_root"
+     Offset 0.1449 2.005 -0.5547
+     Angles -0.3125 -103.75 39
+     MergePhysics 1
+     Prefab "{FDF0840AB2E59944}Prefabs/Vehicles/Wheeled/BTR70/NVA/Assets/decal_vehicle_group4_small_HTM.et"
+     InheritParentSkeleton 1
     }
     EntitySlotInfo Label_L {
      PivotID "v_root"
      Offset -0.5431 2.0405 0.0382
      Angles 1.127 5.4963 38.956
      MergePhysics 0
-     Prefab "{B06EA58EAE378ABB}Prefabs/Vehicles/Wheeled/BTR70/1980 NVA/Assets/decal_vehicle_label_small_HTM.et"
+     Prefab "{B06EA58EAE378ABB}Prefabs/Vehicles/Wheeled/BTR70/NVA/Assets/decal_vehicle_label_small_HTM.et"
      InheritParentSkeleton 0
      ActivatePhysicsOnDetaching 0
     }
@@ -50,7 +58,7 @@ Turret : "{66596659FB0F645B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70
      Offset 0.54354 2.0405 0.0382
      Angles 0.4352 176.5193 38.9215
      MergePhysics 0
-     Prefab "{B06EA58EAE378ABB}Prefabs/Vehicles/Wheeled/BTR70/1980 NVA/Assets/decal_vehicle_label_small_HTM.et"
+     Prefab "{B06EA58EAE378ABB}Prefabs/Vehicles/Wheeled/BTR70/NVA/Assets/decal_vehicle_label_small_HTM.et"
      InheritParentSkeleton 0
      ActivatePhysicsOnDetaching 0
     }

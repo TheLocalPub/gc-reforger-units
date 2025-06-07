@@ -1,0 +1,24 @@
+SCR_ChimeraCharacter : "{12E9CB7BFF5E69DD}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/Character_US_1986_DBDU_SL_AI.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{6582C16F3A1592DC}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{6582C16F39007B66}" {
+      m_sVariantPrefab "{AFDAB26832C42B94}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/P/Variants/Character_US_1986_DBDU_SL_P_V2.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+   }
+  }
+ }
+}

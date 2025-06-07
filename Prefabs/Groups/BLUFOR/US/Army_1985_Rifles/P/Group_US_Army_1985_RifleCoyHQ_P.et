@@ -1,7 +1,0 @@
-SCR_AIGroup : "{7516B5D9A18D5FCA}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/P/Group_US_Army_1985_RiflePHQ_P.et" {
- ID "0000000000000001"
- m_aUnitPrefabSlots {
-  "{D164278FD7D9C81A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PL_P.et" "{501777EB151D644B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant_P.et" "{EC7EDB04B4C7B73A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO_P.et"
- }
- m_sCustomNameSet "Coy HQ"
-}

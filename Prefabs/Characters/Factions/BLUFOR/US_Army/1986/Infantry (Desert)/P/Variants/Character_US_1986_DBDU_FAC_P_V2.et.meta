@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EA0A6486E685C3A4}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/P/Character_US_1986_DBDU_FAC_P_V2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

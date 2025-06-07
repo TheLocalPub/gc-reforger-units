@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BF4523C9410D71FF}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/Character_US_1986_DBDU_COY_CO_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

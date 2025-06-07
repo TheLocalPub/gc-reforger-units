@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3A9C8994DD9528A3}Assets/Weapons/Rifles/m27iar/data/rhs_M27_rail_GC_M110A1.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
