@@ -14,13 +14,12 @@ SCR_ChimeraCharacter : "{B66AF3E631EF6B45}Prefabs/Characters/Factions/BLUFOR/CDF
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{82C659FB6237E828}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_OD.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{C1115AA90C004678}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_MC.et"
+     Prefab "{1231AE80902911AF}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_OD.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{4A93B3F0B33FF104}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
+     Prefab "{E57C6FC2DEF86528}Prefabs/Characters/Backpacks/Daysacks/Camelbak_BFM/Camelbak_BFM_MC.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{135AF9FE4CE167BF}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_rifleman_OD_GM94.et"
@@ -33,25 +32,22 @@ SCR_ChimeraCharacter : "{B66AF3E631EF6B45}Prefabs/Characters/Factions/BLUFOR/CDF
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_OD.et"
     }
     ItemsInitConfigurationItem "{64A8A5EE3A0D0ABA}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_OD.et"
     }
     ItemsInitConfigurationItem "{647D5B1183FEE958}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_OD.et"
     }
     ItemsInitConfigurationItem "{647D5B11AAD7A21D}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_pistol_OD.et"
+     TargetStorage "Back/Camelbak_BFM_MC.et"
     }
     ItemsInitConfigurationItem "{647D5B112618E799}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_OD.et"
+     TargetStorage "Back/Camelbak_BFM_MC.et"
     }
     ItemsInitConfigurationItem "{647D5B1127F4DB0A}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_OD.et"
+     TargetStorage "Back/Camelbak_BFM_MC.et"
     }
     ItemsInitConfigurationItem "{647D5B11103A12F3}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_OD.et"
+     TargetStorage "Jacket/Crye_G3_Combat_Shirt_UKC_MC.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
@@ -81,7 +77,7 @@ SCR_ChimeraCharacter : "{B66AF3E631EF6B45}Prefabs/Characters/Factions/BLUFOR/CDF
      }
     }
     ItemsInitConfigurationItem "{647D5B10D77D4EA0}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
+     TargetStorage "Back/Camelbak_BFM_MC.et"
      PrefabsToSpawn {
       "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et" "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
      }

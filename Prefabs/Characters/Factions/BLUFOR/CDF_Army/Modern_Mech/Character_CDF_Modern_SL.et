@@ -58,6 +58,7 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
      }
     }
     ItemsInitConfigurationItem "{62FB097A7477C905}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD_2.et/GMR/Minimap_ArsArma_GMR_OD.et"
     }
     ItemsInitConfigurationItem "{647D027B95B0EB26}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP109_utillmid_base.et"
@@ -83,7 +84,7 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
      }
     }
     ItemsInitConfigurationItem "{647D0B639C330667}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110/Variants/Vest_TV110_arsarmaHSGI_OD_2.et"
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD_2.et/GMR/Minimap_ArsArma_GMR_OD.et"
      PrefabsToSpawn {
       "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }

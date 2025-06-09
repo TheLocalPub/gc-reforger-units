@@ -19,7 +19,6 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
      Prefab "{82C659FB6237E828}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_OD.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{54F4BE2F9CA75DAD}Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_MC.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{16C7AD0508F53A9B}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_OD.et"
@@ -35,7 +34,7 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_MC.et"
+     TargetStorage "Pants/BDU_PANTS_MC.et"
     }
     ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
      TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_OD.et"
@@ -50,6 +49,7 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
      }
     }
     ItemsInitConfigurationItem "{62FB097A7477C905}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_OD.et"
     }
     ItemsInitConfigurationItem "{647D027B95B0EB26}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_A20_Blk.et"

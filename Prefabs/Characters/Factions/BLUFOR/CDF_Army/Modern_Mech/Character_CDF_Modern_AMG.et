@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_BaseArmed.et" {
+SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_BaseArmed.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -23,6 +23,9 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
     ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
     }
     ItemsInitConfigurationItem "{62FB097A7477C905}" {
+    }
+    ItemsInitConfigurationItem "{647D027B95B0EB26}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/drop/Pouch_UP113_DropPouch_OD.et"
     }
     ItemsInitConfigurationItem "{647D027CF92B5DE3}" {
      TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
