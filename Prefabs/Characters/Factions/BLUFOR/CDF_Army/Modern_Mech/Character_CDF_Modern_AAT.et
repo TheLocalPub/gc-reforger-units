@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_BaseArmed.et" {
+SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_BaseArmed.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -16,7 +16,7 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
      Prefab "{7028D46E1F6044BF}Prefabs/Characters/Vests/Vest_TV110/Vest_TV110_OD.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{54F4BE2F9CA75DAD}Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_MC.et"
+     Prefab "{2FDEBA2FF1B7759E}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mc.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{6A39B5843B3F36DA}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
@@ -29,7 +29,7 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_MC.et"
+     TargetStorage "Pants/crye_pants_mc.et"
     }
     ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
     }
@@ -39,6 +39,9 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
      }
     }
     ItemsInitConfigurationItem "{62FB097A7477C905}" {
+    }
+    ItemsInitConfigurationItem "{647D027B95B0EB26}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_MC.et"
     }
     ItemsInitConfigurationItem "{647D027A8C91829B}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_MC.et"

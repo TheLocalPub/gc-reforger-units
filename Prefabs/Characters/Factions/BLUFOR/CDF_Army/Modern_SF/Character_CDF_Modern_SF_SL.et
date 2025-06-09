@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/SF/Character_CDF_Modern_SF_Base_Armed.et" {
+SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/Character_CDF_Modern_SF_Base_Armed.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -28,7 +28,7 @@ SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF
      Prefab "{0173352E33F0D50D}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/Helmet_OPSCORE_XP_MC_AMP_CDF.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{2C95176F6AB1B16A}Prefabs/Characters/Uniforms/LongSleeve_Shirts/Hoodie_RHS_Shirt_OD.et"
+     Prefab "{02B1EEE6DE71FDF8}Prefabs/Characters/Uniforms/Arcteryx/Gryphon_Jacket/Arcteryx_Gryphon_MC.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{6BEC572D4E71CBED}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_MC.et"
@@ -49,10 +49,11 @@ SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF
      }
     }
     ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
-     TargetStorage "Prefabs/Characters/Uniforms/LongSleeve_Shirts/Hoodie_RHS_Shirt_OD.et"
+    }
+    ItemsInitConfigurationItem "{64A8A5EE3A0D0ABA}" {
+     TargetStorage "Jacket/Arcteryx_Gryphon_MC.et"
     }
     ItemsInitConfigurationItem "{647D5B1183FEE958}" {
-     TargetStorage "Prefabs/Characters/Uniforms/LongSleeve_Shirts/Hoodie_RHS_Shirt_OD.et"
     }
     ItemsInitConfigurationItem "{647D5B11AAD7A21D}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MC.et"
