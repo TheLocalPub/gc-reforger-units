@@ -1,10 +1,17 @@
-SCR_ChimeraCharacter : "{210E86F1B72C72CA}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/2AD Bradley Mech/P/Character_US_1986_BDU_Brad_Master_Gunner_P.et" {
+SCR_ChimeraCharacter : "{210E86F1B72C72CA}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Master_Gunner_P.et" {
  ID "520EC961A090B1EE"
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
      Prefab "{3CCA7A9BB4FD3197}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{657D08CA8A939BA7}" {
+     TargetStorage "Jacket/Jacket_US_BDU_rolledup.et"
     }
    }
   }
