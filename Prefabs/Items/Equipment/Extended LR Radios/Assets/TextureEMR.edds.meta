@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{C952BD0E2CD984AF}Prefabs/Items/Equipment/Extended LR Radios/Texture.edds"
+ Name "{C952BD0E2CD984AF}Prefabs/Items/Equipment/Extended LR Radios/Assets/TextureEMR.edds"
  Configurations {
   PNGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
   }
