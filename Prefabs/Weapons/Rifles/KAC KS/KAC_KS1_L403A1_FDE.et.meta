@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E284DC8401AE8648}Prefabs/Weapons/Rifles/KAC KS/KAC_KS1_L403A1_FDE.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7DF3A2E214DB3F99}Prefabs/Items/Equipment/Accessories/Pouches/Magazine/Luminae_AnythingPouch_MC_2_EMAG_FDE.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

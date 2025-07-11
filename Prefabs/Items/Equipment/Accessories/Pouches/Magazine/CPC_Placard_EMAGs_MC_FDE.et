@@ -1,0 +1,15 @@
+GenericEntity : "{73EC00AB4E29D744}Prefabs/Items/Equipment/Accessories/Pouches/Magazine/CPC_Placard_EMAGs_MC.et" {
+ ID "5184C9E8F822439D"
+ components {
+  MeshObject "{521AC04910AB9941}" {
+  }
+  BaseLoadoutClothComponent "{521AC04910AB9954}" {
+   WornMaterialsOverride {
+    "{D336D1778483EC9A}Assets/Weapons/Magazines/Data/EMAG_FDE.emat"
+   }
+   ItemMaterialsOverride {
+    "{D336D1778483EC9A}Assets/Weapons/Magazines/Data/EMAG_FDE.emat"
+   }
+  }
+ }
+}
