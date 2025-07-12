@@ -11,7 +11,7 @@ SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{02B1EEE6DE71FDF8}Prefabs/Characters/Uniforms/Arcteryx/Gryphon_Jacket/Arcteryx_Gryphon_MC.et"
+     Prefab "{EAFA87B10814B801}Prefabs/Characters/Uniforms/Crye/Crye_G3/Crye_G3_Combat_Shirt_Rolled_UKC_MC.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{99B347D92F16A6D3}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
@@ -26,7 +26,7 @@ SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF
     ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
     }
     ItemsInitConfigurationItem "{64A8A5EE3A0D0ABA}" {
-     TargetStorage "Jacket/Arcteryx_Gryphon_MC.et"
+     TargetStorage "Jacket/Crye_G3_Combat_Shirt_Rolled_UKC_MC.et"
     }
     ItemsInitConfigurationItem "{647D5B1183FEE958}" {
     }

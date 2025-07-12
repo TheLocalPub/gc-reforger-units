@@ -16,7 +16,7 @@ SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF
     LoadoutSlotInfo Hat {
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{02B1EEE6DE71FDF8}Prefabs/Characters/Uniforms/Arcteryx/Gryphon_Jacket/Arcteryx_Gryphon_MC.et"
+     Prefab "{EAFA87B10814B801}Prefabs/Characters/Uniforms/Crye/Crye_G3/Crye_G3_Combat_Shirt_Rolled_UKC_MC.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{660952F979E8EBF2}Prefabs/Characters/Footwear/Boots_solomon_ultra_x/Footwear_Altama_Boots.et"
@@ -28,7 +28,7 @@ SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF
     ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
     }
     ItemsInitConfigurationItem "{64A8A5EE3A0D0ABA}" {
-     TargetStorage "Jacket/Arcteryx_Gryphon_MC.et"
+     TargetStorage "Jacket/Crye_G3_Combat_Shirt_Rolled_UKC_MC.et"
     }
     ItemsInitConfigurationItem "{647D5B1183FEE958}" {
     }
