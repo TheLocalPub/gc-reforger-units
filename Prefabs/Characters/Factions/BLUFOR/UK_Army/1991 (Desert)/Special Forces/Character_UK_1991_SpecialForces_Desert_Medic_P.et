@@ -1,8 +1,8 @@
-SCR_ChimeraCharacter : "{9317518D0CAED522}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Medic_P.et" {
+SCR_ChimeraCharacter : "{9317518D0CAED522}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Special Forces/Character_UK_1989_SpecialForces_Medic_P.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{4E4E75AD0B743A41}Prefabs/Weapons/Rifles/AR15_604/Rifle_CAR15_653_30rnd.et"
+   WeaponTemplate "{506C8219CF6F46B8}Prefabs/Weapons/Rifles/M16/Rifle_CAR15_653.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {

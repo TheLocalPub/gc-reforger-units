@@ -17,7 +17,7 @@ SCR_ChimeraCharacter : "{C84E16880ACA62B8}Prefabs/Characters/Factions/OPFOR/GC_I
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{CB379AD8EC48690C}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_BLK.et"
+     Prefab "{22628635281CD0C2}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Balaclava.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{688C4289C3B91EF3}Prefabs/Characters/Uniforms/Jacket_M70_DPM_68.et"

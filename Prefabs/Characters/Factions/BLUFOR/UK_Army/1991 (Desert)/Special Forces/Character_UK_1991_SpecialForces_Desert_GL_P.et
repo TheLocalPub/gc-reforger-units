@@ -1,10 +1,10 @@
-SCR_ChimeraCharacter : "{5CB86398A58690AD}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_GL_P.et" {
+SCR_ChimeraCharacter : "{5CB86398A58690AD}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Special Forces/Character_UK_1989_SpecialForces_GL_P.et" {
  ID "520EC961A090B1EE"
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{CD83152AA78F35DD}Prefabs/Characters/HeadGear/Hat_Shemagh/Hat_Shemagh.et"
+     Prefab "{9AF938A5A8F48A99}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Shemag_2.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{406B620B4285240C}Prefabs/Characters/Uniforms/Jacket_Tropical_DesertDPM_01.et"
@@ -40,17 +40,17 @@ SCR_ChimeraCharacter : "{5CB86398A58690AD}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{62849D41EBD4ECE0}" {
      TargetStorage "Vest/Vest_ALICE_GL.et/MagPouch/Pouch_ALICE_30rnd_STANAG_base.et"
     }
-    ItemsInitConfigurationItem "{65073D3533890B40}" {
-     TargetStorage "Vest/Vest_ALICE_GL.et/Buttpack/Vest_ALICE_buttpack.et"
-     PrefabsToSpawn {
-      "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et" "{D950FADF7FC188C0}Prefabs/Weapons/Grenades/Smoke_No83_Yellow.et"
-     }
-    }
     ItemsInitConfigurationItem "{62849D41EBD4ECE4}" {
      TargetStorage "Vest/Vest_ALICE_GL.et/FirstAid/Vest_M79GrenadeCarrier.et"
     }
     ItemsInitConfigurationItem "{62849D41EBD49CCA}" {
      TargetStorage "Vest/Vest_ALICE_GL.et/FirstAid/Vest_M79GrenadeCarrier.et"
+    }
+    ItemsInitConfigurationItem "{65073D3533890B40}" {
+     TargetStorage "Vest/Vest_ALICE_GL.et/Buttpack/Vest_ALICE_buttpack.et"
+     PrefabsToSpawn {
+      "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et" "{D950FADF7FC188C0}Prefabs/Weapons/Grenades/Smoke_No83_Yellow.et"
+     }
     }
    }
   }

@@ -1,10 +1,10 @@
-SCR_ChimeraCharacter : "{976AE2722F796201}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Minimi_P.et" {
+SCR_ChimeraCharacter : "{976AE2722F796201}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Special Forces/Character_UK_1989_SpecialForces_Minimi_P.et" {
  ID "520EC961A090B1EE"
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{CD83152AA78F35DD}Prefabs/Characters/HeadGear/Hat_Shemagh/Hat_Shemagh.et"
+     Prefab "{F6AD0C45143005B7}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Shemag_1.et"
     }
     LoadoutSlotInfo Jacket {
     }

@@ -1,13 +1,13 @@
-SCR_ChimeraCharacter : "{FA01DE0CAC397656}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Sapper_P.et" {
+SCR_ChimeraCharacter : "{FA01DE0CAC397656}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Special Forces/Character_UK_1989_SpecialForces_Sapper_P.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{4E4E75AD0B743A41}Prefabs/Weapons/Rifles/AR15_604/Rifle_CAR15_653_30rnd.et"
+   WeaponTemplate "{8EA24F4B005CA36B}Prefabs/Weapons/Rifles/M16/Variants/Rifle_CAR15_653_OliveGreen_SandStripes.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{1C7BF9EFC11B29D9}Prefabs/Characters/HeadGear/Hat_Shemagh/Hat_Shemagh_Green.et"
+     Prefab "{9AF938A5A8F48A99}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Shemag_2.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{406B620B4285240C}Prefabs/Characters/Uniforms/Jacket_Tropical_DesertDPM_01.et"

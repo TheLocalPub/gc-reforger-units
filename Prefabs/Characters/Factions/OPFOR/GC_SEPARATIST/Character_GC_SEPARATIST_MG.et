@@ -37,13 +37,13 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
      Prefab "{BE19A15F1073E7BD}Prefabs/Characters/HeadGear/Hat_Knitted_01/Hat_Knitted_01_black.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{DD9CB456376FB01F}Prefabs/Characters/Uniforms/Shirt_flannel/flannel_shirt_brown_1.et"
+     Prefab "{5047B433ED2006A0}Prefabs/Characters/Uniforms/Jacket_Bomber_3.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{762D9493876651C4}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_FG.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{0C37C8742F78CDA9}Prefabs/Characters/Uniforms/Pants_M88_Flora.et"
+     Prefab "{19404DCB884006B0}Prefabs/Characters/Uniforms/Pants_Taksuit_2.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{203EEA924B049EF1}Prefabs/Characters/Footwear/JungleBoots_01/JungleBoots_01.et"
@@ -62,7 +62,7 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
-     TargetStorage "Pants/Pants_M88_Flora.et"
+     TargetStorage "Pants/Pants_Taksuit_2.et"
      PrefabsToSpawn {
       "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
      }
