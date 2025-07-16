@@ -12,10 +12,13 @@ SCR_ChimeraCharacter : "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_I
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{1B568A254D1E519B}Prefabs/Characters/HeadGear/Hat_ZmijovkaCap_01/Hat_ZmijovkaCap_01_red.et"
+     Prefab "{5A293B86B4EDF486}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Pakol_Hat_1.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{D262D2102B9931C6}Prefabs/Characters/Uniforms/Jacket_M88_rolledup.et"
+     Prefab "{3BEA9917D6AFC894}Prefabs/Characters/Uniforms/Jacket_ShirtLong_1.et"
+    }
+    LoadoutSlotInfo Face {
+     Prefab "{75682675C32A61C2}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Scarf_3.et"
     }
    }
   }

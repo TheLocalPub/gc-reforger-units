@@ -27,23 +27,25 @@ SCR_ChimeraCharacter : "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_I
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{6BCAA9E5BC957693}Prefabs/Characters/HeadGear/Hat_ZmijovkaCap_01/Hat_ZmijovkaCap_01_black.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{6835DAF42A09E23C}Prefabs/Characters/Uniforms/Jacket_Pilot_USSR_01/Jacket_Pilot_USSR_01.et"
+     Prefab "{3BEA9917D6AFC894}Prefabs/Characters/Uniforms/Jacket_ShirtLong_1.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{537FD11C135757AC}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey_Dirty.et"
+     Prefab "{1D6A5BCF4E9942A9}Prefabs/Characters/Uniforms/Pants_Cargo_2.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{E90F2EB67A9CF49A}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_02.et"
+    }
+    LoadoutSlotInfo Head {
+     Prefab "{29BA8EECE1EFD977}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Scarf_1.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6554AEF73DCF4897}" {
-     TargetStorage "Pants/Pants_Trousers_01_DarkGrey_Dirty.et"
+     TargetStorage "Pants/Pants_Cargo_2.et"
     }
     ItemsInitConfigurationItem "{6554AEF7BCAF9BFC}" {
      TargetStorage "Back/Backpack_Medical_Soviet_NoCross_02.et"

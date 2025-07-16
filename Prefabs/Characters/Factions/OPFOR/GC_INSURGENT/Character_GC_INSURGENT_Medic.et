@@ -18,16 +18,16 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{CB379AD8EC48690C}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_BLK.et"
+     Prefab ""
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{C1FCB4859C59111E}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6_Dirty.et"
+     Prefab "{B7C33E13550505CB}Prefabs/Characters/Uniforms/Jacket_ShirtSmall_6.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab ""
     }
     LoadoutSlotInfo Pants {
-     Prefab "{27494A16F172A97B}Prefabs/Characters/Uniforms/Pants_Tanker_USSR_01/Pants_Tanker_USSR_01.et"
+     Prefab "{1D6A5BCF4E9942A9}Prefabs/Characters/Uniforms/Pants_Cargo_2.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{057E63449502EBCA}Prefabs/Characters/Footwear/Boots_Salomon/Footwear_Salomon.et"
@@ -41,12 +41,15 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
     LoadoutSlotInfo HandWear {
      Prefab ""
     }
+    LoadoutSlotInfo Head {
+     Prefab "{485C034DB646E8F5}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Scarf_4.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
-     TargetStorage "Pants/Pants_Tanker_USSR_01.et"
+     TargetStorage "Pants/Pants_Cargo_2.et"
      PrefabsToSpawn +{
      }
     }
