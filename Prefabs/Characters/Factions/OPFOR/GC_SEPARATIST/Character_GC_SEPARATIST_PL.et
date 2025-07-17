@@ -11,6 +11,16 @@ SCR_ChimeraCharacter : "{4C362B06571604F9}Prefabs/Characters/Factions/OPFOR/GC_S
     LoadoutSlotInfo Hat {
      Prefab "{78A9F46F04A0559E}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_6M2-1_no_cover.et"
     }
+    LoadoutSlotInfo Jacket {
+     Prefab "{45990536E93CA54A}Prefabs/Characters/Uniforms/Jacket_VKPO.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{62E8A4CE2B5B1947}" {
+     TargetStorage "Jacket/Jacket_VKPO.et"
+    }
    }
   }
  }

@@ -9,7 +9,7 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#AR-Role_TeamLeader"
+    Name "#AR-Role_PlatoonSergeant"
     Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
     IconSetName ""
     m_Image "{6601A3AE17EA976D}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_Rifleman.edds"
@@ -28,16 +28,16 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{7621C7D9145AF8D5}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_OD.et"
+     Prefab "{6DAD533F9E0CFE96}Prefabs/Characters/HeadGear/Hats/Baseball_Cap/Hat_Baseball_Cap_MC.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{43C6129204623BF0}Prefabs/Characters/Uniforms/Jacket_Waffletop/Jacket_Waffletop.et"
+     Prefab "{C765CE33535F1B3E}Prefabs/Characters/Uniforms/Jacket_Bomber_1.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{762D9493876651C4}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_FG.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{5E17C1AE66A6FF00}Prefabs/Characters/Uniforms/Pants_KZS/Pants_KZS.et"
+     Prefab "{36C06BDF4F6F212B}Prefabs/Characters/Uniforms/Pants_VKPO.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
@@ -53,7 +53,7 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
-     TargetStorage "Pants/Pants_KZS.et"
+     TargetStorage "Pants/Pants_VKPO.et"
     }
     ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
      TargetStorage "Vest/Vest_TV102_rifleman_FG_2.et/radio/Pouch_UP111_radioClosed_FG.et"
@@ -62,61 +62,61 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
       "{399EBA1849BFF48C}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Single_Separatist.et"
      }
     }
-    ItemsInitConfigurationItem "{62E8F82146722516}" {
-     TargetStorage "Jacket/Jacket_Waffletop.et"
+    ItemsInitConfigurationItem "{65E29E42710F949D}" {
+     TargetStorage "Pants/Pants_VKPO.et"
      PrefabsToSpawn {
       "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
      }
     }
-    ItemsInitConfigurationItem "{62E8F82146722501}" {
+    ItemsInitConfigurationItem "{65E29E42710F9493}" {
      TargetStorage "Vest/Vest_TV102_rifleman_FG_2.et/placard/Pouch_wartech_magpouch_mp105_FG.et"
      PrefabsToSpawn {
       "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
      }
     }
-    ItemsInitConfigurationItem "{62E8F82146722539}" {
+    ItemsInitConfigurationItem "{65E29E42710F9496}" {
      TargetStorage "Vest/Vest_TV102_rifleman_FG_2.et/mp102_2/Pouch_wartech_magpouch_mp105_3_FG.et"
      PrefabsToSpawn {
       "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
      }
     }
-    ItemsInitConfigurationItem "{62E8F8214672253B}" {
+    ItemsInitConfigurationItem "{65E29E42710F9497}" {
      TargetStorage "Vest/Vest_TV102_rifleman_FG_2.et/mp105_3/Pouch_wartech_magpouch_mp105_2_FG.et"
      PrefabsToSpawn {
       "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
      }
     }
-    ItemsInitConfigurationItem "{62E8F8214672253C}" {
+    ItemsInitConfigurationItem "{65E29E42710F9488}" {
      TargetStorage "Vest/Vest_TV102_rifleman_FG_2.et/arsbelt/Pouch_ArsArma_magouch_morphed_ATACS.et"
      PrefabsToSpawn {
       "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et" "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
      }
     }
-    ItemsInitConfigurationItem "{651141C2940B8AA4}" {
+    ItemsInitConfigurationItem "{65E29E42710F948A}" {
      TargetStorage "Vest/Vest_TV102_rifleman_FG_2.et/arsbelt2/Pouch_ArsArma_magouch_morphed_ATACS.et"
      PrefabsToSpawn {
       "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et" "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
      }
     }
-    ItemsInitConfigurationItem "{62E8F8214672253E}" {
+    ItemsInitConfigurationItem "{65E29E42710F948B}" {
      TargetStorage "Vest/Vest_TV102_rifleman_FG_2.et/grenade3/Pouch_GP106_RGD_Pouch_FG.et"
      PrefabsToSpawn {
       "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
-    ItemsInitConfigurationItem "{62E8F8214672253F}" {
+    ItemsInitConfigurationItem "{65E29E42710F948C}" {
      TargetStorage "Back/Backpack_Wartech_BB102_FG.et"
      PrefabsToSpawn {
       "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
      }
     }
-    ItemsInitConfigurationItem "{62E8F82146722532}" {
+    ItemsInitConfigurationItem "{65E29E42710F948E}" {
      TargetStorage "Back/Backpack_Wartech_BB102_FG.et"
      PrefabsToSpawn {
       "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
      }
     }
-    ItemsInitConfigurationItem "{62E8F8214671F59F}" {
+    ItemsInitConfigurationItem "{65E29E42710F948F}" {
      TargetStorage "Back/Backpack_Wartech_BB102_FG.et"
      PrefabsToSpawn {
       "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et" "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
