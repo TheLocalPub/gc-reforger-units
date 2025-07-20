@@ -9,6 +9,9 @@ SCR_ChimeraCharacter : "{C0B0F929BB41FC6E}Prefabs/Characters/Factions/OPFOR/RHS_
     LoadoutSlotInfo Hat {
      Prefab "{FC1B9F5405BD67A4}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/SSO/Helmet_LShZ_new_OD_SSO2.et"
     }
+    LoadoutSlotInfo Jacket {
+     Prefab "{71994C074722FD7E}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Shirt_EMR.et"
+    }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{DB1E2E8552AFAC15}Prefabs/Characters/Vests/Vest_AACPC/Vest_AACPC_Groin_FG.et"
     }
@@ -20,6 +23,7 @@ SCR_ChimeraCharacter : "{C0B0F929BB41FC6E}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{63349A03F1411D2D}" {
+     TargetStorage "Pants/Triada_Combat_Pants_EMR.et"
     }
     ItemsInitConfigurationItem "{63349A03F1411D1D}" {
     }
@@ -66,7 +70,7 @@ SCR_ChimeraCharacter : "{C0B0F929BB41FC6E}Prefabs/Characters/Factions/OPFOR/RHS_
      TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_2.et/grenade1/Pouch_GP106_RGD_Pouch_2_FG.et"
     }
     ItemsInitConfigurationItem "{648D545D460E6F9A}" {
-     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_Rolled_ATACS.et"
+     TargetStorage "Pants/Triada_Combat_Pants_EMR.et"
      PrefabsToSpawn {
       "{B7BA7694F821F556}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual.et"
      }
