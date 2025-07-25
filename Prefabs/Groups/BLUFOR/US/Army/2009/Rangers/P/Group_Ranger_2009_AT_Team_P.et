@@ -9,10 +9,8 @@ SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_ME
    m_iSquadCallsign 8
   }
  }
- coords 1807.502 15.285 2281.603
- angleY -124.324
  m_aUnitPrefabSlots {
-  "{474B263A266F57F0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_ATTL_P.et" "{828A09BDBD765805}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_AT_P.et" "{C440E92966832FF4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_ATAS_P.et"
+  "{474B263A266F57F0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_ATTL_P.et" "{828A09BDBD765805}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_AT_P.et" "{C440E92966832FF4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_ATAS_P.et"
  }
  m_sCustomNameSet "Ranger AT Team"
  m_bSetPlayable 1

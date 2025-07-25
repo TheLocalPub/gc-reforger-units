@@ -9,10 +9,8 @@ SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_ME
    m_iSquadCallsign 1
   }
  }
- coords 1750.962 15.094 2291.631
- angleY -78.434
  m_aUnitPrefabSlots {
-  "{9ADFE3B7162BF070}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_SL_P.et" "{4859D3B18F5C5473}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_TL_P.et" "{2A10FBA1AE4CA315}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_GR_P.et" "{3F5A5B3AC26D441B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_AR_P.et" "{D9936548CBBAA1CE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_RF_P.et" "{4859D3B18F5C5473}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_TL_P.et" "{2A10FBA1AE4CA315}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_GR_P.et" "{3F5A5B3AC26D441B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_AR_P.et" "{D9936548CBBAA1CE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_RF_P.et"
+  "{9ADFE3B7162BF070}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_SL_P.et" "{4859D3B18F5C5473}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_TL_P.et" "{2A10FBA1AE4CA315}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_GR_P.et" "{3F5A5B3AC26D441B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_AR_P.et" "{D9936548CBBAA1CE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_RF_P.et" "{4859D3B18F5C5473}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_TL_P.et" "{2A10FBA1AE4CA315}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_GR_P.et" "{3F5A5B3AC26D441B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_AR_P.et" "{D9936548CBBAA1CE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_RF_P.et"
  }
  m_sCustomNameSet "Ranger Squad"
  m_bSetPlayable 1
