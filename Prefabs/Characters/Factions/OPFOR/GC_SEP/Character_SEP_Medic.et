@@ -1,19 +1,11 @@
-SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/INDFOR/FIA/Character_SEP_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
-  CharacterWeaponManagerComponent "{5C9CA676383262FD}" {
-   DefaultWeaponIndex 0
-  }
-  FactionAffiliationComponent "{555C98D1CD949F3E}" {
-   "faction affiliation" "GC_SEPARATIST"
-  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_Medic"
     Icon "{F3FCC3B9732551D9}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Medic.edds"
-    IconSetName ""
     m_Image "{C493B700C7EDE149}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_Medic.edds"
-    m_sFaction "GC_SEPARATIST"
     m_aAuthoredLabels + {
      24
     }
@@ -62,13 +54,6 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
      TargetStorage "Pants/Pants_Cargo_2.et"
      PrefabsToSpawn {
       "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
-     }
-    }
-    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
-     TargetStorage "Jacket/Field_Jacket_VKPO.et"
-     TargetPurpose 1
-     PrefabsToSpawn {
-      "{399EBA1849BFF48C}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Single_Separatist.et"
      }
     }
     ItemsInitConfigurationItem "{62E8F82934D1CC80}" {

@@ -1,19 +1,11 @@
-SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/INDFOR/FIA/Character_SEP_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
-  CharacterWeaponManagerComponent "{5C9CA676383262FD}" {
-   DefaultWeaponIndex 0
-  }
-  FactionAffiliationComponent "{555C98D1CD949F3E}" {
-   "faction affiliation" "GC_SEPARATIST"
-  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_Sharpshooter"
     Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
-    IconSetName ""
     m_Image "{8EFE184F9A90211B}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_Sharpshooter.edds"
-    m_sFaction "GC_SEPARATIST"
     m_aAuthoredLabels + {
      33
     }
@@ -60,13 +52,6 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
      TargetStorage "Pants/Pants_US_M65.et"
-    }
-    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
-     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_FG_3.et/radio/Pouch_UP111_radioClosed_FG.et"
-     TargetPurpose 1
-     PrefabsToSpawn {
-      "{399EBA1849BFF48C}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Single_Separatist.et"
-     }
     }
     ItemsInitConfigurationItem "{62E8F82BF607C56C}" {
      TargetStorage "Vest/Vest_TV110_arsarmaHSGI_FG_3.et/akmagcamer/Pouch_wartech_magpouch_mp117_fg.et"
