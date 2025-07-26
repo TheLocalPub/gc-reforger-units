@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{FE0970414F43AF15}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Delta Force/2010/P/Character_CRX_Delta_RF_P.et" {
+SCR_ChimeraCharacter : "{FE0970414F43AF15}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Delta/P/Character_CRX_Delta_RF_P.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -12,14 +12,13 @@ SCR_ChimeraCharacter : "{FE0970414F43AF15}Prefabs/Characters/Factions/BLUFOR/RHS
     }
    }
   }
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Troop Leader"
-  }
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
    m_iRank MAJOR
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Troop Leader"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -67,6 +66,11 @@ SCR_ChimeraCharacter : "{FE0970414F43AF15}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{65214E7772E2492B}" {
+    }
+    ItemsInitConfigurationItem "{65214E7772E24936}" {
+     PrefabsToSpawn {
+      "{340C133625BB688E}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Multi.et"
+     }
     }
     ItemsInitConfigurationItem "{61E8E7117A3AF4D1}" {
      TargetStorage "Vest/Vest_JPC_okinawa_Coy.et/pistol/Pouch_Highspeed_Pistol.et"
