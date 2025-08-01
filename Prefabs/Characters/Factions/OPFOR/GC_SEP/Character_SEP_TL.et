@@ -44,7 +44,7 @@ SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/INDFOR/FIA
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+    ItemsInitConfigurationItem "{65F4D2AD3935C1FC}" {
      TargetStorage "Pants/Pants_KZS.et"
     }
     ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
@@ -54,7 +54,7 @@ SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/INDFOR/FIA
       "{399EBA1849BFF48C}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Single_Separatist.et"
      }
     }
-    ItemsInitConfigurationItem "{62E8F82146722516}" {
+    ItemsInitConfigurationItem "{65F4D2A2AA09FD5F}" {
      TargetStorage "Jacket/Jacket_Waffletop.et"
      PrefabsToSpawn {
       "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"

@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{4C362B06571604F9}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_SL.et" {
+SCR_ChimeraCharacter : "{4C362B06571604F9}Prefabs/Characters/Factions/OPFOR/GC_SEP/Character_SEP_SL.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -18,6 +18,9 @@ SCR_ChimeraCharacter : "{4C362B06571604F9}Prefabs/Characters/Factions/OPFOR/GC_S
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{65F4D2A2AA09FD5F}" {
+     TargetStorage "Jacket/Jacket_VKPO.et"
+    }
     ItemsInitConfigurationItem "{62E8A4CE2B5B1947}" {
      TargetStorage "Jacket/Jacket_VKPO.et"
     }

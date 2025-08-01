@@ -44,7 +44,7 @@ SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/INDFOR/FIA
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+    ItemsInitConfigurationItem "{65F4D2AD3935C1FC}" {
      TargetStorage "Pants/Pants_VKPO.et"
     }
     ItemsInitConfigurationItem "{62E8F82E6376BB23}" {

@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/INDFOR/FIA/Character_SEP_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_SEP/Character_SEP_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -53,11 +53,14 @@ SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/INDFOR/FIA
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+    ItemsInitConfigurationItem "{65F4D2AD3935C1FC}" {
      TargetStorage "Pants/Trousers_Combat_68Pat_DPM_01.et"
      PrefabsToSpawn + {
       "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
      }
+    }
+    ItemsInitConfigurationItem "{65F4D2A2AA09FD5F}" {
+     TargetStorage "Jacket/Jacket_Bomber_1.et"
     }
     ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
      TargetStorage "Vest/Vest_Taktika_belt_taktika_1.et/pouch1/Pouch_Taktika_magpouch_morphed_base.et"
