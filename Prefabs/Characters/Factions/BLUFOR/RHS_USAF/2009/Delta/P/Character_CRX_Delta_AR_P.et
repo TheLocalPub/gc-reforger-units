@@ -1,8 +1,11 @@
-SCR_ChimeraCharacter : "{692B5A0EFD7FD678}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Delta Force/2010/P/Character_CRX_Delta_Base_P.et" {
+SCR_ChimeraCharacter : "{692B5A0EFD7FD678}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Delta/P/Character_CRX_Delta_Base_P.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Automatic Rifleman"
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_AutomaticRifleman"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+   }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{1D75DAC4D2CBC0C9}Prefabs/Weapons/MachineGuns/M249/MG_M249_EXPS.et"
