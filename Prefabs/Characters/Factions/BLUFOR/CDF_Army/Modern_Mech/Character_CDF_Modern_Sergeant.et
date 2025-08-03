@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{D8D30DE8FE5E91BF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_SL.et" {
+SCR_ChimeraCharacter : "{D8D30DE8FE5E91BF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_SL.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -7,7 +7,7 @@ SCR_ChimeraCharacter : "{D8D30DE8FE5E91BF}Prefabs/Characters/Factions/BLUFOR/CDF
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{96DFD2E7E63B3386}Prefabs/Weapons/Rifles/AK74/Rifle_AK74N.et"
+   WeaponTemplate "{6733EB7DB00E7067}Prefabs/Weapons/Rifles/AK74/Rifle_AK74N_RHSMag.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -15,7 +15,6 @@ SCR_ChimeraCharacter : "{D8D30DE8FE5E91BF}Prefabs/Characters/Factions/BLUFOR/CDF
      Prefab "{20FEE7AF45D6D123}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MID_AMP.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{E8EAD526CA6BCA16}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{2C5A109A7F2C13DD}Prefabs/Characters/Vests/Vest_TV110/Variants/Vest_TV110_arsarmaHSGI_OD_3.et"
@@ -28,16 +27,24 @@ SCR_ChimeraCharacter : "{D8D30DE8FE5E91BF}Prefabs/Characters/Factions/BLUFOR/CDF
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD_3.et/radio/Pouch_UP111_radioClosed_OD.et"
     }
     ItemsInitConfigurationItem "{62FB097A778BD827}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp103_OD.et"
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD_3.et/mp103_1/Pouch_ArsArma_magouch_morphed_MC.et"
      PrefabsToSpawn {
-      "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+      "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
      }
     }
+    ItemsInitConfigurationItem "{62FB097A7477C905}" {
+     TargetStorage "Jacket/ACU_jacket_MC.et"
+    }
     ItemsInitConfigurationItem "{647D027B95B0EB26}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP105_utilbig_OD.et"
+     TargetStorage "Pants/ACU_pants_MC.et"
+    }
+    ItemsInitConfigurationItem "{647D0B6316D756FC}" {
+     PrefabsToSpawn {
+      "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+     }
     }
     ItemsInitConfigurationItem "{647D0B63E776ADCF}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed_OD.et"
@@ -46,7 +53,12 @@ SCR_ChimeraCharacter : "{D8D30DE8FE5E91BF}Prefabs/Characters/Factions/BLUFOR/CDF
      TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed2_OD.et"
     }
     ItemsInitConfigurationItem "{647D0B639C330667}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp103_MC.et"
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD_3.et/mp103camer/Pouch_wartech_magpouch_mp103_MC.et"
+     PrefabsToSpawn {
+      "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{647D0B66C55427C9}" {
      PrefabsToSpawn {
       "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
      }
