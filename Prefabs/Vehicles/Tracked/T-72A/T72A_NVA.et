@@ -38,6 +38,12 @@ Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
     m_sFaction "GC_NVA"
    }
   }
+  SCR_UniversalInventoryStorageComponent "{5E38B925DD33F65F}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5E38B925DD33F646}" {
+    }
+   }
+  }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
    "faction affiliation" "GC_NVA"
   }

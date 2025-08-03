@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6DBC87945A58E119}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret_Toolboxes/T72_Turret_Toolbox_02_NVA.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

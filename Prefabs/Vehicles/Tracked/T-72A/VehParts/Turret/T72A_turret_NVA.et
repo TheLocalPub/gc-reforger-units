@@ -14,6 +14,24 @@ Turret : "{3474BEBB23BA5793}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret/T72_t
     RegisteringComponentSlotInfo CommanderTurrets {
      Prefab "{624B3A96BDBE50E1}Prefabs/Vehicles/Tracked/T-72A/VehParts/CommanderTurret/T72A_Commander_Turret_NVA.et"
     }
+    WCS_Armament_DispenserSlotInfo Smoke {
+     Prefab "{BCD14BEC77952F98}Prefabs/Weapons/Countermeasures/Dispenser_Smoke_T72A_NVA.et"
+    }
+    EntitySlotInfo Toolbox_01 {
+     Prefab "{DF6BC57F05FAD281}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret_Toolboxes/T72_Turret_Toolbox_01_NVA.et"
+    }
+    EntitySlotInfo ToolBox_02 {
+     Prefab "{6DBC87945A58E119}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret_Toolboxes/T72_Turret_Toolbox_02_NVA.et"
+    }
+    EntitySlotInfo ToolBox_03 {
+     Prefab "{6DBC87945A58E119}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret_Toolboxes/T72_Turret_Toolbox_02_NVA.et"
+    }
+    EntitySlotInfo Tube {
+     Prefab "{06182B5D40A30025}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret_Tube/T72_Turret_Tube_NVA.et"
+    }
+    EntitySlotInfo Tube_02 {
+     Prefab "{06182B5D40A30025}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret_Tube/T72_Turret_Tube_NVA.et"
+    }
     EntitySlotInfo Number1_T {
      PivotID "v_gunner_idle"
      Offset 0.2004 0.7661 -0.963
