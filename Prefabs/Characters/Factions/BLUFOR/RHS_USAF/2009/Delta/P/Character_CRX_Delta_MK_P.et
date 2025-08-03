@@ -23,6 +23,13 @@ SCR_ChimeraCharacter : "{FE0970414F43AF15}Prefabs/Characters/Factions/BLUFOR/RHS
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65214E7772E2492B}" {
+     TargetStorage "Pants/crye_pants_m81.et"
+    }
+   }
+  }
  }
  coords 1236.543 7.438 3205.924
 }
