@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{36A12DD1497EDED6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{36A12DD1497EDED6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/Character_RHS_USA_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -19,64 +19,58 @@ SCR_ChimeraCharacter : "{36A12DD1497EDED6}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{4A93B3F0B33FF104}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{1300A5F6CA51B204}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman.et"
+     Prefab "{AC5D02C03D0CE456}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouches_IMTV_Rifleman.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{658602A1AD75EAA8}" {
-     TargetStorage "Vest/Vest_PCGen_III_rifleman.et/tako1/Pouch_FILBE_doubleM4_1.et"
+     TargetStorage "Vest/Pouches_IMTV_Rifleman.et/Mag_Pouch1/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
      PrefabsToSpawn {
       "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et"
      }
     }
     ItemsInitConfigurationItem "{658602A1AD75EABA}" {
-     TargetStorage "Vest/Vest_PCGen_III_rifleman.et/tako2/Pouch_FILBE_doubleM4_2.et"
+     TargetStorage "Vest/Pouches_IMTV_Rifleman.et/Mag_Pouch2/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
      PrefabsToSpawn {
       "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et"
      }
     }
     ItemsInitConfigurationItem "{658602A1AD75EAB9}" {
-     TargetStorage "Vest/Vest_PCGen_III_rifleman.et/camerleft/Pouch_FILBE_doubleM4_3.et"
+     TargetStorage "Vest/Pouches_IMTV_Rifleman.et/Mag_Pouch3/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
      PrefabsToSpawn {
       "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et"
      }
     }
     ItemsInitConfigurationItem "{658602A1AD75EAB8}" {
-     TargetStorage "Vest/Vest_PCGen_III_rifleman.et/Pouch1/Pouch_OpenTop_M27_1_pouch.et"
+     TargetStorage "Vest/Pouches_IMTV_Rifleman.et/Mag_Pouch1/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
      PrefabsToSpawn {
       "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et"
      }
     }
     ItemsInitConfigurationItem "{658602A1AD75EAB7}" {
-     TargetStorage "Vest/Vest_PCGen_III_rifleman.et/m67/Pouch_Filbe_M67_Base.et"
+     TargetStorage "Vest/Pouches_IMTV_Rifleman.et/Grenade_Pouch1/Pouch_Eagle_Ind_MC_FGC_1_MS.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{658602A1AD75EAB4}" {
-     TargetStorage "Vest/Vest_PCGen_III_rifleman.et/m67_2/Pouch_Filbe_M67_2.et"
+     TargetStorage "Vest/Pouches_IMTV_Rifleman.et/Grenade_Pouch2/Pouch_Eagle_Ind_MC_FGC_1_MS.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{658602A1AD75EAB3}" {
-     TargetStorage "Vest/Vest_PCGen_III_rifleman.et/m18_2/Pouch_Filbe_M18_2.et"
+     TargetStorage "Vest/Pouches_IMTV_Rifleman.et/Grenade_Pouch3/Pouch_Eagle_Ind_MC_FGC_1_MS.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
     ItemsInitConfigurationItem "{658602A1AD75EA8C}" {
-     TargetStorage "Vest/Vest_PCGen_III_rifleman.et/util/Pouch_Filbe_M18_1.et"
+     TargetStorage "Vest/Pouches_IMTV_Rifleman.et/Grenade_Pouch3/Pouch_Eagle_Ind_MC_FGC_1_MS.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
-     }
-    }
-    ItemsInitConfigurationItem "{658602A1AD75EA8B}" {
-     TargetStorage "Jacket/ACU_jacket_base_MC.et"
-     PrefabsToSpawn {
-      "{9A9555D10664B8CB}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_WP.et"
      }
     }
     ItemsInitConfigurationItem "{658611897D484084}" {

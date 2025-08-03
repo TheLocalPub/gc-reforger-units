@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{36A12DD1497EDED6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{36A12DD1497EDED6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/Character_RHS_USA_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -21,7 +21,7 @@ SCR_ChimeraCharacter : "{36A12DD1497EDED6}Prefabs/Characters/Factions/BLUFOR/RHS
     LoadoutSlotInfo ArmoredVest {
     }
     LoadoutSlotInfo Vest {
-     Prefab "{6712E321EDCF23AB}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_AT_shawplacard3.et"
+     Prefab "{AC5D02C03D0CE456}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouches_IMTV_Rifleman.et"
     }
    }
   }
@@ -32,51 +32,45 @@ SCR_ChimeraCharacter : "{36A12DD1497EDED6}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{6488036C50A18E4F}" {
     }
     ItemsInitConfigurationItem "{646B7B974C731E16}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Placard.et"
+     TargetStorage "Vest/Pouches_IMTV_Rifleman.et/Mag_Pouch1/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
      PrefabsToSpawn {
       "{A3BA4C11E2DA07D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1_Last5Tracer.et" "{A3BA4C11E2DA07D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1_Last5Tracer.et" "{A3BA4C11E2DA07D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1_Last5Tracer.et" "{A3BA4C11E2DA07D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1_Last5Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{646B7B97401DFE6B}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex.et"
+     TargetStorage "Vest/Pouches_IMTV_Rifleman.et/Mag_Pouch2/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
      PrefabsToSpawn {
       "{A3BA4C11E2DA07D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1_Last5Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{646B7B9755A722D1}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex.et"
+     TargetStorage "Vest/Pouches_IMTV_Rifleman.et/Mag_Pouch3/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
      PrefabsToSpawn {
       "{A3BA4C11E2DA07D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1_Last5Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{646B7B972D1736BB}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_Base.et"
+     TargetStorage "Vest/Pouches_IMTV_Rifleman.et/Grenade_Pouch1/Pouch_Eagle_Ind_MC_FGC_1_MS.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{646B7B9725A0C6DE}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_2.et"
+     TargetStorage "Vest/Pouches_IMTV_Rifleman.et/Grenade_Pouch2/Pouch_Eagle_Ind_MC_FGC_1_MS.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{646B7B97232A17AF}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M18_1.et"
+     TargetStorage "Vest/Pouches_IMTV_Rifleman.et/Grenade_Pouch3/Pouch_Eagle_Ind_MC_FGC_1_MS.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
     ItemsInitConfigurationItem "{646B7B972330716F}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M18_2.et"
+     TargetStorage "Vest/Pouches_IMTV_Rifleman.et/Grenade_Pouch3/Pouch_Eagle_Ind_MC_FGC_1_MS.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
-     }
-    }
-    ItemsInitConfigurationItem "{6488036C4F76C84E}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
-     PrefabsToSpawn {
-      "{9A9555D10664B8CB}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_WP.et"
      }
     }
    }

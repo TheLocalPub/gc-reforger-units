@@ -9,7 +9,7 @@ SCR_ChimeraCharacter : "{B889387E9A33D667}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{C7AB6F6342093F30}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_base_MC.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{1300A5F6CA51B206}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
+     Prefab "{D4873CD6F2CBA98E}Prefabs/Characters/Vests/Vest_IMTV/TF_Vest_IMTV_Base.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{FFC8049A506A0F9F}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_MC_base.et"
@@ -26,6 +26,7 @@ SCR_ChimeraCharacter : "{B889387E9A33D667}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{6063106CCCB65709}" {
      TargetStorage "Jacket/ACU_jacket_base_MC.et"
+     TargetPurpose 1
     }
     ItemsInitConfigurationItem "{6488036C50A18E4F}" {
      TargetStorage "Jacket/ACU_jacket_base_MC.et"
