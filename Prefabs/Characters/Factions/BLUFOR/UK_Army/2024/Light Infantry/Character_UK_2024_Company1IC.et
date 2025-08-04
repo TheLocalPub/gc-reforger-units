@@ -17,7 +17,7 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab "{56987BA51A14FBE1}Prefabs/Characters/HeadGear/Helmets/Helmet_Virtus/Helmet_Virtus_02_Scrim_Strips_1.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{611DC1CA71B4FF08}Prefabs/Characters/Vests/Body_Armour/Vest_Virtus_STV/Variants/Vest_Virtus_STV_Rifleman_03.et"
+     Prefab "{D5E19CEBB4F96E7A}Prefabs/Characters/Vests/Body_Armour/Vest_Virtus_STV/Variants/Vest_Virtus_STV_Rifleman_06.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{6850162D1EA35BC8}Prefabs/Characters/Vests/Belts/Webbing/Virtus_H_Rig/Variants/Webbing_Virtus_H_Rig_Rifleman_01.et"
@@ -35,7 +35,7 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
      }
     }
     ItemsInitConfigurationItem "{6584C077AFC107CA}" {
-     TargetStorage "ArmoredVest/Vest_Virtus_STV_Rifleman_03.et"
+     TargetStorage "ArmoredVest/Vest_Virtus_STV_Rifleman_06.et"
      TargetPurpose 64
      PrefabsToSpawn {
       "{91C15614267F3ED6}Prefabs/Items/Equipment/Accessories/Patches/Morale/Morale_UnionJack_Brown.et"
