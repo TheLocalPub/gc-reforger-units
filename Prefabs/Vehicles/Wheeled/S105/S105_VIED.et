@@ -1,0 +1,60 @@
+Vehicle : "{128253A267BE9424}Prefabs/Vehicles/Wheeled/S105/S105_randomized.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  GC_ExplosivesManager "{66094D36A7862A91}" {
+   PROJECTILE_EFFECTS {
+    AIExplosionEffect "{66094D36A9845EE6}" {
+    }
+    ExplosionEffect "{66094D36AF7C270E}" {
+     EffectPrefab "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+   }
+   DELETE_ON_TRIGGER 0
+   m_bLive 1
+  }
+  SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     "Explosive multiplier" 5
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{66094D37101B771A}" {
+     ContextName "Explosives"
+     Position PointInfo "{66094D3714F69A06}" {
+      Offset -0.094 0.972 0.752
+     }
+    }
+   }
+   additionalActions {
+    GC_ActivateExplosion "{66094D3718CF03FD}" {
+     ParentContextList {
+      "Explosives"
+     }
+     UIInfo UIInfo "{660934ADAD13099E}" {
+      Name "Explode"
+     }
+     Duration 0.5
+     "Sort Priority" 1
+    }
+    GC_ActivateDeadmans "{66094D3720978637}" {
+     ParentContextList {
+      "Explosives"
+     }
+     UIInfo UIInfo "{660934ADBB881B50}" {
+     }
+    }
+   }
+  }
+ }
+ coords 134.963 1 136.987
+ {
+  GenericEntity : "{5C053ACAE9D17683}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/ArmedDetonatorWires_KPM_3U1.et" {
+   ID "66094D372C591359"
+   coords -0.083 0.856 0.835
+   angleX 41.529
+  }
+ }
+}
