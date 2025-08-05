@@ -1,6 +1,5 @@
-SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
+SCR_AIGroup : "{2BA4FF1232A6371C}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_Base.et" {
  ID "0000000000000001"
- m_faction "GC_NVA"
  m_aUnitPrefabSlots {
   "{E790799B5B0A9F0A}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_FO_P.et" "{69E1927251152E5D}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Radioman_P.et"
  }
