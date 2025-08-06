@@ -17,7 +17,7 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab "{56987BA51A14FBE1}Prefabs/Characters/HeadGear/Helmets/Helmet_Virtus/Helmet_Virtus_02_Scrim_Strips_1.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{5C29E4F204D8763F}Prefabs/Characters/Vests/Body_Armour/Vest_Virtus_STV/Variants/Vest_Virtus_STV_Rifleman_04.et"
+     Prefab "{29FE90238DABC3F8}Prefabs/Characters/Vests/Body_Armour/Vest_Virtus_STV/Variants/Vest_Virtus_STV_Sharpshooter_01.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{6850162D1EA35BC8}Prefabs/Characters/Vests/Belts/Webbing/Virtus_H_Rig/Variants/Webbing_Virtus_H_Rig_Rifleman_01.et"
@@ -30,7 +30,7 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6584AD1C4C78191C}" {
-     TargetStorage "ArmoredVest/Vest_Virtus_STV_Rifleman_04.et"
+     TargetStorage "ArmoredVest/Vest_Virtus_STV_Sharpshooter_01.et"
      TargetPurpose 64
      PrefabsToSpawn {
       "{23F9C47F74E9A9B3}Prefabs/Items/Equipment/Accessories/Patches/Zap/Zap_Tape_BR6023.et"

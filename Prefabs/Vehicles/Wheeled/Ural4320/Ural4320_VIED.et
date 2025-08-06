@@ -1,0 +1,58 @@
+Vehicle : "{9DD4FD3527CB46C8}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_closed.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  GC_ExplosivesManager "{66094D361EDCD4DF}" {
+   PROJECTILE_EFFECTS {
+    AIExplosionEffect "{66094D3626A9C39D}" {
+    }
+    ExplosionEffect "{66094D36259BA4EB}" {
+     EffectPrefab "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+   }
+   DELETE_ON_TRIGGER 0
+   m_bLive 1
+  }
+  SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     "Explosive multiplier" 5
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{66094D3658F64259}" {
+     ContextName "Explosives"
+     Position PointInfo "{66094D366491B469}" {
+      Offset -0.507 2.067 1.787
+     }
+    }
+   }
+   additionalActions {
+    GC_ActivateExplosion "{66094D366E0A9C38}" {
+     ParentContextList {
+      "Explosives"
+     }
+     UIInfo UIInfo "{66094D309159D0B0}" {
+      Name "Explode"
+     }
+     Duration 0.5
+     "Sort Priority" 1
+    }
+    GC_ActivateDeadmans "{66094D366D57D3CA}" {
+     ParentContextList {
+      "Explosives"
+     }
+    }
+   }
+  }
+ }
+ coords 120.872 1 136.905
+ {
+  GenericEntity : "{5C053ACAE9D17683}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/ArmedDetonatorWires_KPM_3U1.et" {
+   ID "66094D37458B7415"
+   coords 0.176 1.942 1.205
+   angleX 41.592
+  }
+ }
+}
