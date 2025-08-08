@@ -35,12 +35,14 @@ class GC_ExplosivesManager : SCR_ExplosiveTriggerComponent
 		if (!controller)
 			return;
 		
-		if(state)
+		if(state && Replication.IsServer())
 		{
-			controller.m_OnNewLifeState.Insert(OnNewLifeState);
+			if(Replication.IsServer())
+				controller.m_OnNewLifeState.Insert(OnNewLifeState);
 			compAccess.GetOnPlayerCompartmentExit().Insert(OnCompartmentExit);
 		}else{
-			controller.m_OnNewLifeState.Remove(OnNewLifeState);
+			if(Replication.IsServer())
+				controller.m_OnNewLifeState.Remove(OnNewLifeState);
 			compAccess.GetOnPlayerCompartmentExit().Remove(OnCompartmentExit);
 		}
 		

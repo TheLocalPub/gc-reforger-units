@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{5F04E03AF4AF8616}Prefabs/Characters/Factions/CIV/Afghan/Civ_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{660EF7E708603C72}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{660EF7E708603C7A}" {
+      m_sVariantPrefab "{30D52A6BBEE3B9D9}Prefabs/Characters/Factions/CIV/Afghan/P/Civ_1_P.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{660EF7E708603C7E}" {
+      m_sVariantPrefab "{6E3D0328016E37D6}Prefabs/Characters/Factions/CIV/Afghan/P/Civ_2_P.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{660EF7E708603C7C}" {
+      m_sVariantPrefab "{9A3544B00CB35FA2}Prefabs/Characters/Factions/CIV/Afghan/P/Civ_3_P.et"
+     }
+    }
+   }
+  }
+ }
+ coords 8514.229 78.344 4993.765
+ angleY 0
+}

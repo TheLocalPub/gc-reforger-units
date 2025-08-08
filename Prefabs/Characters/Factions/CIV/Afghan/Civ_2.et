@@ -1,0 +1,56 @@
+SCR_ChimeraCharacter : "{31558D8118A1503E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_Machinegunner_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 0
+  }
+  SCR_CharacterFactionAffiliationComponent "{6554AEF5AE95A3BC}" {
+   "faction affiliation" "CIV"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Civilian"
+    Icon "{9164E45B9A237FE9}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Unarmed.edds"
+    m_sFaction "Civ"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate ""
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate ""
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate ""
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate ""
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6554AEF73DCF4897}" {
+     PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6554AEF7654B4DB9}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6554AEF7BCAF9BFC}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 8510.599 78.375 4996.604
+ angleY 92.378
+}

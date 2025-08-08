@@ -6,7 +6,8 @@ Vehicle : "{5729759DD092B0F7}Prefabs/Vehicles/Wheeled/S1203/S1203_cargo_randomiz
     AIExplosionEffect "{66094D3040BC045A}" {
     }
     ExplosionEffect "{66094D304616B672}" {
-     EffectPrefab "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+     EffectPrefab "{5ED585C493D441B3}Prefabs/Weapons/Warheads/Warhead_VIED.et"
+     SoundEvent "SOUND_EXPLOSION"
     }
    }
    DELETE_ON_TRIGGER 0
@@ -59,8 +60,6 @@ Vehicle : "{5729759DD092B0F7}Prefabs/Vehicles/Wheeled/S1203/S1203_cargo_randomiz
   GenericEntity : "{DB4F61D5F37432F7}Prefabs/Props/Military/Camps/PalletFuel_01.et" {
    ID "66094D374804A938"
    components {
-    GC_ExplosivesManager "{66094D30306B18E4}" {
-    }
     RigidBody "{5872F0EB7DFB5A9D}" {
      SimState None
      Static 0

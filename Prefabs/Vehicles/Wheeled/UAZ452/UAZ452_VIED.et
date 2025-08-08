@@ -6,7 +6,8 @@ Vehicle : "{01F65EFB8D767A91}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo.et" {
     AIExplosionEffect "{66094D314F5A513F}" {
     }
     ExplosionEffect "{66094D314EFFF2E0}" {
-     EffectPrefab "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+     EffectPrefab "{5ED585C493D441B3}Prefabs/Weapons/Warheads/Warhead_VIED.et"
+     SoundEvent "SOUND_EXPLOSION"
     }
    }
    DELETE_ON_TRIGGER 0

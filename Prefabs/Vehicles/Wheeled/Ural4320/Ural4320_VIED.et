@@ -6,7 +6,8 @@ Vehicle : "{9DD4FD3527CB46C8}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transpor
     AIExplosionEffect "{66094D3626A9C39D}" {
     }
     ExplosionEffect "{66094D36259BA4EB}" {
-     EffectPrefab "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+     EffectPrefab "{5ED585C493D441B3}Prefabs/Weapons/Warheads/Warhead_VIED.et"
+     SoundEvent "SOUND_EXPLOSION"
     }
    }
    DELETE_ON_TRIGGER 0

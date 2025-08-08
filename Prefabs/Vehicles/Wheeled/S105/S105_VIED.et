@@ -6,7 +6,8 @@ Vehicle : "{128253A267BE9424}Prefabs/Vehicles/Wheeled/S105/S105_randomized.et" {
     AIExplosionEffect "{66094D36A9845EE6}" {
     }
     ExplosionEffect "{66094D36AF7C270E}" {
-     EffectPrefab "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+     EffectPrefab "{5ED585C493D441B3}Prefabs/Weapons/Warheads/Warhead_VIED.et"
+     SoundEvent "SOUND_EXPLOSION"
     }
    }
    DELETE_ON_TRIGGER 0

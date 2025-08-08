@@ -1,10 +1,21 @@
 Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
  ID "BBCBA43A9778AE21"
  components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{660E63924CCAB079}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{8D4C03CFA3CBF98C}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_D_2004.emat"
+    }
+   }
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
+    RegisteringComponentSlotInfo Tailgate {
+     Prefab "{2C06C17678E6FD7A}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_tailgate_D_2004.et"
+    }
     RegisteringComponentSlotInfo Roof {
-     Prefab "{40410842456C4C6F}Prefabs/Vehicles/Wheeled/M998/VehParts/CRX_M1025_roof_M2HB_gunshield.et"
+     Prefab "{71FFA1CF088DAB36}Prefabs/Vehicles/Wheeled/M998/VehParts/CRX_M1025_roof_M2HB_gunshield_DESERT.et"
     }
    }
   }

@@ -1,0 +1,51 @@
+SCR_ChimeraCharacter : "{C5FB02647F13E70A}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_Rifleman_RPO_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_CharacterFactionAffiliationComponent "{6554AEF5AE95A3BC}" {
+   "faction affiliation" "CIV"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Civilian"
+    Icon "{9164E45B9A237FE9}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Unarmed.edds"
+    m_sFaction "Civ"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate ""
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate ""
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate ""
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6554AEF7654B4DB9}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6554AEF7BCAF9BFC}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 8510.418 78.369 4994.652
+ angleY 90.168
+}
