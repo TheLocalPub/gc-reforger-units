@@ -1,0 +1,25 @@
+SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "SEAL Squad"
+    m_aAuthoredLabels {
+     4 1677929688 10535
+    }
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity BLUFOR
+     m_Icons RECON
+    }
+   }
+  }
+ }
+ coords 4153.635 36.457 9937.596
+ m_aUnitPrefabSlots {
+  "{7706B021E4E8D296}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2006/Navy SEALs/BDU/P/Character_RHS_USA_SEAL_2006_BDU_P2IC_P.et" "{8901552DEAC862BF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2006/Navy SEALs/BDU/P/Character_RHS_USA_SEAL_2006_BDU_AR_P.et" "{4373630F72C65F3C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2006/Navy SEALs/BDU/P/Character_RHS_USA_SEAL_2006_BDU_Marksman_P.et" "{1482F0B1C8FEA0D7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2006/Navy SEALs/BDU/P/Character_RHS_USA_SEAL_2006_BDU_Rifleman_P.et" "{FE02DDA6A7F972D7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2006/Navy SEALs/BDU/P/Character_RHS_USA_SEAL_2006_BDU_TL_P.et" "{533B2EFB564A84F1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2006/Navy SEALs/BDU/P/Character_RHS_USA_SEAL_2006_BDU_GL_P.et" "{7F04DB6E433F1845}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2006/Navy SEALs/BDU/P/Character_RHS_USA_SEAL_2006_BDU_Demo_P.et" "{E00DA272CD40D311}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2006/Navy SEALs/BDU/P/Character_RHS_USA_SEAL_2006_BDU_Medic_P.et"
+ }
+ m_sCustomNameSet "Platoon HQ"
+}

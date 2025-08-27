@@ -1,0 +1,32 @@
+GameEntity : "{6771459112046B28}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Variants/FORECON/Helmet_MICH2000_norotos_velcro_tan_camo_FORECON4.et" {
+ ID "50D485E1435D6C72"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Materials {
+    MaterialAssignClass "{661C999AA1FA912E}" {
+     SourceMaterial "Mich_norotos_velcro"
+     AssignedMaterial "{B0C909AA0FF84CFF}Assets/Characters/HeadGear/Helmet_MICH/data/Mich_norotos_velcro_green2_clear.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{F3672F802360D2E4}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_blk_clr.et"
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{6D6ADA201AD4E09B}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_olive.et"
+    }
+    RHS_LoadoutSlotInfo LeftVelcro {
+     Prefab "{46822E82DB8151A4}Prefabs/Items/Equipment/Patches/Patch_USMC_Recon.et"
+    }
+   }
+   WornMaterialsOverride {
+    "" "{B0C909AA0FF84CFF}Assets/Characters/HeadGear/Helmet_MICH/data/Mich_norotos_velcro_green2_clear.emat"
+   }
+   ItemMaterialsOverride {
+    "{B0C909AA0FF84CFF}Assets/Characters/HeadGear/Helmet_MICH/data/Mich_norotos_velcro_green2_clear.emat"
+   }
+  }
+ }
+}
