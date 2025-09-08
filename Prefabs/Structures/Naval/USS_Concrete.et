@@ -1,0 +1,1420 @@
+GenericEntity {
+ ID "66503ACB22D9329D"
+ coords 9319.501 0 7453.755
+ {
+  $grp GenericEntity {
+   Decals {
+    ID "66503ACB22CC269D"
+    coords 3.499 18.106 -0.702
+    {
+     $grp GenericEntity {
+      {
+       ID "66503ACB22C890BE"
+       coords 81.511 0.044 -7.03
+       {
+        $grp GenericEntity : "{27DEA1289174B2DA}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Line_2x30.et" {
+         {
+          ID "66503ACB22C70C4F"
+          coords -0.003 0 -4.513
+          angleY -90
+          scale 0.544
+         }
+         {
+          ID "66503ACB22C76EE6"
+          coords -6.088 0 -9.013
+          scale 0.441
+         }
+         {
+          ID "66503ACB22C890BF"
+          coords -5.21 0 -3.842
+          angleY 45
+          scale 0.485
+         }
+        }
+       }
+      }
+      {
+       ID "66503ACB22C99DA5"
+       coords 30.011 0.044 -7.03
+       {
+        $grp GenericEntity : "{27DEA1289174B2DA}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Line_2x30.et" {
+         {
+          ID "66503ACB22C81FF4"
+          coords -0.003 0 -4.513
+          angleY -90
+          scale 0.544
+         }
+         {
+          ID "66503ACB22C99DA2"
+          coords -5.21 0 -3.842
+          angleY 45
+          scale 0.485
+         }
+         {
+          ID "66503ACB22C9AA73"
+          coords -6.088 0 -9.013
+          scale 0.441
+         }
+        }
+       }
+      }
+      {
+       ID "66503ACB22CA16E0"
+       coords -21.005 0.044 -7.24
+       {
+        $grp GenericEntity : "{27DEA1289174B2DA}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Line_2x30.et" {
+         {
+          ID "66503ACB22CA16E1"
+          coords -5.21 0 -3.842
+          angleY 45
+          scale 0.485
+         }
+         {
+          ID "66503ACB22CA369E"
+          coords -6.088 0 -9.013
+          scale 0.441
+         }
+         {
+          ID "66503ACB22CAC157"
+          coords -0.003 0 -4.513
+          angleY -90
+          scale 0.544
+         }
+        }
+       }
+      }
+      {
+       ID "66503ACB22CAF58B"
+       coords 56 0.094 17.023
+       {
+        $grp GenericEntity : "{27DEA1289174B2DA}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Line_2x30.et" {
+         {
+          ID "66503ACB22C97088"
+          coords -6.088 0 -0.013
+          scale 0.441
+         }
+         {
+          ID "66503ACB22C9DD6F"
+          coords -0.003 0 -4.513
+          angleY -90
+          scale 0.544
+         }
+         {
+          ID "66503ACB22CAF589"
+          coords -5.563 0 -5.61
+          angleY -45
+          scale 0.485
+         }
+        }
+       }
+      }
+      {
+       ID "66503ACB22CB6808"
+       coords -98.505 0.044 17.023
+       {
+        $grp GenericEntity : "{27DEA1289174B2DA}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Line_2x30.et" {
+         {
+          ID "66503ACB22CB680B"
+          coords -5.563 0 -5.61
+          angleY -45
+          scale 0.485
+         }
+         {
+          ID "66503ACB22CBC894"
+          coords -6.088 0 -0.013
+          scale 0.441
+         }
+         {
+          ID "66503ACB22CBF184"
+          coords -0.003 0 -4.513
+          angleY -90
+          scale 0.544
+         }
+        }
+       }
+      }
+      {
+       ID "66503ACB22CBF185"
+       coords -72.505 0.044 -7.24
+       {
+        $grp GenericEntity : "{27DEA1289174B2DA}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Line_2x30.et" {
+         {
+          ID "66503ACB22CBB8BE"
+          coords -0.003 0 -4.513
+          angleY -90
+          scale 0.544
+         }
+         {
+          ID "66503ACB22CBE468"
+          coords -6.088 0 -9.013
+          scale 0.441
+         }
+         {
+          ID "66503ACB22CBF19A"
+          coords -5.21 0 -3.842
+          angleY 45
+          scale 0.485
+         }
+        }
+       }
+      }
+      {
+       ID "66503ACB22CC269C"
+       coords -46.5 0.044 17.023
+       {
+        $grp GenericEntity : "{27DEA1289174B2DA}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Line_2x30.et" {
+         {
+          ID "66503ACB22CC2697"
+          coords -0.003 0 -4.513
+          angleY -90
+          scale 0.544
+         }
+         {
+          ID "66503ACB22CCB674"
+          coords -5.563 0 -5.61
+          angleY -45
+          scale 0.485
+         }
+         {
+          ID "66503ACB22CCB675"
+          coords -6.088 0 -0.013
+          scale 0.441
+         }
+        }
+       }
+      }
+     }
+     $grp GenericEntity : "{27DEA1289174B2DA}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Line_2x30.et" {
+      {
+       ID "66503ACB22C60896"
+       coords 30.407 0.094 17.023
+       scale 0.441
+      }
+      {
+       ID "66503ACB22C651C4"
+       coords -98.093 0.044 -16.49
+       scale 0.441
+      }
+      {
+       ID "66503ACB22C651C5"
+       coords -46.593 0.044 -16.49
+       scale 0.441
+      }
+      {
+       ID "66503ACB22C680DE"
+       coords 55.923 0.044 -16.28
+       scale 0.441
+      }
+      {
+       ID "66503ACB22C6EADD"
+       coords 4.423 0.044 -16.28
+       scale 0.441
+      }
+      {
+       ID "66503ACB22C7B731"
+       components {
+        MeshObject "{51B2A74AA8E024AD}" {
+         Materials {
+          MaterialAssignClass "{664C4186A6D5014D}" {
+           SourceMaterial "Runway_Accesories_01"
+           AssignedMaterial "{DF1722BCCFA1A34B}Assets/Decals/Markings/Runway/Data/Runway_yellow_camo.emat"
+          }
+         }
+        }
+       }
+       coords 83.005 0.044 -10.917
+       angleY -90
+       scale 0.9
+      }
+      {
+       ID "66503ACB22C7E8DC"
+       coords -72.093 0.044 17.01
+       scale 0.441
+      }
+      {
+       ID "66503ACB22C7E8DF"
+       components {
+        MeshObject "{51B2A74AA8E024AD}" {
+         Materials {
+          MaterialAssignClass "{664C4186A6D5014D}" {
+           SourceMaterial "Runway_Accesories_01"
+           AssignedMaterial "{DF1722BCCFA1A34B}Assets/Decals/Markings/Runway/Data/Runway_yellow_camo.emat"
+          }
+         }
+        }
+       }
+       coords -114.912 0.006 -12.258
+       angleY -90
+       scale 0.81
+      }
+     }
+     $grp GenericEntity : "{2D7BF1652764415D}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Line_1x30.et" {
+      {
+       ID "66503ACB22C57E92"
+       components {
+        MeshObject "{51B2A74AA8E024AD}" {
+         Materials {
+          MaterialAssignClass "{664C41866BCFAB7E}" {
+           SourceMaterial "Runway_Accesories_01"
+           AssignedMaterial "{DF1722BCCFA1A34B}Assets/Decals/Markings/Runway/Data/Runway_yellow_camo.emat"
+          }
+         }
+        }
+       }
+       coords -25.312 0.094 -12.283
+       scale 1.98
+      }
+      {
+       ID "66503ACB22C5F29B"
+       components {
+        MeshObject "{51B2A74AA8E024AD}" {
+         Materials {
+          MaterialAssignClass "{664C41866BCFAB7E}" {
+           SourceMaterial "Runway_Accesories_01"
+           AssignedMaterial "{DF1722BCCFA1A34B}Assets/Decals/Markings/Runway/Data/Runway_yellow_camo.emat"
+          }
+         }
+        }
+       }
+       coords 34.188 0.094 -12.283
+       scale 1.98
+      }
+      {
+       ID "66503ACB22C680D0"
+       components {
+        MeshObject "{51B2A74AA8E024AD}" {
+         Materials {
+          MaterialAssignClass "{664C41866BCFAB7E}" {
+           SourceMaterial "Runway_Accesories_01"
+           AssignedMaterial "{DF1722BCCFA1A34B}Assets/Decals/Markings/Runway/Data/Runway_yellow_camo.emat"
+          }
+         }
+        }
+       }
+       coords -84.477 0.094 -12.283
+       scale 1.98
+      }
+     }
+     $grp GenericEntity : "{702925E996B8B8FB}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Line_WaitEnd.et" {
+      {
+       ID "66503ACB22C308BB"
+       coords -24.019 0.045 -13.122
+      }
+      {
+       ID "66503ACB22C33E1A"
+       coords 71.481 0.045 -13.122
+      }
+      {
+       ID "66503ACB22C33E1D"
+       coords 55.981 0.045 -13.122
+      }
+      {
+       ID "66503ACB22C36D60"
+       coords 15.981 0.045 -13.122
+      }
+      {
+       ID "66503ACB22C36D61"
+       coords 35.981 0.045 -13.122
+      }
+      {
+       ID "66503ACB22C40EAD"
+       coords -64.019 0.045 -13.122
+      }
+      {
+       ID "66503ACB22C4868D"
+       coords -4.019 0.045 -13.122
+      }
+      {
+       ID "66503ACB22C4C138"
+       coords -44.019 0.045 -13.122
+      }
+      {
+       ID "66503ACB22C5A2D5"
+       coords -104.019 0.045 -13.122
+      }
+      {
+       ID "66503ACB22C5A2D6"
+       coords -84.019 0.045 -13.122
+      }
+     }
+     GenericEntity : "{F04A3E2709A994AE}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Num9.et" {
+      ID "66503ACB22C389DE"
+      coords -104.62 0.094 -2.391
+      angleY -90
+      scale 1.5
+     }
+     $grp GenericEntity : "{FFFDC163BE13E55F}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Line_6x30.et" {
+      {
+       ID "66503ACB22C389DC"
+       components {
+        MeshObject "{51B2A74AA8E024AD}" {
+         Materials {
+          MaterialAssignClass "{664C41850180BE66}" {
+           SourceMaterial "Runway_Accesories_01"
+           AssignedMaterial "{DF1722BCCFA1A34B}Assets/Decals/Markings/Runway/Data/Runway_yellow_camo.emat"
+          }
+         }
+        }
+       }
+       coords 68.494 0.094 -12.247
+       scale 0.316
+      }
+      {
+       ID "66503ACB22C389DD"
+       components {
+        MeshObject "{51B2A74AA8E024AD}" {
+         Materials {
+          MaterialAssignClass "{664C41850180BE66}" {
+           SourceMaterial "Runway_Accesories_01"
+           AssignedMaterial "{DF1722BCCFA1A34B}Assets/Decals/Markings/Runway/Data/Runway_yellow_camo.emat"
+          }
+         }
+        }
+       }
+       coords 77.994 0.094 -12.247
+       scale 0.316
+      }
+     }
+    }
+   }
+   LaunchBay {
+    ID "66503ACB22D644ED"
+    coords 61.096 18.092 -1.541
+    {
+     $grp SCR_DestructibleBuildingEntity : "{4A5274B5B598E08D}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_02/ConcreteRetainingWall_02_End.et" {
+      {
+       ID "66503ACB22D10954"
+       coords 21.856 -23.574 15.579
+       angleY -90
+       angleZ 86.979
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D10957"
+       coords 14.856 -23.574 15.579
+       angleY -90
+       angleZ 86.979
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D153EF"
+       coords 14.856 -10.135 16.921
+       angleY -90
+       angleZ 86.979
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D1915F"
+       coords 14.903 -10.054 -16.812
+       angleY 90
+       angleZ 87.033
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D2283D"
+       coords 21.903 -10.054 -16.812
+       angleY 90
+       angleZ 87.033
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D24F7B"
+       coords 7.903 -10.054 -16.812
+       angleY 90
+       angleZ 87.033
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D2AFA9"
+       coords 21.856 -10.135 16.921
+       angleY -90
+       angleZ 86.979
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D2D35E"
+       coords 14.903 -23.491 -15.458
+       angleY 90
+       angleZ 87.033
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D2D35F"
+       coords 21.903 -23.491 -15.458
+       angleY 90
+       angleZ 87.033
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D3605F"
+       coords 0.856 -23.574 15.579
+       angleY -90
+       angleZ 86.979
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D3F558"
+       coords -6.144 -10.135 16.921
+       angleY -90
+       angleZ 86.979
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D3F55F"
+       coords -6.144 -23.574 15.579
+       angleY -90
+       angleZ 86.979
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D40EE0"
+       coords -13.144 -23.574 15.579
+       angleY -90
+       angleZ 86.979
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D40EE3"
+       coords -20.144 -23.574 15.579
+       angleY -90
+       angleZ 86.979
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D433A6"
+       coords -20.144 -10.135 16.921
+       angleY -90
+       angleZ 86.979
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D4B3E8"
+       coords 0.856 -10.135 16.921
+       angleY -90
+       angleZ 86.979
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D4B3E9"
+       coords 7.856 -10.135 16.921
+       angleY -90
+       angleZ 86.979
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D4F4E0"
+       coords 7.856 -23.574 15.579
+       angleY -90
+       angleZ 86.979
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D551B4"
+       coords -27.097 -10.054 -16.812
+       angleY 90
+       angleZ 87.033
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D551CB"
+       coords -27.097 -23.491 -15.458
+       angleY 90
+       angleZ 87.033
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D56BE8"
+       coords -20.097 -23.491 -15.458
+       angleY 90
+       angleZ 87.033
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D56BE9"
+       coords -20.097 -10.054 -16.812
+       angleY 90
+       angleZ 87.033
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D56BEA"
+       coords -13.097 -23.491 -15.458
+       angleY 90
+       angleZ 87.033
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D5AE61"
+       coords -13.144 -10.135 16.921
+       angleY -90
+       angleZ 86.979
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D5C264"
+       coords -27.144 -10.135 16.921
+       angleY -90
+       angleZ 86.979
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D5C265"
+       coords -27.144 -23.574 15.579
+       angleY -90
+       angleZ 86.979
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D5DA86"
+       coords 7.903 -23.491 -15.458
+       angleY 90
+       angleZ 87.033
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D5DA89"
+       coords 0.903 -10.054 -16.812
+       angleY 90
+       angleZ 87.033
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D5DA8A"
+       coords -6.097 -10.054 -16.812
+       angleY 90
+       angleZ 87.033
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D5DA8B"
+       coords 0.903 -23.491 -15.458
+       angleY 90
+       angleZ 87.033
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D5DA8C"
+       coords -13.097 -10.054 -16.812
+       angleY 90
+       angleZ 87.033
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D5DA8D"
+       coords -6.097 -23.491 -15.458
+       angleY 90
+       angleZ 87.033
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D62EC1"
+       coords -34.144 -23.574 15.579
+       angleY -90
+       angleZ 86.979
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D644E5"
+       coords -34.144 -10.135 16.921
+       angleY -90
+       angleZ 86.979
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D6BE3E"
+       coords -34.097 -10.054 -16.812
+       angleY 90
+       angleZ 87.033
+       scale 1.68
+      }
+      {
+       ID "66503ACB22D6BE3F"
+       coords -34.097 -23.491 -15.458
+       angleY 90
+       angleZ 87.033
+       scale 1.68
+      }
+     }
+     $grp SCR_DestructibleEntity : "{879865F07EA907B0}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_4m.et" {
+      {
+       ID "66503ACB22CF5004"
+       coords 13.247 -1.604 -11.381
+       angleX 90
+       angleY -90
+       angleZ -90
+       scale 6.6
+      }
+      {
+       ID "66503ACB22CF7290"
+       coords -32.381 -0.625 18.762
+       angleX 90
+       angleY 90
+       angleZ 90
+       scale 2.627
+      }
+      {
+       ID "66503ACB22CF7293"
+       coords -15.652 -1.603 11.449
+       angleX 90
+       angleY 90
+       angleZ -90
+       scale 6.6
+      }
+      {
+       ID "66503ACB22D06CA0"
+       coords -1.753 -1.603 -11.381
+       angleX 90
+       angleY -90
+       angleZ -90
+       scale 6.6
+      }
+      {
+       ID "66503ACB22D06CA1"
+       coords -1.753 -1.603 11.449
+       angleX 90
+       angleY -90
+       angleZ 90
+       scale 6.6
+      }
+      {
+       ID "66503ACB22D0EBC8"
+       coords 13.247 -1.602 11.449
+       angleX 90
+       angleY -90
+       angleZ 90
+       scale 6.6
+      }
+      {
+       ID "66503ACB22D19141"
+       coords -24.753 -1.603 -11.381
+       angleX 90
+       angleY -90
+       angleZ -90
+       scale 6.6
+      }
+     }
+     $grp StaticModelEntity : "{A64C66196086B206}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_base.et" {
+      {
+       ID "66503ACB22CDBFBA"
+       components {
+        ActionsManagerComponent "{591A8592E6D58CC1}" {
+         ActionContexts {
+          UserActionContext "{5916A63C9CED0D8A}" {
+           Position PointInfo "{5916A63CE468E545}" {
+            Offset -0.0249 5 0.4609
+           }
+          }
+         }
+        }
+       }
+       coords -8.576 -20.396 -11.634
+       angleY -90
+       {
+        $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/LampTower_01.et" {
+         {
+          ID "66503ACB22CC1BA6"
+          components {
+           ParametricMaterialInstanceComponent "{5F1AD8DABF0AF65D}" {
+           }
+           Hierarchy "{612AE78C95E98EEB}" {
+            PivotID "socket_light_03"
+           }
+          }
+          {
+           LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+            ID "66503ACB22CC269E"
+            components {
+             RplComponent "{585699AC653DD54C}" {
+              Enabled 1
+             }
+            }
+            coords -0.003 0.203 0.195
+            angleX -30
+           }
+          }
+         }
+         {
+          ID "66503ACB22CC4BF9"
+          components {
+           ParametricMaterialInstanceComponent "{5F1AD8DAD19F707F}" {
+           }
+           Hierarchy "{612AE78C95E98EEB}" {
+            PivotID "socket_light_04"
+           }
+          }
+          {
+           LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+            ID "66503ACB22CC4BF8"
+            components {
+             RplComponent "{585699AC653DD54C}" {
+              Enabled 1
+             }
+            }
+            coords -0.016 0.202 0.182
+            angleX -30
+            angleY -5
+           }
+          }
+         }
+        }
+       }
+      }
+      {
+       ID "66503ACB22CDC1A7"
+       components {
+        ActionsManagerComponent "{591A8592E6D58CC1}" {
+         ActionContexts {
+          UserActionContext "{5916A63C9CED0D8A}" {
+           Position PointInfo "{5916A63CE468E545}" {
+            Offset -0.0249 5 0.4609
+           }
+          }
+         }
+        }
+       }
+       coords -8.576 -20.396 11.654
+       angleY -90
+       {
+        $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/LampTower_01.et" {
+         {
+          ID "66503ACB22CD958F"
+          components {
+           ParametricMaterialInstanceComponent "{5F1AD8DAA2F7E9EE}" {
+           }
+           Hierarchy "{612AE78C95E98EEB}" {
+            PivotID "socket_light_02"
+           }
+          }
+          {
+           LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+            ID "66503ACB22CD9588"
+            components {
+             RplComponent "{585699AC653DD54C}" {
+              Enabled 1
+             }
+            }
+            coords -0.004 0.2 0.179
+            angleX -30
+           }
+          }
+         }
+         {
+          ID "66503ACB22CDC1A5"
+          components {
+           ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
+           }
+           Hierarchy "{612AE78C95E98EEB}" {
+            PivotID "socket_light_01"
+           }
+          }
+          {
+           LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+            ID "66503ACB22CDC1A4"
+            components {
+             RplComponent "{585699AC653DD54C}" {
+              Enabled 1
+             }
+            }
+            coords 0 0.196 0.178
+            angleX -30
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+     $grp GenericEntity : "{B08DF585ECD2CF4D}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_SideSquareNarrow.et" {
+      {
+       ID "66503ACB22CE09A7"
+       coords -34.257 -1.486 14.051
+       angleX 90
+       angleY -90
+      }
+      {
+       ID "66503ACB22CE5568"
+       coords 22.399 -4.278 -12.776
+       angleY -90
+       scale 3.828
+      }
+      {
+       ID "66503ACB22CF359E"
+       coords -20.041 -1.621 23.169
+       angleX 84.5
+       angleZ 90
+       scale 1.622
+      }
+      {
+       ID "66503ACB22CF7294"
+       coords -26.041 -1.621 23.169
+       angleX 84.5
+       angleZ 90
+       scale 1.622
+      }
+      {
+       ID "66503ACB22CF7295"
+       coords -32.041 -1.621 23.172
+       angleX 84.5
+       angleZ 90
+       scale 1.622
+      }
+      {
+       ID "66503ACB22CF80B1"
+       coords -11.316 -10.229 13.354
+       angleX 90
+       angleY -90
+       scale 7.7
+      }
+      {
+       ID "66503ACB22CF80BE"
+       coords 16.849 -10.229 13.354
+       angleX 90
+       angleY -90
+       scale 7.7
+      }
+      {
+       ID "66503ACB22CF9EE8"
+       coords 16.849 -10.229 -13.258
+       angleX 90
+       angleY -90
+       scale 7.7
+      }
+      {
+       ID "66503ACB22CFAA72"
+       coords 22.399 -4.278 12.724
+       angleY -90
+       scale 3.828
+      }
+      {
+       ID "66503ACB22CFDFC8"
+       coords -27.905 -0.41 3.072
+       angleZ 90
+       scale 2.784
+      }
+      {
+       ID "66503ACB22CFDFCB"
+       coords -14.394 -1.621 23.169
+       angleX 84.5
+       angleZ 90
+       scale 1.622
+      }
+      {
+       ID "66503ACB22CFF44E"
+       coords -11.316 -10.229 -13.258
+       angleX 90
+       angleY -90
+       scale 7.7
+      }
+      {
+       ID "66503ACB22CFF44F"
+       coords -27.908 -2.854 2.744
+       angleZ 90
+       scale 2.784
+      }
+     }
+     $grp GenericEntity : "{BB64FBA6986C62F7}Prefabs/Structures/BuildingParts/Entry/ConcreteSlope_02_MediumVehicle.et" {
+      {
+       ID "66503ACB22CDC19B"
+       coords -30.604 0.047 13.956
+       angleY -90
+       scale 0.771
+      }
+      {
+       ID "66503ACB22CE09A5"
+       coords -5.134 -16.96 -4.256
+       angleY 90
+      }
+      {
+       ID "66503ACB22CE09A6"
+       coords -5.134 -16.96 0.244
+       angleY 90
+      }
+      {
+       ID "66503ACB22CE3FC0"
+       coords -5.134 -16.96 -8.756
+       angleY 90
+      }
+      {
+       ID "66503ACB22CEC256"
+       coords -5.134 -16.96 9.244
+       angleY 90
+      }
+      {
+       ID "66503ACB22CEC257"
+       coords -5.134 -16.96 4.744
+       angleY 90
+      }
+     }
+     $grp SCR_DestructibleBuildingEntity : "{F7B9B2DD8B512720}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_02/ConcreteRetainingWall_02_8m.et" {
+      {
+       ID "66503ACB22CD7B94"
+       coords 9.688 -29.45 0.146
+       angleY 180
+       angleZ 180
+       scale 4.181
+      }
+      {
+       ID "66503ACB22CDC19C"
+       coords -15.097 -26.925 0.14
+       angleY -90
+       angleZ 180
+       scale 3.161
+      }
+      {
+       ID "66503ACB22CE8B74"
+       coords -23.83 -27.185 -0.116
+       angleY 180
+       angleZ 180
+       scale 4.131
+      }
+     }
+    }
+   }
+   ATCLights {
+    ID "66503ACB22D8C9D2"
+    coords -18.518 22.799 11.224
+    {
+     $grp GenericEntity : "{0FE25F81E87E8131}Prefabs/Props/Airport/RunwayLightPortable_01/RunwayLightPortable_01_red.et" {
+      {
+       ID "66503ACB22D644E9"
+       coords 41.747 -2.399 -0.065
+       angleY -90
+      }
+      {
+       ID "66503ACB22D644EA"
+       coords 51.155 -2.403 -0.065
+       angleY 90
+      }
+      {
+       ID "66503ACB22D644EB"
+       coords 7.375 0.723 -3.969
+       angleY 180
+      }
+      {
+       ID "66503ACB22D644EE"
+       coords 51.155 -2.403 -7.606
+       angleY 90
+      }
+      {
+       ID "66503ACB22D644EF"
+       coords 41.747 -2.403 -7.634
+       angleY -90
+      }
+      {
+       ID "66503ACB22D644F5"
+       coords 23.93 5.32 5.404
+      }
+      {
+       ID "66503ACB22D644F6"
+       coords 7.948 0.723 8.155
+      }
+      {
+       ID "66503ACB22D708AC"
+       coords 23.821 14.777 -1.012
+       angleY 180
+      }
+      {
+       ID "66503ACB22D708AE"
+       coords 15.088 10.199 -6.923
+       angleY -180
+      }
+      {
+       ID "66503ACB22D708AF"
+       coords 16.281 14.778 -1.012
+       angleY 180
+      }
+      {
+       ID "66503ACB22D75A45"
+       coords -2.125 0.723 8.155
+      }
+      {
+       ID "66503ACB22D75A4A"
+       coords 16.257 14.778 8.395
+      }
+      {
+       ID "66503ACB22D75A4B"
+       coords 23.821 14.779 8.395
+      }
+      {
+       ID "66503ACB22D7B012"
+       coords -2.125 0.723 -3.969
+       angleY 180
+      }
+      {
+       ID "66503ACB22D7B013"
+       coords 23.43 5.316 -6.704
+       angleY -180
+      }
+      {
+       ID "66503ACB22D7DDC2"
+       coords 7.479 10.197 2.427
+      }
+      {
+       ID "66503ACB22D7DDC5"
+       coords 15.083 10.201 2.426
+      }
+      {
+       ID "66503ACB22D8A099"
+       coords 33.43 5.318 5.404
+      }
+      {
+       ID "66503ACB22D8A09B"
+       coords 7.479 10.197 -6.922
+       angleY 180
+      }
+      {
+       ID "66503ACB22D8C9EB"
+       coords 33.43 5.317 -6.704
+       angleY -180
+      }
+     }
+    }
+   }
+   RunwayLights {
+    ID "66503ACB22D9329E"
+    coords -109.501 18.105 -24.729
+    {
+     $grp StaticModelEntity : "{38A8C0CE913C7CEA}Prefabs/Structures/Airport/LightRunway_01/LightRunway_01_blue.et" {
+      {
+       ID "66503ACB22D93285"
+       coords -2.49 0.001 30.974
+      }
+      {
+       ID "66503ACB22D93286"
+       coords -2.49 0.001 46.474
+      }
+      {
+       ID "66503ACB22D9328A"
+       coords -2.49 0.001 15.474
+      }
+      {
+       ID "66503ACB22D93293"
+       coords -2.49 0.001 -0.026
+      }
+     }
+     $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunway_01/LightRunway_01_white.et" {
+      {
+       ID "66503ACB22D86301"
+       coords 145 0 -0.026
+      }
+      {
+       ID "66503ACB22D86303"
+       coords 155 0 -0.026
+      }
+      {
+       ID "66503ACB22D87525"
+       coords 65 0 -0.026
+      }
+      {
+       ID "66503ACB22D87528"
+       coords 95 0 -0.026
+      }
+      {
+       ID "66503ACB22D8752B"
+       coords 45 0 -0.026
+      }
+      {
+       ID "66503ACB22D8752C"
+       coords 115 0 -0.026
+      }
+      {
+       ID "66503ACB22D87532"
+       coords 105 0 -0.026
+      }
+      {
+       ID "66503ACB22D87533"
+       coords 135 0 -0.026
+      }
+      {
+       ID "66503ACB22D8C930"
+       coords 35 0 46.474
+      }
+      {
+       ID "66503ACB22D8C931"
+       coords 25 0 46.474
+      }
+      {
+       ID "66503ACB22D8C934"
+       coords 15 0 46.474
+      }
+      {
+       ID "66503ACB22D8C936"
+       coords 175 0 -0.026
+      }
+      {
+       ID "66503ACB22D8C937"
+       coords 5 0 46.474
+      }
+      {
+       ID "66503ACB22D8C938"
+       coords 165 0 -0.026
+      }
+      {
+       ID "66503ACB22D8C939"
+       coords 125 0 -0.026
+      }
+      {
+       ID "66503ACB22D8C93A"
+       coords 85 0 -0.026
+      }
+      {
+       ID "66503ACB22D8C93B"
+       coords 185 0 -0.026
+      }
+      {
+       ID "66503ACB22D8C93D"
+       coords 125 0 -0.026
+      }
+      {
+       ID "66503ACB22D8C9C0"
+       coords 125 0 46.474
+      }
+      {
+       ID "66503ACB22D8C9C1"
+       coords 85 0 46.474
+      }
+      {
+       ID "66503ACB22D8C9C2"
+       coords 145 0 46.474
+      }
+      {
+       ID "66503ACB22D8C9C4"
+       coords 155 0 46.474
+      }
+      {
+       ID "66503ACB22D8C9C6"
+       coords 135 0 46.474
+      }
+      {
+       ID "66503ACB22D8C9C9"
+       coords 105 0 46.474
+      }
+      {
+       ID "66503ACB22D8C9CA"
+       coords 95 0 46.474
+      }
+      {
+       ID "66503ACB22D8C9CB"
+       coords 115 0 46.474
+      }
+      {
+       ID "66503ACB22D8C9CC"
+       coords 65 0 46.474
+      }
+      {
+       ID "66503ACB22D8C9CD"
+       coords 45 0 46.474
+      }
+      {
+       ID "66503ACB22D8C9CE"
+       coords 55 0 46.474
+      }
+      {
+       ID "66503ACB22D8C9CF"
+       coords 75 0 46.474
+      }
+      {
+       ID "66503ACB22D8C9DC"
+       coords 125 0 46.474
+      }
+      {
+       ID "66503ACB22D8C9DD"
+       coords 175 0 46.474
+      }
+      {
+       ID "66503ACB22D8C9DE"
+       coords 185 0 46.474
+      }
+      {
+       ID "66503ACB22D8C9DF"
+       coords 165 0 46.474
+      }
+      {
+       ID "66503ACB22D93282"
+       coords 5 0 -0.026
+      }
+      {
+       ID "66503ACB22D932B8"
+       coords 35 0 -0.026
+      }
+      {
+       ID "66503ACB22D932BC"
+       coords 15 0 -0.026
+      }
+      {
+       ID "66503ACB22D99DDC"
+       coords 25 0 -0.026
+      }
+      {
+       ID "66503ACB22D99DDE"
+       coords 55 0 -0.026
+      }
+      {
+       ID "66503ACB22D99DDF"
+       coords 75 0 -0.026
+      }
+     }
+     $grp StaticModelEntity : "{C1873CADC253F79B}Prefabs/Structures/Airport/LightRunway_01/LightRunway_01_green_red.et" {
+      {
+       ID "66503ACB22D8C9D4"
+       coords 196.51 0.001 30.974
+       angleY -90
+      }
+      {
+       ID "66503ACB22D8C9D5"
+       coords 196.51 0.001 46.474
+       angleY -90
+      }
+      {
+       ID "66503ACB22D8C9D7"
+       coords 196.51 0.001 15.474
+       angleY -90
+      }
+      {
+       ID "66503ACB22D8C9DB"
+       coords 196.51 0.001 -0.026
+       angleY -90
+      }
+     }
+    }
+   }
+  }
+  $grp SCR_DestructibleBuildingEntity : "{9CEC8BB63429FF28}Prefabs/Structures/Airport/ControlTower_01/ControlTower_01.et" {
+   {
+    ID "66503ACB22C3881E"
+    components {
+     BaseSlotComponent "{515AF743348C3EF9}" {
+      Enabled 0
+     }
+     BaseSlotComponent "{515AF743358517B3}" {
+      Enabled 0
+     }
+     BaseSlotComponent "{515E816A387FB29D}" {
+      Enabled 0
+     }
+     BaseSlotComponent "{515E816A8094A535}" {
+      Enabled 0
+     }
+    }
+    coords 6.681 18.105 15.119
+    angleY -180
+   }
+   {
+    ID "66503ACB22C38822"
+    components {
+     BaseSlotComponent "{515AF743348C3EF9}" {
+      Enabled 0
+     }
+     BaseSlotComponent "{515AF743358517B3}" {
+      Enabled 0
+     }
+     BaseSlotComponent "{515E816A387FB29D}" {
+      Enabled 0
+     }
+     BaseSlotComponent "{515E816A8094A535}" {
+      Enabled 0
+     }
+    }
+    coords -12.368 13.527 8.806
+    {
+     Building {
+      ID "5A3104050AF531DA"
+      {
+       GenericEntity {
+        ID "5A34CA41B9D53B32"
+        coords 0 0 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A310405FE5D6FF6"
+      {
+       GenericEntity {
+        ID "5A3104058D2CDDAE"
+        coords 8.358 3.146 0.415
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66503ACB22C38841"
+    components {
+     BaseSlotComponent "{515AF743348C3EF9}" {
+      Enabled 0
+     }
+     BaseSlotComponent "{515AF743358517B3}" {
+      Enabled 0
+     }
+     BaseSlotComponent "{515E816A387FB29D}" {
+      Enabled 0
+     }
+     BaseSlotComponent "{515E816A8094A535}" {
+      Enabled 0
+     }
+     BaseSlotComponent "{515E816A87E93F99}" {
+      Enabled 0
+     }
+    }
+    coords 28.101 0.927 2.256
+    angleY -90
+    {
+     Building {
+      ID "5A3104050AF531DA"
+      {
+       GenericEntity {
+        ID "5A34CA41B9D53B32"
+        coords 0 0 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A310405FE5D6FF6"
+      {
+       GenericEntity {
+        ID "5A3104058D2CDDAE"
+        coords 8.358 3.146 0.415
+       }
+      }
+     }
+    }
+   }
+  }
+  $grp SCR_DestructibleBuildingEntity : "{F7B9B2DD8B512720}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_02/ConcreteRetainingWall_02_8m.et" {
+   {
+    ID "66503ACB22C388AD"
+    components {
+     MeshObject "{50F0A4C5B8E7DB72}" {
+      Materials {
+       MaterialAssignClass "{66474DA86D8123EF}" {
+        SourceMaterial "ConcreteRetainingWall_02"
+        AssignedMaterial "{6254BD00E417A0DB}Assets/Structures/Walls/Concrete/Data/ConcreteRetainingWall_02.emat"
+       }
+      }
+     }
+    }
+    coords -10.461 -2.952 -1.502
+    angleY 180
+    angleZ 180
+    scale 8.537
+   }
+   {
+    ID "66503ACB22C388B2"
+    components {
+     MeshObject "{50F0A4C5B8E7DB72}" {
+      Materials {
+       MaterialAssignClass "{66474DA86C83B066}" {
+        SourceMaterial "ConcreteRetainingWall_02"
+        AssignedMaterial "{6254BD00E417A0DB}Assets/Structures/Walls/Concrete/Data/ConcreteRetainingWall_02.emat"
+       }
+      }
+     }
+    }
+    coords -78.22 -2.952 -1.502
+    angleY 180
+    angleZ 180
+    scale 8.537
+   }
+  }
+ }
+}
