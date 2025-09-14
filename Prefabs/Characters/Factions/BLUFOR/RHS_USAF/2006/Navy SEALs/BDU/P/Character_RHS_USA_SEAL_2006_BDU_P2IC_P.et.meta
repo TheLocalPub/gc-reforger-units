@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{7706B021E4E8D296}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2006/Navy SEALs/BDU/Character_RHS_USA_SEAL_2006_BDU_PSG_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
