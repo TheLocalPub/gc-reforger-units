@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{0D08C206CBA3ADC1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/Character_RHS_RF_VDV_VSR_PL_2.et"
+ Name "{97E36D2C583E53B6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/Character_RHS_RF_VDV_VSR_PL_P.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }
