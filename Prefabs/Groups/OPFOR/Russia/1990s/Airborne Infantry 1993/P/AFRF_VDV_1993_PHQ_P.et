@@ -1,0 +1,6 @@
+SCR_AIGroup : "{5EBA5F514EC05630}Prefabs/Groups/OPFOR/Russia/1990s/Airborne Infantry 1993/AFRF_VDV_1993_PHQ.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{0D08C206CBA3ADC1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_PL_P.et" "{C774442B1E18C843}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_PSG_P.et" "{3BA500A9A7BF7C88}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_Medic_P.et"
+ }
+}
