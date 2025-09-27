@@ -40,7 +40,7 @@ SCR_ChimeraCharacter : "{2AADF14AA3F98373}Prefabs/Characters/Factions/OPFOR/RHS_
      TargetStorage "ArmoredVest/Vest_6B3.et"
     }
     ItemsInitConfigurationItem "{6675518DCC81FBAA}" {
-     TargetStorage "Vest/Vest_Lifchik.et"
+     TargetStorage "ArmoredVest/Vest_6B3.et"
      PrefabsToSpawn {
       "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et" "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et" "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et" "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et" "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et" "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et" "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et" "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
