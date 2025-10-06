@@ -1,0 +1,27 @@
+Turret : "{DF5979FDE2682F70}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/LAV25_turret_base.et" {
+ ID "51ACD0965653D003"
+ components {
+  RHS_TurretStabilizationComponent "{64EA975BF4E9EAAF}" {
+   m_bStabilizationEnabled 1
+  }
+  TurretComponent "{58F8DC79D093C81C}" {
+   components {
+    RHS_VehicleNightVisionComponent "{64EA975A70AB0612}" {
+     m_bUseThermal 1
+    }
+   }
+   TurretSpeed 36 25
+  }
+  WCS_Armament_VehicleCameraComponent "{650AA2118A883578}" {
+   m_Cameras {
+    WCS_VehicleCameraProps "{650AA211829B2F66}" {
+     m_Position PointInfo "{650AA21A1942ECDA}" {
+      PivotID "v_turret_01"
+      Offset 0.4087 1.8913 0.1419
+     }
+    }
+   }
+  }
+ }
+ coords 1526.725 37.082 2933.901
+}

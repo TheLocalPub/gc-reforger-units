@@ -1,0 +1,11 @@
+SCR_AIGroup : "{2BA4FF1232A6371C}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_Base.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{65894BA68EC2E361}" {
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{CF25AB0F905F6934}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MortarCommander_P.et" "{04E6C813DD539F61}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MortarCrew_P.et" "{04E6C813DD539F61}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MortarCrew_P.et"
+ }
+ m_sCustomNameSet "Mortar Crew"
+}

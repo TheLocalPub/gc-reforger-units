@@ -1,0 +1,22 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineLeft"
+  }
+  PS_GroupCallsignAssigner "{655C04F558EF7D72}" {
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Identity INDFOR
+    m_Icons INFANTRY
+    m_Amplifier TEAM
+   }
+  }
+ }
+ coords 1203.387 39 2383.694
+ m_faction "RHS_ION"
+ m_aUnitPrefabSlots {
+  "{E5A6A323B5A2CE44}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/Playable/Character_GC_ION_Uniformed_Sniper_P.et" "{375EA75B17C14602}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/Playable/Character_GC_ION_Uniformed_Spotter_P.et"
+ }
+}

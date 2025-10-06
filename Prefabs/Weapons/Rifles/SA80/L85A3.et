@@ -1,0 +1,20 @@
+GenericEntity : "{9207B5D36C3C8C94}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_carbine_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{5EB6189A31AA6236}Sounds/Weapons/Rifles/L85A1/Weapons_Rifles_L85A1_Shot.acp" "{CDCC24D09380C9BE}Sounds/Weapons/Rifles/SA80/Weapons_Rifles_L85_Shot_Suppressed.acp" "{C957D6D3E0217131}Sounds/Weapons/Rifles/SA80/Weapons_Rifles_SA80_Handling.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{07E8D425196745F4}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_Plastic.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{E419B2CF55F4A389}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Bayonett.acp"
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{650358A48936C4D4}" {
+     AttachmentSlot InventoryStorageSlot Optic {
+      Offset 0 0 0.06
+      Prefab "{5F7D782D70C0CD77}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_ELCAN_OS4x/Optic_ELCAN_OS4x_RMR.et"
+     }
+    }
+   }
+  }
+ }
+}

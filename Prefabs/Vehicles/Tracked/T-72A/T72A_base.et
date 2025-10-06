@@ -1,0 +1,12 @@
+Tank : "{8A883ABED22B6E27}Prefabs/Vehicles/Core/Tracked_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5E38B925DD33F65F}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5E38B925DD33F646}" {
+     NumSlots 8
+    }
+   }
+  }
+ }
+}

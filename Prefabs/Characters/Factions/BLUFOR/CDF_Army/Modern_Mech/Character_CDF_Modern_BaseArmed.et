@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{9DAE5569E31000AA}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_Base.et" {
+SCR_ChimeraCharacter : "{9DAE5569E31000AA}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_Base.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
@@ -31,7 +31,7 @@ SCR_ChimeraCharacter : "{9DAE5569E31000AA}Prefabs/Characters/Factions/BLUFOR/CDF
      }
     }
     ItemsInitConfigurationItem "{647D027B95B0EB26}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_OD.et"
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/drop/Pouch_UP113_DropPouch_OD.et"
      PrefabsToSpawn {
       "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }

@@ -1,0 +1,16 @@
+GenericEntity : "{09DEA8153A0C312D}Prefabs/Characters/Core/EquipmentPart_Base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5222CB03D1147687}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB03CBA95936}" {
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     ItemDimensions 25 15 25
+     ItemVolume 2500
+    }
+   }
+   MaxCumulativeVolume 2500
+   MaxItemSize 25 15 25
+  }
+ }
+ coords 2530.353 307.44 6389.362
+}

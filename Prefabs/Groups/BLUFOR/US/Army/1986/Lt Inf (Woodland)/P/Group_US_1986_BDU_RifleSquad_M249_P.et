@@ -1,0 +1,17 @@
+SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  PS_GroupCallsignAssigner "{6582D1205FA50E6F}" {
+   Enabled 0
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{AC72C614587CE8F1}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_SL_P.et" "{7EF4F612C10B4CF3}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_TL_P.et" "{09F77E998C3A5C9B}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_AR_P.et" "{D3CD054F30B8BAD5}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_GL_P.et" "{EF3E40EB85EDB94C}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_RF_P.et" "{7EF4F612C10B4CF3}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_TL_P.et" "{09F77E998C3A5C9B}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_AR_P.et" "{D3CD054F30B8BAD5}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_GL_P.et" "{EF3E40EB85EDB94C}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_RF_P.et"
+ }
+ m_bPlayable 1
+ m_sCustomNameSet "Rifle Squad"
+ m_bSetPlayable 1
+}

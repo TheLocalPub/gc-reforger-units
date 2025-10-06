@@ -4,6 +4,15 @@ SCR_AIGroup : "{FB08033A33E826D5}Prefabs/Groups/BLUFOR/British Forces/1989/Group
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Column"
   }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2024 Royal Marines Commando Section"
+    m_Image "{220BB37E8B0C9776}UI/PreviewImages/Groups/BLUFOR/BritishForces/Group_UK_1989_Regulars_InfantrySection.edds"
+    m_aAuthoredLabels {
+     4 7000 19831992 1001
+    }
+   }
+  }
  }
  coords -0.77 -19.315 -38.266
  m_aUnitPrefabSlots {

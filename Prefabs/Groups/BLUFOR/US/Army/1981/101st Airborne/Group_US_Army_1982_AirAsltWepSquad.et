@@ -1,0 +1,6 @@
+SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{389F2A8F9993D1DB}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/Character_US_101st_1982_WepSL.et" "{E219BC550AED75CE}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/Character_US_101st_1982_MG.et" "{C304495C0634D34E}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/Character_US_101st_1982_AMG.et" "{E219BC550AED75CE}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/Character_US_101st_1982_MG.et" "{C304495C0634D34E}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/Character_US_101st_1982_AMG.et" "{68A60B8E1D2B7F71}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/Character_US_101st_1982_AT.et" "{49BBFE8711F2D9F1}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/Character_US_101st_1982_AAT.et" "{68A60B8E1D2B7F71}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/Character_US_101st_1982_AT.et" "{49BBFE8711F2D9F1}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/Character_US_101st_1982_AAT.et"
+ }
+}

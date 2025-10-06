@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{2A10FBA1AE4CA314}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/Character_RHS_RANGER_09_GR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{70B36593BDA75111}Prefabs/Weapons/Rifles/M4A1/USSF/Ranger 2009/Rifle_M4A1_RAS_PRO_UBGL.et"
+  }
+ }
+}

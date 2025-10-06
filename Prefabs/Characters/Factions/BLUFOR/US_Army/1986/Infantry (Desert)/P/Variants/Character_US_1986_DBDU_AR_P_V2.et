@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{3420822E778990B1}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/P/Character_US_1986_DBDU_AR_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{725C5E1C75CADAF4}Prefabs/Characters/Vests/Vest_M69/Vest_M69_M81woodland.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+   }
+  }
+ }
+}

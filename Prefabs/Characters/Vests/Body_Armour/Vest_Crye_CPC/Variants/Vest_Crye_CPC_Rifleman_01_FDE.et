@@ -1,0 +1,15 @@
+GenericEntity : "{B34AF9076D0F240E}Prefabs/Characters/Vests/Body_Armour/Vest_Crye_CPC/Variants/Vest_Crye_CPC_Rifleman_01.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Placard {
+     Prefab "{32740258B6A93F44}Prefabs/Items/Equipment/Accessories/Pouches/Magazine/CPC_Placard_EMAGs_MC_FDE.et"
+    }
+    LoadoutSlotInfo MagPouch1 {
+     Prefab "{7DF3A2E214DB3F99}Prefabs/Items/Equipment/Accessories/Pouches/Magazine/Luminae_AnythingPouch_MC_2_EMAG_FDE.et"
+    }
+   }
+  }
+ }
+}

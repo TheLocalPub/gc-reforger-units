@@ -1,0 +1,8 @@
+SCR_AIGroup : "{2BA4FF1232A6371C}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{D384466A8828A5BC}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_CompanyCommander.et" "{4D304C643CF1A78D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_CompanySergeantMajor.et" "{03ADE746594FC316}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Radioman.et"
+ }
+ m_bPlayable 1
+ m_sCustomNameSet "Company HQ"
+}

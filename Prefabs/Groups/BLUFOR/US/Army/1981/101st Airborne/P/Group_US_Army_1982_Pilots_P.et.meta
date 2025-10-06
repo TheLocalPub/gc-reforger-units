@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{43FF832A024AD2EA}Prefabs/Groups/BLUFOR/US/Army/1981/101st Airborne/P/Group_US_Army_1982_Pilots_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

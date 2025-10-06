@@ -1,0 +1,115 @@
+GenericEntity : "{C63227C0E70EA62E}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{5BAE2879CD8ED6BB}Assets/Weapons/Rifles/M16A1/BC_M16A1.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Diemaco C7"
+     Description "Diemaco (Now Colt Canada) C7 rifle."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5534745C44D1EFE1}" {
+     Weight 2.89
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationIKPose "{30E1F10AB7D13931}Assets/Weapons/Rifles/M16A1/Anims/anm/p_rfl_bc_m16a1_ik.anm"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52BAB5E48C906DB8}" {
+      LodModel 0
+     }
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{56DE9C900611C1AF}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      Offset 0 0 -0.0032
+      ChildPivotID "snap_hand_guard"
+      Prefab "{DBE1C7B1461EDE5B}Prefabs/Weapons/Attachments/Handguards/Handguard_M16A2/Handguard_C7.et"
+     }
+    }
+    SightsComponent "{656D42067181EDBD}" {
+     SightsPosition PointInfo "{656D42067181ED9B}" {
+      PivotID "eye"
+      Offset 0 0 -0.01
+     }
+     SightsRanges {
+      SightRangeInfo "{656D42067181ED9F}" {
+       Range 0 250
+       WeaponPosition PointInfo "{656D42067181ED9C}" {
+        Offset 0 0.0002 0
+        Angles 0.065 0 0
+       }
+      }
+      SightRangeInfo "{656D42067181ED81}" {
+       Range 1 375
+       WeaponPosition PointInfo "{656D42067181ED86}" {
+        Offset 0 -0.0004 -0.01
+        Angles 0.135 0 0
+       }
+      }
+     }
+     SightsPointFront PointInfo "{656D42067181ED84}" {
+      Offset 0 0.1444 0.4649
+     }
+     SightsPointRear PointInfo "{656D42067181ED88}" {
+      PivotID "w_sight"
+      Offset 0 0.0076 0
+     }
+     ADSTime 0.35
+     m_iOpticDOFDistanceScale 30
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     Enabled 0
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{5D527627CCB8F756}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        ChildPivotID "snap_barrel_muzzle"
+        Prefab "{35B91EC2A57BDB0E}Prefabs/Weapons/Attachments/Muzzle/FlashHider M16A1/BC_FlashHider_M16A1.et"
+       }
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       MaxBurst -1
+       RoundsPerMinute 950
+       UIName "Full Auto"
+      }
+      BaseFireMode "{619AB45BF76565F3}" {
+       MaxBurst 1
+       RoundsPerMinute 950
+       UIName "Single"
+      }
+     }
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{97A367FD3D137BBD}Assets/Weapons/Rifles/workspaces/bc_m16a1.agr"
+     AnimInstance "{94F3D0314B9F18A1}Assets/Weapons/Rifles/workspaces/bc_m16a1_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{5534745C44D1EF5A}" {
+      AnimGraph "{97A367FD3D137BBD}Assets/Weapons/Rifles/workspaces/bc_m16a1.agr"
+      AnimInstance "{6FAD4100D39E7C4D}Assets/Weapons/Rifles/workspaces/bc_m16a1_player.asi"
+     }
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Diemaco C7"
+    Description "Diemaco (Now Colt Canada) C7 rifle."
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   additionalActions {
+    SCR_DetachMagazineUserAction "{5A1E58F790AF821D}" {
+     UIInfo SCR_ActionUIInfo "{5A1E58F788F40D95}" {
+      Name "Detach: "
+     }
+    }
+   }
+  }
+ }
+}

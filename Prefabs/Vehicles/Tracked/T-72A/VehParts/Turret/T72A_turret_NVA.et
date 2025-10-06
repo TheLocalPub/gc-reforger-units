@@ -1,0 +1,77 @@
+Turret : "{3474BEBB23BA5793}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret/T72_turret_base.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{658AB6336EBB1F2E}" {
+     SourceMaterial "t72a_turret"
+     AssignedMaterial "{376CC886B8787677}Assets/Vehicles/Tracked/T-72A/Data/t72a_turret_NVA.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{64863497471CD184}" {
+   Slots {
+    RegisteringComponentSlotInfo CommanderTurrets {
+     Prefab "{624B3A96BDBE50E1}Prefabs/Vehicles/Tracked/T-72A/VehParts/CommanderTurret/T72A_Commander_Turret_NVA.et"
+    }
+    WCS_Armament_DispenserSlotInfo Smoke {
+     Prefab "{BCD14BEC77952F98}Prefabs/Weapons/Countermeasures/Dispenser_Smoke_T72A_NVA.et"
+    }
+    EntitySlotInfo Toolbox_01 {
+     Prefab "{DF6BC57F05FAD281}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret_Toolboxes/T72_Turret_Toolbox_01_NVA.et"
+    }
+    EntitySlotInfo ToolBox_02 {
+     Prefab "{6DBC87945A58E119}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret_Toolboxes/T72_Turret_Toolbox_02_NVA.et"
+    }
+    EntitySlotInfo ToolBox_03 {
+     Prefab "{6DBC87945A58E119}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret_Toolboxes/T72_Turret_Toolbox_02_NVA.et"
+    }
+    EntitySlotInfo Tube {
+     Prefab "{06182B5D40A30025}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret_Tube/T72_Turret_Tube_NVA.et"
+    }
+    EntitySlotInfo Tube_02 {
+     Prefab "{06182B5D40A30025}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret_Tube/T72_Turret_Tube_NVA.et"
+    }
+    EntitySlotInfo Number1_T {
+     PivotID "v_gunner_idle"
+     Offset 0.2004 0.7661 -0.963
+     Angles -0.4846 -89.4285 -37.3056
+     Prefab "{0309D37EFF070E46}Prefabs/Vehicles/Shared/decal_vehicle_group1.et"
+    }
+    EntitySlotInfo Number2_T {
+     PivotID "v_gunner_idle"
+     Offset 0.4104 0.7652 -0.963
+     Angles -0.4846 -89.4285 -37.3056
+     Prefab "{6F5DE79E43C38168}Prefabs/Vehicles/Shared/decal_vehicle_group2.et"
+    }
+    EntitySlotInfo Number3_T {
+     PivotID "v_gunner_idle"
+     Offset 0.6264 0.7659 -0.9643
+     Angles -0.4846 -89.4285 -37.3056
+     Prefab "{8AC1AB674F261603}Prefabs/Vehicles/Shared/decal_vehicle_group3.et"
+    }
+    EntitySlotInfo Number4_T {
+     PivotID "v_gunner_idle"
+     Offset 0.849 0.7661 -0.9653
+     Angles -0.4846 -89.4285 -37.3056
+     Prefab "{B7F58E5F3A4A9F34}Prefabs/Vehicles/Shared/decal_vehicle_group4.et"
+    }
+    EntitySlotInfo Label_L {
+     PivotID "v_gunner_idle"
+     Offset -0.6835 0.6858 0.795
+     Angles 2.2853 1.48 16.3264
+     Prefab "{B06EA58EAE378ABB}Prefabs/Vehicles/Wheeled/BTR70/NVA/Assets/decal_vehicle_label_small_HTM.et"
+    }
+    EntitySlotInfo Label_R {
+     PivotID "v_gunner_idle"
+     Offset 1.7344 0.7691 -0.279
+     Angles 0.6795 -154.01131 -17.6806
+     Prefab "{B06EA58EAE378ABB}Prefabs/Vehicles/Wheeled/BTR70/NVA/Assets/decal_vehicle_label_small_HTM.et"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{E83D377FCAF4B121}Prefabs/Weapons/HeavyWeapons/2A46/Cannon_2A46_NVA.et"
+  }
+ }
+}

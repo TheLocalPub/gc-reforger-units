@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{9C9AB518A1C0E902}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Character_US_1986_BDU_MG_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{657D1BB0B1259CC2}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{657D1BB0B06771E1}" {
+      m_bEnabled 0
+     }
+    }
+   }
+  }
+ }
+}

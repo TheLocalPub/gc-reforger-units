@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{D9936548CBBAA1CD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/Character_RHS_RANGER_09_RF.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{65DF6A130708EA6C}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{65DF6A1307E9B0E7}" {
+      m_sVariantPrefab "{4378CA6258275FBA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/Variants/Character_RHS_RANGER_09_RF_2.et"
+     }
+     SCR_EditableEntityVariant "{65DF6A130633F8EE}" {
+      m_sVariantPrefab "{D9936548CBBAA1CD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/Character_RHS_RANGER_09_RF.et"
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{7CC4F29974483009}Prefabs/Weapons/Rifles/M4A1/USSF/Ranger 2009/Rifle_M4A1_RAS_PRO.et"
+  }
+ }
+}

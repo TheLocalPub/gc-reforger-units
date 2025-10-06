@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{EEC3D45B590FAF54}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_MachinegunAss_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{4B57C11AA5161760}Prefabs/Characters/Vests/Vest_PASGT/Vest_PASGT.et"
+    }
+    LoadoutSlotInfo Back {
+    }
+   }
+  }
+ }
+ coords 2524.245 305.672 6373.57
+}

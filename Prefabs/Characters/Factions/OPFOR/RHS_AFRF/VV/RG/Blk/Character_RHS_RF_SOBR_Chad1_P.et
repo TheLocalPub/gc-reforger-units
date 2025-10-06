@@ -19,23 +19,66 @@ SCR_ChimeraCharacter : "{E4E52E85601454F5}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{60D31DF595C92341}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mc.et"
+     TargetStorage "Pants/crye_pants_mc.et"
      PrefabsToSpawn {
       "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
      }
     }
     ItemsInitConfigurationItem "{60D31DF595C9234B}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MC.et"
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_MC.et"
+    }
+    ItemsInitConfigurationItem "{61AAABEB54623542}" {
+     TargetStorage "Vest/Vest_Taktika_preset_black1.et/pouch1/Pouch_Taktika_magpouch_open_BLK.et"
+     PrefabsToSpawn {
+      "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61AAABEB54623549}" {
+     TargetStorage "Vest/Vest_Taktika_preset_black1.et/pistol1/Pouch_Taktika_magpouch_pistol_BLK.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
     }
     ItemsInitConfigurationItem "{61AAABEB54623554}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_universalpouch_coy.et"
+     TargetStorage "Vest/Vest_Taktika_preset_black1.et/util/Pouch_Taktika_universalpouch_coy.et"
      PrefabsToSpawn {
       "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
     ItemsInitConfigurationItem "{61AAABEB54623555}" {
+     TargetStorage "Vest/Vest_Taktika_preset_black1.et/radio/Pouch_Taktika_radioPouch_BLK.et"
      PrefabsToSpawn {
       "{AFBD4C5C1F83AC42}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Single.et"
+     }
+    }
+    ItemsInitConfigurationItem "{650E8867179D654D}" {
+     TargetStorage "Vest/Vest_Taktika_preset_black1.et/pouch2/Pouch_Taktika_magpouch_open_BLK.et"
+     PrefabsToSpawn {
+      "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{650E8867EFE8961C}" {
+     TargetStorage "Vest/Vest_Taktika_preset_black1.et/pouch3/Pouch_Taktika_magpouch_open_BLK.et"
+     PrefabsToSpawn {
+      "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{650E8867EB4F11CF}" {
+     TargetStorage "Vest/Vest_Taktika_preset_black1.et/pouch4/Pouch_Taktika_magpouch_open_BLK.et"
+     PrefabsToSpawn {
+      "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{650E8867E3487EE0}" {
+     TargetStorage "Vest/Vest_Taktika_preset_black1.et/pouchvest/Pouch_Taktika_magpouch_open_BLK.et"
+     PrefabsToSpawn {
+      "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{650E8867FA3208AA}" {
+     TargetStorage "Vest/Vest_Taktika_preset_black1.et/pouchvest2/Pouch_Taktika_magpouch_open_BLK.et"
+     PrefabsToSpawn {
+      "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et"
      }
     }
    }

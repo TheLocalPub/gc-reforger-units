@@ -1,0 +1,14 @@
+SCR_AIGroup : "{DEE4F567595DE7AE}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_PHQ.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_sFaction "GC_SEPARATIST"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{E0EBFD8094F98337}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_PL_P.et" "{AB6F88A1E567AF40}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_PSG_P.et" "{63E34E68CD2DF356}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_Sharpshooter_P.et" "{E31FE387C44DE69B}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_Medic_P.et" "{E31FE387C44DE69B}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_Medic_P.et"
+ }
+ m_bSetPlayable 1
+}

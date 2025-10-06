@@ -27,10 +27,8 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{80910048B735B60E}Prefabs/Characters/HeadGear/Balaclavas/LShZ_Balaclava/Balaclava_LShZ_MC.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{E8EAD526CA6BCA16}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{A469DB18C977FAFE}Prefabs/Characters/Vests/Vest_TV115/Vest_TV115_OD.et"
@@ -40,6 +38,9 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
     }
     LoadoutSlotInfo Vest {
      Prefab "{46CD5E10628CF628}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_Rifleman_OD2.et"
+    }
+    LoadoutSlotInfo Face {
+     Prefab "{75F3ED41A7F79D93}Prefabs/Characters/HeadGear/Masks/Masks_Keela_Snood/Masks_Keela_Snood_MC.et"
     }
    }
   }
@@ -55,9 +56,10 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
      }
     }
     ItemsInitConfigurationItem "{62FB097A7477C905}" {
+     TargetStorage "Pants/ACU_pants_MC.et"
     }
     ItemsInitConfigurationItem "{647D027B95B0EB26}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP104_utilmini_base.et"
+     TargetStorage "Jacket/ACU_jacket_MC.et"
     }
     ItemsInitConfigurationItem "{647D0B69671AE755}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP105_utilbig_OD.et"

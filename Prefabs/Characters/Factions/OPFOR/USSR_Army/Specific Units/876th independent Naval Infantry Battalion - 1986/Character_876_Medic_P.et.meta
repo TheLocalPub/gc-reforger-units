@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{493DF9E6FEE3E58A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Medic_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

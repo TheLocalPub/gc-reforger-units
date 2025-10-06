@@ -1,0 +1,18 @@
+GenericEntity : "{1C539C904D39A895}Prefabs/Vehicles/Shared/decal_vehicle_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{898699B99D37551F}Assets/Vehicles/SharedMeshes/DecalVehicle_small.xob"
+   Materials {
+    MaterialAssignClass "{655D6BB94A154670}" {
+     SourceMaterial "decal_plane"
+     AssignedMaterial "{6BA11AEBF90F8E92}Prefabs/Vehicles/Wheeled/BTR70/1980 NVA/Assets/decal0-9_HTM.emat"
+    }
+   }
+  }
+  RHS_MaterialController "{5E35420CA7B998B2}" {
+   m_bRandomizeValue 0
+   m_sGroupName "GROUP1"
+  }
+ }
+}

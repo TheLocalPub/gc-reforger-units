@@ -1,0 +1,29 @@
+GameEntity : "{6771459112046B28}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Variants/FORECON/Helmet_MICH2000_norotos_velcro_tan_camo_FORECON4.et" {
+ ID "50D485E1435D6C72"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Materials {
+    MaterialAssignClass "{661C999A84F51DCD}" {
+     SourceMaterial "Mich_norotos_velcro"
+     AssignedMaterial "{B0C909AA0FF84CFF}Assets/Characters/HeadGear/Helmet_MICH/data/Mich_norotos_velcro_green2_clear.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+    }
+    RHS_LoadoutSlotInfo Headset {
+    }
+    RHS_LoadoutSlotInfo LeftVelcro {
+    }
+   }
+   WornMaterialsOverride {
+    "" "{B0C909AA0FF84CFF}Assets/Characters/HeadGear/Helmet_MICH/data/Mich_norotos_velcro_green2_clear.emat"
+   }
+   ItemMaterialsOverride {
+    "{B0C909AA0FF84CFF}Assets/Characters/HeadGear/Helmet_MICH/data/Mich_norotos_velcro_green2_clear.emat"
+   }
+  }
+ }
+}

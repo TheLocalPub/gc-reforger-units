@@ -1,0 +1,20 @@
+GenericEntity : "{AA4FACF008E134BF}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_M2HB_MERDC.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{55DEA676C7D89FE4}" {
+     SourceMaterial "Base"
+     AssignedMaterial "{A139ED7073952BBE}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Roof_D_2004.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{54F2B37F3202E099}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{6074EDFF41AA4D78}Prefabs/Vehicles/Wheeled/M998/VehParts/CRX_M1025_gun_mount_M2HB_gunshield_MERDC.et"
+    }
+   }
+  }
+ }
+}

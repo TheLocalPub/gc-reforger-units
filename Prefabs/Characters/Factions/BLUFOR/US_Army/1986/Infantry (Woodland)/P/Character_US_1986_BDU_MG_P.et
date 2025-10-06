@@ -1,0 +1,24 @@
+SCR_ChimeraCharacter : "{56F591DA7F6F1ED6}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/Character_US_1986_BDU_MG_AI.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{657D1BB0B1259CC2}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{657D1BB0B06771E1}" {
+      m_sVariantPrefab "{97F605B0EB784029}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Variants/Character_US_1986_BDU_MG_P_V2.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,36 @@
+GenericEntity : "{B0CDA2E1EFEAFE87}Prefabs/Weapons/Rifles/M16/Variants/GC_Diemaco_C7.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Diemaco C7 w/ M203"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{56DE9C900611C1AF}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+     }
+    }
+    AttachmentSlotComponent "{656D4204DACB7C1A}" {
+     AttachmentSlot InventoryStorageSlot "{656D4204D23B3BF7}" {
+      PivotID "barrel_chamber"
+      Offset 0 -0.0001 0.0147
+      Prefab "{239CEF0C9AB5556E}Prefabs/Weapons/Attachments/Underbarrel/UGL_RHS_M203.et"
+      InspectionWidgetOffset 0 0.0789 0.2607
+     }
+     AttachmentType AttachmentOpticsCarryHandle "{656D4204E9BDDDCF}" {
+     }
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Diemaco C7 w/ M203"
+   }
+  }
+ }
+ coords 1522.084 38.214 2924.999
+ angleY -43.871
+ angleZ 85.903
+}

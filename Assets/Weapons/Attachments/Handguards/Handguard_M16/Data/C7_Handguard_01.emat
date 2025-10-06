@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Color 0 0 0 1
+ SpecularIBL 0.565 0.565 0.565 1
+ RoughnessScale 0.5
+ BCRMap "{7365C3C0C54A98ED}Assets/Weapons/Attachments/Handguards/Handguard_M16/Data/M16A2_Handguard_01_BCR.edds"
+ NMOMap "{4BBD78521C3DCA73}Assets/Weapons/Attachments/Handguards/Handguard_M16/Data/M16A2_Handguard_01_NMO.edds"
+}

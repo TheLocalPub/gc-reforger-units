@@ -9,10 +9,20 @@ SCR_ChimeraCharacter : "{94DB2F66DDCD8783}Prefabs/Characters/Factions/BLUFOR/UK_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{1A2A08974835C380}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_Royal_Marines_01.et"
+     Prefab "{F4EA5339BC3DA620}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MT_MC_Liberator.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{37F0F78149E3E78B}Prefabs/Characters/Vests/Body_Armour/Vest_Crye_CPC/Variants/Vest_Crye_CPC_Rifleman_02_FDE.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{8D4A4DF9111F0682}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Blk.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65C2BC458A9C0781}" {
+     TargetStorage "ArmoredVest/Vest_Crye_CPC_Rifleman_02_FDE.et"
     }
    }
   }

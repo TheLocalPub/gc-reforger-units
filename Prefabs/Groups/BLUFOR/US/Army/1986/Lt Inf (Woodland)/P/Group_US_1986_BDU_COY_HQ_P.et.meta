@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{809D5896510B70C2}Prefabs/Groups/BLUFOR/US/1986/Woodland (BDU)/P/Group_US_1986_BDU_COY_HQ_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

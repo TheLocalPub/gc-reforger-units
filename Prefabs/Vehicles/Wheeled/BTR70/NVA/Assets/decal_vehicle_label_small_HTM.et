@@ -1,0 +1,14 @@
+GenericEntity : "{0D546D2B04CF870A}Prefabs/Vehicles/Shared/decal_vehicle_label.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{898699B99D37551F}Assets/Vehicles/SharedMeshes/DecalVehicle_small.xob"
+   Materials {
+    MaterialAssignClass "{5E3574F60BF31070}" {
+     SourceMaterial "decal_plane"
+     AssignedMaterial "{00329F6B2F5B1DC7}Assets/_SharedData/Decals/Coat_of_arms_NVA.emat"
+    }
+   }
+  }
+ }
+}
