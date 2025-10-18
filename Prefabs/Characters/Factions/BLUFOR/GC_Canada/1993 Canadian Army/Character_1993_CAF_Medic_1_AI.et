@@ -22,7 +22,7 @@ SCR_ChimeraCharacter : "{77F5DF1C44F71C37}Prefabs/Characters/Factions/BLUFOR/GC_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{65174687EC4EDB95}" {
      PrefabsToSpawn {
-      "{1852DD0D0BED6182}Prefabs/Items/Facepaint_01_Base.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+      "{B3F2B47340817ED6}Prefabs/Items/GC_Facepaint_01_US.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{65174682E071E18A}" {
