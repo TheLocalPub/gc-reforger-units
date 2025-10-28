@@ -5,7 +5,7 @@ SCR_ChimeraCharacter : "{3ECA3A935BC069B9}Prefabs/Characters/Factions/OPFOR/USSR
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
      PrefabsToSpawn + {
-      "{1852DD0D0BED6182}Prefabs/Items/Facepaint_01_Base.et"
+      "{28FA34E692783ACB}Prefabs/Items/GC_Facepaint_01_USSR.et"
      }
     }
    }

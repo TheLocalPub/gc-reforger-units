@@ -1,0 +1,49 @@
+SCR_ChimeraCharacter : "{BF79A1A472FA63F2}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_BaseLoadout.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Sharpshooter"
+    Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{7815ED1987F26487}Prefabs/Characters/Headgear/Helmet_M56/Helmet_M56_Camo.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{D0D01C5002BAF8FA}Prefabs/Characters/Vests/Vest_NVA/Variants/Vest_NVA_Rifleman_AKM.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6698EC17F36E3478}" {
+     TargetStorage "Vest/Vest_NVA_Rifleman_AKM.et/MagPouch_6Sh46/Vest_NVA_Magpouch_AKM.et"
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{4A3649DFF8A3F0E3}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6698EC17F36E3405}" {
+     TargetStorage "Vest/Vest_NVA_Rifleman_AKM.et/GasmaskBag/Vest_NVA_GasmaskBag.et"
+     PrefabsToSpawn {
+      "{4A3649DFF8A3F0E3}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Tracer.et" "{4A3649DFF8A3F0E3}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Tracer.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}
