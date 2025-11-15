@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{23A4C2032C087708}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/Character_RHS_ION_VIP_Bodyguard_Black_P.et"
+ Name "{894628A45793E7A0}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_BaseLoadout.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }
