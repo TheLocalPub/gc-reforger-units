@@ -1,27 +1,30 @@
 SCR_ChimeraCharacter : "{D3F29763F96877CD}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/Character_GC_INS_Muj_base.et" {
  ID "520EC961A090B1EE"
  components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_VariantData SCR_EditableEntityVariantData "{669B08DE8AF6DEAF}" {
     m_bRandomizeDefaultVariant 0
     m_aVariants {
      SCR_EditableEntityVariant "{669B08DE8BF89469}" {
-      m_sVariantPrefab "{19082200798CCFDE}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/Character_GC_INS_Muj_FAL_1.et"
+      m_sVariantPrefab "{62E31E2BC4792C54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/P/Variants/Character_GC_INS_Muj_FAL_P_1.et"
      }
      SCR_EditableEntityVariant "{669B08DE8BCA91EE}" {
-      m_sVariantPrefab "{755C16E0C54840F0}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/Character_GC_INS_Muj_FAL_2.et"
+      m_sVariantPrefab "{0EB72ACB78BDA37A}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/P/Variants/Character_GC_INS_Muj_FAL_P_2.et"
      }
      SCR_EditableEntityVariant "{669B08DE88189D89}" {
-      m_sVariantPrefab "{90C05A19C9ADD79B}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/Character_GC_INS_Muj_FAL_3.et"
+      m_sVariantPrefab "{EB2B663274583411}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/P/Variants/Character_GC_INS_Muj_FAL_P_3.et"
      }
      SCR_EditableEntityVariant "{669B08DE887144FD}" {
-      m_sVariantPrefab "{BE1981AB26D200E1}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/Character_GC_INS_Muj_G3_1.et"
+      m_sVariantPrefab "{3E3694AC40464073}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/P/Variants/Character_GC_INS_Muj_G3_P_1.et"
      }
      SCR_EditableEntityVariant "{669B08DE884EBDEF}" {
-      m_sVariantPrefab "{D24DB54B9A168FCF}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/Character_GC_INS_Muj_G3_2.et"
+      m_sVariantPrefab "{5262A04CFC82CF5D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/P/Variants/Character_GC_INS_Muj_G3_P_2.et"
      }
      SCR_EditableEntityVariant "{669B08DE8893BF7C}" {
-      m_sVariantPrefab "{37D1F9B296F318A4}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/Character_GC_INS_Muj_G3_3.et"
+      m_sVariantPrefab "{B7FEECB5F0675836}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/P/Variants/Character_GC_INS_Muj_G3_P_3.et"
      }
     }
    }

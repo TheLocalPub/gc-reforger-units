@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{776A0E35AF7C62AE}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/GC_INS_Muj_Group_Rifle.et"
+ Name "{3FC3163815DCB3AC}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/GC_INS_Muj_Group_MG.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

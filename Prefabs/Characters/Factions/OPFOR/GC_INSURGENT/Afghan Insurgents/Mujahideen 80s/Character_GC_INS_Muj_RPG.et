@@ -6,6 +6,20 @@ SCR_ChimeraCharacter : "{D3F29763F96877CD}Prefabs/Characters/Factions/OPFOR/GC_I
     Name "RPG Grenadier"
     Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
    }
+   m_VariantData SCR_EditableEntityVariantData "{66B97551F4C35FA9}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{66B97551F25D1D0C}" {
+      m_sVariantPrefab "{71AAC0E6228DBE35}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/Variants/Character_GC_INS_Muj_RPGG_1.et"
+     }
+     SCR_EditableEntityVariant "{66B97551F28BB67D}" {
+      m_sVariantPrefab "{1DFEF4069E49311B}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/Variants/Character_GC_INS_Muj_RPGG_2.et"
+     }
+     SCR_EditableEntityVariant "{66B97551F2DE0C40}" {
+      m_sVariantPrefab "{F862B8FF92ACA670}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/Variants/Character_GC_INS_Muj_RPGG_3.et"
+     }
+    }
+   }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
    WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"

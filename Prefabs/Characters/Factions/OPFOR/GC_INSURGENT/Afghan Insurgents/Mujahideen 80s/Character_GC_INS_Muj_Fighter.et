@@ -102,6 +102,12 @@ SCR_ChimeraCharacter : "{D3F29763F96877CD}Prefabs/Characters/Factions/OPFOR/GC_I
       m_sVariantPrefab "{29ED28FC5680DA07}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/Variants/Character_GC_INS_Muj_Mosin_2.et"
       m_iRandomizerWeight 2
      }
+     SCR_EditableEntityVariant "{66FA0C504CB51F56}" {
+      m_sVariantPrefab "{90214E35AA36317A}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/Variants/Character_GC_INS_Muj_SMG_4.et"
+     }
+     SCR_EditableEntityVariant "{66FA0C504CCCE2C5}" {
+      m_sVariantPrefab "{75BD02CCA6D3A612}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/Variants/Character_GC_INS_Muj_SMG_5.et"
+     }
     }
    }
   }

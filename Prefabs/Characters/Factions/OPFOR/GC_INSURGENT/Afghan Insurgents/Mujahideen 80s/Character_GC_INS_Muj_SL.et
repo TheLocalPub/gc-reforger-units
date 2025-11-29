@@ -38,6 +38,9 @@ SCR_ChimeraCharacter : "{3993601378439CD1}Prefabs/Characters/Factions/OPFOR/GC_I
      SCR_EditableEntityVariant "{66B538E90CD8AF91}" {
       m_sVariantPrefab "{60D65CBCE4B94FFF}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/Variants/Character_GC_INS_Muj_SL_6.et"
      }
+     SCR_EditableEntityVariant "{66B97550A0C9309E}" {
+      m_sVariantPrefab "{F959DBF82244F0EE}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/Variants/Character_GC_INS_Muj_SL_7.et"
+     }
     }
    }
    m_vIconPos 0 0 0
