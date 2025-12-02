@@ -3,14 +3,11 @@ SCR_ChimeraCharacter : "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Mortar Crewman"
+    Name "Rifleman (RPG22)"
    }
   }
-  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
-   InitialInventoryItems {
-    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
-    }
-   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
   }
  }
 }
