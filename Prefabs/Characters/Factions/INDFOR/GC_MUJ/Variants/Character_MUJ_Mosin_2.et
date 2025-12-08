@@ -1,6 +1,11 @@
 SCR_ChimeraCharacter : "{D3F29763F96877CD}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_base.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{EF0F94B9829A0935}Prefabs/Weapons/Rifles/Mosin/Rifle_Mosin_Nagant_B30.et"
   }
