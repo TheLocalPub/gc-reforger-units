@@ -3,14 +3,12 @@ SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
  components {
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
-    m_Image "{16C749CA92A0B763}UI/Textures/EditorPreviews/Groups/OPFOR/Spetsnaz/Group_USSR_Spetsnaz_Squad.edds"
-    m_sFaction "GC_MUJ"
+    m_Image "{E7A0C7DDE13E3CE7}UI/Textures/EditorPreviews/Groups/OPFOR/Spetsnaz/Suppressed/Group_USSR_Spetsnaz_ReconSquad.edds"
     m_aAuthoredLabels + {
-     FACTION_GC_MUJ
+     FACTION_GC_SEP
     }
     m_bUseUIInfoName 1
    }
   }
  }
- m_faction "GC_MUJ"
 }
