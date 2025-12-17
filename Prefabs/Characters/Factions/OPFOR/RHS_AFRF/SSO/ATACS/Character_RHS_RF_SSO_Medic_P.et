@@ -51,6 +51,7 @@ SCR_ChimeraCharacter : "{BB301E085F49DB3E}Prefabs/Characters/Factions/OPFOR/RHS_
      }
     }
     ItemsInitConfigurationItem "{648D51E697F95110}" {
+     TargetStorage "Pants/crye_pants_atacs.et"
      PrefabsToSpawn {
       "{B7BA7694F821F556}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual.et"
      }
