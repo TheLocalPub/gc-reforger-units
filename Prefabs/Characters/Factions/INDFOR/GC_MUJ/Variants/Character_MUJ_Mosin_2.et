@@ -21,7 +21,7 @@ SCR_ChimeraCharacter : "{D3F29763F96877CD}Prefabs/Characters/Factions/INDFOR/GC_
      Prefab "{1D6A5BCF4E9942A9}Prefabs/Characters/Uniforms/Pants_Cargo_2.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{800C77C171F53691}Prefabs/Characters/Footwear/Sandale.et"
+     Prefab "{B12C47DF95EC9C17}Prefabs/Characters/Footwear/CombatBoots_Insurgents.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{12C8933903D18885}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_sharpshooter.et"
