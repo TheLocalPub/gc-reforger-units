@@ -72,12 +72,13 @@ Vehicle : "{E62EEF185EC31C54}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed.
       "door_l02" "door_r02"
      }
      UIInfo SCR_ActionContextUIInfo "{633A2A735AA87AB7}" {
-      Name "#WCS-UserAction_RearmVehicle M2HB #AR-AmmunitionID_127x99mm"
+      Name "Restock TOW"
+      Description "Restocks TOW missile"
      }
      m_aRearmData {
       WCS_VehicleRearmData "{62A1474EC72288A4}" {
-       magazine "{4EC57F7A71F869BF}Prefabs/Weapons/Magazines/Box_127x99_CROWS_M2_200rnd_4AP_1APIT.et"
-       maxAmount 4
+       magazine "{C45AE68B74B6136D}Prefabs/Weapons/Tripods/BGM71_TOW/Pod_BGM-71_TOW.et"
+       maxAmount 6
        unitSupplyCost 20
       }
      }
