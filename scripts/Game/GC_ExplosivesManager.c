@@ -161,10 +161,10 @@ modded class SCR_CharacterControllerComponent
 {
 	ref OnNewLifeStateInvoker m_OnNewLifeState = new OnNewLifeStateInvoker();
 	
-	override void OnLifeStateChanged(ECharacterLifeState previousLifeState, ECharacterLifeState newLifeState)
+	override void OnLifeStateChanged(ECharacterLifeState previousLifeState, ECharacterLifeState newLifeState, bool isJIP)
 	{
 		m_OnNewLifeState.Invoke(newLifeState, this);
 		
-		super.OnLifeStateChanged(previousLifeState, newLifeState);
+		super.OnLifeStateChanged(previousLifeState, newLifeState, isJIP);
 	}
 }

@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{B374D4022B804F2E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Delta/P/Character_CRX_Delta_CMDR_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_PlatoonSergeant"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65214E7772E2493A}" {
+     TargetStorage "Jacket/Crye_G3_Shirt_M81.et"
+    }
+   }
+  }
+ }
+ coords 1836.279 64.344 3354.738
+}
