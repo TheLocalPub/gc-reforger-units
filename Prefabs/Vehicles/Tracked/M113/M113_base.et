@@ -16,7 +16,7 @@ Tank : "{8A883ABED22B6E27}Prefabs/Vehicles/Core/Tracked_Base.et" {
      }
      Axle "{5E78B2EECD01E22B}" {
       Wheel Wheel "{5CB63E75D071A4F0}" {
-       HandbrakeTorqueFactor 6
+       HandbrakeTorqueFactor 4.5
       }
      }
     }
