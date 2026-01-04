@@ -4,8 +4,6 @@ Turret : "{D6F8F1DE71A7226B}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/WeapMounts/
   SCR_2DOpticsComponent "{673F61016671CF75}" {
    Enabled 0
   }
-  SCR_TurretControllerComponent "{51ACD09C61C183E4}" {
-  }
   TurretComponent "{609096442AD20C22}" {
    components {
     SCR_2DSightsComponent "{673F610171A454E2}" {
