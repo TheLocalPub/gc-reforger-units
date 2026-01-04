@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{FC9AB05F8DEC08AB}Prefabs/Characters/Factions/OPFOR/USSR
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Assistant machine gunner"
+    Name "#AR-Role_AssistantMachineGunner"
     IconSetName "EditableEntity_Character_Ammo_Bearer"
    }
   }
