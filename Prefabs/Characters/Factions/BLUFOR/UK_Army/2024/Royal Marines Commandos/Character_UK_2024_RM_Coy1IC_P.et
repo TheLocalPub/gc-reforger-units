@@ -53,6 +53,8 @@ SCR_ChimeraCharacter : "{94DB2F66DDCD8783}Prefabs/Characters/Factions/BLUFOR/UK_
     }
     ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
      TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/Utility1/Pouch_JayJays_Radio_MC.et"
+     PrefabsToSpawn +{
+     }
     }
     ItemsInitConfigurationItem "{610CC31278A75ED6}" {
      TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/Utility2/Pouch_JayJays_Utility2_MC.et"
