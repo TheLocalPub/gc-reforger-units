@@ -13,7 +13,7 @@ SCR_ChimeraCharacter : "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{6610E05D1A22E4F6}worlds/Gabe/Prefabs/Weapons/Rifles/M4/Rifle_M4_CCO_Gabe.et"
+   WeaponTemplate "{6610E05D1A22E4F6}Prefabs/Weapons/Rifles/M4/Rifle_M4_RAS_CCO.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -29,4 +29,5 @@ SCR_ChimeraCharacter : "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
  }
+ coords 0.182 -2.163 -4.831
 }

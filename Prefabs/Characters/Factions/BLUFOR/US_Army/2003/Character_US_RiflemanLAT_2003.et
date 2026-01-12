@@ -1,6 +1,18 @@
 SCR_ChimeraCharacter : "{C2D1F12C893279D2}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_2003_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Rifleman (LAT)"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{685884CB5CD3B4D4}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{685884CB59630905}" {
+      m_sVariantPrefab "{4522BB08F4DC251E}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Variants/Character_US_RiflemanLAT_Variant_2003.et"
+     }
+    }
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{D2C367D173B99BCD}Prefabs/Weapons/Rifles/M4/Rifle_M4_RAS.et"
   }
