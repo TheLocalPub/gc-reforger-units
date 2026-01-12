@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C574A260389EF2A1}Prefabs/Characters/HeadGear/Helmet_MICH_01/Helmet_MICH_DCU_cover_goggles_cover.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{7D91B7C7CCAEEAD3}Prefabs/Characters/Uniforms/Jacket_US_DCU.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{B7B3BF999AB66D80}Prefabs/Characters/Vests/Vest_PASGT/Vest_PASGT_1998.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DA5C1FFDF17D851F}Prefabs/Characters/Uniforms/Pants_US_DCU.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{05CC810C5C8CB32A}Prefabs/Characters/Footwear/CombatBoots_US_LightTan.et"
+    }
+   }
+  }
+ }
+ coords -0.886 0.767 1.096
+}
