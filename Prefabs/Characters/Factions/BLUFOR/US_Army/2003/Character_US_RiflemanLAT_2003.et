@@ -22,7 +22,6 @@ SCR_ChimeraCharacter : "{C2D1F12C893279D2}Prefabs/Characters/Factions/BLUFOR/US_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{C574A260389EF2A1}Prefabs/Characters/HeadGear/Helmet_MICH_01/Helmet_MICH_DCU_cover_goggles_cover.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{7D91B7C7CCAEEAD3}Prefabs/Characters/Uniforms/Jacket_US_DCU.et"
@@ -79,5 +78,5 @@ SCR_ChimeraCharacter : "{C2D1F12C893279D2}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
  }
- coords 0.165 0.8 1.181
+ coords -2.64 -0.244 0.063
 }
