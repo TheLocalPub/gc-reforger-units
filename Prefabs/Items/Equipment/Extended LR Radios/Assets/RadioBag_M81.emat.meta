@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{4DF7340B15B4A14A}Prefabs/Items/Equipment/Extended LR Radios/Assets/RadioBag_M81.emat"
+ Name "{4DF7340B15B4A14A}Prefabs/Items/Equipment/Extended LR Radios/RadioBag_M81.emat"
  Configurations {
   EMATResourceClass PC {
   }
@@ -12,8 +12,6 @@ MetaFileClass {
   EMATResourceClass PS5 : PC {
   }
   EMATResourceClass HEADLESS : PC {
-  }
-  EMATResourceClass Xbox : PC {
   }
  }
 }
