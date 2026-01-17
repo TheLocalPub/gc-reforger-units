@@ -24,6 +24,13 @@ SCR_ChimeraCharacter : "{DCA7DFB9B846B627}Prefabs/Characters/Factions/BLUFOR/UK_
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{D9889FC9DB8C06C0}Prefabs/Weapons/Handguns/HiPower/Handgun_HiPower.et"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{0960A1A0B891F243}Prefabs/Items/Equipment/Backpacks/Rucksack_P58_Large_Pack.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC31428816D50}" {
@@ -63,6 +70,12 @@ SCR_ChimeraCharacter : "{DCA7DFB9B846B627}Prefabs/Characters/Factions/BLUFOR/UK_
      TargetStorage "Vest/Vest_P58_rifleman.et/KidneyRight/Vest_P58_kidney_right.et"
      PrefabsToSpawn {
       "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6862FD3A005AFB76}" {
+     TargetStorage "Back/Rucksack_P58_Large_Pack.et"
+     PrefabsToSpawn {
+      "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
      }
     }
    }
