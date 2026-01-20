@@ -27,12 +27,12 @@ Tank : "{8A883ABED22B6E27}Prefabs/Vehicles/Core/Tracked_Base.et" {
     EntitySlotInfo Number_L_2 {
      Offset -1.3251 1.4235 0.2487
      Angles 0 0 15.4343
-     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+     Prefab "{845BF318A6537093}Prefabs/Vehicles/Shared/decal_vehicle_group2_small.et"
     }
     EntitySlotInfo Number_L_3 {
      Offset -1.3251 1.4235 0.1466
      Angles 0 0 15.4343
-     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+     Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
     }
     EntitySlotInfo Number_R_1 {
      Offset 1.3626 1.4338 0.1538

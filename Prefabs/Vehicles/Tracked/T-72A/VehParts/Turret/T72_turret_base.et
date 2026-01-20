@@ -42,13 +42,13 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      PivotID "v_gunner_idle"
      Offset 0.5341 0.7739 -0.9627
      Angles 0 -90 -37.3184
-     Prefab "{8AC1AB674F261603}Prefabs/Vehicles/Shared/decal_vehicle_group3.et"
+     Prefab "{6F5DE79E43C38168}Prefabs/Vehicles/Shared/decal_vehicle_group2.et"
     }
     EntitySlotInfo Number_T_1 {
      PivotID "v_gunner_idle"
      Offset 0.3167 0.7739 -0.9627
      Angles 0 -90 -37.3184
-     Prefab "{8AC1AB674F261603}Prefabs/Vehicles/Shared/decal_vehicle_group3.et"
+     Prefab "{0309D37EFF070E46}Prefabs/Vehicles/Shared/decal_vehicle_group1.et"
     }
     EntitySlotInfo Number_L_3 {
      PivotID "v_gunner_idle"
