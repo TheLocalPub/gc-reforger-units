@@ -17,6 +17,15 @@ Tank : "{8A883ABED22B6E27}Prefabs/Vehicles/Core/Tracked_Base.et" {
    }
    m_iMaxAllowedDepth 1
   }
+  TF_EngineSmokeGeneratorComponent "{6873174F6D41D831}" {
+   m_sParticle "{346502DDD97A3AF1}Particles/Weapon/Smoke_Generator_Particle.ptc"
+   m_iSpawnPositions {
+    PointInfo "{6873174FBD30511F}" {
+     Offset 1.2341 1.619 0.9713
+     Angles 0 0 18.6613
+    }
+   }
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     EntitySlotInfo Number_L_1 {
@@ -48,6 +57,32 @@ Tank : "{8A883ABED22B6E27}Prefabs/Vehicles/Core/Tracked_Base.et" {
      Offset 1.3626 1.4338 0.364
      Angles 0 180 15.4343
      Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   additionalActions {
+    TF_Action_RefuelSmokeGenerator "{6873174E5650B3CC}" {
+     ParentContextList {
+      "fuel_cap"
+     }
+     UIInfo SCR_ActionContextUIInfo "{663A9C44E2C02463}" {
+      Name "refuel smoke generator"
+     }
+     Duration -0.5
+     PerformPerFrame 1
+     m_eShownInVehicleState NOT_IN_VEHICLE
+    }
+    TF_Action_ToggleSmokeGenerator "{6873174E46D9F49C}" {
+     ParentContextList {
+      "starter_switch"
+     }
+     UIInfo SCR_ActionContextUIInfo "{6873174E6AE4B524}" {
+      Name "toggle engine generator"
+     }
+     Duration 1
+     m_bLoopAction 0
+     m_eShownInVehicleState IN_VEHICLE_PILOT
     }
    }
   }
