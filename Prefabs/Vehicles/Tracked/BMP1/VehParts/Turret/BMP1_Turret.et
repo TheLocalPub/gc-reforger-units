@@ -8,6 +8,8 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
       Offset -0.0664 0 0.3306
      }
      SeatType 1
+     RestrictedItemTypes {
+     }
      CanTurnOut 1
      TurnOutDoorIdx 2
     }

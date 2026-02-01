@@ -7,6 +7,8 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
       Offset -0.0416 0 0.112
      }
+     RestrictedItemTypes {
+     }
      CanTurnOut 1
      TurnOutDoorIdx 1
     }
