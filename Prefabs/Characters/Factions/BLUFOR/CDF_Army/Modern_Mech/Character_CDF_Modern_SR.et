@@ -8,7 +8,7 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{BC6C9476FB3219A7}Prefabs/Weapons/Rifles/AK74/Rifle_AK74N_GP25.et"
+   WeaponTemplate "{1A6B5E419E0B0F7D}Prefabs/Weapons/Rifles/AK74/Variants - Plum/ARY_Rifle_AK74_GP25_Polymer_Plum.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -40,7 +40,7 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
     ItemsInitConfigurationItem "{62FB097A778BD827}" {
      TargetStorage "Vest/Vest_TV102_rifleman_OD_GM94.et/Grenade/Pouch_wartech_magpouch_mp103_OD.et"
      PrefabsToSpawn {
-      "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+      "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et"
      }
     }
     ItemsInitConfigurationItem "{62FB097A7477C905}" {
@@ -55,25 +55,25 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
     ItemsInitConfigurationItem "{647D0B667B600F06}" {
      TargetStorage "Vest/Vest_TV102_rifleman_OD_GM94.et/mp105_2/Pouch_wartech_magpouch_mp105_3_OD.et"
      PrefabsToSpawn {
-      "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+      "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et"
      }
     }
     ItemsInitConfigurationItem "{647D0B6673E0B573}" {
      TargetStorage "Vest/Vest_TV102_rifleman_OD_GM94.et/mp105_3/Pouch_wartech_magpouch_mp105_2_OD.et"
      PrefabsToSpawn {
-      "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+      "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et"
      }
     }
     ItemsInitConfigurationItem "{647D0B664A002BC0}" {
      TargetStorage "Vest/Vest_TV102_rifleman_OD_GM94.et/placard/Pouch_wartech_magpouch_mp105_OD.et"
      PrefabsToSpawn {
-      "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+      "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et"
      }
     }
     ItemsInitConfigurationItem "{6882AE8E7DA00DBC}" {
      TargetStorage "Back/Backpack_Wartech_BB102_OD.et"
      PrefabsToSpawn {
-      "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+      "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et" "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et"
      }
     }
     ItemsInitConfigurationItem "{647D0B665745745B}" {

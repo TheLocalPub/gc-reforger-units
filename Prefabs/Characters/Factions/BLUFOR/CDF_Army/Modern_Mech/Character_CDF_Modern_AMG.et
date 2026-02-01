@@ -38,19 +38,19 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
     ItemsInitConfigurationItem "{647D027CF2B82F86}" {
      TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/placard/Pouch_wartech_magpouch_mp105_OD.et"
      PrefabsToSpawn {
-      "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+      "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et"
      }
     }
     ItemsInitConfigurationItem "{647D027CC6D47C05}" {
      TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/mp105_2/Pouch_wartech_magpouch_mp105_3_OD.et"
      PrefabsToSpawn {
-      "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+      "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et"
      }
     }
     ItemsInitConfigurationItem "{647D027CC1619127}" {
      TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/mp105_3/Pouch_wartech_magpouch_mp105_2_OD.et"
      PrefabsToSpawn {
-      "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+      "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et"
      }
     }
    }

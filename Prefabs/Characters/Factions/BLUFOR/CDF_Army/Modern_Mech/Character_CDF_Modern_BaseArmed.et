@@ -8,14 +8,14 @@ SCR_ChimeraCharacter : "{9DAE5569E31000AA}Prefabs/Characters/Factions/BLUFOR/CDF
    WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{6408F2C84AE5DBD0}Prefabs/Weapons/Rifles/AK74/Rifle_AK74_RHSMag.et"
+   WeaponTemplate "{720FF9D713E63C65}Prefabs/Weapons/Rifles/AK74/ARY_Rifle_AK74_Polymer.et"
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{62FB097A778BD827}" {
      TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/arsbelt/Pouch_ArsArma_magouch_morphed_OD.et"
      PrefabsToSpawn {
-      "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+      "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et" "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et"
      }
     }
     ItemsInitConfigurationItem "{62FB097BD06666C8}" {
