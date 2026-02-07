@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{73EC1DAF72D9DCD4}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Multi-Terrain/Character_CAF_2020_MT_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1537D4A4DB34BDBF}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_CADPAT_WD.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3455E4CD37D5510C}Prefabs/Characters/Uniforms/Shirt_Crye_Rolled/Shirt_Crye_Rolled_CADPAT_Woodland.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{C24706C89C322E6F}Prefabs/Characters/Uniforms/Pants_CCUE/Pants_CCUE_Woodland.et"
+    }
+   }
+  }
+ }
+}
