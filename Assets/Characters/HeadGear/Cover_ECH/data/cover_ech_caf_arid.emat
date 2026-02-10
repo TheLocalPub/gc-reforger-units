@@ -1,0 +1,13 @@
+MatPBRBasic {
+ Color 0.888 0.888 0.888 1
+ Emissive 0.72 0.961 0.78 1
+ EmissiveLV 0.001
+ EmissiveAbsoluteLV 0
+ AlphaMul 0.768
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ RoughnessScale 1.275
+ EmissiveMap "{9F78E34CCFF9F38F}Assets/Characters/HeadGear/Cover_ECH/data/rhs_echlccover_Emission.edds"
+ BCRMap "{C195E303DA1A646F}Assets/Characters/HeadGear/Cover_ECH/data/gc_cover_cadpat_arid_BCR.edds"
+ NMOMap "{9EF1DC11EE2151F4}Assets/Characters/HeadGear/Cover_ECH/data/rhs_echlccover_wd_NMO.edds"
+}

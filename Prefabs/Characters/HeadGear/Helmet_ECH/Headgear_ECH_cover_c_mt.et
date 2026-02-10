@@ -1,0 +1,21 @@
+GameEntity : "{6C51FC9775C601E5}Prefabs/Characters/HeadGear/Helmet_ECH/Headgear_ECH_cover_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Materials {
+    MaterialAssignClass "{688F38E427D139FB}" {
+     SourceMaterial "01"
+     AssignedMaterial "{CA21CB97F96FDAEF}Assets/Characters/HeadGear/Cover_ECH/data/cover_ech_caf_mt.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornMaterialsOverride {
+    "{CA21CB97F96FDAEF}Assets/Characters/HeadGear/Cover_ECH/data/cover_ech_caf_mt.emat"
+   }
+   ItemMaterialsOverride {
+    "{CA21CB97F96FDAEF}Assets/Characters/HeadGear/Cover_ECH/data/cover_ech_caf_mt.emat"
+   }
+  }
+ }
+}
