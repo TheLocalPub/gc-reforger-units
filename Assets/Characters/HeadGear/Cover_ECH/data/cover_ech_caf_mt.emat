@@ -1,4 +1,5 @@
 MatPBRBasic {
+ Color 0.44 0.44 0.44 1
  Emissive 0.72 0.961 0.78 1
  EmissiveLV 0.001
  EmissiveAbsoluteLV 0
@@ -8,6 +9,6 @@ MatPBRBasic {
  RoughnessScale 1.275
  CavityFromAO 0
  EmissiveMap "{9F78E34CCFF9F38F}Assets/Characters/HeadGear/Cover_ECH/data/rhs_echlccover_Emission.edds"
- BCRMap "{2C4F01EED7A2A249}Assets/Characters/HeadGear/Cover_ECH/data/gc_cover_cadpat_2_BCR.edds"
+ BCRMap "{3A72F81A7FB57BAF}Assets/Characters/HeadGear/Cover_ECH/data/gc_cover_cadpat_mt_BCR.edds"
  NMOMap "{9EF1DC11EE2151F4}Assets/Characters/HeadGear/Cover_ECH/data/rhs_echlccover_wd_NMO.edds"
 }
