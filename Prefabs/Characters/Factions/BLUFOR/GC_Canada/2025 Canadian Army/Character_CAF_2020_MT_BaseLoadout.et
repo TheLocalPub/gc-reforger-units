@@ -1,6 +1,17 @@
 SCR_ChimeraCharacter : "{C160F122F00D12F9}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Character_CAF_Base.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{7C53E6DE2E4BD8CB}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo.et"
+      }
+     }
+    }
+   }
+  }
   SCR_CharacterFactionAffiliationComponent "{688B64AFCEF31092}" {
    "faction affiliation" "GC_CAF"
   }

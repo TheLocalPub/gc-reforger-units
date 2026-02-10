@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{D61B2B8C5EBD34A6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_TW_Rifleman.et"
+ Name "{DE07EBD322645505}Prefabs/Groups/BLUFOR/GC_CAF/2025 Canadian Army/Light Infantry/Temperate Woodland/Group_CAF_2025_Arid_MortarDet.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
