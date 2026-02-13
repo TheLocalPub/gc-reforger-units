@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{F7CAFE90CB831D2F}Prefabs/Characters/Factions/OPFOR/GC_Donovia/Character_Don_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterFactionAffiliationComponent "{520EC9618276DF23}" {
+   "faction affiliation" "GC_DON"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6E14F80C250F85FC}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_M1_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{DF51FBE916A0A9FF}Prefabs/Characters/Uniforms/ARY_M69/ARY_Jacket_M69_base.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{79E1BCA6AD2D7828}Prefabs/Characters/Uniforms/ARY_M69/ARY_Pants_M69_base.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{574C12EE0F37DDFF}Prefabs/Characters/Footwear/ARY_CombatBoots_Soviet_Kirza_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Jacket/ARY_Jacket_M69_base.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     TargetStorage "Pants/ARY_Pants_M69_base.et"
+     PrefabsToSpawn + {
+      "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+     }
+    }
+   }
+  }
+ }
+}
