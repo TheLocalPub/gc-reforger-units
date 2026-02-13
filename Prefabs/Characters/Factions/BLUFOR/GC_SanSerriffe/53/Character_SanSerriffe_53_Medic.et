@@ -2,7 +2,7 @@ SCR_ChimeraCharacter : "{3BD897FCDF2916DA}Prefabs/Characters/Factions/BLUFOR/GC_
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Runner"
+   m_sName "Medic"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate ""
@@ -33,4 +33,5 @@ SCR_ChimeraCharacter : "{3BD897FCDF2916DA}Prefabs/Characters/Factions/BLUFOR/GC_
    }
   }
  }
+ coords 4170.908 401.126 5997.761
 }

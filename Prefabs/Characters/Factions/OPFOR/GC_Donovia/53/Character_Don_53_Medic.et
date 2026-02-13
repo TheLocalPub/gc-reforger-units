@@ -2,7 +2,7 @@ SCR_ChimeraCharacter : "{9A1EB3792099E5F9}Prefabs/Characters/Factions/OPFOR/GC_D
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Machinegun Assistant"
+   m_sName "Medic"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -34,5 +34,5 @@ SCR_ChimeraCharacter : "{9A1EB3792099E5F9}Prefabs/Characters/Factions/OPFOR/GC_D
    }
   }
  }
- coords 11334.334 89.493 10484.7
+ coords 4169.908 401.074 5998.533
 }
