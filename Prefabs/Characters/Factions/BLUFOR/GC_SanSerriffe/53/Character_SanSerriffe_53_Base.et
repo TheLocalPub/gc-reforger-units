@@ -13,6 +13,12 @@ SCR_ChimeraCharacter : "{F9D704CE6C653413}Prefabs/Characters/Factions/BLUFOR/GC_
       "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
      }
     }
+    ItemsInitConfigurationItem "{689CE9A486ED1B94}" {
+     TargetStorage "Vest/Vest_P58_rifleman_2.et/Scabbard/Scabbard_Bayonet_L1A4_Filled.et"
+     PrefabsToSpawn {
+      "{96BCB89AF006E26F}Prefabs/Weapons/Attachments/Bayonets/Bayonet_L1A4_SLR.et"
+     }
+    }
    }
   }
  }

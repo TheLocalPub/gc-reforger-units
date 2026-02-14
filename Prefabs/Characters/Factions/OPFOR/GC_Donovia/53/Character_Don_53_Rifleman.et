@@ -34,7 +34,19 @@ SCR_ChimeraCharacter : "{E58D38C2AE3E0A36}Prefabs/Characters/Factions/OPFOR/GC_D
     ItemsInitConfigurationItem "{6892ED6C57F54526}" {
      TargetStorage "Vest/Vest_SovietHarness_rifleman.et/MagPouch_6Sh46/Pouch_Soviet_30rnd_AK74.et"
      PrefabsToSpawn {
-      "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et"
+      "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et" "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689CECCB39CA598D}" {
+     TargetStorage "Vest/Vest_SovietHarness_rifleman.et/Bayonet/Scabbard_Bayonet_6Kh4.et"
+     PrefabsToSpawn {
+      "{4788E8C5C04D2A49}Prefabs/Weapons/Attachments/Bayonets/BC_Bayonet_Mosin.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689CECCB4DA4F11D}" {
+     TargetStorage "Vest/Vest_SovietHarness_rifleman.et/GrenadePouch/Vest_SovietHarness_GrenadePouch.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
     }
    }
