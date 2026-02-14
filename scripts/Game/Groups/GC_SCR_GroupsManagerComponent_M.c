@@ -29,6 +29,9 @@ modded class SCR_GroupsManagerComponent
 			return;
 
 		array<SCR_GadgetComponent> radios = gadgetManager.GetGadgetsByType(EGadgetType.RADIO);
+		array<SCR_GadgetComponent> bpRadios = gadgetManager.GetGadgetsByType(EGadgetType.RADIO_BACKPACK);
+		if (bpRadios)
+			radios.InsertAll(bpRadios);
 		
 		foreach (SCR_GadgetComponent r : radios)
 		{
@@ -45,6 +48,9 @@ modded class SCR_GroupsManagerComponent
 	protected void GCC_TuneRadios(SCR_GadgetManagerComponent gadgetManager, int frequency)
 	{
 		array<SCR_GadgetComponent> radios = gadgetManager.GetGadgetsByType(EGadgetType.RADIO);
+		array<SCR_GadgetComponent> bpRadios = gadgetManager.GetGadgetsByType(EGadgetType.RADIO_BACKPACK);
+		if (bpRadios)
+			radios.InsertAll(bpRadios);
 		
 		foreach (SCR_GadgetComponent gc : radios)
 		{
