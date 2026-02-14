@@ -3,6 +3,17 @@ GenericEntity : "{6702F05F5B26CDCF}Prefabs/Weapons/Rifles/L42A1/Rifle_Enfield_ba
  components {
   WeaponComponent "{CFBAA4B706BA66E8}" {
    components {
+    AttachmentSlotComponent "{689CE9A5497EA169}" {
+     AttachmentSlot InventoryStorageSlot "{689CE9A5DF241F6F}" {
+      PivotID "barrel_muzzle"
+      ChildPivotID "Attach"
+      InspectionWidgetOffset 0 0.0486 0.4467
+     }
+     AttachmentType AttachmentBayonetL1A1 "{689CE9A5EAEE33F7}" {
+     }
+     AttachmentObstructs 1
+     ShowInInspection 1
+    }
     MuzzleComponent "{CA6BE4D6B867541F}" {
      DispersionDiameter 0.174
      DispersionRange 200
