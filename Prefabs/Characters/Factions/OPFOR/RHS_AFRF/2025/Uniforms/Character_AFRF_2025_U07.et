@@ -10,7 +10,7 @@ SCR_ChimeraCharacter : "{45E26CD50226E27B}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{7BA7FF3E9F68960E}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MC.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{099AE885BB314867}Prefabs/Characters/Vests/Vest_Ratnik3K_6B48/Vest_Ratnik_6B48.et"
+     Prefab "{FAECE2A4CCD7FB96}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_EMR.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{2FDEBA2FF1B7759E}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mc.et"
@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{45E26CD50226E27B}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{24F6795DC36C79D7}Prefabs/Characters/Footwear/Boots_Luma/Footwear_Luma.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{F2850639D26CB41D}Prefabs/Characters/Vests/Vest_Ratnik3K_6B48/Variants/Vest_Ratnik-ZK_6B48_crewman.et"
+     Prefab "{D4CF867BB816E15E}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_rifleman_EMR_4.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{4F71E7468E78DDD2}Prefabs/Characters/Handwear/Gloves_Leather_01/Gloves_Leather_01.et"

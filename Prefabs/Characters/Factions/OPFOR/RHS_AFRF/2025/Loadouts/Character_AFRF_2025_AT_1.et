@@ -26,19 +26,19 @@ SCR_ChimeraCharacter : "{4B6DDCE451FF3B09}Prefabs/Characters/Factions/OPFOR/RHS_
      Enabled 1
     }
     ItemsInitConfigurationItem "{68A37575C292CF17}" {
-     TargetStorage "Vest/Vest_Ratnik-ZK_6B48_crewman.et/Pouch3/Pouch_Ratnik_ak_3_pouch.et"
+     TargetStorage "Vest/Vest_TV102_rifleman_EMR_4.et/arsbelt/Pouch_ArsArma_magouch_morphed_OD.et"
      PrefabsToSpawn {
       "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et" "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{68A37575CCF5C897}" {
-     TargetStorage "Vest/Vest_Ratnik-ZK_6B48_crewman.et/Pouch4/Pouch_Ratnik_ak_2_pouch.et"
+     TargetStorage "Vest/Vest_TV102_rifleman_EMR_4.et/arsbelt2/Pouch_ArsArma_magouch_morphed_OD.et"
      PrefabsToSpawn {
       "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{68A37575CC8766DA}" {
-     TargetStorage "Vest/Vest_Ratnik-ZK_6B48_crewman.et"
+     TargetStorage "Vest/Vest_TV102_rifleman_EMR_4.et/placard/Pouch_wartech_magpouch_mp105_EMR.et"
      PrefabsToSpawn {
       "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
      }
