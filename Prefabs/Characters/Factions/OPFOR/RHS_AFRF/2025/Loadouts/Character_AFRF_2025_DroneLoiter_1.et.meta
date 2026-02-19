@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{F1E0CD5634A897EE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Loadouts/Character_RHS_AFRF_2025_DroneFPV_1.et"
+ Name "{F1E0CD5634A897EE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Loadouts/Character_AFRF_2025_DroneLoiter_1.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
