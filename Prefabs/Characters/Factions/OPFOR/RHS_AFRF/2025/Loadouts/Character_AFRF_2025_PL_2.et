@@ -32,12 +32,11 @@ SCR_ChimeraCharacter : "{1A0DCD3C98573D10}Prefabs/Characters/Factions/OPFOR/RHS_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68A3756BC7C54865}" {
      Enabled 1
-     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_MC_1.et/arsbelt3/Pouch_GP106_RGD_Pouch_MC.et"
     }
     ItemsInitConfigurationItem "{68A541E242F68697}" {
-     TargetStorage "Pants/crye_pants_mc.et"
+     TargetStorage "Jacket/Field_Jacket_VKPO.et"
      PrefabsToSpawn {
-      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/RU/Radio_R148.et"
+      "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/RU/Radio_R187P1_OLD.et"
      }
     }
     ItemsInitConfigurationItem "{68A541E2879C370E}" {

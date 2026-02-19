@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{1822A9AD92A7F139}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Uniforms/Character_RHS_AFRF_2025_U15.et" {
+SCR_ChimeraCharacter : "{1822A9AD92A7F139}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Uniforms/Character_AFRF_2025_U15.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -34,7 +34,7 @@ SCR_ChimeraCharacter : "{1822A9AD92A7F139}Prefabs/Characters/Factions/OPFOR/RHS_
      Enabled 1
     }
     ItemsInitConfigurationItem "{68A51104CB217085}" {
-     TargetStorage "Pants/Pants_VKPO.et"
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_MC.et"
      PrefabsToSpawn {
       "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/RU/Radio_R187P1_OLD.et"
      }

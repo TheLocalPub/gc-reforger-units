@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{4B6DDCE451FF3B09}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Uniforms/Character_RHS_AFRF_2025_U07.et" {
+SCR_ChimeraCharacter : "{4B6DDCE451FF3B09}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Uniforms/Character_AFRF_2025_U07.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -38,7 +38,7 @@ SCR_ChimeraCharacter : "{4B6DDCE451FF3B09}Prefabs/Characters/Factions/OPFOR/RHS_
      }
     }
     ItemsInitConfigurationItem "{68A37575CC8766DA}" {
-     TargetStorage "Pants/crye_pants_mc.et"
+     TargetStorage "Vest/Vest_Ratnik-ZK_6B48_crewman.et"
      PrefabsToSpawn {
       "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
      }

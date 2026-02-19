@@ -22,7 +22,7 @@ SCR_ChimeraCharacter : "{C2A5A4FDE1DE234C}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{68A3756BC7C54865}" {
      Enabled 1
      PrefabsToSpawn {
-      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/RU/Radio_R148.et"
+      "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/RU/Radio_R187P1_OLD.et"
      }
     }
     ItemsInitConfigurationItem "{68A57819841078A2}" {

@@ -39,7 +39,7 @@ SCR_ChimeraCharacter : "{2739E804ED3BB427}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{68A541E3A71F181B}" {
      TargetStorage "Vest/Vest_TV110_arsarmaHSGI_MC_1.et/arsbelt_up105_bigutil/Pouch_UP105_utilbig_MC.et"
      PrefabsToSpawn {
-      "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" ""
+      "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et"
      }
     }
    }

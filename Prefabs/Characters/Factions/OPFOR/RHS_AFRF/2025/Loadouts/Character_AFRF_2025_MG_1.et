@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{2739E804ED3BB427}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Uniforms/Character_RHS_AFRF_2025_U04.et" {
+SCR_ChimeraCharacter : "{2739E804ED3BB427}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Uniforms/Character_AFRF_2025_U04.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -27,7 +27,6 @@ SCR_ChimeraCharacter : "{2739E804ED3BB427}Prefabs/Characters/Factions/OPFOR/RHS_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68A3756BC7C54865}" {
      Enabled 1
-     TargetStorage "Back/Backpack_Veshmeshok.et"
     }
     ItemsInitConfigurationItem "{68A3756A1F5922F6}" {
      TargetStorage "Back/Backpack_Veshmeshok.et"

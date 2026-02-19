@@ -28,7 +28,7 @@ SCR_ChimeraCharacter : "{FDBEE5549E426652}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{68A541E79466B368}" {
      TargetStorage "Back/Backpack_Suharka_type2.et"
      PrefabsToSpawn {
-      "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et"
+      "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et"
      }
     }
    }

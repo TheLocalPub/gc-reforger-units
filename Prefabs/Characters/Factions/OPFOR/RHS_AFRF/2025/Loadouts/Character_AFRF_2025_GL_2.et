@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{4942B8755B0FF720}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Uniforms/Character_RHS_AFRF_2025_U11.et" {
+SCR_ChimeraCharacter : "{4942B8755B0FF720}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Uniforms/Character_AFRF_2025_U11.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -12,8 +12,11 @@ SCR_ChimeraCharacter : "{4942B8755B0FF720}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{A6B9DDC35384FE80}Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type2.et"
+    }
     LoadoutSlotInfo Vest {
-     Prefab "{97C3558B606AC9C6}Prefabs/Characters/Vests/Vest_KBS_Strelok_Pouches/Variants/Vest_KBS_Strelok_preset_rifleman1_heavy.et"
+     Prefab ""
     }
    }
   }
@@ -23,31 +26,13 @@ SCR_ChimeraCharacter : "{4942B8755B0FF720}Prefabs/Characters/Factions/OPFOR/RHS_
      Enabled 1
     }
     ItemsInitConfigurationItem "{68A51102796B2F20}" {
-     TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1_heavy.et/mag1/Pouch_KBS_Mag_1.et"
+     TargetStorage "Back/Backpack_Suharka_type2.et"
      PrefabsToSpawn {
-      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
-     }
-    }
-    ItemsInitConfigurationItem "{68A51102797C7060}" {
-     TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1_heavy.et/mag2/Pouch_KBS_Mag_2.et"
-     PrefabsToSpawn {
-      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
-     }
-    }
-    ItemsInitConfigurationItem "{68A51108536A3043}" {
-     TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1_heavy.et/mag3/Pouch_KBS_Mag_3.et"
-     PrefabsToSpawn {
-      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
-     }
-    }
-    ItemsInitConfigurationItem "{68A5110853157E2F}" {
-     TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1_heavy.et/mag4/Pouch_KBS_Mag_4.et"
-     PrefabsToSpawn {
-      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{68A51102795F2C5A}" {
-     TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1_heavy.et/admin/Pouch_KBS_Admin_base.et"
+     TargetStorage "Back/Backpack_Suharka_type2.et"
      PrefabsToSpawn {
       "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
      }
