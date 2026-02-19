@@ -21,13 +21,13 @@ SCR_ChimeraCharacter : "{ACDEF48C57EA604B}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{68A5781C4BB9DEA8}" {
      TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1.et/mag1/Pouch_KBS_Mag_1.et"
      PrefabsToSpawn {
-      "{59015F7C36DE86C2}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer_camo.et" "{59015F7C36DE86C2}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer_camo.et"
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{68A5781C4879A05B}" {
      TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1.et/mag2/Pouch_KBS_Mag_2.et"
      PrefabsToSpawn {
-      "{59015F7C36DE86C2}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer_camo.et" "{59015F7C36DE86C2}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer_camo.et"
+      "{681E772288F937F0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22ap_camo.et" "{681E772288F937F0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22ap_camo.et"
      }
     }
     ItemsInitConfigurationItem "{68A5781C4837F3B3}" {
