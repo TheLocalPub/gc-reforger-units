@@ -14,10 +14,8 @@ SCR_ChimeraCharacter : "{9A1EB3792099E5F9}Prefabs/Characters/Factions/OPFOR/GC_D
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
-     TargetStorage "Jacket/ARY_Jacket_M69_base.et"
     }
     ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
-     TargetStorage "Jacket/ARY_Jacket_M69_base.et"
     }
     ItemsInitConfigurationItem "{689B1CB3D958ADA6}" {
      TargetStorage "Back/Backpack_Medical_Soviet.et"
