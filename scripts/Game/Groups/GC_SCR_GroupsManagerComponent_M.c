@@ -1,22 +1,63 @@
 modded class SCR_GroupsManagerComponent
 {
-	override void TunePlayersFrequency(int playerId, IEntity player)
+	// Set radio encryption keys at runtime when the player or AI is first spawned
+	
+	override void EOnInit(IEntity owner)
 	{
-		PlayerController controller = GetGame().GetPlayerManager().GetPlayerController(playerId);
-		if (!controller)
+		super.EOnInit(owner);
+		GetGameMode().GetOnPlayerSpawned().Insert(GCC_SetEncryptionKey);
+	}
+	
+	override void OnGroupAgentAdded(AIAgent child)
+	{
+		super.OnGroupAgentAdded(child);
+		GetGame().GetCallqueue().CallLater(GCC_SetEncryptionKey, 1, false, -1, child.GetControlledEntity());
+	}
+	
+	protected array<SCR_GadgetComponent> GetRadios(SCR_GadgetManagerComponent gadgetManager)
+	{
+		array<SCR_GadgetComponent> radios = {};
+		
+		array<SCR_GadgetComponent> handheld = gadgetManager.GetGadgetsByType(EGadgetType.RADIO);
+		if (handheld)
+			radios.InsertAll(handheld);
+		
+		array<SCR_GadgetComponent> backpack = gadgetManager.GetGadgetsByType(EGadgetType.RADIO_BACKPACK);
+		if (backpack)
+			radios.InsertAll(backpack);
+		
+		return radios;
+	}
+	
+	protected void GCC_SetEncryptionKey(int playerId, IEntity player)
+	{
+		SCR_ChimeraCharacter cc = SCR_ChimeraCharacter.Cast(player);
+		if (!cc)
 			return;
-
+		
+		Faction f = cc.GetFaction();
+		if (!f)
+			return;
+		
 		SCR_GadgetManagerComponent gadgetManager = SCR_GadgetManagerComponent.GetGadgetManager(player);
 		if (!gadgetManager)
 			return;
 		
-		SCR_PlayerControllerGroupComponent groupComponent = SCR_PlayerControllerGroupComponent.Cast(controller.FindComponent(SCR_PlayerControllerGroupComponent));
-		if (!groupComponent || groupComponent.GetActualGroupFrequency() == 0)
-			return;
-
-		array<SCR_GadgetComponent> radios = gadgetManager.GetGadgetsByType(EGadgetType.RADIO);
-		
-		foreach (SCR_GadgetComponent gc : radios)
+		foreach (SCR_GadgetComponent r : GetRadios(gadgetManager))
+		{
+			BaseRadioComponent radioComponent = BaseRadioComponent.Cast(r.GetOwner().FindComponent(BaseRadioComponent));
+			if (!radioComponent)
+				continue;
+			
+			radioComponent.SetEncryptionKey(f.GetFactionRadioEncryptionKey());
+		}
+	}
+	
+	// Adjustments to vanilla radio tuning
+	
+	protected void GCC_TuneRadios(SCR_GadgetManagerComponent gadgetManager, int frequency)
+	{
+		foreach (SCR_GadgetComponent gc : GetRadios(gadgetManager))
 		{
 			SCR_RadioComponent rc = SCR_RadioComponent.Cast(gc);
 			if (!rc || !rc.m_bTuneToSquadFrequency)
@@ -30,8 +71,25 @@ modded class SCR_GroupsManagerComponent
 			if (!transceiver)
 				continue;
 
-			transceiver.SetFrequency(groupComponent.GetActualGroupFrequency());
+			transceiver.SetFrequency(frequency);
 		}
+	}
+	
+	override void TunePlayersFrequency(int playerId, IEntity player)
+	{
+		PlayerController controller = GetGame().GetPlayerManager().GetPlayerController(playerId);
+		if (!controller)
+			return;
+
+		SCR_GadgetManagerComponent gadgetManager = SCR_GadgetManagerComponent.GetGadgetManager(player);
+		if (!gadgetManager)
+			return;
+		
+		SCR_PlayerControllerGroupComponent groupComponent = SCR_PlayerControllerGroupComponent.Cast(controller.FindComponent(SCR_PlayerControllerGroupComponent));
+		if (!groupComponent || groupComponent.GetActualGroupFrequency() == 0)
+			return;
+		
+		GCC_TuneRadios(gadgetManager, groupComponent.GetActualGroupFrequency());
 	}
 	
 	override private void TuneAgentsRadio(AIAgent agentEntity)
@@ -47,22 +105,7 @@ modded class SCR_GroupsManagerComponent
 		if (!gadgetManager)
 			return;
 		
-		array<SCR_GadgetComponent> radios = gadgetManager.GetGadgetsByType(EGadgetType.RADIO);
-		foreach (SCR_GadgetComponent gc : radios)
-		{
-			SCR_RadioComponent rc = SCR_RadioComponent.Cast(gc);
-			if (!rc || !rc.m_bTuneToSquadFrequency)
-				continue;
-			
-			BaseRadioComponent radioComponent = BaseRadioComponent.Cast(gc.GetOwner().FindComponent(BaseRadioComponent));
-			
-			if (radioComponent && m_bTuneAgentsRadioToGroupFrequency)
-			{
-				BaseTransceiver tsv = radioComponent.GetTransceiver(0);
-				if (tsv)
-					tsv.SetFrequency(group.GetRadioFrequency());
-			}
-		}
+		GCC_TuneRadios(gadgetManager, group.GetRadioFrequency());
 
 		// Set radio active channel to group default radio channel
 		int playerId = GetGame().GetPlayerManager().GetPlayerIdFromControlledEntity(agentEntity.GetControlledEntity());
@@ -79,5 +122,4 @@ modded class SCR_GroupsManagerComponent
 
 		vonController.SetActiveChannel(group.GetDefaultActiveRadioChannel());
 	}
-
 }
