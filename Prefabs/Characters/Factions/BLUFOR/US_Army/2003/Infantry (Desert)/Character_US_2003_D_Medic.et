@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{C2D1F12C893279D2}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_2003_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{C2D1F12C893279D2}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -28,6 +28,8 @@ SCR_ChimeraCharacter : "{C2D1F12C893279D2}Prefabs/Characters/Factions/BLUFOR/US_
     }
     ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
      TargetStorage "Vest/Vest_ALICE_rifleman.et/Suspenders/Vest_ALICE_suspenders_2.et"
+    }
+    ItemsInitConfigurationItem "{68AC2A2B54703C78}" {
     }
     ItemsInitConfigurationItem "{68597E42E7325BDE}" {
      TargetStorage "Vest/Vest_ALICE_rifleman.et/MagPouch/Pouch_ALICE_30rnd_STANAG.et"

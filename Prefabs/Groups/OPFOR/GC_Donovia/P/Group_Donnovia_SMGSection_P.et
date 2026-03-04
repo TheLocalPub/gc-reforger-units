@@ -1,4 +1,4 @@
-SCR_AIGroup : "{5AB06FC0132832BD}Prefabs/Groups/OPFOR/GC_Donovia/Group_Krasnovia_SMGSection.et" {
+SCR_AIGroup : "{5AB06FC0132832BD}Prefabs/Groups/OPFOR/GC_Donovia/Group_Donnovia_SMGSection.et" {
  ID "0000000000000001"
  coords 0.304 -0.373 -0.239
  m_aUnitPrefabSlots {

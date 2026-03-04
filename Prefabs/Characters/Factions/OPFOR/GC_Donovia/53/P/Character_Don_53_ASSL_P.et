@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{6901B7523FC7F29F}Prefabs/Characters/Factions/OPFOR/GC_Krasnovia/53/Character_Kras_53_ASSL.et" {
+SCR_ChimeraCharacter : "{6901B7523FC7F29F}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_ASSL.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
