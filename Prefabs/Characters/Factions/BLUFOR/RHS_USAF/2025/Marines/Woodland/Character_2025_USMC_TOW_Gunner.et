@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Character_2025_USMC_BaseW.et" {
+SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Character_2025_USMC_BaseW.et" {
  ID "520EC961A090BBD5"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -27,7 +27,6 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{3F09E61DCB860B81}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_filbe.et"
     }
     LoadoutSlotInfo Ears {
-     Prefab "{BABE1B6C0065846A}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_r_p.et"
     }
    }
   }

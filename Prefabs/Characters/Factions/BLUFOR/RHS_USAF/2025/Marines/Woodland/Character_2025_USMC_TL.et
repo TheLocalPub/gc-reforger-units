@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Character_2025_USMC_BaseW.et" {
+SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Character_2025_USMC_BaseW.et" {
  ID "520EC961A090BBD5"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -33,8 +33,10 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
     LoadoutSlotInfo Vest {
      Prefab "{04F6C334B02D345E}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_taco3.et"
     }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4E37FE174E8C266C}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Coyote.et"
+    }
     LoadoutSlotInfo Eyes {
-     Prefab "{F3672F802360D2E4}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_blk_clr.et"
     }
    }
   }
@@ -47,14 +49,8 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
-     PrefabsToSpawn {
-      ""
-     }
-    }
-    ItemsInitConfigurationItem "{633B07DBBB713D2A}" {
-     TargetStorage "Pants/Pants_FROG_Trousers.et"
-     PrefabsToSpawn {
-      "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{B3F2B47340817ED6}Prefabs/Items/GC_Facepaint_01_US.et"
+     PrefabsToSpawn + {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
      }
     }
     ItemsInitConfigurationItem "{66B4211CBC14265F}" {

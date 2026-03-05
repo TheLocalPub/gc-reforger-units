@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{E5EED22B1B977CE6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Character_2025_USMC_TOW_FCS_D.et"
+ Name "{E5EED22B1B977CE6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_TOW_FCS_D.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

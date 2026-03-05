@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Character_2025_USMC_BaseW.et" {
+SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Character_2025_USMC_BaseW.et" {
  ID "520EC961A090BBD5"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -32,11 +32,12 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
     LoadoutSlotInfo Vest {
      Prefab "{8CCD7C0728F3BD3D}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_nobelt_MG.et"
     }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+    }
     LoadoutSlotInfo Head {
-     Prefab "{B370D7A2DDBB73B7}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_Coyote_brown.et"
     }
     LoadoutSlotInfo Eyes {
-     Prefab "{BA0AD5FBC86E88D3}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow.et"
     }
    }
   }
@@ -45,14 +46,19 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{61B52C4506FFE973}" {
      TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/radio/Pouch_152_Radio.et"
     }
+    ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
+     PrefabsToSpawn + {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+    }
     ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
-     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et"
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/saw2/Pouch_PCGEN3_MG.et"
      PrefabsToSpawn {
       "{E492E22BD825BBA9}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M20.et" "{E492E22BD825BBA9}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M20.et"
      }
     }
     ItemsInitConfigurationItem "{66D92993F6F95AC9}" {
-     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et"
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/saw/Pouch_PCGEN3_MG.et"
      PrefabsToSpawn {
       "{E492E22BD825BBA9}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M20.et" "{378685356C8F72E6}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_24rnd_M1152.et"
      }

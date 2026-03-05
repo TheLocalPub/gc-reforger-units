@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Character_2025_USMC_BaseW.et" {
+SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Character_2025_USMC_BaseW.et" {
  ID "520EC961A090BBD5"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -54,7 +54,6 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{04F6C334B02D345E}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_taco3.et"
     }
     LoadoutSlotInfo Eyes {
-     Prefab "{712F76DA44136525}Prefabs/Characters/Eyewear/npp_kondor/Eyewear_npp_kondor_olive.et"
     }
     LoadoutSlotInfo Ears {
      Prefab "{6D6ADA201AD4E09B}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_olive.et"
@@ -74,17 +73,8 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
-     PrefabsToSpawn {
-      ""
-     }
-    }
-    ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
-     TargetStorage "Jacket/Jacket_FROG_Combat_Shirt.et"
-    }
-    ItemsInitConfigurationItem "{633B07DBBB713D2A}" {
-     TargetStorage "Pants/Pants_FROG_Trousers.et"
-     PrefabsToSpawn {
-      "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{B3F2B47340817ED6}Prefabs/Items/GC_Facepaint_01_US.et"
+     PrefabsToSpawn + {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
      }
     }
     ItemsInitConfigurationItem "{66BB7480F323302A}" {

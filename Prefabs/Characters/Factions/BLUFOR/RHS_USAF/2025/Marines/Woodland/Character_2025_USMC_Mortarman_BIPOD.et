@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Character_2025_USMC_BaseW.et" {
+SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Character_2025_USMC_BaseW.et" {
  ID "520EC961A090BBD5"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -29,10 +29,8 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{468B5FB07076FA9E}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_light_blueforce.et"
     }
     LoadoutSlotInfo Head {
-     Prefab "{B370D7A2DDBB73B7}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_Coyote_brown.et"
     }
     LoadoutSlotInfo Eyes {
-     Prefab "{BA0AD5FBC86E88D3}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow.et"
     }
    }
   }
@@ -42,20 +40,14 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Vest/Vest_PCGen_III_light_blueforce.et/radio/Pouch_152_Radio.et"
     }
     ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
-     PrefabsToSpawn {
-      ""
+     PrefabsToSpawn + {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
      }
     }
     ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
      TargetStorage "Vest/Vest_PCGen_III_light_blueforce.et/triple/Pouch_Blueforce_Tri.et"
      PrefabsToSpawn {
       "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
-     }
-    }
-    ItemsInitConfigurationItem "{633B07DBBB713D2A}" {
-     TargetStorage "ArmoredVest/Vest_PCGen_II_base.et"
-     PrefabsToSpawn {
-      "{B385064A383A384B}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual_WP.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{B3F2B47340817ED6}Prefabs/Items/GC_Facepaint_01_US.et"
      }
     }
    }

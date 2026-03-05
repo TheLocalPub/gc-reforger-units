@@ -36,11 +36,8 @@ SCR_ChimeraCharacter : "{1F01EAAC1320705B}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{652B48EE86F65FD5}" {
      TargetStorage "Jacket/Shirt_FROG_Arid.et"
     }
-    ItemsInitConfigurationItem "{633B07DBBB713D2A}" {
+    ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
      TargetStorage "Jacket/Shirt_FROG_Arid.et"
-     PrefabsToSpawn {
-      "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
-     }
     }
    }
   }
