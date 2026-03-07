@@ -9,9 +9,6 @@ GenericEntity : "{F54F6C453A8CB478}Prefabs/Weapons/Core/MachineGun_Base.et" {
        RoundsPerMinute 200
        UIName "200RPM"
       }
-      BaseFireMode "{655556C6FD6F5E67}" {
-       RoundsPerMinute 200
-      }
      }
     }
    }
