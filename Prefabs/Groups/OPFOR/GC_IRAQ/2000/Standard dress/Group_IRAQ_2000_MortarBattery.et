@@ -7,6 +7,8 @@ SCR_AIGroup : "{C55EC82EF9347B58}Prefabs/Groups/OPFOR/GC_IRAQ/Group_IRAQBase.et"
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     Name "#AR-Group_MortarSquad"
+    Icon "{F53C3FC1D78A49C7}UI/Textures/EditorPreviews/Groups/OPFOR/USSR/Group_USSR_AmmoTeam_Late.edds"
+    m_Image "{F53C3FC1D78A49C7}UI/Textures/EditorPreviews/Groups/OPFOR/USSR/Group_USSR_AmmoTeam_Late.edds"
    }
   }
  }
