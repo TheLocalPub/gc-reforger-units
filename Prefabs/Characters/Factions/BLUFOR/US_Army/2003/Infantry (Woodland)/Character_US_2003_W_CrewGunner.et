@@ -15,6 +15,9 @@ SCR_ChimeraCharacter : "{6593B548828A7CC8}Prefabs/Characters/Factions/BLUFOR/US_
     LoadoutSlotInfo Hat {
      Prefab "{DA1912123AECBD97}Prefabs/Characters/HeadGear/Helmet_CVC_01/Helmet_CVC_01_olive.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{78AD6277BCA654C4}Prefabs/Items/Equipment/Radios/US/Radio_M81_GC_PRC119.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
