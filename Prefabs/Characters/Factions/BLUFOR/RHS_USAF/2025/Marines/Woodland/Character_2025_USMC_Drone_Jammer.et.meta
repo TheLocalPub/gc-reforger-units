@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Character_2025_USMC_BaseW.et"
+ Name "{E2D978E72DA804F5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Character_2025_USMC_Drone_Jammer.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
