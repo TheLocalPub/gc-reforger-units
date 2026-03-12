@@ -8,7 +8,7 @@ SCR_AIGroup : "{CBFD915E0246EC47}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Ri
     }
    }
   }
-  PS_GroupCallsignAssigner "{68C8234F6611AD18}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
    m_iCompanyCallsign 6
    m_iSquadCallsign 1
   }
