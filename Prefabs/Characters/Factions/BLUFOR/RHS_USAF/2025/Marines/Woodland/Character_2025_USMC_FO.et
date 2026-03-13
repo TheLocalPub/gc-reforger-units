@@ -65,7 +65,7 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{61B52C4506FFE973}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_taco3.et/radio/Pouch_152_Radio.et"
      PrefabsToSpawn {
-      "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC152A_OLD.et"
+      "{083A8925212DF3B2}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC163_US.et"
      }
     }
     ItemsInitConfigurationItem "{651D048C906638EA}" {
