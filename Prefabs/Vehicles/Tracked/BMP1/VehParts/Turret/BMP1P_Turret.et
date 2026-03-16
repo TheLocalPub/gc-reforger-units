@@ -4,7 +4,7 @@ Turret : "{8021A4D1ADFCF506}Prefabs/Vehicles/Tracked/BMP1/VehParts/Turret/BMP1_T
   TF_WeaponReloadComponent "{68E140685469EA98}" {
    m_ImpulsTo PointInfo "{68E1576F183FE3CE}" {
     PivotID "v_gun_02"
-    Offset 0.416 0 0
+    Offset 0.7241 0.1971 0
    }
    m_fImpulseStrength 1.5
    m_SupportedMagazine MagazineWellKornet "{68E1576EFA46C15E}" {
@@ -35,9 +35,8 @@ Turret : "{8021A4D1ADFCF506}Prefabs/Vehicles/Tracked/BMP1/VehParts/Turret/BMP1_T
   WeaponSlotComponent "{64E93AAE9DD3BC5B}" {
    AttachType InventoryStorageSlot Gun {
     PivotID "v_gun_02"
-    Offset 0 0.0346 0.1737
    }
-   WeaponTemplate "{94EB5CB0A4827C57}Prefabs/Weapons/HeavyWeapons/9K135/Vehicle_Launcher_9K135.et"
+   WeaponTemplate "{CB648E90A21513E8}Prefabs/Weapons/HeavyWeapons/9P135/Vehicle_Launcher_9P135.et"
   }
   ActionsManagerComponent "{51ACD09C7181BA0B}" {
    ActionContexts {
