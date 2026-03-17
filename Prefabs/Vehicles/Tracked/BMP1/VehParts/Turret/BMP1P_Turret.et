@@ -43,7 +43,7 @@ Turret : "{8021A4D1ADFCF506}Prefabs/Vehicles/Tracked/BMP1/VehParts/Turret/BMP1_T
     UserActionContext "{68E1406D1B0CEEE6}" {
      Position PointInfo "{68E1406D0C4BE72B}" {
       PivotID "v_gun_02"
-      Offset 0 0.1485 0
+      Offset 0 0.0904 -0.4336
      }
     }
    }

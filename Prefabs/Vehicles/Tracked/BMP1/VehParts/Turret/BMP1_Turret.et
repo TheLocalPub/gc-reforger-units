@@ -23,6 +23,9 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    m_bCanReloadWhenActive 0
   }
   TF_WeaponReloadComponent "{68E140685469EA98}" {
+   m_fImpulseStrength 1.5
+   m_SupportedMagazine MagazineWellKornet "{68E16AF12996743F}" {
+   }
   }
   TurretComponent "{5E52AE0A31173B5F}" {
    components {
@@ -81,7 +84,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
     ActivatePhysicsOnDetaching 1
     DeactivatePhysicsOnAtaching 1
    }
-   WeaponTemplate "{E1F14DB52DBFBC57}Prefabs/Weapons/Core/Weapon_Base.et"
+   WeaponTemplate "{13D04F09E8A23584}Prefabs/Weapons/HeavyWeapons/9P135/Vehicle_Launcher_9K11.et"
   }
   ActionsManagerComponent "{51ACD09C7181BA0B}" {
    ActionContexts {
@@ -89,7 +92,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      ContextName "reload"
      Position PointInfo "{68E1406D0C4BE72B}" {
       PivotID "v_gun_01"
-      Offset 0 0.1485 0.2576
+      Offset 0 0.2639 0.2245
      }
     }
    }
@@ -101,7 +104,8 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      UIInfo UIInfo "{68E1406D53089E43}" {
       Name "Reload Saclos"
      }
-     Duration 2
+     VisibilityRange 1
+     Duration 5
      m_iWeaponSlotIndex 3
     }
    }
