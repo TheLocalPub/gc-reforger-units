@@ -1,0 +1,8 @@
+SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_Base.et" {
+ ID "0000000000000001"
+ coords 4153.635 36.457 9937.596
+ m_aUnitPrefabSlots {
+  "{A6D84588BA0740B6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_PL.et" "{BFCC53EF6E624C58}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_PSG.et" "{B02BE4D429E41CD2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_RTO.et" "{187A49947ADD908F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_Medic.et" "{187A49947ADD908F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_Medic.et"
+ }
+ m_sCustomNameSet "Platoon HQ"
+}
