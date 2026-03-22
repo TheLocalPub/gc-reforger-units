@@ -3,9 +3,10 @@ SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseas
  components {
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
-    Name "Platoon HQ"
+    Name "2008 Motor Rifle Company HQ"
+    m_Image "{EA0673E253A9BC01}UI/Textures/EditorPreviews/Groups/OPFOR/RHS_AFRF/MSV/Flora/Group_RHS_RF_MSV_Flora_LightFireTeam.edds"
     m_aAuthoredLabels {
-     ENTITYTYPE_GROUP FACTION_RHS_AFRF SUBBRANCH_RHS_AFRF_VMF TYPE_RHS_AFRF_REGULAR
+     ENTITYTYPE_GROUP FACTION_RHS_AFRF SUBBRANCH_RHS_AFRF_MSV TYPE_RHS_AFRF_REGULAR CAMO_RHS_FLORA
     }
    }
   }
