@@ -12,12 +12,9 @@ SCR_ChimeraCharacter : "{597FEF0054FC7880}Prefabs/Characters/Factions/BLUFOR/CDF
     }
    }
   }
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Forward Observer (FO)"
+    Name "Forward Observer"
     Icon "{B9F0BD39FF1881A3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_RadioOperator.edds"
    }
   }

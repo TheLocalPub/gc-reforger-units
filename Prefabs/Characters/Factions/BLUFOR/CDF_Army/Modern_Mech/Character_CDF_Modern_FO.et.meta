@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{2A9141F79C5A98AA}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_MortarCrew_P.et"
+ Name "{CE517D52F0D242FF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_FO.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
