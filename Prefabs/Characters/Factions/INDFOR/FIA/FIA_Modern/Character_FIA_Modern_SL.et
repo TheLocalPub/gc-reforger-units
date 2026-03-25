@@ -45,7 +45,7 @@ SCR_ChimeraCharacter : "{293D4D5939CE9DEC}Prefabs/Characters/Factions/INDFOR/FIA
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68F28386BAC58AE2}" {
      PrefabsToSpawn + {
-      "{EA8BDC18A2DA0432}Prefabs/Items/Equipment/Radios/FIA/Radio_R148_2C_FIA.et"
+      "{540C08AD5F21A5FA}Prefabs/Items/Equipment/Radios/FIA/Radio_R148_FIA.et"
      }
     }
     ItemsInitConfigurationItem "{68F15A43D26ED4DE}" {

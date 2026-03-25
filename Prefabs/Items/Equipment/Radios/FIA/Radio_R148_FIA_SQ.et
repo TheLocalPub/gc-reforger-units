@@ -1,8 +1,0 @@
-GenericEntity : "{540C08AD5F21A5FA}Prefabs/Items/Equipment/Radios/FIA/Radio_R148_FIA.et" {
- ID "508AB2013EEE1E00"
- components {
-  SCR_RadioComponent "{5A30BAE7673C63D4}" {
-   m_bTuneToSquadFrequency 1
-  }
- }
-}

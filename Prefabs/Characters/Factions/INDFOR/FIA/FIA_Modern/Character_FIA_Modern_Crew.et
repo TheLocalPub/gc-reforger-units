@@ -10,7 +10,7 @@ SCR_ChimeraCharacter : "{293D4D5939CE9DEC}Prefabs/Characters/Factions/INDFOR/FIA
      Prefab "{C8EAB0985B66824A}Prefabs/Characters/HeadGear/Helmet_DH132_01/Helmet_DH132A_01.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{146A3E3AAA214484}Prefabs/Items/Equipment/Radios/FIA/Radio_R107M_FIA_2C.et"
+     Prefab "{4181B1C8B5E56392}Prefabs/Items/Equipment/Radios/FIA/Radio_R107M_FIA.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{1548CB98B62D4086}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_6b23.et"

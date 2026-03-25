@@ -59,7 +59,7 @@ SCR_ChimeraCharacter : "{293D4D5939CE9DEC}Prefabs/Characters/Factions/INDFOR/FIA
     ItemsInitConfigurationItem "{68F283955F539E43}" {
      TargetStorage "Pants/Pants_FROG_M81.et"
      PrefabsToSpawn {
-      "{E4B01A626FF0E4E8}Prefabs/Items/Equipment/Radios/FIA/Radio_R148_FIA_SQ.et"
+      "{540C08AD5F21A5FA}Prefabs/Items/Equipment/Radios/FIA/Radio_R148_FIA.et"
      }
     }
    }
