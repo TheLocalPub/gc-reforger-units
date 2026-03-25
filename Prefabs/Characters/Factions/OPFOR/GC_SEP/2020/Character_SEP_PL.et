@@ -4,6 +4,8 @@ SCR_ChimeraCharacter : "{4C362B06571604F9}Prefabs/Characters/Factions/OPFOR/GC_S
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_PlatoonLeader"
+    Icon "{EE0B4CDEA86FC24A}UI/Textures/DeployMenu/LoadoutIcons/LoadoutIcons.imageset"
+    IconSetName "EditableEntity_Character_Leader_Squad"
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
