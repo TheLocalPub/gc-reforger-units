@@ -3,8 +3,20 @@ SCR_ChimeraCharacter : "{44F6F191906D9D1C}Prefabs/Characters/Factions/OPFOR/USSR
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Deputy Platoon Leader"
+    Name "Mortar Leader"
     Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68F6FE8C62E31C68}" {
+     PrefabsToSpawn + {
+      "{B41607EAB58A4252}Prefabs/Items/Equipment/BalisticTable/BalisticTable_USSR.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68F6FE8DE063E108}" {
+     Enabled 0
+    }
    }
   }
  }
