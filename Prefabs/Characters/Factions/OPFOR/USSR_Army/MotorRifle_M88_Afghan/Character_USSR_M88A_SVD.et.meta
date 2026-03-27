@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{84BFC57ACE3F2322}Prefabs/Characters/Factions/OPFOR/USSR_Army/M88_Afghan/Character_USSR_M88A_SVD.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

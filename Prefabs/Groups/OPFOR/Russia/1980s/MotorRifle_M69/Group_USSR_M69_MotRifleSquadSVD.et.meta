@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6E9766F1C9F5FAF3}Prefabs/Groups/OPFOR/Russia/1980s/MotorRifle_M69/Group_USSR_M69_MotRifleSquadSVD.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

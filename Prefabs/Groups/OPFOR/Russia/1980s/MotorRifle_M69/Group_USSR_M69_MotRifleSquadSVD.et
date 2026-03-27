@@ -1,0 +1,6 @@
+SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{6B684EB3C8B5ECCD}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_M69/Character_USSR_M69_SL.et" "{EBAAF538F0029853}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_M69/Character_USSR_M69_CrewGunner.et" "{0C8152D8D8F591FF}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_M69/Character_USSR_M69_CrewDriver.et" "{06E0BFACFA314EDE}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_M69/Character_USSR_M69_AR.et" "{DE48D66D83B85082}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_M69/Character_USSR_M69_AT.et" "{3709D44B135B51F4}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_M69/Character_USSR_M69_AAT.et" "{8761150BBFAA82C3}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_M69/Character_USSR_M69_Sharpshooter.et" "{1670A24BAD26D054}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_M69/Character_USSR_M69_SR.et" "{41E3935FF5A7E500}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_M69/Character_USSR_M69_Rifleman.et" "{41E3935FF5A7E500}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_M69/Character_USSR_M69_Rifleman.et"
+ }
+}
