@@ -19,9 +19,6 @@ SCR_ChimeraCharacter : "{0E6D12E696498921}Prefabs/Characters/Factions/BLUFOR/RHS
     m_Image "{8E53B2ACCC663D10}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_RTO.edds"
    }
   }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{8E9E6176B622441D}Prefabs/Weapons/Rifles/M16/Rifle_M16A4_Covers_CCO.et"
-  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
