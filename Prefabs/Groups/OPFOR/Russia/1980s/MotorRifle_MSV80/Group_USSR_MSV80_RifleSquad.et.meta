@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{5736F94D76C26150}Prefabs/Groups/OPFOR/Group_USSR_MSV80_MotRifleSquad.et"
+ Name "{F40CBB1DD386AFCF}Prefabs/Groups/OPFOR/Russia/1980s/MotorRifle_MSV80/Group_USSR_MSV80_RifleSquad.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }
