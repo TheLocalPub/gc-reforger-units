@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{44F6F191906D9D1C}Prefabs/Characters/Factions/OPFOR/USSR
     ItemsInitConfigurationItem "{68F6FE84C802C9A9}" {
      TargetStorage "Back/Backpack_RPG_Assistant.et"
      PrefabsToSpawn {
-      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et"
      }
     }
    }
