@@ -9,10 +9,10 @@ SCR_ChimeraCharacter : "{3ECA3A935BC069B9}Prefabs/Characters/Factions/OPFOR/USSR
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{DF51FBE916A0A9FF}Prefabs/Characters/Uniforms/ARY_MSV80/ARY_Jacket_MSV80_base.et"
+     Prefab "{DF51FBE916A0A9FF}Prefabs/Characters/Uniforms/ARY_M69/ARY_Jacket_M69_base.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{79E1BCA6AD2D7828}Prefabs/Characters/Uniforms/ARY_MSV80/ARY_Pants_MSV80_base.et"
+     Prefab "{79E1BCA6AD2D7828}Prefabs/Characters/Uniforms/ARY_M69/ARY_Pants_M69_base.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{08155E701A949620}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman.et"
@@ -22,13 +22,13 @@ SCR_ChimeraCharacter : "{3ECA3A935BC069B9}Prefabs/Characters/Factions/OPFOR/USSR
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
-     TargetStorage "Pants/ARY_Pants_MSV80_base.et"
+     TargetStorage "Pants/ARY_Pants_M69_base.et"
     }
     ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
-     TargetStorage "Jacket/ARY_Jacket_MSV80_base.et"
+     TargetStorage "Jacket/ARY_Jacket_M69_base.et"
     }
     ItemsInitConfigurationItem "{68F6FE8C62E31C68}" {
-     TargetStorage "Jacket/ARY_Jacket_MSV80_base.et"
+     TargetStorage "Jacket/ARY_Jacket_M69_base.et"
      PrefabsToSpawn {
       "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
