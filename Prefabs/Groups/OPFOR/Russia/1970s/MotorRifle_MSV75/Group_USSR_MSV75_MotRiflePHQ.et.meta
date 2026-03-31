@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{68FED4CD22CBC55C}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR/P/Group_USSR_MSV80_MotRiflePHQ_P.et"
+ Name "{68FED4CD22CBC55C}Prefabs/Groups/OPFOR/Russia/1970s/MotorRifle_MSV75/Group_USSR_MSV75_MotRiflePHQ.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
