@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{7A9EE19AB67B298B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_base.et" {
+SCR_ChimeraCharacter : "{46ED63B79A974103}Prefabs/Characters/Core/Character_CDF_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
