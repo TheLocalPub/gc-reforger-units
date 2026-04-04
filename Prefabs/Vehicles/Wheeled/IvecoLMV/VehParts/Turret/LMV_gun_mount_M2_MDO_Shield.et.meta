@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{03708F7E58BB7A55}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et"
+ Name "{F2DC1EB848945F64}Prefabs/Vehicles/Wheeled/IvecoLMV/VehParts/Turret/LMV_gun_mount_M2_MDO_Shield.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

@@ -21,6 +21,9 @@ SCR_ChimeraCharacter : "{0E6D12E696498921}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{5D51F4006BDC0AD8}Prefabs/Characters/Vests/Vest_IBA/Variants/OTV/Vest_OTV_CollarP_CB.et"
+    }
     LoadoutSlotInfo Back {
      Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
     }

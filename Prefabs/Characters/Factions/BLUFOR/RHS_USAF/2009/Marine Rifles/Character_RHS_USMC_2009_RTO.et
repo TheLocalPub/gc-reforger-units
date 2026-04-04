@@ -10,6 +10,9 @@ SCR_ChimeraCharacter : "{0E6D12E696498921}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{87FA8CEAE4AA8E93}Prefabs/Characters/Vests/Vest_IBA/Variants/OTV/Vest_OTV_CollarP_v2_CB.et"
+    }
     LoadoutSlotInfo Back {
      Prefab "{0D5E78711F52F010}Prefabs/Items/Equipment/Radios/US/Radio_MARPATWD_GC_PRC119.et"
     }
