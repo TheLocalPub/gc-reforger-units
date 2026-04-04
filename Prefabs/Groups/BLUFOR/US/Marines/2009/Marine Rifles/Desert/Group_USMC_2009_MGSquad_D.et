@@ -3,8 +3,8 @@ SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_ME
  components {
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
-    Name "2009 USMC MG Squad"
-    m_Image "{20CBA9E2508B8E31}UI/Textures/EditorPreviews/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_MachineGunTeam.edds"
+    Name "2009 USMC MG Squad (Desert)"
+    m_Image "{49A8E8587B0B0B77}UI/Textures/EditorPreviews/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Group_USAF_USMC_MEF_D_MachineGunTeam.edds"
    }
   }
  }

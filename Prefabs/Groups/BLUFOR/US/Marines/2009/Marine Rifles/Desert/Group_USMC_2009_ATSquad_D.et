@@ -3,8 +3,8 @@ SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_ME
  components {
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
-    Name "2009 USMC AT Squad"
-    m_Image "{00E3AA4D51BC6D58}UI/Textures/EditorPreviews/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_Team_AT.edds"
+    Name "2009 USMC AT Squad (Desert)"
+    m_Image "{25CE689CA2D54E69}UI/Textures/EditorPreviews/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Group_USAF_USMC_MEF_D_Team_AT.edds"
    }
   }
  }
