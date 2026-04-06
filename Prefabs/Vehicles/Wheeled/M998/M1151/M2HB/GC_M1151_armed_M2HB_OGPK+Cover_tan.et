@@ -1,0 +1,28 @@
+Vehicle : "{238A2BD96C5EC238}Prefabs/Vehicles/Wheeled/M998/M1151/M2HB/GC_M1151_armed_M2HB_OGPK+Cover.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{690D5623A4D45501}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{ECFB0A86053379D8}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Tan.emat"
+    }
+    MaterialAssignClass "{690D5623A4D4557C}" {
+     SourceMaterial "HMMWV_Body_Details"
+     AssignedMaterial "{EC160325F82DDD48}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Details_Tan.emat"
+    }
+    MaterialAssignClass "{690D5623A4D45564}" {
+     SourceMaterial "HMMWV_Body_Int_1C7B4ACE653D9BD1"
+     AssignedMaterial "{D72300AEE8EFDB3D}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Int_Tan.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{B36FE8472EFECCD3}Prefabs/Vehicles/Wheeled/M998/VehParts/GC_M1151_roof_M2HB_OGPK+Cover_TAN.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,13 @@
+Vehicle : "{238A2BD96C5EC238}Prefabs/Vehicles/Wheeled/M998/M1151/M2HB/GC_M1151_armed_M2HB_OGPK+Cover.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{36743F4939C08ED1}Prefabs/Vehicles/Wheeled/M998/VehParts/GC_M1151_roof_M2HB_MDO_OGPK+Cover.et"
+    }
+   }
+  }
+ }
+ coords 1.542 -9.429 1.259
+}
