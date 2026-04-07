@@ -20,6 +20,9 @@ SCR_ChimeraCharacter : "{64645D85D2974479}Prefabs/Characters/Factions/OPFOR/RHS_
     }
     ItemsInitConfigurationItem "{63349A03F1411D1D}" {
      TargetStorage "Jacket/Jacket_PCU_L5_RussianMulticam.et"
+     PrefabsToSpawn + {
+      "{B385064A383A384B}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual_WP.et"
+     }
     }
    }
   }
