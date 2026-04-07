@@ -1,0 +1,24 @@
+GenericEntity : "{2149560A9BEFBAC2}Prefabs/Items/Core/Equip_Accessory_base.et" {
+ ID "521AC0491712FB3A"
+ components {
+  SCR_EquipmentStorageComponent "{6882817C25A5188F}" {
+   InitialStorageSlots {
+    SCR_EquipmentStorageSlot Mag1 {
+     AllowedItemTypes + {
+      "RHS_RIFLE_AMMO"
+     }
+    }
+    SCR_EquipmentStorageSlot Mag2 {
+     AllowedItemTypes + {
+      "RHS_RIFLE_AMMO"
+     }
+    }
+    SCR_EquipmentStorageSlot Mag3 {
+     AllowedItemTypes + {
+      "RHS_RIFLE_AMMO"
+     }
+    }
+   }
+  }
+ }
+}
