@@ -4,7 +4,8 @@ GenericEntity : "{D07D31192AF5E7C4}Prefabs/Weapons/Magazines/Magazine_556x45_STA
   InventoryMagazineComponent "{51EED12B803954CC}" {
    Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
     ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
-     Description "#BF-Magazine_556x45mm_BALL_Description"
+     Name "5.56x45mm 20Rnd AR15 M955 Mag"
+     Description "Radway Green magazine loaded with M955 Armor Piercing Rounds."
     }
    }
   }

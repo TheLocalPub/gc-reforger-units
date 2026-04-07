@@ -24,8 +24,8 @@ GenericEntity : "{14BAB2D9F6F782D8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_
    components {
     AttachmentSlotComponent "{5E0ED05F322AB08B}" {
      AttachmentSlot InventoryStorageSlot PistolGrip {
-      Offset 0 0.0041 0
-      Prefab "{8D7D888302C41EEE}Prefabs/Weapons/Attachments/PistolGrips/LMT_Ergo/Pronto_PistolGrip_LMT_Ergo_BLK.et"
+     }
+     AttachmentType AttachmentProntoAR15PistolGrip "{690E93E338AB1E8A}" {
      }
     }
     AttachmentSlotComponent "{5E0EEDA2A35B78B4}" {

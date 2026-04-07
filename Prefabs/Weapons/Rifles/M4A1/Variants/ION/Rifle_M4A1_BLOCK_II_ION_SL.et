@@ -78,7 +78,6 @@ GenericEntity : "{14BAB2D9F6F782D8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_
        }
       }
      }
-     MagazineTemplate "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
     }
    }
    UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
