@@ -15,6 +15,7 @@ SCR_ChimeraCharacter : "{C2D1F12C893279D2}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Forward Observer"
+    Icon "{13784D8EB2353342}UI/Textures/EditableEntities/Characters/EditableEntity_Character_FO.edds"
     IconSetName "EditableEntity_Character_Scout"
    }
   }
