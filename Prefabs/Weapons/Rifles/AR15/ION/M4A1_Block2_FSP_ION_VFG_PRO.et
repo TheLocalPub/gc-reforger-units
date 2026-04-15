@@ -1,0 +1,72 @@
+GenericEntity : "{3ECC2C220FEB61F3}Prefabs/Weapons/Rifles/AR15/Rifle_Pronto_M4A1_Block2_FSP_Black.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5534745C44D1EF58}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Offset 0 0.1085 -0.0234
+     }
+    }
+    AttachmentSlotComponent "{66F2A16839D0CBDD}" {
+     AttachmentSlot InventoryStorageSlot HandguardRISBottom {
+      Prefab "{4FF61771C481D4D4}Prefabs/Weapons/Attachments/Grips/Magpul_VFG_Short_BLK.et"
+     }
+    }
+    AttachmentSlotComponent "{66F2A16B6AA86E01}" {
+     AttachmentSlot InventoryStorageSlot HandguardRISTop {
+      Offset 0 -0.0004 0.4043
+      Prefab "{0FFFB0BCE1A21A2E}Prefabs/Weapons/Attachments/Lasers/anpeq16/Laser_ANPEQ16.et"
+     }
+    }
+    AttachmentSlotComponent "{66F2AD69274BDAE9}" {
+     AttachmentSlot InventoryStorageSlot Optic {
+      Offset 0 0 0.0693
+      Prefab "{B282F0AE5041FE07}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_AimpointPRO/Collim_AIMPOINT-PRO_base.et"
+     }
+    }
+    AttachmentSlotComponent "{66F51D4144D969AC}" {
+     ShowInInspection 0
+    }
+    AttachmentSlotComponent "{66F8FB6355902E6D}" {
+     AttachmentSlot InventoryStorageSlot PistolGrip {
+      Prefab "{C5F2EA80EE695CEE}Prefabs/Weapons/Attachments/PistolGrips/Hogue_Overmolded/Pronto_PistolGrip_Hogue_Overmolded_BLK.et"
+     }
+     ShowInInspection 0
+    }
+    AttachmentSlotComponent "{691F1B0613D24E03}" {
+     AttachmentSlot InventoryStorageSlot "{691F1B061CDBF085}" {
+      Offset 0 0.1091 -0.0234
+      Prefab "{2ED8374B31DCAFA7}Prefabs/Weapons/Attachments/Optics/IronSights/KAC_Rear_Sight.et"
+      DisablePhysicsInteraction 1
+      InspectionWidgetOffset 0 0.1119 -0.0237
+     }
+     AttachmentType AttachmentRIS1913BUISRear "{691F1B06299C9B90}" {
+     }
+    }
+    AttachmentSlotComponent "{691F1B31A7E281A6}" {
+     AttachmentSlot InventoryStorageSlot "{691F1B31A60D6517}" {
+      Offset 0 0.06 0.1885
+      Angles 0 180 -180
+      MergePhysics 1
+      Prefab "{AA2EC1B4BF137276}Prefabs/Weapons/Attachments/Misc/KacRailCover/new/KacRailCover_short.et"
+      InspectionWidgetOffset 0 0.0455 0.2487
+     }
+     AttachmentType AttachmentM4A1RailCover "{691F1B31A9B0F711}" {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{5D527627CCB8F756}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{B9C41AAC90570E50}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS.et"
+       }
+      }
+     }
+     MagazineTemplate "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+    }
+   }
+  }
+ }
+ coords 4881.959 28.875 11766.239
+}

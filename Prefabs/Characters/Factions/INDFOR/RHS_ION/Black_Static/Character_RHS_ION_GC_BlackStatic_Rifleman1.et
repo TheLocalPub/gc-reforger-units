@@ -7,7 +7,7 @@ SCR_ChimeraCharacter : "{8CCAB0FA43055A87}Prefabs/Characters/Factions/INDFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{060373E91F1263A2}Prefabs/Weapons/Rifles/M4A1/Variants/ION/Rifle_M4A1_BLOCK_II_ION.et"
+   WeaponTemplate "{527E2136B3F150A0}Prefabs/Weapons/Rifles/AR15/ION/M4A1_Block2_9_ION_SF_Romeo.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{8983A91174EE3799}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45.et"
