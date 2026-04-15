@@ -9,6 +9,9 @@ GenericEntity : "{A1D362D6C404CACB}Prefabs/Weapons/Rifles/SVDM/Rifle_SVDM_base.e
       Prefab "{7D56528E155B37F5}Prefabs/Weapons/Attachments/Optics/1P69/Optic_1P69.et"
      }
     }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+    }
    }
   }
  }
