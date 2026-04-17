@@ -1,0 +1,12 @@
+GenericEntity : "{9847569F5F61F02B}Prefabs/Vehicles/Wheeled/M998/VehParts/GC_M1151_roof_M2HB_OGPK+Cover.et" {
+ ID "672EDBFBD09A1100"
+ components {
+  SlotManagerComponent "{672EDBFBD09A1E84}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{297D89D7E65D10C9}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/M2/JLTV_OGPK_M2_MDO_O.et"
+    }
+   }
+  }
+ }
+}
