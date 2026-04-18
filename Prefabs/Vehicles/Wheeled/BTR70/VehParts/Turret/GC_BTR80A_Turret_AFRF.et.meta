@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6C485BEA8D3E6F76}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/GC_BTR80A_Turret_AFRF.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
