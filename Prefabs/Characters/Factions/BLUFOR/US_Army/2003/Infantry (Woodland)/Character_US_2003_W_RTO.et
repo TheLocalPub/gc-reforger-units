@@ -4,6 +4,7 @@ SCR_ChimeraCharacter : "{6593B548828A7CC8}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "RTO"
+    Icon "{B9F0BD39FF1881A3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_RadioOperator.edds"
     IconSetName "EditableEntity_Character_Radio_Operator"
    }
   }

@@ -7,7 +7,7 @@ SCR_ChimeraCharacter : "{96BC236C0E598201}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Platoon Leader"
-    IconSetName "EditableEntity_Character_SquadLeaderALT"
+    IconSetName "EditableEntity_Character_Leader_Squad"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {

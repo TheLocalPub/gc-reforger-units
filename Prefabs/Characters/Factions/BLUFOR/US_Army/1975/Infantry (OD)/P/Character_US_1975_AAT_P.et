@@ -1,6 +1,11 @@
-SCR_ChimeraCharacter : "{584B4B02164D56C4}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_AAT_P.et" {
+SCR_ChimeraCharacter : "{584B4B02164D56C4}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_AAT_P.et" {
  ID "51FA8A5F28FD04BA"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    IconSetName ""
+   }
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {

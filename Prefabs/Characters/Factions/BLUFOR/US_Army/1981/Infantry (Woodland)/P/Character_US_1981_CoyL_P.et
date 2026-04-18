@@ -7,6 +7,7 @@ SCR_ChimeraCharacter : "{D164278FD7D9C81A}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Company Commander"
+    IconSetName "EditableEntity_Character_SquadLeaderALT"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {

@@ -1,12 +1,14 @@
-SCR_ChimeraCharacter : "{AB30106FBD55619A}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_Sergeant_P.et" {
+SCR_ChimeraCharacter : "{AB30106FBD55619A}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Sergeant_P.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "SSG"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+    IconSetName ""
    }
   }
  }
  coords 9199.469 88.486 2337.829
- angleY 149.674
+ angles 0 149.674 0
 }
