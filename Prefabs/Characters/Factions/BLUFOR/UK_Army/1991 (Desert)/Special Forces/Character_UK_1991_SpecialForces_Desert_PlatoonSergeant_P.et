@@ -1,16 +1,25 @@
-SCR_ChimeraCharacter : "{49245CC356272920}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Officer_P.et" {
+SCR_ChimeraCharacter : "{49245CC356272920}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Special Forces/Character_UK_1989_SpecialForces_Officer_P.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Special Forces Troop Sergeant"
+    Icon "{D83873CC7208A47D}UI/Textures/EditableEntities/Characters/BritishRanks/EditableEntity_Character_British_SGT.edds"
+   }
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{3277E97F3493155E}Prefabs/Characters/HeadGear/Hat_M70_01/Hat_M70_DPM_01.et"
+     Prefab "{A24DE35C68613393}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_3ColorDesert.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{406B620B4285240C}Prefabs/Characters/Uniforms/Jacket_Tropical_DesertDPM_01.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{A04CE229E6FB3E74}Prefabs/Characters/Uniforms/Trousers_Tropical_DesertDPM_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{0960A1A0B891F243}Prefabs/Items/Equipment/Backpacks/Rucksack_P58_Large_Pack.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{A29726AEB46AD13E}Prefabs/Characters/Handwear/Gloves_Wool_01/Gloves_Wool_Khaki_01.et"
@@ -20,9 +29,6 @@ SCR_ChimeraCharacter : "{49245CC356272920}Prefabs/Characters/Factions/BLUFOR/UK_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC31428816D50}" {
-     TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
-    }
-    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
      TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
     }
     ItemsInitConfigurationItem "{62849D41EBD1BF6E}" {
@@ -42,6 +48,12 @@ SCR_ChimeraCharacter : "{49245CC356272920}Prefabs/Characters/Factions/BLUFOR/UK_
     }
     ItemsInitConfigurationItem "{62849D41EBD52DBA}" {
      TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
+    }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Back/Rucksack_P58_Large_Pack.et"
+     PrefabsToSpawn {
+      "{0BE2E422211B0B6D}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_GC_M34_500.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et"
+     }
     }
    }
   }
