@@ -1,0 +1,39 @@
+GenericEntity : "{ECD2F8A3D62A4F26}Prefabs/Weapons/Rifles/AR15/ION/M4A1_Block2_12_ION_VFG_LCO.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{66F2A16839D0CBDD}" {
+     AttachmentType AttachmentProntoAR15MLOKGripShort "{66F2A1682436B3D8}" {
+     }
+    }
+    AttachmentSlotComponent "{66F2A168B459C24F}" {
+     AttachmentSlot InventoryStorageSlot HandguardRISRight {
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{66F2AD69274BDAE9}" {
+     AttachmentSlot InventoryStorageSlot Optic {
+      Offset 0 0 0.0625
+      Prefab "{3158264E43B14C07}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_EotechEXPS3/Collim_EXPS3_G33_BLK.et"
+     }
+    }
+    AttachmentSlotComponent "{66F8FB6355902E6D}" {
+     AttachmentSlot InventoryStorageSlot PistolGrip {
+      Prefab "{8D7D888302C41EEE}Prefabs/Weapons/Attachments/PistolGrips/LMT_Ergo/Pronto_PistolGrip_LMT_Ergo_BLK.et"
+     }
+    }
+    AttachmentSlotComponent "{691F1B030B6797DD}" {
+     AttachmentSlot InventoryStorageSlot "{691F1B030A1C5EFC}" {
+      Offset -0.0005 0.0593 0.3809
+      MergePhysics 1
+      Prefab "{23D34FB66BBC8BEE}Prefabs/Weapons/Attachments/Bipods/harris_bipod/rhs_lt706_harris.et"
+      DisablePhysicsInteraction 1
+      InspectionWidgetOffset 0 0.0381 0.3653
+     }
+    }
+   }
+  }
+ }
+ coords 4882.922 28.732 11764.23
+}
