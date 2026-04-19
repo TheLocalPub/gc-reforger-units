@@ -9,13 +9,7 @@ GameEntity : "{24465F297D0F664A}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_EC
    }
   }
   MeshObject "{5112706CD4157AE0}" {
-   Object "{D642BAC66AE8761C}Assets/Characters/HeadGear/Helmet_MICH/MICH2000_norotos_rail.xob"
-   Materials {
-    MaterialAssignClass "{6926E9FAF958FF06}" {
-     SourceMaterial "mich_norotos_velcro_rail"
-     AssignedMaterial "{5DA7847EA0550CD4}Assets/Characters/HeadGear/Helmet_MICH/data/mich_norotos_velcro_rail_tan2_clear.emat"
-    }
-   }
+   Object "{177E3238DA5B70A6}Assets/Characters/HeadGear/Helmet_MICH/MICH2000_norotos_Msa.xob"
   }
   BaseLoadoutClothComponent "{5112706CD4157AF8}" {
    Slots {
@@ -23,7 +17,6 @@ GameEntity : "{24465F297D0F664A}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_EC
      Prefab "{E2AEE09BA445A688}Prefabs/Characters/Eyewear/npp_kondor/Eyewear_npp_kondor.et"
     }
     RHS_LoadoutSlotInfo Masks {
-     Prefab "{CD83152AA78F35DD}Prefabs/Characters/HeadGear/Hat_Shemagh/Hat_Shemagh.et"
     }
     RHS_LoadoutSlotInfo BackVelcro {
      Offset 0 0.095 0.1105
@@ -33,19 +26,24 @@ GameEntity : "{24465F297D0F664A}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_EC
     RHS_LoadoutSlotInfo NVG {
      Offset 0 0.151 -0.1356
      Angles 0 180 0
-     Prefab "{B7BA7694F821F556}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual.et"
+     Prefab "{9A9555D10664B8CB}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_WP.et"
     }
     RHS_LoadoutSlotInfo Headset {
      Prefab "{85D618A51C013F7A}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_yellow.et"
     }
+    RHS_LoadoutSlotInfo TopVelcro {
+    }
+    RHS_LoadoutSlotInfo LeftVelcro {
+     Prefab "{EAC140671B326F58}Prefabs/Items/Equipment/Patches/Patch_US_Flag.et"
+    }
    }
-   WornModel "{D642BAC66AE8761C}Assets/Characters/HeadGear/Helmet_MICH/MICH2000_norotos_rail.xob"
+   WornModel "{177E3238DA5B70A6}Assets/Characters/HeadGear/Helmet_MICH/MICH2000_norotos_Msa.xob"
    WornMaterialsOverride {
-    "{063EA8AF6EEF36B6}Assets/Characters/HeadGear/Helmet_MICH/data/straps.emat" "{5DA7847EA0550CD4}Assets/Characters/HeadGear/Helmet_MICH/data/mich_norotos_velcro_rail_tan2_clear.emat"
+    "{B0C909AA0FF84CFF}Assets/Characters/HeadGear/Helmet_MICH/data/Mich_norotos_velcro_green2_clear.emat"
    }
-   ItemModel "{E8DA39DC418868D3}Assets/Characters/HeadGear/Helmet_MICH/MICH2000_norotos_rail_ground.xob"
+   ItemModel "{C90539502391D950}Assets/Characters/HeadGear/Helmet_MICH/MICH2000_norotos_ground.xob"
    ItemMaterialsOverride {
-    "{5DA7847EA0550CD4}Assets/Characters/HeadGear/Helmet_MICH/data/mich_norotos_velcro_rail_tan2_clear.emat"
+    "{B0C909AA0FF84CFF}Assets/Characters/HeadGear/Helmet_MICH/data/Mich_norotos_velcro_green2_clear.emat"
    }
    OverrideMeshesToHide {
    }
@@ -57,5 +55,5 @@ GameEntity : "{24465F297D0F664A}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_EC
    OffsetShoulderRight 0
   }
  }
- coords 1212.191 7.437 3221.969
+ coords 1455.764 38.135 2913.393
 }

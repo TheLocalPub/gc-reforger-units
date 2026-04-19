@@ -9,8 +9,8 @@ SCR_ChimeraCharacter : "{FE0970414F43AF15}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
-    LoadoutSlotInfo Jacket {
-     Prefab "{E3CF7D0A9D08022E}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Black.et"
+    LoadoutSlotInfo Hat {
+     Prefab "{9217AA3FB1E4C6F1}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH2000_norotos_rail_green2_nvg.et"
     }
    }
   }

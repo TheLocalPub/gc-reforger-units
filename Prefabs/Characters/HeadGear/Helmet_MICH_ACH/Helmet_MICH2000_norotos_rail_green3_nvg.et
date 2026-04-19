@@ -4,13 +4,13 @@ GameEntity : "{2DEF0327711C9EAD}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helm
   MeshObject "{5112706CD4157AE0}" {
    Object "{D642BAC66AE8761C}Assets/Characters/HeadGear/Helmet_MICH/MICH2000_norotos_rail.xob"
    Materials {
-    MaterialAssignClass "{6926D82F2C24C78F}" {
+    MaterialAssignClass "{6926E9FABF538066}" {
      SourceMaterial "mich_norotos_velcro_rail"
-     AssignedMaterial "{D79DAF11410A1693}Assets/Characters/HeadGear/Helmet_MICH/data/mich_norotos_velcro_rail.emat"
+     AssignedMaterial "{5483602FD6D4A888}Assets/Characters/HeadGear/Helmet_MICH/data/mich_norotos_velcro_rail_coyote_clear.emat"
     }
-    MaterialAssignClass "{6926D82F422435AF}" {
+    MaterialAssignClass "{6926E9FABF538043}" {
      SourceMaterial "straps"
-     AssignedMaterial "{708F03AE0D884473}Assets/Characters/HeadGear/Helmet_MICH/data/straps_michOld.emat"
+     AssignedMaterial "{19DF47BD8BC8A31C}Assets/Characters/HeadGear/Helmet_MICH/data/straps_Blk.emat"
     }
    }
   }
@@ -36,10 +36,10 @@ GameEntity : "{2DEF0327711C9EAD}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helm
    }
    WornModel "{D642BAC66AE8761C}Assets/Characters/HeadGear/Helmet_MICH/MICH2000_norotos_rail.xob"
    WornMaterialsOverride {
-    "{708F03AE0D884473}Assets/Characters/HeadGear/Helmet_MICH/data/straps_michOld.emat" "{D79DAF11410A1693}Assets/Characters/HeadGear/Helmet_MICH/data/mich_norotos_velcro_rail.emat"
+    "{19DF47BD8BC8A31C}Assets/Characters/HeadGear/Helmet_MICH/data/straps_Blk.emat" "{5483602FD6D4A888}Assets/Characters/HeadGear/Helmet_MICH/data/mich_norotos_velcro_rail_coyote_clear.emat"
    }
    ItemMaterialsOverride {
-    "{D79DAF11410A1693}Assets/Characters/HeadGear/Helmet_MICH/data/mich_norotos_velcro_rail.emat"
+    "{5483602FD6D4A888}Assets/Characters/HeadGear/Helmet_MICH/data/mich_norotos_velcro_rail_coyote_clear.emat"
    }
   }
  }
