@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{251533BEAE719674}Prefabs/Weapons/MachineGuns/M249/MG_FN_Minimi_M249E3_Para_NoHandGuard_RCO_PEQ15.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
