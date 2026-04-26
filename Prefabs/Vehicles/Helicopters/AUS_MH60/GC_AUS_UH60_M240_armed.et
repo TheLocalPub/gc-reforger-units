@@ -1,0 +1,26 @@
+Vehicle : "{48F288F5BFF10D8B}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et" {
+ ID "5DB688595BAB2FD7"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60F686523ED8885E}" {
+     SlotTemplate InventoryStorageSlot MGammo {
+      Prefab "{96DD0591AFDCC579}Prefabs/Weapons/Magazines/Magazine_M240_Coax/Box_762x51_M240_coax_400rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 6
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo GunnerLeft {
+     Prefab "{3C2BEC56D1CE805F}Prefabs/Vehicles/Helicopters/AUS_MH60/VehParts/WeapSystems/UH60_M240_gunner_left.et"
+    }
+    RegisteringComponentSlotInfo GunnerRight {
+     Prefab "{5DA5C670B2C0C1EC}Prefabs/Vehicles/Helicopters/AUS_MH60/VehParts/WeapSystems/UH60_M240_gunner_right.et"
+    }
+   }
+  }
+ }
+ coords 1.417 -0.388 -2.051
+}
