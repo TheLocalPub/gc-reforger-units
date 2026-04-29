@@ -5,7 +5,11 @@ GenericEntity : "{AA4FACF008E134BF}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_
    Materials {
     MaterialAssignClass "{55DEA676C7D89FE4}" {
      SourceMaterial "Base"
-     AssignedMaterial "{A139ED7073952BBE}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Roof_D_2004.emat"
+     AssignedMaterial "{259C2F5F30065A2D}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Roof_Int_USAF_D.emat"
+    }
+    MaterialAssignClass "{693B6C0525CF1DC4}" {
+     SourceMaterial "HMMWV_Body_Roof_Int_38AD25796F1BEB94"
+     AssignedMaterial "{2CC2BB6BF01F3499}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Int_USAF_D.emat"
     }
    }
   }
