@@ -11,5 +11,4 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
  m_aUnitPrefabSlots {
   "{2F451B3102F88983}Prefabs/Characters/Factions/OPFOR/GC_DRA/Character_DRA_SL.et" "{949795BD852D4AB0}Prefabs/Characters/Factions/OPFOR/GC_DRA/Character_DRA_GNR.et" "{D010CE20CB989268}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_DRVR.et" "{7E6443870CB8EAC6}Prefabs/Characters/Factions/OPFOR/GC_DRA/Character_DRA_Autorifleman.et" "{69E8DCF749CCBB5C}Prefabs/Characters/Factions/OPFOR/GC_DRA/Character_DRA_RPG.et" "{E1477A27244A59AE}Prefabs/Characters/Factions/OPFOR/GC_DRA/Character_DRA_RPGA.et" "{525DF7C9676BB51A}Prefabs/Characters/Factions/OPFOR/GC_DRA/Character_DRA_SR.et" "{73472811D52B7284}Prefabs/Characters/Factions/OPFOR/GC_DRA/Character_DRA_RF.et" "{73472811D52B7284}Prefabs/Characters/Factions/OPFOR/GC_DRA/Character_DRA_RF.et"
  }
- m_sCustomNameSet "2nd Squad"
 }
