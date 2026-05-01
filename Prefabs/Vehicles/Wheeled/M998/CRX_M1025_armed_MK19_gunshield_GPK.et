@@ -1,0 +1,12 @@
+Vehicle : "{41033FD6FEC127E4}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_MK19_gunshield.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{08869E2F3760FFCF}Prefabs/Vehicles/Wheeled/M998/VehParts/CRX_M1025_roof_MK19_gunshield_GPK.et"
+    }
+   }
+  }
+ }
+}

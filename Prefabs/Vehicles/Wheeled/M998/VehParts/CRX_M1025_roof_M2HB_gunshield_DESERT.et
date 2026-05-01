@@ -5,18 +5,14 @@ GenericEntity : "{AA4FACF008E134BF}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_
    Materials {
     MaterialAssignClass "{55DEA676C7D89FE4}" {
      SourceMaterial "Base"
-     AssignedMaterial "{259C2F5F30065A2D}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Roof_Int_USAF_D.emat"
-    }
-    MaterialAssignClass "{693B6C0525CF1DC4}" {
-     SourceMaterial "HMMWV_Body_Roof_Int_38AD25796F1BEB94"
-     AssignedMaterial "{2CC2BB6BF01F3499}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Int_USAF_D.emat"
+     AssignedMaterial "{E8DED8E64059D625}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Roof_USAF_D.emat"
     }
    }
   }
   SlotManagerComponent "{54F2B37F3202E099}" {
    Slots {
     RegisteringComponentSlotInfo Turret {
-     Prefab "{6074EDFF41AA4D78}Prefabs/Vehicles/Wheeled/M998/VehParts/CRX_M1025_gun_mount_M2HB_gunshield_MERDC.et"
+     Prefab "{8E7D0A64BE6A8662}Prefabs/Vehicles/Wheeled/M998/VehParts/CRX_M1025_gun_mount_M2HB_gunshield_DESERT.et"
     }
    }
   }

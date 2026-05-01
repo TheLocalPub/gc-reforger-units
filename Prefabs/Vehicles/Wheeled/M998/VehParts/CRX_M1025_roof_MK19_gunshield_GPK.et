@@ -1,0 +1,12 @@
+GenericEntity : "{E94A42807F96DD01}Prefabs/Vehicles/Wheeled/M998/VehParts/CRX_M1025_roof_MK19_gunshield.et" {
+ ID "4B42E71698F5739C"
+ components {
+  SlotManagerComponent "{54F2B37F3202E099}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{889E26E662A79214}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_MK19.et"
+    }
+   }
+  }
+ }
+}
