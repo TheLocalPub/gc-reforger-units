@@ -1,0 +1,11 @@
+Turret : "{5E9F8706FE32AA79}Prefabs/Vehicles/Wheeled/M998/VehParts/CRX_M1025_gun_mount_M2HB_gunshield.et" {
+ ID "51ACD0965653D003"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 0.023 0
+   }
+   WeaponTemplate "{6A83671E7A91BEE2}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Weapons/6U16/KORD_Tigr_Shield_Green.et"
+  }
+ }
+}
