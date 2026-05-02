@@ -1,0 +1,12 @@
+Vehicle : "{27D3611557F5B1E4}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_KORD_gunshield_DESERT.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{3535B3EF6390CC69}Prefabs/Vehicles/Wheeled/M998/VehParts/CRX_M1025_roof_KORD_gunshield_DESERT_GPK.et"
+    }
+   }
+  }
+ }
+}
