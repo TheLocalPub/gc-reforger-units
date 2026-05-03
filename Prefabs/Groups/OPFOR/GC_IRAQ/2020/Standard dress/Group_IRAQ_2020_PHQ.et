@@ -7,4 +7,8 @@ SCR_AIGroup : "{C55EC82EF9347B58}Prefabs/Groups/OPFOR/GC_IRAQ/Group_IRAQBase.et"
    }
   }
  }
+ m_aUnitPrefabSlots {
+  "{BC451D029C99023D}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_PL.et" "{532EAE6B2F90F62F}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_PSG.et"
+ }
+ m_bSetPlayable 1
 }

@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Standard dress/Character_IRAQ_2020_Base.et" {
+SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -22,10 +22,10 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
    m_VariantData SCR_EditableEntityVariantData "{6946DD1D956F3426}" {
     m_aVariants {
      SCR_EditableEntityVariant "{6946DD1D956F342D}" {
-      m_sVariantPrefab "{CDC65F8A4A6680F6}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Standard dress/Variants/Character_IRAQ_2020_COYCmdr1.et"
+      m_sVariantPrefab "{CCDD186BBD649FE6}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Variants/Character_IRAQ_2020_COY2IC1.et"
      }
      SCR_EditableEntityVariant "{6946DD1D956F342B}" {
-      m_sVariantPrefab "{A1926B6AF6A20FD8}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Standard dress/Variants/Character_IRAQ_2020_COYCmdr2.et"
+      m_sVariantPrefab "{34FB272A8248B7EC}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Variants/Character_IRAQ_2020_COY2IC2.et"
      }
     }
    }
@@ -73,13 +73,13 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
     ItemsInitConfigurationItem "{6946DD1D956F341E}" {
      TargetStorage "Vest/Vest_Bandolier_Side-Left_3CD.et/Bandolier/Pouch_MOLLE-Bandolier_3CD.et"
      PrefabsToSpawn {
-      "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{681E772288F937F0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22ap_camo.et"
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{6946DD1D956F341D}" {
      TargetStorage "Vest/Vest_Bandolier_Side-Left_3CD.et/Bandolier/Pouch_MOLLE-Bandolier_3CD.et"
      PrefabsToSpawn {
-      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
+      "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{6946DD1D956F341C}" {

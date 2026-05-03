@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{D557E66550D0B682}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Standard dress/Character_IRAQ_2020_COYCmdr.et" {
+SCR_ChimeraCharacter : "{D557E66550D0B682}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_COYCmdr.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
@@ -28,6 +28,14 @@ SCR_ChimeraCharacter : "{D557E66550D0B682}Prefabs/Characters/Factions/OPFOR/GC_I
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{6946DD14EBEE209C}" {
+     PrefabsToSpawn {
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{73950FBA2D7DB5C5}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC68.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
+     TargetStorage "ArmoredVest/Vest_IBA_f_ThroatP_v4_CB.et"
+    }
     ItemsInitConfigurationItem "{6946CBBD7E4F4AEC}" {
      TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_wdl.et/Slot_L12/Pouch_MOLLE-M16_single_base.et"
     }
@@ -39,11 +47,6 @@ SCR_ChimeraCharacter : "{D557E66550D0B682}Prefabs/Characters/Factions/OPFOR/GC_I
     }
     ItemsInitConfigurationItem "{6946CBBDEBB3EEEB}" {
      TargetStorage "Back/Backpack_Small.et"
-    }
-    ItemsInitConfigurationItem "{6946DD14EBEE209C}" {
-     PrefabsToSpawn {
-      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{73950FBA2D7DB5C5}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC68.et"
-     }
     }
     ItemsInitConfigurationItem "{6946DD167C2FBB7E}" {
      TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_wdl.et/Slot_L13/Pouch_MOLLE-M16_single_base.et"
