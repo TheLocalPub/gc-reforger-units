@@ -1,0 +1,17 @@
+Turret : "{689B27B580654F28}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_GPK_KORD.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{694414F4507BBEF6}" {
+     SourceMaterial "GPK"
+     AssignedMaterial "{F481BBB864AEF472}Assets/Vehicles/Wheeled/M1151/Data/GPK_Tan.emat"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{425455ED02B4E10D}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Weapons/6U16/KORD_Tigr_Shield.et"
+  }
+ }
+ coords -0.49 2.03 2.121
+}

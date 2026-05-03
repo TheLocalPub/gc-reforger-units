@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{1D98013D05AE974E}Prefabs/Vehicles/Wheeled/M998/VehParts/CRX_M1025_roof_MK19_gunshield_DESERT_GPK.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
