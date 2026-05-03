@@ -14,10 +14,10 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Company Commander"
-    Description "Iraqi 2020 COY Cmdr"
-    IconSetName "EditableEntity_Character_SquadLeaderALT"
-    m_Image "{49AAE3F904B2ADC3}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Officer.edds"
+    Name "Company 2IC"
+    Description "Iraqi 2020 COY 2IC"
+    IconSetName "EditableEntity_Character_Leader_Squad"
+    m_Image "{5248690A326A5F92}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sergeant.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{6946DD1D956F3426}" {
     m_aVariants {
@@ -34,7 +34,7 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
    WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{4A79F283F7DA624F}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_1P78_GP25.et"
+   WeaponTemplate "{9A50B595DDDA7995}Prefabs/Weapons/Rifles/AK74M/Rifle_AK103.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
@@ -65,16 +65,19 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
      }
     }
     ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
-     TargetStorage "ArmoredVest/Vest_IBA_base_f_Collar-v2_3CD.et"
+     TargetStorage "ArmoredVest/Vest_IBA_Collar-v2_ThroatP_v3_wdl.et"
+     PrefabsToSpawn {
+      "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
+     }
     }
     ItemsInitConfigurationItem "{6946DD1D956F341E}" {
-     TargetStorage "Vest/Vest_MOLLE-Rig_officer_v2.et/Slot_L11/Pouch_MOLLE-M16_base.et"
+     TargetStorage "Vest/Vest_Bandolier_Side-Left_3CD.et/Bandolier/Pouch_MOLLE-Bandolier_3CD.et"
      PrefabsToSpawn {
       "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{681E772288F937F0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22ap_camo.et"
      }
     }
     ItemsInitConfigurationItem "{6946DD1D956F341D}" {
-     TargetStorage "Vest/Vest_MOLLE-Rig_officer_v2.et/Slot_L12/Pouch_MOLLE-M16_base.et"
+     TargetStorage "Vest/Vest_Bandolier_Side-Left_3CD.et/Bandolier/Pouch_MOLLE-Bandolier_3CD.et"
      PrefabsToSpawn {
       "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
      }
@@ -82,7 +85,7 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
     ItemsInitConfigurationItem "{6946DD1D956F341C}" {
      TargetStorage "Back/Rucksack_P58_Large_Pack.et"
      PrefabsToSpawn {
-      "{4C075BF50FD8C069}Prefabs/Weapons/Grenades/Smoke_No83_Red.et" "{77A25EFFE26D8A7E}Prefabs/Weapons/Grenades/Smoke_No83_Green.et" "{6C6327A7E5EB8D20}Prefabs/Weapons/Grenades/Smoke_No83_Blue.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      "{4C075BF50FD8C069}Prefabs/Weapons/Grenades/Smoke_No83_Red.et" "{77A25EFFE26D8A7E}Prefabs/Weapons/Grenades/Smoke_No83_Green.et" "{6C6327A7E5EB8D20}Prefabs/Weapons/Grenades/Smoke_No83_Blue.et"
      }
     }
    }
