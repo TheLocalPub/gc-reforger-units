@@ -1,0 +1,63 @@
+GenericEntity : "{3ECC2C220FEB61F3}Prefabs/Weapons/Rifles/AR15/Rifle_Pronto_M4A1_Block2_FSP_Black.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{66F2A168B459C24F}" {
+     AttachmentSlot InventoryStorageSlot HandguardRISRight {
+      Prefab "{051E6F5F543F5416}Prefabs/Weapons/Attachments/Lights/SF_M600/Pronto_SF_M600_Offset_BLK.et"
+     }
+    }
+    AttachmentSlotComponent "{66F2A16B6AA86E01}" {
+     AttachmentSlot InventoryStorageSlot HandguardRISTop {
+      Prefab "{0FFFB0BCE1A21A2E}Prefabs/Weapons/Attachments/Lasers/anpeq16/Laser_ANPEQ16.et"
+     }
+    }
+    AttachmentSlotComponent "{66F2AD69274BDAE9}" {
+     AttachmentSlot InventoryStorageSlot Optic {
+      Offset 0 0 0.1016
+      Prefab "{1D595DCB97075A58}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_TrijiconRMR/Collim_RMR.et"
+     }
+    }
+    AttachmentSlotComponent "{66F51D4144D969AC}" {
+     ShowInInspection 0
+    }
+    AttachmentSlotComponent "{66F8FB6355902E6D}" {
+     ShowInInspection 0
+    }
+    AttachmentSlotComponent "{691F1B06330DD86D}" {
+     AttachmentSlot InventoryStorageSlot "{691F1B06381B630C}" {
+      Offset 0 0.1085 -0.0234
+      Prefab "{2ED8374B31DCAFA7}Prefabs/Weapons/Attachments/Optics/IronSights/KAC_Rear_Sight.et"
+      DisablePhysicsInteraction 1
+      InspectionWidgetOffset 0 0.1119 -0.0237
+     }
+     AttachmentType AttachmentRIS1913SightRear "{691F1B06C5251F9D}" {
+     }
+    }
+    AttachmentSlotComponent "{691F1B397FD68736}" {
+     AttachmentSlot InventoryStorageSlot "{691F1B397E8F8033}" {
+      Offset 0 0.06 0.2061
+      Angles 0 0 -180
+      MergePhysics 1
+      Prefab "{8C9D46C9A5A7D4A9}Prefabs/Weapons/Attachments/Misc/KacRailCover/new/KacRailCover_long.et"
+      InspectionWidgetOffset 0 0.0455 0.2487
+     }
+     AttachmentType AttachmentM4A1RailCover "{691F1B397ADB3CDB}" {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{5D527627CCB8F756}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{6188691D38DA6E2D}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_RC2.et"
+       }
+      }
+     }
+     MagazineTemplate "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+    }
+   }
+  }
+ }
+ coords 4881.757 28.865 11766.301
+}

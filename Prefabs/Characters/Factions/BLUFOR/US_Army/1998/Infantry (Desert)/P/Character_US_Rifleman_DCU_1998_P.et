@@ -7,11 +7,13 @@ SCR_ChimeraCharacter : "{EA6EF9C87D023B9B}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_Rifleman"
+    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+    IconSetName ""
    }
    m_VariantData SCR_EditableEntityVariantData "{60F6B2B4BAE04806}" {
     m_aVariants {
      SCR_EditableEntityVariant "{60F6B2B4B9D3CC9B}" {
-      m_sVariantPrefab "{780F788FE375A572}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_Rifleman_Variant_1_DCU_1998_P.et"
+      m_sVariantPrefab "{780F788FE375A572}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_Variant_1_DCU_1998_P.et"
      }
     }
    }

@@ -4,5 +4,8 @@ SCR_ChimeraCharacter : "{66876AB6DB22430B}Prefabs/Characters/Factions/BLUFOR/RHS
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6975E109BBE55981}Prefabs/Weapons/MachineGuns/M249/MG_FN_Minimi_M249E2_NoHandGuard_CCO_PEQ.et"
+  }
  }
 }

@@ -4,7 +4,7 @@ SCR_ChimeraCharacter : "{6593B548828A7CC8}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-VehiclePosition_Gunner"
-    IconSetName "EditableEntity_Character_Crew"
+    IconSetName "EditableEntity_Character_Sharpshooter"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -18,6 +18,9 @@ SCR_ChimeraCharacter : "{6593B548828A7CC8}Prefabs/Characters/Factions/BLUFOR/US_
     LoadoutSlotInfo Back {
      Prefab "{78AD6277BCA654C4}Prefabs/Items/Equipment/Radios/US/Radio_M81_GC_PRC119.et"
     }
+    LoadoutSlotInfo Vest {
+     Prefab "{18E8AF076E52FC90}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_crew.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
@@ -27,8 +30,9 @@ SCR_ChimeraCharacter : "{6593B548828A7CC8}Prefabs/Characters/Factions/BLUFOR/US_
       "{389ACBD8C4991F75}Prefabs/Items/Equipment/Radios/US/Squad Radio/Radio_ANPRC343_PRR.et"
      }
     }
-    ItemsInitConfigurationItem "{68AC2A2B02C1A8CD}" {
-     PrefabsToSpawn + {
+    ItemsInitConfigurationItem "{68AC2A2B54703C78}" {
+     TargetStorage "Jacket/BDU_Raid_Blouse_Woodland.et"
+     PrefabsToSpawn {
       "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
      }
     }

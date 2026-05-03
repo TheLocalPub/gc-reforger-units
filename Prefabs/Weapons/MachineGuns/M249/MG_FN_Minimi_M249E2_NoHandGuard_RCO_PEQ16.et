@@ -1,0 +1,17 @@
+GenericEntity : "{6B352DE0F3689FD9}Prefabs/Weapons/MachineGuns/M249/MG_FN_Minimi_M249E2_NoHandGuard_RCO_PEQ15.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{692C9AC81D189042}" {
+     AttachmentSlot InventoryStorageSlot RailRight {
+      Prefab "{0FFFB0BCE1A21A2E}Prefabs/Weapons/Attachments/Lasers/anpeq16/Laser_ANPEQ16.et"
+     }
+    }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineTemplate "{D6D327EED460CFF3}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M995_4AP_1Tracer.et"
+    }
+   }
+  }
+ }
+}

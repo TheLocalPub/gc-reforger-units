@@ -1,0 +1,87 @@
+GenericEntity : "{6BF11831A2DD4477}Prefabs/Weapons/Rifles/AR15/Rifle_Pronto_M4A1_Block2_12_Black.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{66F2A16839D0CBDD}" {
+     AttachmentSlot InventoryStorageSlot HandguardRISBottom {
+      Prefab "{4FF61771C481D4D4}Prefabs/Weapons/Attachments/Grips/Magpul_VFG_Short_BLK.et"
+     }
+    }
+    AttachmentSlotComponent "{66F2A168B459C24F}" {
+     AttachmentSlot InventoryStorageSlot HandguardRISRight {
+      Prefab "{051E6F5F543F5416}Prefabs/Weapons/Attachments/Lights/SF_M600/Pronto_SF_M600_Offset_BLK.et"
+     }
+    }
+    AttachmentSlotComponent "{66F2A16B6AA86E01}" {
+     AttachmentSlot InventoryStorageSlot HandguardRISTop {
+      Offset 0 -0.0004 0.3301
+      Prefab "{0FFFB0BCE1A21A2E}Prefabs/Weapons/Attachments/Lasers/anpeq16/Laser_ANPEQ16.et"
+     }
+    }
+    AttachmentSlotComponent "{66F2AD69274BDAE9}" {
+     AttachmentSlot InventoryStorageSlot Optic {
+      Offset 0 0 0.082
+      Prefab "{C6228B0D070574F4}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_LeupoldLCO/Collim_LeupoldLCO_base.et"
+     }
+    }
+    AttachmentSlotComponent "{66F51D4144D969AC}" {
+     ShowInInspection 0
+    }
+    AttachmentSlotComponent "{66F8FB6355902E6D}" {
+     ShowInInspection 0
+    }
+    AttachmentSlotComponent "{691F1B303B8238E7}" {
+     AttachmentSlot InventoryStorageSlot "{691F1B30DDA245C5}" {
+      Offset 0 0.1091 -0.0234
+      Prefab "{677E8A0792696783}Prefabs/Weapons/Attachments/Optics/mbus/mbus_blk_folding_sight_rear.et"
+      DisablePhysicsInteraction 1
+      InspectionWidgetOffset 0 0.1119 -0.0237
+     }
+     AttachmentType AttachmentRIS1913BUISRear "{691F1B30DEFC7C00}" {
+     }
+    }
+    AttachmentSlotComponent "{691F1B3331916D2E}" {
+     AttachmentSlot InventoryStorageSlot "{691F1B3330360CC1}" {
+      Offset 0 0.06 0.1885
+      Angles 0 180 -180
+      MergePhysics 1
+      Prefab "{AA2EC1B4BF137276}Prefabs/Weapons/Attachments/Misc/KacRailCover/new/KacRailCover_short.et"
+      InspectionWidgetOffset 0 0.0455 0.2487
+     }
+     AttachmentType AttachmentM4A1RailCover "{691F1B33E4FFBFD3}" {
+     }
+    }
+    AttachmentSlotComponent "{691F1B336A49121A}" {
+     AttachmentSlot InventoryStorageSlot "{691F1B3374695BB8}" {
+      Offset 0 -0.0023 0.0068
+      Prefab "{77A74F65BAEC73E2}Prefabs/Weapons/Attachments/Misc/KacRailCover/KacRailCover_kit_m4a1_ras.et"
+     }
+     AttachmentType AttachmentM4A1RailCover "{691F1B337207C2EC}" {
+     }
+    }
+    AttachmentSlotComponent "{691F1B33F9887FC7}" {
+     AttachmentSlot InventoryStorageSlot "{691F1B33F85521B7}" {
+      Offset 0 0.1091 0.4209
+      Prefab "{B05910AE5C2526DD}Prefabs/Weapons/Attachments/Optics/mbus/mbus_blk_folding_sight_front.et"
+      DisablePhysicsInteraction 1
+      InspectionWidgetOffset 0 0.1114 0.4247
+     }
+     AttachmentType AttachmentRIS1913BUISFront "{691F1B33858A8C8B}" {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{5D527627CCB8F756}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{6188691D38DA6E2D}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_RC2.et"
+       }
+      }
+     }
+     MagazineTemplate "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+    }
+   }
+  }
+ }
+ coords 4882.356 28.839 11766.179
+}

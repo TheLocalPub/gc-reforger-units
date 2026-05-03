@@ -1,0 +1,64 @@
+GenericEntity : "{D17695658497EA22}Prefabs/Weapons/MachineGuns/M249/MG_FN_Minimi_M249E3_Para.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SlotManagerComponent "{692AE2A2888B148C}" {
+   Slots {
+    EntitySlotInfo Handguard {
+     Enabled 0
+    }
+    EntitySlotInfo RailLeft {
+     PivotID "w_topcover"
+     Offset -0.0154 -0.0583 0.1139
+     Angles 0 0 270
+     Prefab "{C71190740C9E3FC8}Prefabs/Weapons/Attachments/Rails/b18/mag582.et"
+    }
+    EntitySlotInfo RailRight {
+     PivotID "w_topcover"
+     Offset 0.016 -0.0583 0.1139
+     Angles 0 0 90
+     Prefab "{C71190740C9E3FC8}Prefabs/Weapons/Attachments/Rails/b18/mag582.et"
+    }
+    EntitySlotInfo RailBottom {
+     PivotID "w_topcover"
+     Offset 0 -0.0706 0.1139
+     Angles 0 0 180
+     Prefab "{C71190740C9E3FC8}Prefabs/Weapons/Attachments/Rails/b18/mag582.et"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{692C834039564045}" {
+     AttachmentSlot InventoryStorageSlot RailLeft {
+      PivotID "w_root"
+      Offset -0.0252 0.0683 0.2173
+      Angles 0 0 270
+      Prefab "{D07A2B92E5D34D47}Prefabs/Weapons/Attachments/Misc/KacRailCover/new/KacRailCover_medium.et"
+     }
+     AttachmentType AttachmentRIS1913Short "{692C920B30B8630E}" {
+     }
+    }
+    AttachmentSlotComponent "{692C920B5CA62348}" {
+     AttachmentSlot InventoryStorageSlot RailRight {
+      PivotID "w_root"
+      Offset 0.0244 0.0683 0.2173
+      Angles 0 0 90
+      Prefab "{D07A2B92E5D34D47}Prefabs/Weapons/Attachments/Misc/KacRailCover/new/KacRailCover_medium.et"
+     }
+     AttachmentType AttachmentRIS1913Short "{692C920B091A58C7}" {
+     }
+    }
+    AttachmentSlotComponent "{692C920BA9B56DE9}" {
+     AttachmentSlot InventoryStorageSlot RailBottom {
+      PivotID "w_root"
+      Offset 0 0.047 0.218
+      Angles 0 0 180
+      Prefab "{D07A2B92E5D34D47}Prefabs/Weapons/Attachments/Misc/KacRailCover/new/KacRailCover_medium.et"
+     }
+     AttachmentType AttachmentUnderbarrelRIS1913Short "{692C9AC8FC1A8DB0}" {
+     }
+    }
+   }
+  }
+ }
+}

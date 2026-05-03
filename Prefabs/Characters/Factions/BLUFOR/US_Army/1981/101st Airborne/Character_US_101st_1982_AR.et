@@ -3,7 +3,9 @@ SCR_ChimeraCharacter : "{8184A07081F53839}Prefabs/Characters/Factions/BLUFOR/US_
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Automatic Rifleman"
+    Name "#AR-Role_AutomaticRifleman"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+    IconSetName ""
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {

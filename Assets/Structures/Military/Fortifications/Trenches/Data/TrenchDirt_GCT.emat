@@ -1,0 +1,11 @@
+MatPBRBasic {
+ Color 1 0.982 0.871 1
+ RoughnessScale 1.5
+ BCRMap "{C6A0995C60084476}Terrains/Common/Surfaces/Data/Dirt_01_BCR.edds"
+ NormalPower 1.75
+ NMOMap "{E197D218634E0261}Terrains/Common/Surfaces/Data/Dirt_01_NHO.edds"
+ GlobalMapsUVTransform MatUVTransform "{6945536F27EA1BC2}" {
+  TilingU 2
+  TilingV 2
+ }
+}

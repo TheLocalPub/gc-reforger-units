@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{238A2BD96C5EC238}Prefabs/Vehicles/Wheeled/M998/M1151/GC_M1151_armed_M2HB_OGPK+Cover.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

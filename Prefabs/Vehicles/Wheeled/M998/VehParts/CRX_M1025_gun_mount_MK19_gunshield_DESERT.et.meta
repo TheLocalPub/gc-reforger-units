@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{C9AF0CAD1D5925C4}Prefabs/Vehicles/Wheeled/M998/VehParts/CRX_M1025_gun_mount_MK19_gunshield_DESERT.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -8,7 +8,7 @@ SCR_ChimeraCharacter : "{692B5A0EFD7FD678}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{1D75DAC4D2CBC0C9}Prefabs/Weapons/MachineGuns/M249/MG_M249_EXPS.et"
+   WeaponTemplate "{4793C90A319B0CF3}Prefabs/Weapons/MachineGuns/M249/MG_FN_Minimi_M249E3_Para_NoHandGuard_Eot_PEQ.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
@@ -16,6 +16,7 @@ SCR_ChimeraCharacter : "{692B5A0EFD7FD678}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
+     Prefab "{9217AA3FB1E4C6F1}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH2000_norotos_rail_green2_nvg.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{59671155DDBAD871}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_M81.et"

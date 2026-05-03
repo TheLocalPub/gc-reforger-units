@@ -1,0 +1,69 @@
+GenericEntity : "{871FE2C3CE835EA8}Prefabs/Weapons/MachineGuns/M249/MG_FN_Minimi_M249E2.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SlotManagerComponent "{692AE2A2888B148C}" {
+   Slots {
+    EntitySlotInfo Handguard {
+     Enabled 0
+    }
+    EntitySlotInfo RailLeft {
+     PivotID "w_topcover"
+     Offset -0.0154 -0.0583 0.1139
+     Angles 0 0 270
+     Prefab "{C71190740C9E3FC8}Prefabs/Weapons/Attachments/Rails/b18/mag582.et"
+    }
+    EntitySlotInfo RailRight {
+     PivotID "w_topcover"
+     Offset 0.016 -0.0583 0.1139
+     Angles 0 0 90
+     Prefab "{C71190740C9E3FC8}Prefabs/Weapons/Attachments/Rails/b18/mag582.et"
+    }
+    EntitySlotInfo RailBottom {
+     PivotID "w_topcover"
+     Offset 0 -0.0706 0.1139
+     Angles 0 0 180
+     Prefab "{C71190740C9E3FC8}Prefabs/Weapons/Attachments/Rails/b18/mag582.et"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{692AE2BDD4328F95}" {
+     AttachmentSlot InventoryStorageSlot Optic {
+      Offset 0 0.0229 -0.1522
+     }
+    }
+    AttachmentSlotComponent "{692C9AC81D189042}" {
+     AttachmentSlot InventoryStorageSlot RailRight {
+      PivotID "w_root"
+      Offset 0.0244 0.0683 0.2173
+      Angles 0 0 90
+      Prefab "{D07A2B92E5D34D47}Prefabs/Weapons/Attachments/Misc/KacRailCover/new/KacRailCover_medium.et"
+     }
+     AttachmentType AttachmentRIS1913Short "{692C9AC8E8B0DE7B}" {
+     }
+    }
+    AttachmentSlotComponent "{692C9AC83988DE3A}" {
+     AttachmentSlot InventoryStorageSlot RailLeft {
+      PivotID "w_root"
+      Offset -0.0252 0.0683 0.2173
+      Angles 0 0 270
+      Prefab "{D07A2B92E5D34D47}Prefabs/Weapons/Attachments/Misc/KacRailCover/new/KacRailCover_medium.et"
+     }
+     AttachmentType AttachmentRIS1913Short "{692C9AC831ACCDB6}" {
+     }
+    }
+    AttachmentSlotComponent "{692C9AC8F6AA7ADF}" {
+     AttachmentSlot InventoryStorageSlot RailBottom {
+      PivotID "w_root"
+      Offset 0 0.047 0.218
+      Angles 0 0 180
+      Prefab "{D07A2B92E5D34D47}Prefabs/Weapons/Attachments/Misc/KacRailCover/new/KacRailCover_medium.et"
+     }
+     AttachmentType AttachmentUnderbarrelRIS1913Short "{692C9AC8CAA3C29F}" {
+     }
+    }
+   }
+  }
+ }
+}

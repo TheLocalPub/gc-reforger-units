@@ -1,0 +1,12 @@
+Vehicle : "{03708F7E58BB7A56}Prefabs/Vehicles/Wheeled/M998/M1151/MK19/M1151_armed_MK19.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{C779C6FC6F28AECC}Prefabs/Vehicles/Wheeled/M998/VehParts/GC_M1151_roof_Mk19_cover.et"
+    }
+   }
+  }
+ }
+}

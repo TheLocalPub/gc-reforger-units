@@ -1,0 +1,14 @@
+GenericEntity : "{A3F113C69F7CFC56}Prefabs/Vehicles/Wheeled/M998/VehParts/GC_M1151_roof_Mk19.et" {
+ ID "672EDBFBD09A1100"
+ components {
+  SlotManagerComponent "{672EDBFBD09A1E84}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 -0.4819 0.303
+     Prefab "{1024D24BD2DE500F}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/MK19/JLTV_MK19_OGPK_Woodland.et"
+    }
+   }
+  }
+ }
+ coords 3.918 -0.057 0
+}

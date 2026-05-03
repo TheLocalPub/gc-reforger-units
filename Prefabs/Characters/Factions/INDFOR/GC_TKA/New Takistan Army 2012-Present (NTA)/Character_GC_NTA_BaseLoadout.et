@@ -28,7 +28,7 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
      Prefab "{E89AB338034F465C}Prefabs/Characters/Uniforms/Pants_Cuba.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{05CC810C5C8CB32A}Prefabs/Characters/Footwear/CombatBoots_US_LightTan.et"
+     Prefab "{750DF3DD86728F1B}Prefabs/Characters/Footwear/JungleBoots_01/JungleBoots_Desert_Worn.et"
     }
     LoadoutSlotInfo Vest {
     }

@@ -8,6 +8,15 @@ GameEntity : "{24465F297D0F664A}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_EC
     }
    }
   }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{D642BAC66AE8761C}Assets/Characters/HeadGear/Helmet_MICH/MICH2000_norotos_rail.xob"
+   Materials {
+    MaterialAssignClass "{6926E9FAF958FF06}" {
+     SourceMaterial "mich_norotos_velcro_rail"
+     AssignedMaterial "{5DA7847EA0550CD4}Assets/Characters/HeadGear/Helmet_MICH/data/mich_norotos_velcro_rail_tan2_clear.emat"
+    }
+   }
+  }
   BaseLoadoutClothComponent "{5112706CD4157AF8}" {
    Slots {
     RHS_LoadoutSlotInfo Goggles {
@@ -32,9 +41,11 @@ GameEntity : "{24465F297D0F664A}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_EC
    }
    WornModel "{D642BAC66AE8761C}Assets/Characters/HeadGear/Helmet_MICH/MICH2000_norotos_rail.xob"
    WornMaterialsOverride {
+    "{063EA8AF6EEF36B6}Assets/Characters/HeadGear/Helmet_MICH/data/straps.emat" "{5DA7847EA0550CD4}Assets/Characters/HeadGear/Helmet_MICH/data/mich_norotos_velcro_rail_tan2_clear.emat"
    }
    ItemModel "{E8DA39DC418868D3}Assets/Characters/HeadGear/Helmet_MICH/MICH2000_norotos_rail_ground.xob"
    ItemMaterialsOverride {
+    "{5DA7847EA0550CD4}Assets/Characters/HeadGear/Helmet_MICH/data/mich_norotos_velcro_rail_tan2_clear.emat"
    }
    OverrideMeshesToHide {
    }

@@ -4,6 +4,7 @@ SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     m_Image "{E7A0C7DDE13E3CE7}UI/Textures/EditorPreviews/Groups/OPFOR/Spetsnaz/Suppressed/Group_USSR_Spetsnaz_ReconSquad.edds"
+    m_sFaction "GC_SEPARATIST"
     m_aAuthoredLabels + {
      FACTION_GC_SEP
     }
@@ -11,4 +12,5 @@ SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
    }
   }
  }
+ m_faction "GC_SEPARATIST"
 }

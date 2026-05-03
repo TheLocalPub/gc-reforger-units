@@ -1,0 +1,71 @@
+GenericEntity : "{007A64EA719798F4}Prefabs/Weapons/Rifles/AR15/Rifle_Pronto_M4A1_Block2_9_Black.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{66F2A16839D0CBDD}" {
+     AttachmentSlot InventoryStorageSlot HandguardRISBottom {
+      Prefab "{67C247FEEA6690F1}Prefabs/Weapons/Attachments/ForeGrips/SF_M900A/Pronto_ForeGrip_SF_M900A_01.et"
+     }
+    }
+    AttachmentSlotComponent "{66F2A168B459C24F}" {
+     AttachmentSlot InventoryStorageSlot HandguardRISRight {
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{66F2A16B6AA86E01}" {
+     AttachmentSlot InventoryStorageSlot HandguardRISTop {
+      Offset 0 -0.0004 0.2549
+      Prefab "{0FFFB0BCE1A21A2E}Prefabs/Weapons/Attachments/Lasers/anpeq16/Laser_ANPEQ16.et"
+     }
+    }
+    AttachmentSlotComponent "{66F2AD69274BDAE9}" {
+     AttachmentSlot InventoryStorageSlot Optic {
+      Offset 0 0 0.0684
+      Prefab "{586EE7AA31738D92}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_SIGRomeo/Collim_SIGRomeo_BLK.et"
+     }
+    }
+    AttachmentSlotComponent "{66F51D4144D969AC}" {
+     AttachmentSlot InventoryStorageSlot Stock {
+      Prefab "{3278CE1C00248FA8}Prefabs/Weapons/Attachments/Stocks/Diemaco_Stock/Pronto_Stock_Diemaco_02_BLK.et"
+     }
+     ShowInInspection 0
+    }
+    AttachmentSlotComponent "{66F8FB6355902E6D}" {
+     ShowInInspection 0
+    }
+    AttachmentSlotComponent "{691F1B37EB92BEC8}" {
+     AttachmentSlot InventoryStorageSlot "{691F1B37EA6AD47A}" {
+      Offset 0 0.1091 -0.0234
+      Prefab "{677E8A0792696783}Prefabs/Weapons/Attachments/Optics/mbus/mbus_blk_folding_sight_rear.et"
+      DisablePhysicsInteraction 1
+      InspectionWidgetOffset 0 0.1119 -0.0237
+     }
+     AttachmentType AttachmentRIS1913BUISRear "{691F1B37F6CA557D}" {
+     }
+    }
+    AttachmentSlotComponent "{691F1B37FE863DC7}" {
+     AttachmentSlot InventoryStorageSlot "{691F1B37806C5ED4}" {
+      Offset 0 0.1091 0.3457
+      Prefab "{B05910AE5C2526DD}Prefabs/Weapons/Attachments/Optics/mbus/mbus_blk_folding_sight_front.et"
+      DisablePhysicsInteraction 1
+      InspectionWidgetOffset 0 0.1114 0.4247
+     }
+     AttachmentType AttachmentRIS1913BUISFront "{691F1B378C4319FF}" {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{5D527627CCB8F756}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{CB2ED665F4671DDA}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_RC3.et"
+       }
+      }
+     }
+     MagazineTemplate "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+    }
+   }
+  }
+ }
+ coords 4882.67 28.844 11766.171
+}
