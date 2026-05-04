@@ -13,20 +13,20 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#AR-Role_Rifleman"
-    Description "Iraqi 2020 Rifleman"
+    Name "#AR-Role_LightAT"
+    Description "Iraqi 2020 Rifleman AT"
     IconSetName "EditableEntity_Character_Rifleman"
     m_Image "{6A8FF7A3F9007CD0}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Rifleman.edds"
    }
-   m_VariantData SCR_EditableEntityVariantData "{6946F502305C4DEF}" {
+   m_VariantData SCR_EditableEntityVariantData "{69488D4DE71F953D}" {
     m_aVariants {
-     SCR_EditableEntityVariant "{6946F502305C4DE1}" {
+     SCR_EditableEntityVariant "{69488D4DE71F9535}" {
       m_sVariantPrefab "{22623F7C792EE284}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Variants/Character_IRAQ_2020_RF1.et"
      }
-     SCR_EditableEntityVariant "{6946F502305C4D1F}" {
+     SCR_EditableEntityVariant "{69488D4DE71F9536}" {
       m_sVariantPrefab "{4E360B9CC5EA6DAA}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Variants/Character_IRAQ_2020_RF2.et"
      }
-     SCR_EditableEntityVariant "{69488D5FAC4D882E}" {
+     SCR_EditableEntityVariant "{69488D4DE71F9537}" {
       m_sVariantPrefab "{ABAA4765C90FFAC1}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Variants/Character_IRAQ_2020_RF3.et"
      }
     }
@@ -36,43 +36,53 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
    WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{41AD4E19A9BDBDCE}Prefabs/Weapons/Rifles/AK47/BC_Rifle_AK47.et"
+   WeaponTemplate "{9A50B595DDDA7995}Prefabs/Weapons/Rifles/AK74M/Rifle_AK103.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{7396C6AB427D9CF3}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_DBDU_cover_RAS.et"
+     Prefab "{CC671E44800E953D}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_3ColorDesert_cover_w_goggles.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{8B04C60261FB67B5}Prefabs/Characters/Uniforms/Jacket_US_DBDU_rolledup_RAS.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{FEBAAEBB8C255060}Prefabs/Characters/Vests/Vest_IBA/Vest_OTV_3CD.et"
+     Prefab "{77BD1A9141712467}Prefabs/Characters/Vests/Vest_IBA/Variants/OTV/Vest_OTV_GP_CB_wdl.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{F05A35BCC44BE9FC}Prefabs/Characters/Footwear/TankerBoots_US_01/TankerBoots_US_01.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{46D824AAD12330B2}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_Coy.et"
+     Prefab "{35E0AB60AEEED4E3}Prefabs/Items/Equipment/Backpacks/Filbe_USMC_Backpack/Filbe_Backpack_base.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{4F9D38DB731EF693}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_Cuba.et"
+     Prefab "{8E281C18A46ECA7A}Prefabs/Characters/Vests/Vest_ChestRigLarge/Vest_ChestRigLarge_2.et"
     }
     LoadoutSlotInfo HandWear {
+     Prefab "{E92C9E74F80B96DF}Prefabs/Characters/Handwear/AUS_Gloves_ModernFlight/AUS_Gloves_ModernFlight.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{6946A164D8EA1DE8}" {
+     TargetStorage "Jacket/Jacket_US_DBDU_rolledup_RAS.et"
+    }
     ItemsInitConfigurationItem "{6946DD14EBEE209C}" {
     }
     ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
-     TargetStorage "ArmoredVest/Vest_OTV_3CD.et"
+     TargetStorage "ArmoredVest/Vest_OTV_GP_CB_wdl.et"
     }
-    ItemsInitConfigurationItem "{6946F502305C4D0B}" {
-     TargetStorage "Vest/Vest_Lifchik_Cuba.et"
+    ItemsInitConfigurationItem "{69488D4DE71F9505}" {
+     TargetStorage "Vest/Vest_ChestRigLarge_2.et"
      PrefabsToSpawn {
       "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{D7D38B4E269417F8}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Tracer.et" "{D7D38B4E269417F8}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Tracer.et" "{D7D38B4E269417F8}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Tracer.et"
      }
     }
-    ItemsInitConfigurationItem "{6946F502305C4D09}" {
+    ItemsInitConfigurationItem "{69488D4DE71F9506}" {
      TargetStorage "Pants/Pants_US_DBDU_RAS.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"

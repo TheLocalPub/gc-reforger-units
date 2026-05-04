@@ -21,10 +21,10 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
    m_VariantData SCR_EditableEntityVariantData "{6946F5124AAF7DE8}" {
     m_aVariants {
      SCR_EditableEntityVariant "{6946F5124AAF7DFE}" {
-      m_sVariantPrefab "{0EE4DA91B059004F}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_TL1.et"
+      m_sVariantPrefab "{0EE4DA91B059004F}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Variants/Character_IRAQ_2020_TL1.et"
      }
      SCR_EditableEntityVariant "{6946F5124AAF7DFF}" {
-      m_sVariantPrefab "{62B0EE710C9D8F61}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_TL2.et"
+      m_sVariantPrefab "{62B0EE710C9D8F61}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Variants/Character_IRAQ_2020_TL2.et"
      }
     }
    }
@@ -76,7 +76,7 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
     ItemsInitConfigurationItem "{6946F5124AAF7DCF}" {
      TargetStorage "Back/Backpack_Kolobok.et"
      PrefabsToSpawn {
-      "{4C075BF50FD8C069}Prefabs/Weapons/Grenades/Smoke_No83_Red.et" "{77A25EFFE26D8A7E}Prefabs/Weapons/Grenades/Smoke_No83_Green.et" "{6C6327A7E5EB8D20}Prefabs/Weapons/Grenades/Smoke_No83_Blue.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
    }
