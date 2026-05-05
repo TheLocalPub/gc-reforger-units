@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_Base.et" {
+SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -14,17 +14,17 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_AutomaticRifleman"
-    Description "Iraqi 2020 AR"
+    Description "Iraqi 2013 AR"
     IconSetName "EditableEntity_Character_Machinegunner"
     m_Image "{D93455A6F79B928C}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_AR.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{69488D1CD014C288}" {
     m_aVariants {
      SCR_EditableEntityVariant "{69488D1CD014C282}" {
-      m_sVariantPrefab "{4017687236BF4E26}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_AR1.et"
+      m_sVariantPrefab "{4017687236BF4E26}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_AR1.et"
      }
      SCR_EditableEntityVariant "{69488D1CD014C284}" {
-      m_sVariantPrefab "{2C435C928A7BC108}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_AR2.et"
+      m_sVariantPrefab "{2C435C928A7BC108}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_AR2.et"
      }
     }
    }

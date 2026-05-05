@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_Base.et" {
+SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -14,17 +14,17 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_RadioOperator"
-    Description "Iraqi 2020 RTO"
+    Description "Iraqi 2013 RTO"
     IconSetName "EditableEntity_Character_Radio_Operator"
     m_Image "{50D62F5BEA9007CB}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_RTO.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{69488D58728A6F84}" {
     m_aVariants {
      SCR_EditableEntityVariant "{69488D58728A6F9E}" {
-      m_sVariantPrefab "{7555A213442B3C16}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_RTO1.et"
+      m_sVariantPrefab "{7555A213442B3C16}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_RTO1.et"
      }
      SCR_EditableEntityVariant "{69488D58728A6F90}" {
-      m_sVariantPrefab "{190196F3F8EFB338}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_RTO2.et"
+      m_sVariantPrefab "{190196F3F8EFB338}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_RTO2.et"
      }
     }
    }
@@ -59,6 +59,9 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6946DD14EBEE209C}" {
+     PrefabsToSpawn + {
+      "{73950FBA2D7DB5C5}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC68.et"
+     }
     }
     ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
      TargetStorage "ArmoredVest/Vest_OTV_CB.et"

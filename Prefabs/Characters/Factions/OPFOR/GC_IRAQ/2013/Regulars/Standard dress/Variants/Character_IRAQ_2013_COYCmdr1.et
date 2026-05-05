@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{D557E66550D0B682}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_COYCmdr.et" {
+SCR_ChimeraCharacter : "{D557E66550D0B682}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_COYCmdr.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{D557E66550D0B682}Prefabs/Characters/Factions/OPFOR/GC_I
      Prefab "{752C6BCDF74E4169}Prefabs/Items/Equipment/Backpacks/Backpack_Small.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{1F98ED6C71EFEFCF}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_rifleman_wdl.et"
+     Prefab "{568823B04C3D3516}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_CL.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{0B75FB9C3FB74ADF}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Comp_Green.et"
@@ -36,23 +36,14 @@ SCR_ChimeraCharacter : "{D557E66550D0B682}Prefabs/Characters/Factions/OPFOR/GC_I
     ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
      TargetStorage "ArmoredVest/Vest_IBA_f_ThroatP_v4_CB.et"
     }
-    ItemsInitConfigurationItem "{6946CBBD7E4F4AEC}" {
-     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_wdl.et/Slot_L12/Pouch_MOLLE-M16_single_base.et"
-    }
     ItemsInitConfigurationItem "{6946CBBDA90F7B42}" {
      TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_wdl.et/Slot_L11/Pouch_MOLLE-M16_single_base.et"
      PrefabsToSpawn {
-      "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
+      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{1C9A36B79C91C910}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57T231P.et" "{1C9A36B79C91C910}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57T231P.et"
      }
     }
     ItemsInitConfigurationItem "{6946CBBDEBB3EEEB}" {
      TargetStorage "Back/Backpack_Small.et"
-    }
-    ItemsInitConfigurationItem "{6946DD167C2FBB7E}" {
-     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_wdl.et/Slot_L13/Pouch_MOLLE-M16_single_base.et"
-     PrefabsToSpawn {
-      "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et"
-     }
     }
    }
   }

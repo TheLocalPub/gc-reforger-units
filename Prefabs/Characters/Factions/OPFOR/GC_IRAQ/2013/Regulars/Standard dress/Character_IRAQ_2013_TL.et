@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_Base.et" {
+SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -14,17 +14,17 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_TeamLeader"
-    Description "Iraqi 2020 TL"
+    Description "Iraqi 2013 TL"
     IconSetName "EditableEntity_Character_Leader_Team"
     m_Image "{7CB1ED2B23DD26E6}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_SL.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{6946F5124AAF7DE8}" {
     m_aVariants {
      SCR_EditableEntityVariant "{6946F5124AAF7DFE}" {
-      m_sVariantPrefab "{0EE4DA91B059004F}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Variants/Character_IRAQ_2020_TL1.et"
+      m_sVariantPrefab "{0EE4DA91B059004F}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_TL1.et"
      }
      SCR_EditableEntityVariant "{6946F5124AAF7DFF}" {
-      m_sVariantPrefab "{62B0EE710C9D8F61}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Variants/Character_IRAQ_2020_TL2.et"
+      m_sVariantPrefab "{62B0EE710C9D8F61}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_TL2.et"
      }
     }
    }

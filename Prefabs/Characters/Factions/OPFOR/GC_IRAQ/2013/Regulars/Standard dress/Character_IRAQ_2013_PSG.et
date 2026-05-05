@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_Base.et" {
+SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -14,17 +14,17 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_PlatoonSergeant"
-    Description "Iraqi 2020 PSG"
+    Description "Iraqi 2013 PSG"
     IconSetName "EditableEntity_Character_Leader_Team"
     m_Image "{5248690A326A5F92}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sergeant.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{6946F50C8FB4EE49}" {
     m_aVariants {
      SCR_EditableEntityVariant "{6946F50C8FB4EE40}" {
-      m_sVariantPrefab "{8EA611A72A82D8C2}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Variants/Character_IRAQ_2020_PSG1.et"
+      m_sVariantPrefab "{8EA611A72A82D8C2}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_PSG1.et"
      }
      SCR_EditableEntityVariant "{6946F50C8FB4EE7F}" {
-      m_sVariantPrefab "{E2F22547964657EC}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Variants/Character_IRAQ_2020_PSG2.et"
+      m_sVariantPrefab "{E2F22547964657EC}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_PSG2.et"
      }
     }
    }
