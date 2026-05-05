@@ -2,6 +2,9 @@ SCR_ChimeraCharacter : "{B66846EB4BB8DDF4}Prefabs/Characters/Factions/BLUFOR/US_
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Fire Direction Officer"
+   }
    m_VariantData SCR_EditableEntityVariantData "{657D1BB0ABD6D58C}" {
     m_bRandomizeDefaultVariant 0
     m_aVariants {
@@ -17,7 +20,7 @@ SCR_ChimeraCharacter : "{B66846EB4BB8DDF4}Prefabs/Characters/Factions/BLUFOR/US_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{694AF8E9340B89B3}" {
+    ItemsInitConfigurationItem "{694AF8E8940E8AF2}" {
      TargetStorage "Jacket/Jacket_US_BDU.et"
      PrefabsToSpawn {
       "{389ACBD8C4991F75}Prefabs/Items/Equipment/Radios/US/Squad Radio/Radio_ANPRC343_PRR.et"
