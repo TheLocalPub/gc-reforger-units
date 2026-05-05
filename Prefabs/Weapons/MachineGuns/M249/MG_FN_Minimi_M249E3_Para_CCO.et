@@ -1,0 +1,15 @@
+GenericEntity : "{D17695658497EA22}Prefabs/Weapons/MachineGuns/M249/MG_FN_Minimi_M249E3_Para.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{692AE2BDD4328F95}" {
+     AttachmentSlot InventoryStorageSlot Optic {
+      Offset 0 0.0229 -0.1371
+      Prefab "{3D4B54552E600505}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_EotechEXPS3/Collim_EXPS3_BLK.et"
+     }
+    }
+   }
+  }
+ }
+}

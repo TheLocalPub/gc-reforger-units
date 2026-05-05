@@ -1,6 +1,9 @@
 SCR_ChimeraCharacter : "{976AE2722F796201}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Special Forces/Character_UK_1989_SpecialForces_Minimi_P.et" {
  ID "520EC961A090B1EE"
  components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D17695658497EA22}Prefabs/Weapons/MachineGuns/M249/MG_FN_Minimi_M249E3_Para.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
@@ -21,9 +24,6 @@ SCR_ChimeraCharacter : "{976AE2722F796201}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{610CC31428816D50}" {
      TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
     }
-    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
-     TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
-    }
     ItemsInitConfigurationItem "{62849D41EBD1BF6E}" {
      TargetStorage "Jacket/Smock_Combat_84Pat_DPM_01.et"
     }
@@ -38,6 +38,9 @@ SCR_ChimeraCharacter : "{976AE2722F796201}Prefabs/Characters/Factions/BLUFOR/UK_
     }
     ItemsInitConfigurationItem "{62849D41EBD52DB8}" {
      TargetStorage "Vest/Vest_P58_rifleman_L85.et/MagPouch2/Pouch_P58_20rnd_L1A1_Right.et"
+    }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
     }
     ItemsInitConfigurationItem "{62849D4259B8475A}" {
      TargetStorage "Back/Rucksack_GS_assembled.et"

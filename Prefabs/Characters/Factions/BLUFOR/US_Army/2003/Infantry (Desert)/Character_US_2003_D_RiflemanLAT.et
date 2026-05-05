@@ -26,15 +26,12 @@ SCR_ChimeraCharacter : "{C2D1F12C893279D2}Prefabs/Characters/Factions/BLUFOR/US_
     LoadoutSlotInfo Hat {
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{7D91B7C7CCAEEAD3}Prefabs/Characters/Uniforms/Jacket_US_DCU.et"
     }
     LoadoutSlotInfo ArmoredVest {
     }
     LoadoutSlotInfo Pants {
-     Prefab "{DA5C1FFDF17D851F}Prefabs/Characters/Uniforms/Pants_US_DCU.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{05CC810C5C8CB32A}Prefabs/Characters/Footwear/CombatBoots_US_LightTan.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{DA230EFEAFF68C8D}Prefabs/Items/Equipment/Backpacks/Backpack_MOLLE-weistpack_base.et"

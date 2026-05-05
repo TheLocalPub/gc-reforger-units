@@ -31,6 +31,7 @@ SCR_ChimeraCharacter : "{6593B548828A7CC8}Prefabs/Characters/Factions/BLUFOR/US_
      }
     }
     ItemsInitConfigurationItem "{68AC2A2B54703C78}" {
+     TargetStorage "Jacket/BDU_Raid_Blouse_Woodland.et"
      PrefabsToSpawn {
       "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
      }

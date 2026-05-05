@@ -14,5 +14,12 @@ SCR_ChimeraCharacter : "{10804BFD95F5DAC1}Prefabs/Characters/Factions/BLUFOR/US_
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68AC2A2B54703C78}" {
+     TargetStorage "Jacket/BDU_Raid_Blouse_Woodland.et"
+    }
+   }
+  }
  }
 }

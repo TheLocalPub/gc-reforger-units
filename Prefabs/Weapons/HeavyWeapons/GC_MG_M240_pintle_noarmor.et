@@ -1,0 +1,13 @@
+GenericEntity : "{2FE1AA46BCB6457D}Prefabs/Weapons/HeavyWeapons/MG_M240_pintle.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SlotManagerComponent "{656144AF9D771DAC}" {
+   Slots {
+    EntitySlotInfo Armor {
+     Prefab ""
+    }
+   }
+  }
+ }
+ coords 5.195 1.106 -0.755
+}

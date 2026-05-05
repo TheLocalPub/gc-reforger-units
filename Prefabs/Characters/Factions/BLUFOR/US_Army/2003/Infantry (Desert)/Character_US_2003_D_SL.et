@@ -28,7 +28,6 @@ SCR_ChimeraCharacter : "{F7561B8F24FFD223}Prefabs/Characters/Factions/BLUFOR/US_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{384B3E26928A791A}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_3ColorDesert_cover_w_goggles.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{CD3BD25A0B1117D7}Prefabs/Characters/Vests/Vest_IBA/Variants/IBA/Vest_IBA_ThroatP_v3_wdl.et"

@@ -2,7 +2,7 @@ SCR_ChimeraCharacter : "{E4CB968B7936E2C7}Prefabs/Characters/Factions/INDFOR/GC_
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{14F70355CF93B5A8}Prefabs/Weapons/Rifles/M4A1/USSF/Ranger 2009/Rifle_M4A1_RAS_XPS.et"
+   WeaponTemplate "{14F70355CF93B5A8}Prefabs/Weapons/Rifles/M4A1/USSF/Ranger 2009/Rifle_M4A1_RAS_COMPM4.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -18,7 +18,6 @@ SCR_ChimeraCharacter : "{E4CB968B7936E2C7}Prefabs/Characters/Factions/INDFOR/GC_
     LoadoutSlotInfo Pants {
     }
     LoadoutSlotInfo Boots {
-     Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{A8866A9389018D3B}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy2.et"
