@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{B220E2B988AD5380}Prefabs/Weapons/MachineGuns/M249/MG_FN_Minimi_M249E3_Para_NoHandGuard_SU230_PEQ.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

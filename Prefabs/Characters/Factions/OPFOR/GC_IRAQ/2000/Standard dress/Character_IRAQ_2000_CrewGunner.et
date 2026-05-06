@@ -4,7 +4,7 @@ SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_I
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-VehiclePosition_Gunner"
-    IconSetName "EditableEntity_Character_Driver"
+    IconSetName "EditableEntity_Character_Sharpshooter"
     m_Image "{2BD44B75425A52FD}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Crew.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{68CD3BCC525E039A}" {

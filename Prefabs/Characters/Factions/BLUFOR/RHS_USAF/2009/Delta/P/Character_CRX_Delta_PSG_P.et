@@ -6,6 +6,13 @@ SCR_ChimeraCharacter : "{B374D4022B804F2E}Prefabs/Characters/Factions/BLUFOR/RHS
     Name "#AR-Role_PlatoonSergeant"
    }
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{9217AA3FB1E4C6F1}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH2000_norotos_rail_green2_nvg.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{65214E7772E2493A}" {

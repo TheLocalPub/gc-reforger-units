@@ -1,6 +1,11 @@
-SCR_ChimeraCharacter : "{70F6D20444ACFF43}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_AMG_P.et" {
+SCR_ChimeraCharacter : "{70F6D20444ACFF43}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_AMG_P.et" {
  ID "522AAC66D0A2C0DC"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+   }
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {

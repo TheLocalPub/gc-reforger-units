@@ -1,0 +1,14 @@
+GenericEntity : "{BA8E4CE57E16FABB}Prefabs/Weapons/MachineGuns/M249/MG_FN_Minimi_M249E2_NoHandGuard_SU230_PEQ.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{692AE2BDD4328F95}" {
+     AttachmentSlot InventoryStorageSlot Optic {
+      Prefab "{6080874CFDB25EB6}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_TrijiconACOGTA31_RMR/Optic_TrijiconACOGTA31_RMR_ARD.et"
+     }
+    }
+   }
+  }
+ }
+}

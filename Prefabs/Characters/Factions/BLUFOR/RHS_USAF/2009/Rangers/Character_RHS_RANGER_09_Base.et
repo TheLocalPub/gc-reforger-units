@@ -23,7 +23,7 @@ SCR_ChimeraCharacter : "{FDAEA6C9F2673B02}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{632D09B9A26B0A65}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH2000_norotos_rail_green2_nvg.et"
+     Prefab "{632D09B9A26B0A65}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH2000_norotos_green1_nvg.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{DD49E30B082C98CB}Prefabs/Characters/Uniforms/PCU_5lvl_Jacket/Jacket_PCU_5lvl_Base.et"
@@ -35,7 +35,7 @@ SCR_ChimeraCharacter : "{FDAEA6C9F2673B02}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{DA9F58F75CE6E234}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_UCP.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{05CC810C5C8CB32A}Prefabs/Characters/Footwear/CombatBoots_US_LightTan.et"
+     Prefab "{750DF3DD86728F1B}Prefabs/Characters/Footwear/JungleBoots_01/JungleBoots_Desert_Worn.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{99B347D92F16A6D3}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"

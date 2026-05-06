@@ -14,8 +14,6 @@ SCR_ChimeraCharacter : "{3ECA3A935BC069B9}Prefabs/Characters/Factions/OPFOR/USSR
     LoadoutSlotInfo Pants {
      Prefab "{79E1BCA6AD2D7828}Prefabs/Characters/Uniforms/ARY_M69/ARY_Pants_M69_base.et"
     }
-    LoadoutSlotInfo Boots {
-    }
     LoadoutSlotInfo Vest {
      Prefab "{08155E701A949620}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman.et"
     }
@@ -24,30 +22,24 @@ SCR_ChimeraCharacter : "{3ECA3A935BC069B9}Prefabs/Characters/Factions/OPFOR/USSR
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
-     TargetStorage "Pants/ARY_Pants_MSV80_base.et"
+     TargetStorage "Pants/ARY_Pants_M69_base.et"
     }
     ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
-     TargetStorage "Jacket/ARY_Jacket_MSV80_base.et"
+     TargetStorage "Jacket/ARY_Jacket_M69_base.et"
     }
-    ItemsInitConfigurationItem "{68FA07B23E6E3AB2}" {
-     TargetStorage "Jacket/ARY_Jacket_MSV80_base.et"
+    ItemsInitConfigurationItem "{68F6FE8C62E31C68}" {
+     TargetStorage "Jacket/ARY_Jacket_M69_base.et"
      PrefabsToSpawn {
       "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
     }
-    ItemsInitConfigurationItem "{68FA07B23E6E3A05}" {
-     TargetStorage "Vest/Vest_SovietHarness_rifleman.et/Bayonet/Scabbard_Bayonet_6Kh4.et"
-     PrefabsToSpawn {
-      "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et"
-     }
-    }
-    ItemsInitConfigurationItem "{68FA07B23E6E3A04}" {
+    ItemsInitConfigurationItem "{68F6FE8DE063E108}" {
      TargetStorage "Vest/Vest_SovietHarness_rifleman.et/GrenadePouch/Vest_SovietHarness_GrenadePouch.et"
      PrefabsToSpawn {
       "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
-    ItemsInitConfigurationItem "{68FA07B23E6E3A07}" {
+    ItemsInitConfigurationItem "{68F6FE8DDE9F64AA}" {
      TargetStorage "Vest/Vest_SovietHarness_rifleman.et/MagPouch_6Sh46/Pouch_Soviet_30rnd_AK74.et"
     }
    }

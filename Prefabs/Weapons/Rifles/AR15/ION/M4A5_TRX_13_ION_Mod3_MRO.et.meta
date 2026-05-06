@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{C0DFB05B6CF9C3FE}Prefabs/Weapons/Rifles/AR15/ION/M4A5_TRX_13_ION_Mod3_MRO.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

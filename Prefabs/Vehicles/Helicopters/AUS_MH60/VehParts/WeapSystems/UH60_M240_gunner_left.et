@@ -1,0 +1,12 @@
+Turret : "{A2A1B4001EDCA44D}Prefabs/Vehicles/Helicopters/AUS_MH60/VehParts/WeapSystems/UH60_M134_gunner_left.et" {
+ ID "51ACD0965653D003"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0.0207 -0.2814 0.0234
+    Angles 0 -90 0
+   }
+   WeaponTemplate "{B51ADC7AA6FF62B9}Prefabs/Weapons/HeavyWeapons/GC_MG_M240_pintle_noarmor.et"
+  }
+ }
+}

@@ -9,7 +9,7 @@ SCR_ChimeraCharacter : "{D4F690DE83BEA3DA}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{C065B8A810411D66}Prefabs/Weapons/MachineGuns/M249/MG_M249_ELCAN.et"
+   WeaponTemplate "{BA8E4CE57E16FABB}Prefabs/Weapons/MachineGuns/M249/MG_FN_Minimi_M249E2_NoHandGuard_SU230_PEQ.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {

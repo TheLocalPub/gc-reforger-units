@@ -2,6 +2,10 @@ SCR_ChimeraCharacter : "{64AD55FF89C97DF9}Prefabs/Characters/Factions/BLUFOR/US_
  ID "52092032B0E62200"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+    IconSetName ""
+   }
    m_VariantData SCR_EditableEntityVariantData "{60F6B2B4BAE04806}" {
     m_bRandomizeDefaultVariant 0
     m_aVariants {

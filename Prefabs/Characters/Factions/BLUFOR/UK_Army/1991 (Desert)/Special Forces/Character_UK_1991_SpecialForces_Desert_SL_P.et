@@ -1,6 +1,11 @@
-SCR_ChimeraCharacter : "{3CE5ECA660B55B94}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_SL_P.et" {
+SCR_ChimeraCharacter : "{3CE5ECA660B55B94}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Special Forces/Character_UK_1989_SpecialForces_SL_P.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{96C945983B9115E6}UI/Textures/EditableEntities/Characters/BritishRanks/EditableEntity_Character_British_CPL.edds"
+   }
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
@@ -21,9 +26,6 @@ SCR_ChimeraCharacter : "{3CE5ECA660B55B94}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{610CC31428816D50}" {
      TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
     }
-    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
-     TargetStorage "Jacket/Jacket_Tropical_DesertDPM_01.et"
-    }
     ItemsInitConfigurationItem "{62849D41EBD1BF6E}" {
      TargetStorage "Jacket/Jacket_Tropical_DesertDPM_01.et"
     }
@@ -35,6 +37,9 @@ SCR_ChimeraCharacter : "{3CE5ECA660B55B94}Prefabs/Characters/Factions/BLUFOR/UK_
     }
     ItemsInitConfigurationItem "{62849D41EBD4ECE4}" {
      TargetStorage "Vest/Vest_COP.et"
+    }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Jacket/Jacket_Tropical_DesertDPM_01.et"
     }
     ItemsInitConfigurationItem "{62849D41EBD49CCA}" {
      TargetStorage "Vest/Vest_COP.et"

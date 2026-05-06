@@ -98,7 +98,7 @@ SCR_ChimeraCharacter : "{7B2E27A574B79BCE}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{661C914C447B30FA}" {
-     TargetStorage "Jacket/Jacket_US_BDU_2004.et"
+     TargetStorage "Pants/BDU_Trousers_Tucked_Woodland.et"
      PrefabsToSpawn {
       "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et"
      }

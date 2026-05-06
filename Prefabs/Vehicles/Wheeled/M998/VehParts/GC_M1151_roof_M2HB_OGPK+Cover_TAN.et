@@ -1,0 +1,24 @@
+GenericEntity : "{9847569F5F61F02B}Prefabs/Vehicles/Wheeled/M998/VehParts/GC_M1151_roof_M2HB_OGPK+Cover.et" {
+ ID "672EDBFBD09A1100"
+ components {
+  MeshObject "{672EDBFBD09A1EBE}" {
+   Materials {
+    MaterialAssignClass "{690D56230F1B7404}" {
+     SourceMaterial "M1151A1_Armor_01"
+     AssignedMaterial "{BBD83E898B781E2A}Assets/Vehicles/Wheeled/M1151/Data/Armor_01/M1151A1_Armor_01_Tan.emat"
+    }
+    MaterialAssignClass "{690D56230F1B7471}" {
+     SourceMaterial "M1151A1_Armor_02"
+     AssignedMaterial "{80B049F4313279EB}Assets/Vehicles/Wheeled/M1151/Data/Armor_02/M1151A1_Armor_02_Tan.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{672EDBFBD09A1E84}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{8D9DD29EBFA08DA6}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_OGPK_M2.et"
+    }
+   }
+  }
+ }
+}

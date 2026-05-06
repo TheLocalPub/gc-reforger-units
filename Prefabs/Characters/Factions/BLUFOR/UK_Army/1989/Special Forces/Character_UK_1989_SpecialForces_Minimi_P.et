@@ -1,8 +1,8 @@
-SCR_ChimeraCharacter : "{89F7B786D21EC49C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_GPMG_P.et" {
+SCR_ChimeraCharacter : "{89F7B786D21EC49C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Special Forces/Character_UK_1989_SpecialForces_GPMG_P.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et"
+   WeaponTemplate "{D17695658497EA22}Prefabs/Weapons/MachineGuns/M249/MG_FN_Minimi_M249E3_Para.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
