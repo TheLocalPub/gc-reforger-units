@@ -1,19 +1,18 @@
-SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_Base.et" {
+SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Character_IRAQ_2000_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_MortarAssistantGunner"
     IconSetName "EditableEntity_Character_Ammo_Bearer"
-    m_Image "{768647F861FC76D4}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_AMG.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{68CD564B728A8971}" {
     m_aVariants {
      SCR_EditableEntityVariant "{68CD564B72512FD8}" {
-      m_sVariantPrefab "{B1BE332FD707826F}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Variants/Character_IRAQ_2000_MortarLoader1.et"
+      m_sVariantPrefab "{B1BE332FD707826F}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Variants/Character_IRAQ_2000_MortarLoader1.et"
      }
      SCR_EditableEntityVariant "{68CD564B73EE183C}" {
-      m_sVariantPrefab "{DDEA07CF6BC30D41}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Variants/Character_IRAQ_2000_MortarLoader2.et"
+      m_sVariantPrefab "{DDEA07CF6BC30D41}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Variants/Character_IRAQ_2000_MortarLoader2.et"
      }
     }
    }
