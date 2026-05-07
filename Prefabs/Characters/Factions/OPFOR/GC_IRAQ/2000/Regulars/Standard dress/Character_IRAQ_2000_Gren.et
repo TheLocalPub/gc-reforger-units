@@ -1,11 +1,10 @@
-SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Character_IRAQ_2000_Base.et" {
+SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Character_IRAQ_2000_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_Grenadier"
     IconSetName "EditableEntity_Character_Grenadier"
-    m_Image "{030E2E704B1974C2}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_GL.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {

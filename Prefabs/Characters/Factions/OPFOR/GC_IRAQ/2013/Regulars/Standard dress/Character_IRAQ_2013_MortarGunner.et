@@ -16,15 +16,14 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
     Name "#AR-Role_MortarGunner"
     Description "Iraqi 2013 Mortar Gunner"
     IconSetName "EditableEntity_Character_Mortar"
-    m_Image "{2A37F8C215AE2ABB}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_MortarAB.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{694B1260C9249A59}" {
     m_aVariants {
      SCR_EditableEntityVariant "{694B1260C9249A50}" {
-      m_sVariantPrefab "{D06857B157D87283}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_MortarGunner1.et"
+      m_sVariantPrefab "{D06857B157D87283}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_MortarGunner1.et"
      }
      SCR_EditableEntityVariant "{694B1260C9249A55}" {
-      m_sVariantPrefab "{BC3C6351EB1CFDAD}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_MortarGunner2.et"
+      m_sVariantPrefab "{BC3C6351EB1CFDAD}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_MortarGunner2.et"
      }
     }
    }

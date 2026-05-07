@@ -16,7 +16,6 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
     Name "#AR-Role_AutomaticRifleman"
     Description "Iraqi 2013 AR"
     IconSetName "EditableEntity_Character_Machinegunner"
-    m_Image "{D93455A6F79B928C}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_AR.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{69488D1CD014C288}" {
     m_aVariants {

@@ -17,7 +17,6 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
     Name "#AR-Role_PlatoonLeader"
     Description "Iraqi 2013 PLT Cmdr"
     IconSetName "EditableEntity_Character_Leader_Squad"
-    m_Image "{49AAE3F904B2ADC3}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Officer.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{6946F50995FEC9C4}" {
     m_aVariants {

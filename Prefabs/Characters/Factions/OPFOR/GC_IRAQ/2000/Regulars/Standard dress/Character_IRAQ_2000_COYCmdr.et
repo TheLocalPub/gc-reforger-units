@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_Base.et" {
+SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Character_IRAQ_2000_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -16,15 +16,14 @@ SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_I
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Company Commander"
     IconSetName "EditableEntity_Character_SquadLeaderALT"
-    m_Image "{49AAE3F904B2ADC3}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Officer.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{68CF06BD5B407669}" {
     m_aVariants {
      SCR_EditableEntityVariant "{68CF06BD58779A15}" {
-      m_sVariantPrefab "{0BCBB84E9DEDE588}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Variants/Character_IRAQ_2000_COYCmdr1.et"
+      m_sVariantPrefab "{0BCBB84E9DEDE588}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Variants/Character_IRAQ_2000_COYCmdr1.et"
      }
      SCR_EditableEntityVariant "{68CF06BD59FCCA6F}" {
-      m_sVariantPrefab "{679F8CAE21296AA6}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Variants/Character_IRAQ_2000_COYCmdr2.et"
+      m_sVariantPrefab "{679F8CAE21296AA6}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Variants/Character_IRAQ_2000_COYCmdr2.et"
      }
     }
    }

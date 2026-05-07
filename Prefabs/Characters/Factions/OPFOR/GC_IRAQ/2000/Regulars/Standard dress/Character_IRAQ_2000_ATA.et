@@ -1,19 +1,18 @@
-SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_Base.et" {
+SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Character_IRAQ_2000_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_AntiTankAssistant"
     IconSetName "EditableEntity_Character_Ammo_Bearer"
-    m_Image "{64E4072188808E92}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_AT.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{68CF06A9C9C54F62}" {
     m_aVariants {
      SCR_EditableEntityVariant "{68CF06A9CE9FEB3E}" {
-      m_sVariantPrefab "{B82345C39670EB6C}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Variants/Character_IRAQ_2000_ATA1.et"
+      m_sVariantPrefab "{B82345C39670EB6C}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Variants/Character_IRAQ_2000_ATA1.et"
      }
      SCR_EditableEntityVariant "{68CF06A9CEDDC2DA}" {
-      m_sVariantPrefab "{D47771232AB46442}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Variants/Character_IRAQ_2000_ATA2.et"
+      m_sVariantPrefab "{D47771232AB46442}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Variants/Character_IRAQ_2000_ATA2.et"
      }
     }
    }

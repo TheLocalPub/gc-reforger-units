@@ -1,19 +1,18 @@
-SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_Base.et" {
+SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Character_IRAQ_2000_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_Rifleman"
     IconSetName "EditableEntity_Character_Rifleman"
-    m_Image "{6A8FF7A3F9007CD0}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Rifleman.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{68CD3BCB233EBA8A}" {
     m_aVariants {
      SCR_EditableEntityVariant "{68CD3BCB21A0EB55}" {
-      m_sVariantPrefab "{56872F12C6D3E41F}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Variants/Character_IRAQ_2000_Rifleman1.et"
+      m_sVariantPrefab "{56872F12C6D3E41F}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Variants/Character_IRAQ_2000_RF1.et"
      }
      SCR_EditableEntityVariant "{68CD3BCB218947FB}" {
-      m_sVariantPrefab "{3AD31BF27A176B31}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Variants/Character_IRAQ_2000_Rifleman2.et"
+      m_sVariantPrefab "{3AD31BF27A176B31}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Variants/Character_IRAQ_2000_RF2.et"
      }
     }
    }

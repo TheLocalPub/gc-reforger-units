@@ -16,7 +16,6 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
     Name "#AR-Role_AntiTankAssistant"
     Description "Iraqi 2013 MAAT"
     IconSetName "EditableEntity_Character_Ammo_Bearer"
-    m_Image "{5E3BDEFE331DDF53}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_AAT.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{69488D029072BF59}" {
     m_aVariants {

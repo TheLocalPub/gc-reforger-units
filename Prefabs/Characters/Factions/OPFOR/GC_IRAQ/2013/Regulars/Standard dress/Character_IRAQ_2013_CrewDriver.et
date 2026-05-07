@@ -17,12 +17,11 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
     Name "#AR-VehiclePosition_Driver"
     Description "Iraqi 2013 Crew Driver"
     IconSetName "EditableEntity_Character_Driver"
-    m_Image "{2BD44B75425A52FD}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Crew.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{694B40B4535EFB83}" {
     m_aVariants {
      SCR_EditableEntityVariant "{694B40B4535EFB98}" {
-      m_sVariantPrefab "{1A16FEADA6F7DD18}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_CrewDriver1.et"
+      m_sVariantPrefab "{1A16FEADA6F7DD18}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_CrewDriver1.et"
      }
     }
    }

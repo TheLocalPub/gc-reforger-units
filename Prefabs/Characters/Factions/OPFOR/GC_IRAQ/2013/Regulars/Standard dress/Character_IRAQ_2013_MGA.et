@@ -16,15 +16,14 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
     Name "#AR-Role_AssistantMachineGunner"
     Description "Iraqi 2013 AMG"
     IconSetName "EditableEntity_ "
-    m_Image "{768647F861FC76D4}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_AMG.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{69488D3E3D0741EB}" {
     m_aVariants {
      SCR_EditableEntityVariant "{69488D3E3D0741E4}" {
-      m_sVariantPrefab "{2186F96748D49F2F}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_AMG1.et"
+      m_sVariantPrefab "{2186F96748D49F2F}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_MGA1.et"
      }
      SCR_EditableEntityVariant "{69488D3E3D0741E6}" {
-      m_sVariantPrefab "{4DD2CD87F4101001}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_AMG2.et"
+      m_sVariantPrefab "{4DD2CD87F4101001}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_MGA2.et"
      }
     }
    }

@@ -16,7 +16,6 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
     Name "#AR-Role_MachineGunner"
     Description "Iraqi 2013 MG"
     IconSetName "EditableEntity_Character_Machinegunner"
-    m_Image "{4C599E27DA612715}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_MG.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{69488D1CA47003E3}" {
     m_aVariants {

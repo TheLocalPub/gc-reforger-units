@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Icon "{EE0B4CDEA86FC24A}UI/Textures/DeployMenu/LoadoutIcons/LoadoutIcons.imageset"
     IconSetName "EditableEntity_Character_Custom"
-    m_Image "{6A73F75531DF6AD6}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Unarmed.edds"
+    m_Image "{67DE4AFC4A005CAC}Images/GC_IRAQ/Era Images/Character_Iraq_Regular_2000_RoleImage.edds"
     m_sFaction "GC_IRAQ"
     m_aAuthoredLabels + {
      ENTITYTYPE_CHARACTER FACTION_GC_IRAQ

@@ -1,19 +1,18 @@
-SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_Base.et" {
+SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Character_IRAQ_2000_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_Medic"
     IconSetName "EditableEntity_Character_Medic"
-    m_Image "{9225D8E3CFAD7926}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Medic.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{68CD3BCB42F7EE2F}" {
     m_aVariants {
      SCR_EditableEntityVariant "{68CD3BCB43F8E12B}" {
-      m_sVariantPrefab "{0B9628F445AC720A}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Variants/Character_IRAQ_2000_Medic1.et"
+      m_sVariantPrefab "{0B9628F445AC720A}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Variants/Character_IRAQ_2000_MED1.et"
      }
      SCR_EditableEntityVariant "{68CD3BC89E36BECC}" {
-      m_sVariantPrefab "{67C21C14F968FD24}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Variants/Character_IRAQ_2000_Medic2.et"
+      m_sVariantPrefab "{67C21C14F968FD24}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Variants/Character_IRAQ_2000_MED2.et"
      }
     }
    }

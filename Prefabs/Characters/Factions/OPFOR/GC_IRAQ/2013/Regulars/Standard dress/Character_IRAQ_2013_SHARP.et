@@ -16,7 +16,6 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
     Name "#AR-Role_Sharpshooter"
     Description "Iraqi 2013 Sharpshooter"
     IconSetName "EditableEntity_Character_Sharpshooter"
-    m_Image "{CA21F66986FE4498}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Sharpshooter.edds"
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {

@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_Base.et" {
+SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Character_IRAQ_2000_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -16,15 +16,14 @@ SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_I
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_AssistantMachineGunner"
     IconSetName "EditableEntity_"
-    m_Image "{768647F861FC76D4}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_AMG.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{68CF06B86590A7E1}" {
     m_aVariants {
      SCR_EditableEntityVariant "{68CF06B85AB53AAA}" {
-      m_sVariantPrefab "{909EDCC5C49142EB}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Variants/Character_IRAQ_2000_MGA1.et"
+      m_sVariantPrefab "{909EDCC5C49142EB}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Variants/Character_IRAQ_2000_MGA1.et"
      }
      SCR_EditableEntityVariant "{68CF06B85A215BE6}" {
-      m_sVariantPrefab "{FCCAE8257855CDC5}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Variants/Character_IRAQ_2000_MGA2.et"
+      m_sVariantPrefab "{FCCAE8257855CDC5}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Variants/Character_IRAQ_2000_MGA2.et"
      }
     }
    }

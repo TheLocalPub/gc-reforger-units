@@ -1,16 +1,15 @@
-SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_Base.et" {
+SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Character_IRAQ_2000_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-VehiclePosition_Gunner"
     IconSetName "EditableEntity_Character_Sharpshooter"
-    m_Image "{2BD44B75425A52FD}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Crew.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{68CD3BCC525E039A}" {
     m_aVariants {
      SCR_EditableEntityVariant "{68CD3BCC50BC2D3F}" {
-      m_sVariantPrefab "{FED757A34B546CD5}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Variants/Character_IRAQ_2000_CrewGunner1.et"
+      m_sVariantPrefab "{FED757A34B546CD5}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Variants/Character_IRAQ_2000_CrewGunner1.et"
      }
     }
    }
