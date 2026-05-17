@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{20AB36AAD00CE397}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_MED.et" {
+SCR_ChimeraCharacter : "{20AB36AAD00CE397}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_MED.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -10,7 +10,6 @@ SCR_ChimeraCharacter : "{20AB36AAD00CE397}Prefabs/Characters/Factions/OPFOR/GC_I
      Prefab "{54765DF450BCA077}Prefabs/Characters/HeadGear/ARY_Helmet_M1_01/ARY_Helmet_M1_01_Cover_NoChinCup_Mitchell_Clouds.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{8B04C60261FB67B5}Prefabs/Characters/Uniforms/Jacket_US_DBDU_rolledup_RAS.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{AC5F605B98516B3D}Prefabs/Characters/Vests/Vest_IBA/Variants/OTV/Vest_OTV_CollarP_3CD.et"
@@ -29,7 +28,6 @@ SCR_ChimeraCharacter : "{20AB36AAD00CE397}Prefabs/Characters/Factions/OPFOR/GC_I
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6946A164D8EA1DE8}" {
-     TargetStorage "Jacket/Jacket_US_DBDU_rolledup_RAS.et"
     }
     ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
      TargetStorage "ArmoredVest/Vest_OTV_CollarP_3CD.et"

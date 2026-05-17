@@ -16,6 +16,8 @@ SCR_ChimeraCharacter : "{42D2D01DACC3D553}Prefabs/Characters/Factions/OPFOR/GC_I
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{6946A164D8EA1DE8}" {
+    }
     ItemsInitConfigurationItem "{694B127CD6D3C972}" {
      TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_wdl.et/Slot_L11/Pouch_MOLLE-M16_single_base.et"
      PrefabsToSpawn {

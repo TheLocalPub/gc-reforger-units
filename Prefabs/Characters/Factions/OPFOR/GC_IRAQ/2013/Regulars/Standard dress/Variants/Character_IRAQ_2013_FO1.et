@@ -37,6 +37,12 @@ SCR_ChimeraCharacter : "{D95174A660DB6BCE}Prefabs/Characters/Factions/OPFOR/GC_I
       "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
      }
     }
+    ItemsInitConfigurationItem "{694B1265EA346280}" {
+     TargetStorage "Pants/BDU_Trousers_Tucked_DCU.et"
+     PrefabsToSpawn {
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+    }
     ItemsInitConfigurationItem "{694B12623EA2DCD8}" {
      TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_3CD.et/Slot_L12/Pouch_MOLLE-M16_single_3CD.et"
      PrefabsToSpawn {

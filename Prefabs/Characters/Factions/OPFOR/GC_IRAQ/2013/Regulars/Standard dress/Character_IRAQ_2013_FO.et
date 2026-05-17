@@ -39,7 +39,7 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{4848BD3BA3326555}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_3ColorDesert_cover.et"
+     Prefab "{5EE0C2E5B2F59DD8}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_ACH_Cov_M81_early.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{FEBAAEBB8C255060}Prefabs/Characters/Vests/Vest_IBA/Vest_OTV_3CD.et"
@@ -74,9 +74,9 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
      }
     }
     ItemsInitConfigurationItem "{694B1265EA346280}" {
-     TargetStorage "Pants/Pants_US_DBDU_RAS.et"
+     TargetStorage "Pants/BDU_Trousers_Tucked_DCU.et"
      PrefabsToSpawn {
-      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
      }
     }
    }

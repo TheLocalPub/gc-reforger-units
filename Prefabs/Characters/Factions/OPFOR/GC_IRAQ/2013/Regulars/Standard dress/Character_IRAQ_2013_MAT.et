@@ -43,7 +43,6 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
      Prefab "{0CC74A19BD6607A8}Prefabs/Characters/HeadGear/ARY_Helmet_M1_01/ARY_Helmet_M1_01_Cover_NoChinCup_Tan.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{8B04C60261FB67B5}Prefabs/Characters/Uniforms/Jacket_US_DBDU_rolledup_RAS.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{22352EBAF33C8F1C}Prefabs/Characters/Vests/Vest_IBA/Vest_OTV_base.et"
@@ -64,7 +63,6 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6946A164D8EA1DE8}" {
-     TargetStorage "Jacket/Jacket_US_DBDU_rolledup_RAS.et"
     }
     ItemsInitConfigurationItem "{6946DD14EBEE209C}" {
     }
@@ -72,7 +70,7 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
      TargetStorage "ArmoredVest/Vest_OTV_base.et"
     }
     ItemsInitConfigurationItem "{69488D1B46D7CADE}" {
-     TargetStorage "Vest/Vest_Lifchik_CL.et"
+     TargetStorage "Vest/Vest_Type56.et"
      PrefabsToSpawn {
       "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{D7D38B4E269417F8}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Tracer.et" "{D7D38B4E269417F8}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Tracer.et"
      }

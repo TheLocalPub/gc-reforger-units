@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{795997BB56ADC8AA}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_RF.et" {
+SCR_ChimeraCharacter : "{795997BB56ADC8AA}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_RF.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -10,7 +10,7 @@ SCR_ChimeraCharacter : "{795997BB56ADC8AA}Prefabs/Characters/Factions/OPFOR/GC_I
      Prefab "{E685A8D337D36204}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover_w_goggles.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{8B04C60261FB67B5}Prefabs/Characters/Uniforms/Jacket_US_DBDU_rolledup_RAS.et"
+     Prefab "{055BF24626BE83FC}Prefabs/Characters/Uniforms/BDU Blouses/BDU_Raid_Blouse_DCU.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{1CE63A4632AA4D95}Prefabs/Characters/Vests/Vest_IBA/Variants/OTV/Vest_OTV_CollarP_wThroatP_v3_CB.et"
@@ -29,7 +29,6 @@ SCR_ChimeraCharacter : "{795997BB56ADC8AA}Prefabs/Characters/Factions/OPFOR/GC_I
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6946A164D8EA1DE8}" {
-     TargetStorage "Jacket/Jacket_US_DBDU_rolledup_RAS.et"
     }
     ItemsInitConfigurationItem "{6946DD14EBEE209C}" {
      PrefabsToSpawn +{
@@ -48,8 +47,9 @@ SCR_ChimeraCharacter : "{795997BB56ADC8AA}Prefabs/Characters/Factions/OPFOR/GC_I
      }
     }
     ItemsInitConfigurationItem "{6946F502305C4D09}" {
+     TargetStorage "Pants/BDU_Trousers_Tucked_DCU.et"
      PrefabsToSpawn {
-      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et"
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
     }
     ItemsInitConfigurationItem "{69488D5DB5BF17E5}" {
@@ -68,6 +68,12 @@ SCR_ChimeraCharacter : "{795997BB56ADC8AA}Prefabs/Characters/Factions/OPFOR/GC_I
      TargetStorage "Vest/Vest_ChestRigSmall_4.et"
      PrefabsToSpawn {
       "{FAFA0D71E75CEBE2}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Tracer.et" "{FAFA0D71E75CEBE2}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69627B5DCAB871BF}" {
+     TargetStorage "Back/Backpack_Small.et"
+     PrefabsToSpawn {
+      "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et"
      }
     }
    }

@@ -43,7 +43,7 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
      Prefab "{B138C1726E6C2488}Prefabs/Characters/Vests/Vest_IBA/Vest_OTV_CB.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{05CC810C5C8CB32A}Prefabs/Characters/Footwear/CombatBoots_US_LightTan.et"
+     Prefab "{203EEA924B049EF1}Prefabs/Characters/Footwear/JungleBoots_01/JungleBoots_01.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{73EFD7591F4134D3}Prefabs/Items/Equipment/Radios/Radio_RF10/Radio_RF10.et"
@@ -74,7 +74,7 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
     ItemsInitConfigurationItem "{69488D58728A42A0}" {
      TargetStorage "Pants/Pants_US_DBDU_RAS.et"
      PrefabsToSpawn {
-      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
      }
     }
    }

@@ -15,7 +15,7 @@ SCR_ChimeraCharacter : "{186D89B9E171CB4E}Prefabs/Characters/Factions/OPFOR/GC_I
      Prefab "{22352EBAF33C8F1C}Prefabs/Characters/Vests/Vest_IBA/Vest_OTV_base.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{05CC810C5C8CB32A}Prefabs/Characters/Footwear/CombatBoots_US_LightTan.et"
+     Prefab "{203EEA924B049EF1}Prefabs/Characters/Footwear/JungleBoots_01/JungleBoots_01.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{25F3E9A9A45B3C58}Prefabs/Items/Equipment/Backpacks/Backpack_Para_Bergen.et"

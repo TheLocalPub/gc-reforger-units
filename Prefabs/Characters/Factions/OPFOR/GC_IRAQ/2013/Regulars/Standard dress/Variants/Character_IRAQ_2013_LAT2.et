@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_Base.et" {
+SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -21,13 +21,13 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
    m_VariantData SCR_EditableEntityVariantData "{69488D4EA203D544}" {
     m_aVariants {
      SCR_EditableEntityVariant "{69488D4EA203D55C}" {
-      m_sVariantPrefab "{22623F7C792EE284}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Variants/Character_IRAQ_2020_RF1.et"
+      m_sVariantPrefab "{22623F7C792EE284}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_RF1.et"
      }
      SCR_EditableEntityVariant "{69488D4EA203D55E}" {
-      m_sVariantPrefab "{4E360B9CC5EA6DAA}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Variants/Character_IRAQ_2020_RF2.et"
+      m_sVariantPrefab "{4E360B9CC5EA6DAA}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_RF2.et"
      }
      SCR_EditableEntityVariant "{69488D4EA203D550}" {
-      m_sVariantPrefab "{ABAA4765C90FFAC1}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Variants/Character_IRAQ_2020_RF3.et"
+      m_sVariantPrefab "{ABAA4765C90FFAC1}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_RF3.et"
      }
     }
    }
@@ -44,7 +44,7 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{1570007557EAA79E}Prefabs/Characters/HeadGear/Helmet_MICH_01/Helmet_MICH_M81_cover.et"
+     Prefab "{5EE0C2E5B2F59DD8}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_ACH_Cov_M81_early.et"
     }
     LoadoutSlotInfo Jacket {
     }
@@ -80,7 +80,7 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
      }
     }
     ItemsInitConfigurationItem "{69488D4EA203D5AE}" {
-     TargetStorage "Pants/Pants_US_DBDU_RAS.et"
+     TargetStorage "Pants/BDU_Trousers_Tucked_DCU.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }

@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{0AED20D4643D4223}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_AMG.et" {
+SCR_ChimeraCharacter : "{0AED20D4643D4223}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_MGA.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -7,10 +7,10 @@ SCR_ChimeraCharacter : "{0AED20D4643D4223}Prefabs/Characters/Factions/OPFOR/GC_I
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{4848BD3BA3326555}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_3ColorDesert_cover.et"
+     Prefab "{B561A5614889FF12}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_ACH_Cov_M81.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{8B04C60261FB67B5}Prefabs/Characters/Uniforms/Jacket_US_DBDU_rolledup_RAS.et"
+     Prefab "{055BF24626BE83FC}Prefabs/Characters/Uniforms/BDU Blouses/BDU_Raid_Blouse_DCU.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{D862E18B6713264C}Prefabs/Characters/Vests/Vest_IBA/Variants/OTV/Vest_OTV_GP_3CD.et"
@@ -29,10 +29,10 @@ SCR_ChimeraCharacter : "{0AED20D4643D4223}Prefabs/Characters/Factions/OPFOR/GC_I
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6946A164D8EA1DE8}" {
-     TargetStorage "Jacket/Jacket_US_DBDU_rolledup_RAS.et"
+     TargetStorage "Jacket/BDU_Raid_Blouse_DCU.et"
     }
     ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
-     TargetStorage ""
+     TargetStorage "ArmoredVest/Vest_OTV_GP_3CD.et"
      PrefabsToSpawn {
       "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
      }

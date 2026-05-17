@@ -41,7 +41,7 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{8B04C60261FB67B5}Prefabs/Characters/Uniforms/Jacket_US_DBDU_rolledup_RAS.et"
+     Prefab "{055BF24626BE83FC}Prefabs/Characters/Uniforms/BDU Blouses/BDU_Raid_Blouse_DCU.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{EA21FEF27B7B36B3}Prefabs/Characters/Vests/Vest_IBA/Variants/IBA/Vest_IBA_base_f_Collar-v2_3CD.et"
@@ -57,7 +57,7 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6946A164D8EA1DE8}" {
-     TargetStorage "Jacket/Jacket_US_DBDU_rolledup_RAS.et"
+     TargetStorage "Jacket/BDU_Raid_Blouse_DCU.et"
     }
     ItemsInitConfigurationItem "{6946DD14EBEE209C}" {
      PrefabsToSpawn + {

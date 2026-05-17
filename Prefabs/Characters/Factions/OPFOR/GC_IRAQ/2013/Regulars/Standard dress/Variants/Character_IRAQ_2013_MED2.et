@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{20AB36AAD00CE397}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_MED.et" {
+SCR_ChimeraCharacter : "{20AB36AAD00CE397}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_MED.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -10,13 +10,13 @@ SCR_ChimeraCharacter : "{20AB36AAD00CE397}Prefabs/Characters/Factions/OPFOR/GC_I
      Prefab "{E685A8D337D36204}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover_w_goggles.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{8B04C60261FB67B5}Prefabs/Characters/Uniforms/Jacket_US_DBDU_rolledup_RAS.et"
+     Prefab "{055BF24626BE83FC}Prefabs/Characters/Uniforms/BDU Blouses/BDU_Raid_Blouse_DCU.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{42FE561DE0F19AA2}Prefabs/Characters/Vests/Vest_IBA/Variants/OTV/Vest_OTV_wdl_CollarP_v2_CB.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{05CC810C5C8CB32A}Prefabs/Characters/Footwear/CombatBoots_US_LightTan.et"
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{16C7AD0508F53A9B}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_OD.et"
@@ -32,7 +32,7 @@ SCR_ChimeraCharacter : "{20AB36AAD00CE397}Prefabs/Characters/Factions/OPFOR/GC_I
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6946A164D8EA1DE8}" {
-     TargetStorage "Jacket/Jacket_US_DBDU_rolledup_RAS.et"
+     TargetStorage "Jacket/BDU_Raid_Blouse_DCU.et"
     }
     ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
      TargetStorage "ArmoredVest/Vest_OTV_wdl_CollarP_v2_CB.et"

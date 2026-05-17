@@ -40,10 +40,10 @@ SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base
      Prefab "{B74A4FF0DD8BB116}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{EB12020607004F7D}Prefabs/Characters/Uniforms/Jacket_US_DBDU_RAS.et"
+     Prefab "{055BF24626BE83FC}Prefabs/Characters/Uniforms/BDU Blouses/BDU_Raid_Blouse_DCU.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{469C996CD43EAF42}Prefabs/Characters/Uniforms/Pants_US_DBDU_RAS.et"
+     Prefab "{EF748F4EEEFEE0CA}Prefabs/Characters/Uniforms/BDU Trousers/BDU_Trousers_Tucked_DCU.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{3E907D6732445C0F}Prefabs/Characters/Footwear/Boots_DMS_UK_01.et"
@@ -55,19 +55,18 @@ SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6946A164D8EA1DE8}" {
-     TargetStorage "Jacket/Jacket_US_DBDU_RAS.et"
+     TargetStorage "Jacket/BDU_Raid_Blouse_DCU.et"
      PrefabsToSpawn {
       "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et"
      }
     }
     ItemsInitConfigurationItem "{6946DD14EBEE209C}" {
-     TargetStorage "Pants/Pants_US_DBDU_RAS.et"
+     TargetStorage "Pants/BDU_Trousers_Tucked_DCU.et"
      PrefabsToSpawn {
       "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
      }
     }
     ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
-     TargetStorage "Vest/Jacket_US_BDU_02.et"
      TargetPurpose 64
      PrefabsToSpawn {
       "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"

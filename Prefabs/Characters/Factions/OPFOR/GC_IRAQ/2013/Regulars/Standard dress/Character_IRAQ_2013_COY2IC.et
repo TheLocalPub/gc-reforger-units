@@ -70,7 +70,7 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
      }
     }
     ItemsInitConfigurationItem "{6946DD1D956F341E}" {
-     TargetStorage "Vest/Vest_Bandolier_Side-Left_3CD.et/Bandolier/Pouch_MOLLE-Bandolier_3CD.et"
+     TargetStorage "Vest/Vest_Lifchik_Cuba.et"
      PrefabsToSpawn {
       "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
      }

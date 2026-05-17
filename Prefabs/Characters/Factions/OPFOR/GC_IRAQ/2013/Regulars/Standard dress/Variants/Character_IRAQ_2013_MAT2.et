@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B902D3EA24274633}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_MAT.et" {
+SCR_ChimeraCharacter : "{B902D3EA24274633}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_MAT.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -10,7 +10,7 @@ SCR_ChimeraCharacter : "{B902D3EA24274633}Prefabs/Characters/Factions/OPFOR/GC_I
      Prefab "{FE5C49069C2499D9}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{EB12020607004F7D}Prefabs/Characters/Uniforms/Jacket_US_DBDU_RAS.et"
+     Prefab "{055BF24626BE83FC}Prefabs/Characters/Uniforms/BDU Blouses/BDU_Raid_Blouse_DCU.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{FEBAAEBB8C255060}Prefabs/Characters/Vests/Vest_IBA/Vest_OTV_3CD.et"

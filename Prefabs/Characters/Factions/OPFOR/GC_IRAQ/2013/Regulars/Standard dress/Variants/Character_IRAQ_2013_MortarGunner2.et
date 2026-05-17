@@ -10,7 +10,7 @@ SCR_ChimeraCharacter : "{186D89B9E171CB4E}Prefabs/Characters/Factions/OPFOR/GC_I
      Prefab "{384B3E26928A791A}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_3ColorDesert_cover_w_goggles.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{EB12020607004F7D}Prefabs/Characters/Uniforms/Jacket_US_DBDU_RAS.et"
+     Prefab "{055BF24626BE83FC}Prefabs/Characters/Uniforms/BDU Blouses/BDU_Raid_Blouse_DCU.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{22352EBAF33C8F1C}Prefabs/Characters/Vests/Vest_IBA/Vest_OTV_base.et"

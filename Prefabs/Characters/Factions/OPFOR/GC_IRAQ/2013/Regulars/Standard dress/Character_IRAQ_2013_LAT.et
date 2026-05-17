@@ -43,7 +43,6 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
      Prefab "{9A7FFB1C2C8409BF}Prefabs/Characters/HeadGear/ARY_Helmet_M1_01/ARY_Helmet_M1_01_Cover_NoChinCup_Khaki.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{8B04C60261FB67B5}Prefabs/Characters/Uniforms/Jacket_US_DBDU_rolledup_RAS.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{22352EBAF33C8F1C}Prefabs/Characters/Vests/Vest_IBA/Vest_OTV_base.et"
@@ -64,7 +63,6 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6946A164D8EA1DE8}" {
-     TargetStorage "Jacket/Jacket_US_DBDU_rolledup_RAS.et"
     }
     ItemsInitConfigurationItem "{6946DD14EBEE209C}" {
     }
@@ -78,7 +76,7 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
      }
     }
     ItemsInitConfigurationItem "{69488D4D09FA513A}" {
-     TargetStorage "Pants/Pants_US_DBDU_RAS.et"
+     TargetStorage "Pants/BDU_Trousers_Tucked_DCU.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }

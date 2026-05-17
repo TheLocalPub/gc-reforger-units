@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{68AC805346970A97}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_SHARP.et" {
+SCR_ChimeraCharacter : "{68AC805346970A97}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_SHARP.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -13,7 +13,7 @@ SCR_ChimeraCharacter : "{68AC805346970A97}Prefabs/Characters/Factions/OPFOR/GC_I
      Prefab "{CFB4C017034CF50F}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH2000_tan_camo.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{8B04C60261FB67B5}Prefabs/Characters/Uniforms/Jacket_US_DBDU_rolledup_RAS.et"
+     Prefab "{055BF24626BE83FC}Prefabs/Characters/Uniforms/BDU Blouses/BDU_Raid_Blouse_DCU.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{FEBAAEBB8C255060}Prefabs/Characters/Vests/Vest_IBA/Vest_OTV_3CD.et"
@@ -32,7 +32,7 @@ SCR_ChimeraCharacter : "{68AC805346970A97}Prefabs/Characters/Factions/OPFOR/GC_I
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6946A164D8EA1DE8}" {
-     TargetStorage "Jacket/Jacket_US_DBDU_rolledup_RAS.et"
+     TargetStorage "Jacket/BDU_Raid_Blouse_DCU.et"
     }
     ItemsInitConfigurationItem "{6946DD14EBEE209C}" {
      PrefabsToSpawn {
@@ -51,6 +51,12 @@ SCR_ChimeraCharacter : "{68AC805346970A97}Prefabs/Characters/Factions/OPFOR/GC_I
       "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et" "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et"
      }
     }
+    ItemsInitConfigurationItem "{69488D0002736B84}" {
+     TargetStorage "Back/Backpack_Small.et"
+     PrefabsToSpawn {
+      "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et" "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et" "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et" "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et"
+     }
+    }
     ItemsInitConfigurationItem "{69488D01F60C941D}" {
      TargetStorage "Vest/Vest_MOLLE-Rig_marksman_wdl.et/Slot_L13/Pouch_ALICE_20rnd_M14.et"
      PrefabsToSpawn {
@@ -61,12 +67,6 @@ SCR_ChimeraCharacter : "{68AC805346970A97}Prefabs/Characters/Factions/OPFOR/GC_I
      TargetStorage "Vest/Vest_MOLLE-Rig_marksman_wdl.et/Slot_R11/Pouch_ALICE_20rnd_M14.et"
      PrefabsToSpawn {
       "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et" "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et"
-     }
-    }
-    ItemsInitConfigurationItem "{69488D0002736B84}" {
-     TargetStorage "Back/Backpack_Small.et"
-     PrefabsToSpawn {
-      "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et" "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et" "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et" "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et"
      }
     }
    }

@@ -10,7 +10,7 @@ SCR_ChimeraCharacter : "{A234F28ECF985A2D}Prefabs/Characters/Factions/OPFOR/GC_I
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{B08100A8DC75064F}Prefabs/Characters/HeadGear/Helmet_MICH_01/Helmet_MICH_DCU_cover.et"
+     Prefab "{5EE0C2E5B2F59DD8}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_ACH_Cov_M81_early.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{A1595C2B2A669969}Prefabs/Characters/Vests/Vest_IBA/Variants/OTV/Vest_OTV_GP.et"
@@ -22,10 +22,15 @@ SCR_ChimeraCharacter : "{A234F28ECF985A2D}Prefabs/Characters/Factions/OPFOR/GC_I
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{6946A164D8EA1DE8}" {
+    }
     ItemsInitConfigurationItem "{6946DD14EBEE209C}" {
      PrefabsToSpawn {
       "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{1E7D876C06089E21}Prefabs/Weapons/Magazines/Magazine_9x19_HiPower_13rnd_Ball.et" "{73950FBA2D7DB5C5}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC68.et" "{B41607EAB58A4252}Prefabs/Items/Equipment/BalisticTable/BalisticTable_USSR.et"
      }
+    }
+    ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
+     TargetStorage "ArmoredVest/Vest_OTV_GP.et"
     }
     ItemsInitConfigurationItem "{69488D3B2BEDE30C}" {
      PrefabsToSpawn {

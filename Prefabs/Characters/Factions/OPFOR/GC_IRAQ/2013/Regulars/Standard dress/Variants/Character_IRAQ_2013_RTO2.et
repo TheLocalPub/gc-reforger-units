@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_Base.et" {
+SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -21,13 +21,13 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
    m_VariantData SCR_EditableEntityVariantData "{69488D5A84869678}" {
     m_aVariants {
      SCR_EditableEntityVariant "{69488D5A84869673}" {
-      m_sVariantPrefab "{22623F7C792EE284}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Variants/Character_IRAQ_2020_RF1.et"
+      m_sVariantPrefab "{22623F7C792EE284}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_RF1.et"
      }
      SCR_EditableEntityVariant "{69488D5A84869676}" {
-      m_sVariantPrefab "{4E360B9CC5EA6DAA}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Variants/Character_IRAQ_2020_RF2.et"
+      m_sVariantPrefab "{4E360B9CC5EA6DAA}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_RF2.et"
      }
      SCR_EditableEntityVariant "{69488D5A84869677}" {
-      m_sVariantPrefab "{ABAA4765C90FFAC1}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Variants/Character_IRAQ_2020_RF3.et"
+      m_sVariantPrefab "{ABAA4765C90FFAC1}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_RF3.et"
      }
     }
    }
@@ -74,7 +74,7 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
      }
     }
     ItemsInitConfigurationItem "{69488D5A84869645}" {
-     TargetStorage "Pants/Pants_US_DBDU_RAS.et"
+     TargetStorage "Pants/BDU_Trousers_Tucked_DCU.et"
      PrefabsToSpawn {
       "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
      }

@@ -40,7 +40,7 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{7396C6AB427D9CF3}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_DBDU_cover_RAS.et"
+     Prefab "{B769265F1F723E12}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_ACH_Cov_DCU.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{FEBAAEBB8C255060}Prefabs/Characters/Vests/Vest_IBA/Vest_OTV_3CD.et"
@@ -72,7 +72,7 @@ SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_I
      }
     }
     ItemsInitConfigurationItem "{6946F502305C4D09}" {
-     TargetStorage "Pants/Pants_US_DBDU_RAS.et"
+     TargetStorage "Pants/BDU_Trousers_Tucked_DCU.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
