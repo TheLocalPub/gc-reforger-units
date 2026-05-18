@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{255BA49B817E33AD}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_SL.et" {
+SCR_ChimeraCharacter : "{255BA49B817E33AD}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_SL.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -22,7 +22,7 @@ SCR_ChimeraCharacter : "{255BA49B817E33AD}Prefabs/Characters/Factions/OPFOR/GC_I
      Prefab "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{69972375FFB9CDB5}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_leader_v1.et"
+     Prefab "{E0B32ADA2FBE26FC}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_rifleman_v7_3CD.et"
     }
    }
   }
@@ -39,23 +39,23 @@ SCR_ChimeraCharacter : "{255BA49B817E33AD}Prefabs/Characters/Factions/OPFOR/GC_I
       "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
      }
     }
-    ItemsInitConfigurationItem "{6946F51F7A4B2B0D}" {
-     TargetStorage "Vest/Vest_MOLLE-Rig_leader_v1.et/Slot_L21/Pouch_FSBE-M4_open.et"
-     PrefabsToSpawn {
-      "{F7598C4D5FCA5E75}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_T_30rnd_m995.et" "{EA5391BBD8D5BAC6}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1.et"
-     }
-    }
     ItemsInitConfigurationItem "{6946F51F7A4B2B0C}" {
-     TargetStorage "Vest/Vest_MOLLE-Rig_leader_v1.et/Slot_L22/Pouch_FSBE-M4_open.et"
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v7_3CD.et/Slot_L12/Pouch_MOLLE-M4-Three_3CD.et"
      PrefabsToSpawn {
-      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{32FEAE3A26BBF05D}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995.et"
+      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{32FEAE3A26BBF05D}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995.et" "{32FEAE3A26BBF05D}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995.et"
      }
     }
     ItemsInitConfigurationItem "{6946F51F7A48EAC3}" {
      TargetStorage "Back/Backpack_Medical_Soviet_NoCross_01.et"
     }
+    ItemsInitConfigurationItem "{6946F51F7A4B2B0D}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v7_3CD.et/Slot_R11/Pouch_MOLLE-M4_3CD.et"
+     PrefabsToSpawn {
+      "{F7598C4D5FCA5E75}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_T_30rnd_m995.et" "{EA5391BBD8D5BAC6}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1.et"
+     }
+    }
     ItemsInitConfigurationItem "{6946F51142A6E330}" {
-     TargetStorage "Vest/Vest_MOLLE-Rig_leader_v1.et/Slot_L22/Pouch_FSBE-M4_open.et"
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v7_3CD.et/Slot_R22/Pouch_MOLLE-MG_SAW_100rnd_3CD.et"
      PrefabsToSpawn {
       "{F1F31C6E2BCFFDC8}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_B_30rnd_M995.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
      }

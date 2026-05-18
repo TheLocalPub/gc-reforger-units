@@ -34,7 +34,7 @@ SCR_ChimeraCharacter : "{D95174A660DB6BCE}Prefabs/Characters/Factions/OPFOR/GC_I
     ItemsInitConfigurationItem "{694B1265EA346281}" {
      TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_3CD.et/Slot_L11/Pouch_MOLLE-M16_single_3CD.et"
      PrefabsToSpawn {
-      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
      }
     }
     ItemsInitConfigurationItem "{694B1265EA346280}" {
@@ -46,13 +46,25 @@ SCR_ChimeraCharacter : "{D95174A660DB6BCE}Prefabs/Characters/Factions/OPFOR/GC_I
     ItemsInitConfigurationItem "{694B12623EA2DCD8}" {
      TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_3CD.et/Slot_L12/Pouch_MOLLE-M16_single_3CD.et"
      PrefabsToSpawn {
-      "{7278219B7BD0E8CE}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_M855A1.et" "{065A21D95CEAC496}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_m995.et"
+      "{7278219B7BD0E8CE}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_M855A1.et"
      }
     }
     ItemsInitConfigurationItem "{694B12622C9D2731}" {
      TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_3CD.et/Slot_L13/Pouch_MOLLE-M16_single_3CD.et"
      PrefabsToSpawn {
-      "{F7598C4D5FCA5E75}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_T_30rnd_m995.et" "{00F0B1FA28EF672B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M995.et"
+      "{F7598C4D5FCA5E75}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_T_30rnd_m995.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696531B3280DFFE3}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_3CD.et/Slot_R11/Pouch_MOLLE-M16_single_3CD.et"
+     PrefabsToSpawn {
+      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696531B31923577A}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_3CD.et/Slot_R12/Pouch_MOLLE-M16_single_3CD.et"
+     PrefabsToSpawn {
+      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
      }
     }
    }

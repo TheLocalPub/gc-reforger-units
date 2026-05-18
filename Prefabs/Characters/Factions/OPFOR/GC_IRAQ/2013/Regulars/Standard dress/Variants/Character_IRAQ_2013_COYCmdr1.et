@@ -38,8 +38,7 @@ SCR_ChimeraCharacter : "{D557E66550D0B682}Prefabs/Characters/Factions/OPFOR/GC_I
     }
     ItemsInitConfigurationItem "{6946CBBDA90F7B42}" {
      TargetStorage "Vest/Vest_Lifchik_CL.et"
-     PrefabsToSpawn {
-      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{1C9A36B79C91C910}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57T231P.et" "{1C9A36B79C91C910}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57T231P.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6946CBBDEBB3EEEB}" {
