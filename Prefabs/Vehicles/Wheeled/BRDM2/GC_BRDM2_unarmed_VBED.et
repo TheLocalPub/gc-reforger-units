@@ -1,4 +1,4 @@
-Vehicle : "{8EED8657762F7B9A}Prefabs/Vehicles/Wheeled/BRDM2/GC_BRDM2_unarmed.et" {
+Vehicle : "{1D8B8FF2AC498A20}Prefabs/Vehicles/Wheeled/BRDM2/GC_BRDM2_unarmed.et" {
  ID "BBCBA43A9778AE21"
  components {
   GC_ExplosivesManager "{695AFB854FB46003}" {

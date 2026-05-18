@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{1D8B8FF2AC498A20}Prefabs/Vehicles/Wheeled/BRDM2/GC_BRDM2_unarmed_2.et"
+ Name "{1EFB256E918F88B4}Prefabs/Vehicles/Tracked/M113/M113_APC_VIED.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

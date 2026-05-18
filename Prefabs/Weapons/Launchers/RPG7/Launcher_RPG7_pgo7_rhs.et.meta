@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{1D8B8FF2AC498A20}Prefabs/Vehicles/Wheeled/BRDM2/GC_BRDM2_unarmed_2.et"
+ Name "{D6BC90F8AE0AB8EF}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7_rhs.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
