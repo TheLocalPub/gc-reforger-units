@@ -1,0 +1,88 @@
+SCR_ChimeraCharacter : "{C0358E410861BD1D}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/UKSF/SAS/Character_UK_2024_SAS_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Drone Operator"
+    Icon "{F6931B751B1E16B7}UI/Textures/EditableEntities/Characters/EditableEntity_Character_DroneOperator.edds"
+    m_Image "{370752C993F4B330}UI/PreviewImages/Characters/BLUFOR/BritishForces/Character_UK_1989_SpecialForces_Trooper.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{64D9AAAC99DD3F17}Prefabs/Weapons/Rifles/L119A2/Rifle_L119A2_15_UKSF.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{4309510E40DDB98E}Prefabs/Characters/Vests/Body_Armour/Vest_Crye_JPC_2/Variants/Vest_Crye_JPC_Rifleman_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{5D934E927F723048}Prefabs/Characters/Backpacks/Panels/TYR_TT_Huron/TYR_TT_Huron_MC.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{26918251753A100D}Prefabs/Characters/Vests/Belts/Webbing/JayJays_Gen4/Variants/Webbing_JayJays_Gen4_Rifleman_01.et"
+    }
+    LoadoutSlotInfo Eyes {
+    }
+    LoadoutSlotInfo Ears {
+    }
+    LoadoutSlotInfo Face {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6579089C8AA04BA2}" {
+     TargetStorage "ArmoredVest/Vest_Crye_CPC_Rifleman_01.et"
+    }
+    ItemsInitConfigurationItem "{6A22844BF2E02A56}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/MagPouch/Pouch_JayJays_Gen4_Magazine_01.et"
+     PrefabsToSpawn {
+      "{9ED23716CB425EDC}Prefabs/Weapons/Magazines/EMAG_BLK_556x45_AP.et" "{9ED23716CB425EDC}Prefabs/Weapons/Magazines/EMAG_BLK_556x45_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A22844BF2E02A4D}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/MagPouch2/Pouch_JayJays_Gen4_Magazine_02_Alt.et"
+     PrefabsToSpawn {
+      "{9ED23716CB425EDC}Prefabs/Weapons/Magazines/EMAG_BLK_556x45_AP.et" "{9ED23716CB425EDC}Prefabs/Weapons/Magazines/EMAG_BLK_556x45_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A22844BF2E02A4C}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/MagPouch3/Pouch_JayJays_Gen4_Magazine_01_Alt_v2.et"
+     PrefabsToSpawn {
+      "{9ED23716CB425EDC}Prefabs/Weapons/Magazines/EMAG_BLK_556x45_AP.et" "{9ED23716CB425EDC}Prefabs/Weapons/Magazines/EMAG_BLK_556x45_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A22844BF2E02A4F}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/MagPouch4/Pouch_JayJays_Gen4_Magazine_02_v2.et"
+     PrefabsToSpawn {
+      "{9ED23716CB425EDC}Prefabs/Weapons/Magazines/EMAG_BLK_556x45_AP.et" "{9ED23716CB425EDC}Prefabs/Weapons/Magazines/EMAG_BLK_556x45_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A22844BF2E02A4E}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/UtilPouch1/Pouch_JayJays_Gen4_Utility_01.et"
+     PrefabsToSpawn {
+      "{09BCBA657FCC1C71}Prefabs/Weapons/Grenades/L132/Smoke_L132A2.et" "{848E4E853151A37A}Prefabs/Weapons/Grenades/L109/Grenade_L109A2_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A22844BF2E02A48}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/UtilPouch2/Pouch_JayJays_Gen4_Utility_02.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A22844A41BB5F27}" {
+     TargetStorage "Back/TYR_TT_Huron_MC.et"
+     PrefabsToSpawn {
+      "{E2434ED1318D8476}Prefabs/Characters/Items/DroneController.et" "{8951045BFE8BC8E4}Prefabs/Characters/HeadGear/FPV_Goggles.et"
+     }
+    }
+   }
+  }
+ }
+}
