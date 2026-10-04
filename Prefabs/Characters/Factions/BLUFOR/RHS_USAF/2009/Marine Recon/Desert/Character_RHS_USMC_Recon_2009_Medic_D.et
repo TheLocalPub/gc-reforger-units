@@ -1,0 +1,50 @@
+SCR_ChimeraCharacter : "{95D901B6DA33578D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_Medic_D.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Special Amphibious Reconnaissance Corpsman"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{AC2DBA9B9A48248D}Prefabs/Weapons/Rifles/M4A1/USSF/Seal/Rifle_M4A1_BLOCK_0_SEAL_ACOG.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B5765E7D3FCF44FE}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Variants/FORECON/Helmet_MICH2000_norotos_rail_coyote_FORECON3.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{8444CAA1306D1A02}Prefabs/Characters/Vests/MBAV/TF_Eagle_Ind_MBAV_Khaki.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{D60DFD0A6E3124FB}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouches_MBAV_Rifleman_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68E91186842FDFDA}" {
+     PrefabsToSpawn + {
+      "{FE551345A4A69E3D}Prefabs/Characters/HeadGear/Hat_USMC_Boonie/Hat_USMC_Boonie_Comtac.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68E911A40C7B81C2}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_1.et/Mag_Pouch1/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
+    }
+    ItemsInitConfigurationItem "{68E911A40C7B81F9}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_1.et/Mag_Pouch2/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+    }
+    ItemsInitConfigurationItem "{68E911A40C7B81FF}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_1.et/Mag_Pouch3/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+    }
+    ItemsInitConfigurationItem "{68E911A40C7B81FC}" {
+     TargetStorage "Back/Backpack_511_rush12_od.et"
+    }
+    ItemsInitConfigurationItem "{68E911A40C7B81F2}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_1.et/Grenade_Pouch1/Pouch_Eagle_Ind_MC_FGC_1_MS.et"
+    }
+   }
+  }
+ }
+}
