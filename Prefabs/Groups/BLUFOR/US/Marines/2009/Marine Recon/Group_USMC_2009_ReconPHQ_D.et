@@ -4,6 +4,10 @@ SCR_AIGroup : "{E713B4C1FB70368A}Prefabs/Groups/BLUFOR/US/Marines/2009/Marine Ri
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     Name "2009 USMC Recon Platoon HQ (Desert)"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_RHS_USAF SUBBRANCH_RHS_USAF_FORECON CAMO_RHS_MARPATD
+    }
+    m_bUseUIInfoName 1
    }
   }
  }

@@ -4,6 +4,8 @@ SCR_AIGroup : "{4AB8365B7B6FCCA8}Prefabs/Groups/BLUFOR/US/Marines/2009/Marine Re
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     Name "2009 USMC Recon Team w/ M107 (Desert)"
+    m_aAuthoredLabels +{
+    }
    }
   }
  }
