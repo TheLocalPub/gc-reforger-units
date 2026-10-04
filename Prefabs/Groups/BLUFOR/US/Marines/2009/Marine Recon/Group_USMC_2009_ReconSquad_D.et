@@ -1,0 +1,13 @@
+SCR_AIGroup : "{BC4A2EF94B792692}Prefabs/Groups/BLUFOR/US/Marines/2009/Marine Rifles/Desert/Group_USMC_2009_RifleSquad_D.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2009 USMC Recon Team (Desert)"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{7BF144CC804C7A72}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Recon/Desert/Character_RHS_USMC_Recon_2009_SL_D.et" "{DE74FC41540ACE18}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Recon/Desert/Character_RHS_USMC_Recon_2009_AR_D.et" "{9D6A3E49A253E555}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Recon/Desert/Character_RHS_USMC_Recon_2009_JFO_D.et" "{A97774CA193BDE70}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Recon/Desert/Character_RHS_USMC_Recon_2009_TL_D.et" "{E4E71E84CFB6A463}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Recon/Desert/Character_RHS_USMC_Recon_2009_RiflemanLAT_D.et" "{2FB2059ABCC85D8E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Recon/Desert/Character_RHS_USMC_Recon_2009_RiflemanDMR_D.et"
+ }
+}

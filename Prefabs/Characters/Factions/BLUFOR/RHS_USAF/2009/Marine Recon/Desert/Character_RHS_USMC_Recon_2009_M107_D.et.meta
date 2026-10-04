@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{0292A2AB6F691C0E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Recon/Desert/Character_RHS_USMC_Recon_2009_M107_D.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

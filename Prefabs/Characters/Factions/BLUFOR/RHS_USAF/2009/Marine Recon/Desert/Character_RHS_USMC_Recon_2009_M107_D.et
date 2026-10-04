@@ -1,0 +1,42 @@
+SCR_ChimeraCharacter : "{2FB2059ABCC85D8E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Recon/Desert/Character_RHS_USMC_Recon_2009_RiflemanDMR_D.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{38BE8797791CE635}Prefabs/Weapons/Rifles/M107A1/Barret_M107A1_MK4.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68E91186842FDFDA}" {
+     PrefabsToSpawn {
+      "{B385064A383A384B}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual_WP.et" "{A70369D9AB61DBD1}Prefabs/Weapons/Attachments/Optics/pas13g/Optic_Thermal_pas13g_ts30a2.et" "{FE551345A4A69E3D}Prefabs/Characters/HeadGear/Hat_USMC_Boonie/Hat_USMC_Boonie_Comtac.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68E911A69544EBAD}" {
+     PrefabsToSpawn {
+      "{2547E56DB9E6831C}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2_M20.et" "{2547E56DB9E6831C}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2_M20.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68E911A69544EBB9}" {
+     PrefabsToSpawn {
+      "{AB5AAFA893C60C2D}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M33_M10.et" "{AB5AAFA893C60C2D}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M33_M10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68E911A69544EBBA}" {
+     PrefabsToSpawn {
+      "{2547E56DB9E6831C}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2_M20.et" "{2547E56DB9E6831C}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2_M20.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68E911A69544EBBB}" {
+     PrefabsToSpawn {
+      "{2547E56DB9E6831C}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2_M20.et" "{2547E56DB9E6831C}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2_M20.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68E911A695451DBF}" {
+     PrefabsToSpawn {
+      "{2547E56DB9E6831C}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2_M20.et" "{2547E56DB9E6831C}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2_M20.et"
+     }
+    }
+   }
+  }
+ }
+}
