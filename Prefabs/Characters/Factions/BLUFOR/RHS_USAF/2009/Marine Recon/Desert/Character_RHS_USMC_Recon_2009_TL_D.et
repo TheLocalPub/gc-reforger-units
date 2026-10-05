@@ -1,0 +1,75 @@
+SCR_ChimeraCharacter : "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Recon #AR-Role_TeamLeader"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{74022F7333DCCE90}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_M203_SU230_EOT_BLOCK_II.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{BFD92C506B8D7574}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Variants/FORECON/Helmet_MICH2000_norotos_velcro_tan_camo_FORECON2.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{8444CAA1306D1A02}Prefabs/Characters/Vests/MBAV/TF_Eagle_Ind_MBAV_Khaki.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{D60DFD0A6E3124FB}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouches_MBAV_Rifleman_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68E91186842FDFDA}" {
+     PrefabsToSpawn + {
+      "{FE551345A4A69E3D}Prefabs/Characters/HeadGear/Hat_USMC_Boonie/Hat_USMC_Boonie_Comtac.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68E911A76500D1C7}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_1.et/Mag_Pouch1/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
+    }
+    ItemsInitConfigurationItem "{68E911A76500D181}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_1.et/Mag_Pouch2/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+    }
+    ItemsInitConfigurationItem "{69070820E485D2F9}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_1.et/Mag_Pouch3/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+    }
+    ItemsInitConfigurationItem "{68E911A76500D182}" {
+     PrefabsToSpawn {
+      ""
+     }
+    }
+    ItemsInitConfigurationItem "{68E911A76500D18C}" {
+     PrefabsToSpawn {
+      ""
+     }
+    }
+    ItemsInitConfigurationItem "{68E911A76500D188}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_1.et/Grenade_Pouch1/Pouch_Eagle_Ind_MC_FGC_1_MS.et"
+    }
+    ItemsInitConfigurationItem "{68E911A7276E5E70}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+    }
+    ItemsInitConfigurationItem "{69070820F2FF0E82}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+    }
+    ItemsInitConfigurationItem "{69070820CEC68499}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+    }
+    ItemsInitConfigurationItem "{69070820CAA72E9F}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+    }
+    ItemsInitConfigurationItem "{68E911A7EC8DFC74}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+    }
+    ItemsInitConfigurationItem "{69070820DC3F4478}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+    }
+   }
+  }
+ }
+}

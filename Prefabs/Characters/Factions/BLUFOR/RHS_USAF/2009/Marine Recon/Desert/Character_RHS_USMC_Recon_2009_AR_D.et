@@ -1,0 +1,39 @@
+SCR_ChimeraCharacter : "{43ADEC6B9E11C59C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AR_D.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{251533BEAE719674}Prefabs/Weapons/MachineGuns/M249/MG_FN_Minimi_M249E3_Para_NoHandGuard_RCO_PEQ15.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C9EB6B8F64C6E422}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Variants/FORECON/Helmet_MICH2000_norotos_velcro_tan_FORECON2.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{8444CAA1306D1A02}Prefabs/Characters/Vests/MBAV/TF_Eagle_Ind_MBAV_Khaki.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{5E4874EFAFC707DE}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouches_MBAV_MachineGunner_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68E91186842FDFDA}" {
+     PrefabsToSpawn + {
+      "{287E14F25D6322D9}Prefabs/Weapons/Attachments/Optics/pas13g/Optic_Thermal_pas13g_base.et" "{FE551345A4A69E3D}Prefabs/Characters/HeadGear/Hat_USMC_Boonie/Hat_USMC_Boonie_Comtac.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690708238144821B}" {
+     TargetStorage "Vest/Pouches_MBAV_MachineGunner_1.et/MG_Pouch_L/Pouch_Eagle_Ind_AP_SAW200_MS.et"
+    }
+    ItemsInitConfigurationItem "{68E911A6268A9721}" {
+     TargetStorage "Vest/Pouches_MBAV_MachineGunner_1.et/MG_Pouch_R/Pouch_Eagle_Ind_AP_SAW200_MS.et"
+    }
+    ItemsInitConfigurationItem "{68E911A6268A8BC1}" {
+     TargetStorage "Vest/Pouches_MBAV_MachineGunner_1.et/Smoke_Granade/Smoke_ANM8HC.et"
+    }
+   }
+  }
+ }
+}

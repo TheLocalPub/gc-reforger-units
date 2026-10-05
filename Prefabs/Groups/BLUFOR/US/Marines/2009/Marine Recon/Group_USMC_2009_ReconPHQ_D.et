@@ -1,0 +1,17 @@
+SCR_AIGroup : "{E713B4C1FB70368A}Prefabs/Groups/BLUFOR/US/Marines/2009/Marine Rifles/Desert/Group_USMC_2009_RiflePHQ_D.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2009 USMC Recon Platoon HQ (Desert)"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_RHS_USAF SUBBRANCH_RHS_USAF_FORECON CAMO_RHS_MARPATD
+    }
+    m_bUseUIInfoName 1
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{71541481365C89F5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Recon/Desert/Character_RHS_USMC_Recon_2009_PL_D.et" "{F0FCCDB987854926}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Recon/Desert/Character_RHS_USMC_Recon_2009_PSG_D.et" "{CB5D9F12B987BCE5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Recon/Desert/Character_RHS_USMC_Recon_2009_JTAC_D.et" "{D080F9B4EEA6C4FE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Recon/Desert/Character_RHS_USMC_Recon_2009_RTO_D.et" "{93B623CEBE940D02}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Recon/Desert/Character_RHS_USMC_Recon_2009_Medic_D.et"
+ }
+}

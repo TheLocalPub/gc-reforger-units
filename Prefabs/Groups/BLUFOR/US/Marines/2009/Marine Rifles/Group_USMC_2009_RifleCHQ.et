@@ -5,6 +5,7 @@ SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_ME
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     Name "2009 USMC Company HQ"
     m_Image "{F9C2F0F7654A9FA3}UI/Textures/EditorPreviews/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_PlatoonHQ.edds"
+    m_bUseUIInfoName 1
    }
   }
  }
