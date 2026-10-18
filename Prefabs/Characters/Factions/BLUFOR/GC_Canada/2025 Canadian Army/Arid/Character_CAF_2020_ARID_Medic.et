@@ -7,7 +7,7 @@ SCR_ChimeraCharacter : "{F62DEAF37D8A5563}Prefabs/Characters/Factions/BLUFOR/GC_
      Prefab "{9406BDC4E2B89C7E}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_CADPAT_ARID.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{F8146A132789F08D}Prefabs/Characters/Uniforms/Shirt_Crye_Rolled/Shirt_Crye_Rolled_CADPAT_Arid.et"
+     Prefab "{EA5CF7841092BFB0}Prefabs/Characters/Uniforms/Shirt_Crye_Rolled/Shirt_Crye_Rolled_CADPAT_Arid.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{6645A64C64966EFB}Prefabs/Characters/Uniforms/Pants_CCUE/Pants_CCUE_Arid.et"
@@ -21,6 +21,12 @@ SCR_ChimeraCharacter : "{F62DEAF37D8A5563}Prefabs/Characters/Factions/BLUFOR/GC_
     }
     ItemsInitConfigurationItem "{689329963CBA3B20}" {
      TargetStorage "Jacket/Shirt_Crye_Rolled_CADPAT_Arid.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6893299D2D097D87}" {
+     PrefabsToSpawn +{
+     }
     }
    }
   }

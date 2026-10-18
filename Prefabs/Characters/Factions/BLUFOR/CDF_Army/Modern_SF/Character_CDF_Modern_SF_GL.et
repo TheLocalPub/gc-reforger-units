@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{B66AF3E631EF6B45}Prefabs/Characters/Factions/BLUFOR/CDF
      Prefab "{1231AE80902911AF}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_OD.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{E57C6FC2DEF86528}Prefabs/Characters/Backpacks/Daysacks/Camelbak_BFM/Camelbak_BFM_MC.et"
+     Prefab "{E57C6FC2DEF86528}Prefabs/Characters/Backpacks/Daysacks/Camelbak_BFM/Camelbak_BFM.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{135AF9FE4CE167BF}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_rifleman_OD_GM94.et"
@@ -82,13 +82,13 @@ SCR_ChimeraCharacter : "{B66AF3E631EF6B45}Prefabs/Characters/Factions/BLUFOR/CDF
      }
     }
     ItemsInitConfigurationItem "{647D5B10D77D4EA0}" {
-     TargetStorage "Back/Camelbak_BFM_MC.et"
+     TargetStorage "Back/Camelbak_BFM.et"
      PrefabsToSpawn {
       "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et" "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
      }
     }
     ItemsInitConfigurationItem "{647E9E48BA0778B6}" {
-     TargetStorage "Back/Camelbak_BFM_MC.et"
+     TargetStorage "Back/Camelbak_BFM.et"
      PrefabsToSpawn {
       "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
      }
