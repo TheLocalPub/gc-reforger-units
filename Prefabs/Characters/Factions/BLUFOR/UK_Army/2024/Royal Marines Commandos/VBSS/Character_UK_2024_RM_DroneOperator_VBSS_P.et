@@ -22,7 +22,7 @@ SCR_ChimeraCharacter : "{52E1968F69C21D5B}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab "{B37806DE9153CF6A}Prefabs/Characters/Uniforms/Crye/Crye_G4/Crye_G4_Combat_Pants_Black.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{A28A0D1BBDCC8488}Prefabs/Characters/Backpacks/Daysacks/Camelbak_Rubicon/Camelbak_Rubicon_MC.et"
+     Prefab "{A28A0D1BBDCC8488}Prefabs/Characters/Backpacks/Daysacks/Camelbak_Rubicon/Camelbak_Rubicon.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{2295354C283A1FBF}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Comp_Tan.et"
@@ -67,7 +67,7 @@ SCR_ChimeraCharacter : "{52E1968F69C21D5B}Prefabs/Characters/Factions/BLUFOR/UK_
      }
     }
     ItemsInitConfigurationItem "{6A3F299082D7442E}" {
-     TargetStorage "Back/Camelbak_Rubicon_MC.et"
+     TargetStorage "Back/Camelbak_Rubicon.et"
      PrefabsToSpawn {
       "{1602B2595AC224FB}Prefabs/Drones/FPVBase/FPVBattery.et" "{EF1E4AA6DCD2D982}Prefabs/Drones/DJIBase/DJIBattery.et" "{8951045BFE8BC8E4}Prefabs/Characters/HeadGear/FPV_Goggles.et" "{E2434ED1318D8476}Prefabs/Characters/Items/DroneController.et"
      }
