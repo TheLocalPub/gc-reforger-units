@@ -20,7 +20,7 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab "{4CEE8DB2952AD006}Prefabs/Characters/Vests/Body_Armour/Vest_Virtus_STV/Vest_Virtus_STV_Base.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{A28A0D1BBDCC8488}Prefabs/Characters/Backpacks/Daysacks/Camelbak_Rubicon/Camelbak_Rubicon_MC.et"
+     Prefab "{A28A0D1BBDCC8488}Prefabs/Characters/Backpacks/Daysacks/Camelbak_Rubicon/Camelbak_Rubicon.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{7269014964BB6D51}Prefabs/Characters/Vests/Belts/Webbing/Virtus_H_Rig/Variants/Webbing_Virtus_H_Rig_Gunner_01.et"
@@ -35,7 +35,7 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6574E89D4609477C}" {
-     TargetStorage "Back/Camelbak_Rubicon_MC.et"
+     TargetStorage "Back/Camelbak_Rubicon.et"
      PrefabsToSpawn {
       "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
      }

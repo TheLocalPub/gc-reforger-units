@@ -15,7 +15,7 @@ SCR_ChimeraCharacter : "{94DB2F66DDCD8783}Prefabs/Characters/Factions/BLUFOR/UK_
     LoadoutSlotInfo ArmoredVest {
     }
     LoadoutSlotInfo Back {
-     Prefab "{091FD27A4C4A6177}Prefabs/Characters/Backpacks/Daysacks/Defcon_Ares/Defcon_Ares_MTP.et"
+     Prefab "{091FD27A4C4A6177}Prefabs/Characters/Backpacks/Daysacks/Defcon_Ares/Defcon_Ares.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{8D4A4DF9111F0682}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Blk.et"
@@ -25,7 +25,7 @@ SCR_ChimeraCharacter : "{94DB2F66DDCD8783}Prefabs/Characters/Factions/BLUFOR/UK_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6488D75AD42345BE}" {
-     TargetStorage "Back/Defcon_Ares_MTP.et"
+     TargetStorage "Back/Defcon_Ares.et"
     }
    }
   }
