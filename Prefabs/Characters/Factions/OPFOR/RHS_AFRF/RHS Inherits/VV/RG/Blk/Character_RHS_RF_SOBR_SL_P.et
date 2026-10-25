@@ -4,6 +4,19 @@ SCR_ChimeraCharacter : "{7284A0C1AC626E1F}Prefabs/Characters/Factions/OPFOR/RHS_
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+    Icon "{EE0B4CDEA86FC24A}UI/Textures/DeployMenu/LoadoutIcons/LoadoutIcons.imageset"
+    IconSetName "EditableEntity_Character_Leader_Team"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{C61F979AA7E29EE7}Prefabs/Weapons/Rifles/SR3M/Rifle_SR3M_supr_1P63.et"
   }
@@ -46,13 +59,12 @@ SCR_ChimeraCharacter : "{7284A0C1AC626E1F}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{60D3274ECD13469F}" {
      TargetStorage "Vest/Vest_Taktika_preset_black1.et/util/Pouch_Taktika_universalpouch_coy.et"
      PrefabsToSpawn {
-      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
     }
     ItemsInitConfigurationItem "{60D3274ED273EC60}" {
      TargetStorage "Vest/Vest_Taktika_preset_black1.et/radio/Pouch_Taktika_radioPouch_BLK.et"
-     PrefabsToSpawn {
-      "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/RU/Radio_R187P1_OLD.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{650E88691E53B04A}" {
