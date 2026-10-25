@@ -2,6 +2,9 @@ SCR_ChimeraCharacter : "{90214E35AA363179}Prefabs/Characters/Factions/INDFOR/GC_
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "RPG Assistant"
+   }
    m_VariantData SCR_EditableEntityVariantData "{66A130994120E23F}" {
     m_bRandomizeDefaultVariant 0
     m_aVariants {
